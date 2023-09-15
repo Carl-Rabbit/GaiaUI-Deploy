@@ -1,0 +1,132 @@
+{
+  projectId: 'shortage-of-water-0',
+  chart: './shortage-of-water.svg',
+  audio: './shortage-of-water.txt',
+  binder: {
+    from: "svg",
+    to: "gaia.chart.Map",
+    rules: [
+      {
+        from: '.admin0 > path',
+        to: '.Area'
+      },
+      {
+        from: '.annotation-0.path',
+        to: '.Annotation .Path',
+        data: {
+          category: 'OM',
+          value: 0
+        }
+      },
+      {
+        from: '.annotation-1.path',
+        to: '.Annotation .Path',
+        data: {
+          category: 'US',
+          value: 250000
+        }
+      },
+      {
+        from: '.annotation.label',
+        to: '.Annotation .Label',
+        dataList: [
+          {
+            category: 'OM',
+            value: 0
+          },
+          {
+            category: 'US',
+            value: 250000
+          }
+        ]
+      }
+    ]
+  },
+  animation: {
+    main: {
+      sync: [
+        {
+          ref: 'Camera',
+          to: {
+            scale: 5,
+          },
+          origin: '62% 55%',
+          duration: 2,
+        },
+        {
+          concat: [
+            {
+              ref: 'ChangeColor',
+              target: '#OM',
+              color: '#f0f0f0',
+            },
+            {
+              ref: 'DisplayRiverNumber',
+              target: '.Annotation[category="OM"]',
+              offset: 1.5,
+            }
+          ],
+          offset: 2
+        },
+        {
+          ref: 'Camera',
+          to: {
+            x: '-=1700',
+            y: '-=250'
+          },
+          duration: 2,
+          offset: 7.25,
+        },
+        {
+          concat: [
+            {
+              ref: 'ChangeColor',
+              target: '#US',
+              color: '#f0f0f0',
+            },
+            {
+              ref: 'DisplayRiverNumber',
+              target: '.Annotation[category="US"]',
+              offset: 1.5,
+            }
+          ],
+          offset: 9.2,
+        },
+      ],
+    },
+  },
+  templates: [
+    {
+      name: 'DisplayRiverNumber',
+      main: {
+        sync: [
+          {
+            ref: 'DynamicNumber',
+            target: '.Label',
+          },
+          {
+            ref: 'Float',
+            target: '.Label',
+            distance: 10,
+          },
+          {
+            ref: 'Wipe',
+            target: [
+              {filter: '.Path'},
+              {at: 0}
+            ],
+            from: 'left',
+          },
+          {
+            ref: 'Wipe',
+            target: [
+              {filter: '.Path'},
+              {at: 1}
+            ],
+            from: 'right',
+          }
+        ]
+      }
+    }
+  ]
+}

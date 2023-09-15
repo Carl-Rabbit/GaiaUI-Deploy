@@ -1,0 +1,93 @@
+{
+  projectId: 'example-bar-chart-task3',
+  chart: './ExampleBarChart0.svg',
+  audio: './empty.txt',
+  binder: {
+    from: "svg",
+    to: "gaia.chart.BarChart",
+    rules: [
+      {
+        from: "#title",
+        to: ":scope > .Title"
+      },
+      {
+        from: "#x-domain",
+        to: ".XAxis .Domain"
+      },
+      {
+        from: "#y-domain",
+        to: ".YAxis .Domain"
+      },
+      {
+        from: ".bar",
+        to: ".Bar",
+        dataList: [
+          { xVal: 'a', yVal: 30 },
+          { xVal: 'b', yVal: 10 },
+          { xVal: 'c', yVal: 20 },
+        ]
+      },
+      {
+        from: ".bar-label",
+        to: ".BarLabel",
+        dataList: [
+          { xVal: 'a', yVal: 30 },
+          { xVal: 'b', yVal: 10 },
+          { xVal: 'c', yVal: 20 },
+        ]
+      },
+      {
+        from: ".x-label",
+        to: ".XAxis .Label",
+        dataList: [
+          { xVal: 'a', yVal: 30 },
+          { xVal: 'b', yVal: 10 },
+          { xVal: 'c', yVal: 20 },
+        ]
+      }
+    ]
+  },
+  animation: {
+    comments: [
+      'Task 3 (Example): Template Creation and Usage',
+      '1. Try to use "ref" to use "CategoryEnter" template in the main animation spec.',
+      '2. Add parameters so that it can select different target elements via passing a parameter.',
+      '3. Try to use this template to create animations for all elements by passing different parameters.',
+      '4. Place them into the right place using "offset".'
+    ],
+    main: {
+      sync: [
+        {
+          ref: "ZoomIn",
+          target: ".Title",
+          ease: 'elastic',
+        },
+        {
+          ref: "Grow",
+          target: ".Bar[xVal='a']",
+          offset: 1,
+        },
+        {
+          ref: "ZoomIn",
+          target: ".AxisLabel[xVal='a']",
+          offset: 1
+        },
+        {
+          ref: "ZoomIn",
+          target: ".BarLabel[xVal='a']",
+          offset: 2
+        }
+      ],
+    }
+  },
+  templates: [
+    {
+      name: 'CategoryEnter',
+      params: {},
+      main: {
+        sync: [
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg data-v-19a078ac="" class="svg-container" id="container" width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" style="width: 800px; height: 500px;">
+    <g id="top-grp">
+        <g id="background">
+            <rect id="background-rect" class="scene chart background rect bg-rect" width="800" height="500" fill="#606972"></rect>
+        </g>
+        <text id="main-title" class="scene chart title main-title" x="400" y="62.5" font-weight="bold" font-size="30" fill="#ffffff" text-anchor="middle" style="font-weight: bold;">Annual Deforestation in
+            Brazilian Amazon (Hectares)</text>
+        <g id="x-axis" transform="translate(112,406)" fill="none" font-weight="bold" font-size="15" font-family="sans-serif" text-anchor="middle">
+            <path class="domain scene chart axis x-axis x-domain" stroke="#ffffff" d="M0.5,0.5H608.5" id="x-domain" stroke-width="2" transform="translate(0,-6)"></path>
+            <g class="tick" opacity="1" transform="translate(10.41744548286609,0)">
+                <line stroke="currentColor" y2="0"></line>
+                <text fill="currentColor" y="10" dy="0.71em" id="x-label-0" class="scene chart axis x-axis label x-label-0 data-item data-item-0 x-label" transform="rotate(305) translate(-20,-10)" style="fill: rgb(255, 255, 255);">1988</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(143.00311526479754,0)">
+                <line stroke="currentColor" y2="0"></line>
+                <text fill="currentColor" y="10" dy="0.71em" id="x-label-1" class="scene chart axis x-axis label x-label-1 data-item data-item-7 x-label" transform="rotate(305) translate(-20,-10)" style="fill: rgb(255, 255, 255);">1995</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(313.4704049844237,0)">
+                <line stroke="currentColor" y2="0"></line>
+                <text fill="currentColor" y="10" dy="0.71em" id="x-label-2" class="scene chart axis x-axis label x-label-2 data-item data-item-16 x-label" transform="rotate(305) translate(-20,-10)" style="fill: rgb(255, 255, 255);">2004</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(464.9968847352025,0)">
+                <line stroke="currentColor" y2="0"></line>
+                <text fill="currentColor" y="10" dy="0.71em" id="x-label-3" class="scene chart axis x-axis label x-label-3 data-item data-item-24 x-label" transform="rotate(305) translate(-20,-10)" style="fill: rgb(255, 255, 255);">2012</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(597.582554517134,0)">
+                <line stroke="currentColor" y2="0"></line>
+                <text fill="currentColor" y="10" dy="0.71em" id="x-label-4" class="scene chart axis x-axis label x-label-4 data-item data-item-31 x-label" transform="rotate(305) translate(-20,-10)" style="fill: rgb(255, 255, 255);">2019</text>
+            </g>
+        </g>
+        <g id="y-axis" transform="translate(112.00000000000001,125)" fill="none" font-weight="bold" font-size="15" font-family="sans-serif" text-anchor="end">
+            <path class="domain scene chart axis y-axis y-domain" stroke="#ffffff" d="M0.5,275.5V0.5" id="y-domain" stroke-width="2"></path>
+            <g class="tick" opacity="1" transform="translate(0,0.5)">
+                <line stroke="currentColor" x2="0"></line>
+                <text fill="currentColor" x="-10" dy="0.32em" id="y-label-0" class="scene chart axis y-axis label y-label-0 y-label" style="fill: rgb(255, 255, 255);">3,000,000</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,92.16666666666667)">
+                <line stroke="currentColor" x2="0"></line>
+                <text fill="currentColor" x="-10" dy="0.32em" id="y-label-1" class="scene chart axis y-axis label y-label-1 y-label" style="fill: rgb(255, 255, 255);">2,000,000</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,183.83333333333334)">
+                <line stroke="currentColor" x2="0"></line>
+                <text fill="currentColor" x="-10" dy="0.32em" id="y-label-2" class="scene chart axis y-axis label y-label-2 y-label" style="fill: rgb(255, 255, 255);">1,000,000</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,275.5)">
+                <line stroke="currentColor" x2="0"></line>
+                <text fill="currentColor" x="-10" dy="0.32em" id="y-label-3" class="scene chart axis y-axis label y-label-3 y-label" style="fill: rgb(255, 255, 255);">0</text>
+            </g>
+        </g>
+        <rect id="bar-0" class="scene chart mark bar-0 data-item data-item-0 bar" width="15.200000000000001" height="186.15384615384616" x="113.8940809968848" y="213.84615384615384" fill="rgba(249,255,176)" opacity="0.4"></rect>
+        <rect id="bar-1" class="scene chart mark bar-1 data-item data-item-1 bar" width="15.200000000000001" height="158.65384615384613" x="132.83489096573214" y="241.34615384615387" fill="rgba(249,255,176)" opacity="0.4"></rect>
+        <rect id="bar-2" class="scene chart mark bar-2 data-item data-item-2 bar" width="15.200000000000001" height="117.40384615384615" x="151.7757009345795" y="282.59615384615387" fill="rgba(249,255,176)" opacity="0.4"></rect>
+        <rect id="bar-3" class="scene chart mark bar-3 data-item data-item-3 bar" width="15.200000000000001" height="94.13461538461539" x="170.71651090342687" y="305.86538461538464" fill="rgba(249,255,176)" opacity="0.4"></rect>
+        <rect id="bar-4" class="scene chart mark bar-4 data-item data-item-4 bar" width="15.200000000000001" height="118.46153846153848" x="189.6573208722742" y="281.53846153846155" fill="rgba(249,255,176)" opacity="0.4"></rect>
+        <rect id="bar-5" class="scene chart mark bar-5 data-item data-item-5 bar" width="15.200000000000001" height="127.98076923076924" x="208.59813084112153" y="272.0192307692308" fill="rgba(249,255,176)" opacity="0.4"></rect>
+        <rect id="bar-6" class="scene chart mark bar-6 data-item data-item-6 bar" width="15.200000000000001" height="126.92307692307693" x="227.5389408099689" y="273.0769230769231" fill="rgba(249,255,176)" opacity="0.4"></rect>
+        <rect id="bar-7" class="scene chart mark bar-7 data-item data-item-7 bar" width="15.200000000000001" height="247.5" x="246.47975077881625" y="152.5" fill="rgba(249,255,176)" opacity="0.4"></rect>
+        <rect id="bar-8" class="scene chart mark bar-8 data-item data-item-8 bar" width="15.200000000000001" height="159.71153846153848" x="265.4205607476636" y="240.28846153846152" fill="rgba(249,255,176)" opacity="0.4"></rect>
+        <rect id="bar-9" class="scene chart mark bar-9 data-item data-item-9 bar" width="15.200000000000001" height="116.34615384615384" x="284.361370716511" y="283.6538461538462" fill="rgba(249,255,176)" opacity="0.4"></rect>
+        <rect id="bar-10" class="scene chart mark bar-10 data-item data-item-10 bar" width="15.200000000000001" height="152.41346153846152" x="303.3021806853583" y="247.58653846153848" fill="rgba(249,255,176)" opacity="0.4"></rect>
+        <rect id="bar-11" class="scene chart mark bar-11 data-item data-item-11 bar" width="15.200000000000001" height="150.1923076923077" x="322.24299065420564" y="249.8076923076923" fill="rgba(249,255,176)" opacity="0.4"></rect>
+        <rect id="bar-12" class="scene chart mark bar-12 data-item data-item-12 bar" width="15.200000000000001" height="159.71153846153848" x="341.183800623053" y="240.28846153846152" fill="rgba(249,255,176)" opacity="0.4"></rect>
+        <rect id="bar-13" class="scene chart mark bar-13 data-item data-item-13 bar" width="15.200000000000001" height="158.65384615384613" x="360.12461059190036" y="241.34615384615387" fill="rgba(249,255,176)" opacity="0.4"></rect>
+        <rect id="bar-14" class="scene chart mark bar-14 data-item data-item-14 bar" width="15.200000000000001" height="187.21153846153848" x="379.06542056074767" y="212.78846153846152" fill="rgba(249,255,176)" opacity="0.4"></rect>
+        <rect id="bar-15" class="scene chart mark bar-15 data-item data-item-15 bar" width="15.200000000000001" height="224.23076923076925" x="398.00623052959503" y="175.76923076923075" fill="rgba(249,255,176)" opacity="0.4"></rect>
+        <rect id="bar-16" class="scene chart mark bar-16 data-item data-item-16 bar" width="15.200000000000001" height="245.3846153846154" x="416.9470404984424" y="154.6153846153846" fill="rgba(249,255,176)" opacity="0.4"></rect>
+        <rect id="bar-17" class="scene chart mark bar-17 data-item data-item-17 bar" width="15.200000000000001" height="163.94230769230768" x="435.88785046728975" y="236.05769230769232" fill="rgba(249,255,176)" opacity="0.4"></rect>
+        <rect id="bar-18" class="scene chart mark bar-18 data-item data-item-18 bar" width="15.200000000000001" height="124.8076923076923" x="454.8286604361371" y="275.1923076923077" fill="rgba(249,255,176)" opacity="0.4"></rect>
+        <rect id="bar-19" class="scene chart mark bar-19 data-item data-item-19 bar" width="15.200000000000001" height="100.48076923076924" x="473.7694704049844" y="299.5192307692308" fill="rgba(249,255,176)" opacity="0.4"></rect>
+        <rect id="bar-20" class="scene chart mark bar-20 data-item data-item-20 bar" width="15.200000000000001" height="110" x="492.7102803738318" y="290" fill="rgba(249,255,176)" opacity="0.4"></rect>
+        <rect id="bar-21" class="scene chart mark bar-21 data-item data-item-21 bar" width="15.200000000000001" height="116.34615384615384" x="511.65109034267914" y="283.6538461538462" fill="rgba(249,255,176)" opacity="0.4"></rect>
+        <rect id="bar-22" class="scene chart mark bar-22 data-item data-item-22 bar" width="15.200000000000001" height="58.17307692307692" x="530.5919003115265" y="341.8269230769231" fill="rgba(249,255,176)" opacity="0.4"></rect>
+        <rect id="bar-23" class="scene chart mark bar-23 data-item data-item-23 bar" width="15.200000000000001" height="51.82692307692307" x="549.5327102803739" y="348.1730769230769" fill="rgba(249,255,176)" opacity="0.4"></rect>
+        <rect id="bar-24" class="scene chart mark bar-24 data-item data-item-24 bar" width="15.200000000000001" height="37.019230769230774" x="568.4735202492212" y="362.9807692307692" fill="rgba(249,255,176)" opacity="0.4"></rect>
+        <rect id="bar-25" class="scene chart mark bar-25 data-item data-item-25 bar" width="15.200000000000001" height="48.653846153846146" x="587.4143302180686" y="351.34615384615387" fill="rgba(249,255,176)" opacity="0.4"></rect>
+        <rect id="bar-26" class="scene chart mark bar-26 data-item data-item-26 bar" width="15.200000000000001" height="39.13461538461538" x="606.355140186916" y="360.86538461538464" fill="rgba(249,255,176)" opacity="0.4"></rect>
+        <rect id="bar-27" class="scene chart mark bar-27 data-item data-item-27 bar" width="15.200000000000001" height="51.82692307692307" x="625.2959501557632" y="348.1730769230769" fill="rgba(249,255,176)" opacity="0.4"></rect>
+        <rect id="bar-28" class="scene chart mark bar-28 data-item data-item-28 bar" width="15.200000000000001" height="66.63461538461539" x="644.2367601246106" y="333.36538461538464" fill="rgba(249,255,176)" opacity="0.4"></rect>
+        <rect id="bar-29" class="scene chart mark bar-29 data-item data-item-29 bar" width="15.200000000000001" height="57.11538461538462" x="663.1775700934579" y="342.88461538461536" fill="rgba(249,255,176)" opacity="0.4"></rect>
+        <rect id="bar-30" class="scene chart mark bar-30 data-item data-item-30 bar" width="15.200000000000001" height="68.83461538461539" x="682.1183800623053" y="331.1653846153846" fill="rgba(249,255,176)" opacity="0.4"></rect>
+        <rect id="bar-31" class="scene chart mark bar-31 data-item data-item-31 bar" width="15.200000000000001" height="89.485" x="701.0591900311526" y="310.515" fill="rgba(249,255,176)" opacity="0.4"></rect>
+        <text id="bar-label-0" class="scene chart mark label bar-label-0 data-item data-item-31 bar-label" x="708.6591900311527" y="310.515" dy="-20" font-weight="bold" font-size="20" fill="#ffffff" text-anchor="middle">976200</text>
+        <g id="annotation-group-0">
+            <text id="annotation-0-label" class="scene chart foreground annotation annotation-0 label anno-label" transform="translate(237.00934579439257,212.78846153846155) rotate(-81)" dx="-15" dy="-15" style="fill: rgb(255, 255, 255);" font-weight="bold" font-size="20">95%</text>
+            <path id="annotation-0-path" class="scene chart foreground annotation annotation-0 path anno-path" d="M230.5389408099689,270.0769230769231L231.61734164070617,264.3480769230769C232.69574247144342,258.6192307692308,234.85254413291804,247.16153846153847,237.00934579439254,228.0653846153846C239.16614745586716,208.96923076923076,241.32294911734166,182.23461538461538,242.40134994807897,168.8673076923077L243.47975077881625,155.5" fill="none" stroke="#ffffff" stroke-width="2"></path>
+        </g>
+        <g id="annotation-group-1">
+            <text id="annotation-1-label" class="scene chart foreground annotation annotation-1 label anno-label" transform="translate(293.8317757009346,265.6201923076923) rotate(-62)" dx="-15" dy="-15" style="fill: rgb(255, 255, 255);" font-weight="bold" font-size="20">31%</text>
+            <path id="annotation-1-path" class="scene chart foreground annotation annotation-1 path anno-path" d="M287.361370716511,280.6538461538462L288.43977154724826,279.1504807692308C289.51817237798554,277.6471153846154,291.67497403946004,274.6403846153846,293.8317757009346,269.62916666666666C295.98857736240916,264.6179487179487,298.1453790238837,257.60224358974364,299.223779854621,254.09439102564104L300.3021806853583,250.58653846153848" fill="none" stroke="#ffffff" stroke-width="2"></path>
+        </g>
+        <g id="annotation-group-2">
+            <text id="annotation-2-label" class="scene chart foreground annotation annotation-2 label anno-label" transform="translate(691.588785046729,320.8401923076923) rotate(-47)" dx="-20" dy="-10" style="fill: rgb(255, 255, 255);" font-weight="bold" font-size="20">30%</text>
+            <path id="annotation-2-path" class="scene chart foreground annotation annotation-2 path anno-path" d="M685.1183800623053,328.1653846153846L686.1967808930426,327.43286538461535C687.2751817237798,326.70034615384617,689.4319833852545,325.2353076923077,691.588785046729,322.7935769230769C693.7455867082035,320.35184615384617,695.9023883696781,316.9334230769231,696.9807892004154,315.22421153846153L698.0591900311526,313.515" fill="none" stroke="#ffffff" stroke-width="2"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,105 @@
+{
+  projectId: 'army-military-comparison-2',
+  chart: './army-military-comparison.svg',
+  audio: './army-military-comparison.txt',
+  comment: 'start of task 2',
+  binder: {
+    from: "svg",
+    to: "gaia.chart.BarChart",
+    rules: [
+      // bars
+      {
+        from: ".bar",
+        to: ".Bar",
+        dataList: [
+          { xVal: "USA", yVal: 18.5 },
+          { xVal: "EU", yVal: 15.4 },
+          { xVal: "China", yVal: 11.8 },
+          { xVal: "Japan", yVal: 4.8 },
+        ]
+      },
+      // bar labels
+      {
+        from: ".bar-label",
+        to: ".BarLabel",
+        dataList: [
+          { xVal: "USA", yVal: 18.5 },
+          { xVal: "EU", yVal: 15.4 },
+          { xVal: "China", yVal: 11.8 },
+          { xVal: "Japan", yVal: 4.8 },
+        ]
+      },
+      // axis
+      {
+        from: "#y-axis-title",
+        to: ".YAxis .Title",
+      },
+      // x axis symbol
+      {
+        from: ".x-axis.symbol",
+        to: ".XAxis .Symbol",
+        dataList: [
+          { xVal: "USA", yVal: 18.5 },
+          { xVal: "EU", yVal: 15.4 },
+          { xVal: "China", yVal: 11.8 },
+          { xVal: "Japan", yVal: 4.8 },
+        ]
+      },
+    ]
+  },
+  animation: {
+    comments: [
+      "Task 4: Reusing across Different Infographics",
+      "0. We have fine-tuned the template 'CategoryEnter' so that it can support any BarChart.",
+      "1. Try to use the template to create animations for each category: USA, EU, China and Japan. Notice the text effect is not the default one.",
+      "2. Align the animations to the audio. The entering times for each category are 3.7s, 18s, 7.5s, 13s.",
+      "3. Complement this animation by adding a MoveFrom animation (at 16.5s) on the elements of China and Japan. The moving parameter x is '-=128px'.",
+    ],
+    main: {
+      sync: [
+        {
+          ref: "Type",
+          target: ".Title",
+        }
+      ],
+    },
+  },
+  templates: [
+    {
+      name: 'CategoryEnter',
+      comments: [
+        'Fine-tuning includes:',
+        '1. Add WipeIn for AxisSymbol.',
+        '2. Creat textEffect param to make text effect customizable (default: CutIn).',
+        '3. Creat barWipeFrom param to make bar wipe direction customizable (default: bottom).',
+      ],
+      params: {
+        category: { type: "string" },
+        textEffect: "CutIn",
+        barWipeFrom: "bottom",
+      },
+      main: {
+        sync: [
+          {
+            ref: 'WipeIn',
+            target: '.Bar[xVal="$category"]',
+            from: '$barWipeFrom',
+          },
+          {
+            ref: '$textEffect',
+            target: '.AxisLabel[xVal="$category"]',
+          },
+          {
+            ref: 'ZoomIn',
+            target: '.AxisSymbol[xVal="$category"]',
+          },
+          {
+            ref: '$textEffect',
+            target: '.BarLabel[xVal="$category"]',
+            offset: 1,
+          }
+        ]
+      }
+    }
+  ]
+}

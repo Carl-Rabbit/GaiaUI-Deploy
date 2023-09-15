@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="marks" width="729" height="273" viewBox="0 0 729 273">
+    <rect width="729" height="273" fill="white"/>
+    <g fill="none" stroke-miterlimit="10" transform="translate(24,27)">
+        <g class="mark-group role-frame root" role="graphics-object" aria-roledescription="group mark container">
+            <g transform="translate(0,0)">
+                <path class="background" aria-hidden="true" d="M0.5,0.5h700v200h-700Z" stroke="#ddd"/>
+                <g>
+                    <g class="mark-group role-axis" aria-hidden="true">
+                        <g transform="translate(0.5,0.5)">
+                            <path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none"/>
+                            <g>
+                                <g class="mark-rule role-axis-grid" pointer-events="none">
+                                    <line transform="translate(0,200)" x2="700" y2="0" stroke="#ddd" stroke-width="1" opacity="1"/>
+                                    <line transform="translate(0,150)" x2="700" y2="0" stroke="#ddd" stroke-width="1" opacity="1"/>
+                                    <line transform="translate(0,100)" x2="700" y2="0" stroke="#ddd" stroke-width="1" opacity="1"/>
+                                    <line transform="translate(0,50)" x2="700" y2="0" stroke="#ddd" stroke-width="1" opacity="1"/>
+                                    <line transform="translate(0,0)" x2="700" y2="0" stroke="#ddd" stroke-width="1" opacity="1"/>
+                                </g>
+                            </g>
+                            <path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/>
+                        </g>
+                    </g>
+                    <g class="mark-group role-axis" role="graphics-symbol" aria-roledescription="axis" aria-label="X-axis for a discrete scale with 18 values: 02/2019, 03/2019, 04/2019, 05/2019, 06/2019, ending with 07/2020">
+                        <g transform="translate(0.5,200.5)">
+                            <path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none"/>
+                            <g>
+                                <g class="mark-rule role-axis-tick" pointer-events="none">
+                                    <line transform="translate(19,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1"/>
+                                    <line transform="translate(58,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1"/>
+                                    <line transform="translate(97,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1"/>
+                                    <line transform="translate(136,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1"/>
+                                    <line transform="translate(175,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1"/>
+                                    <line transform="translate(214,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1"/>
+                                    <line transform="translate(253,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1"/>
+                                    <line transform="translate(292,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1"/>
+                                    <line transform="translate(331,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1"/>
+                                    <line transform="translate(369,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1"/>
+                                    <line transform="translate(408,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1"/>
+                                    <line transform="translate(447,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1"/>
+                                    <line transform="translate(486,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1"/>
+                                    <line transform="translate(525,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1"/>
+                                    <line transform="translate(564,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1"/>
+                                    <line transform="translate(603,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1"/>
+                                    <line transform="translate(642,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1"/>
+                                    <line transform="translate(681,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1"/>
+                                </g>
+                                <g class="mark-text role-axis-label" pointer-events="none">
+                                    <text text-anchor="middle" transform="translate(19.444444444444457,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">02/2019</text>
+                                    <text text-anchor="middle" transform="translate(58.33333333333334,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">03/2019</text>
+                                    <text text-anchor="middle" transform="translate(97.22222222222223,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">04/2019</text>
+                                    <text text-anchor="middle" transform="translate(136.11111111111111,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">05/2019</text>
+                                    <text text-anchor="middle" transform="translate(175,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">06/2019</text>
+                                    <text text-anchor="middle" transform="translate(213.88888888888889,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">07/2019</text>
+                                    <text text-anchor="middle" transform="translate(252.77777777777777,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">08/2019</text>
+                                    <text text-anchor="middle" transform="translate(291.66666666666663,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">09/2019</text>
+                                    <text text-anchor="middle" transform="translate(330.55555555555554,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">10/2019</text>
+                                    <text text-anchor="middle" transform="translate(369.44444444444446,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">11/2019</text>
+                                    <text text-anchor="middle" transform="translate(408.3333333333333,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">12/2019</text>
+                                    <text text-anchor="middle" transform="translate(447.2222222222222,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">01/2020</text>
+                                    <text text-anchor="middle" transform="translate(486.1111111111111,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">02/2020</text>
+                                    <text text-anchor="middle" transform="translate(525,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">03/2020</text>
+                                    <text text-anchor="middle" transform="translate(563.8888888888888,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">04/2020</text>
+                                    <text text-anchor="middle" transform="translate(602.7777777777777,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">05/2020</text>
+                                    <text text-anchor="middle" transform="translate(641.6666666666666,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">06/2020</text>
+                                    <text text-anchor="middle" transform="translate(680.5555555555555,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">07/2020</text>
+                                </g>
+                                <g class="mark-rule role-axis-domain" pointer-events="none">
+                                    <line transform="translate(0,0)" x2="700" y2="0" stroke="#888" stroke-width="1" opacity="1"/>
+                                </g>
+                            </g>
+                            <path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/>
+                        </g>
+                    </g>
+                    <g class="mark-group role-axis" role="graphics-symbol" aria-roledescription="axis" aria-label="Y-axis for a linear scale with values from 0 to 20">
+                        <g transform="translate(0.5,0.5)">
+                            <path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none"/>
+                            <g>
+                                <g class="mark-rule role-axis-tick" pointer-events="none">
+                                    <line transform="translate(0,200)" x2="-5" y2="0" stroke="#888" stroke-width="1" opacity="1"/>
+                                    <line transform="translate(0,150)" x2="-5" y2="0" stroke="#888" stroke-width="1" opacity="1"/>
+                                    <line transform="translate(0,100)" x2="-5" y2="0" stroke="#888" stroke-width="1" opacity="1"/>
+                                    <line transform="translate(0,50)" x2="-5" y2="0" stroke="#888" stroke-width="1" opacity="1"/>
+                                    <line transform="translate(0,0)" x2="-5" y2="0" stroke="#888" stroke-width="1" opacity="1"/>
+                                </g>
+                                <g class="mark-text role-axis-label" pointer-events="none">
+                                    <text text-anchor="end" transform="translate(-7,203)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">0</text>
+                                    <text text-anchor="end" transform="translate(-7,153)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">5</text>
+                                    <text text-anchor="end" transform="translate(-7,103)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">10</text>
+                                    <text text-anchor="end" transform="translate(-7,53)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">15</text>
+                                    <text text-anchor="end" transform="translate(-7,3)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">20</text>
+                                </g>
+                                <g class="mark-rule role-axis-domain" pointer-events="none">
+                                    <line transform="translate(0,200)" x2="0" y2="-200" stroke="#888" stroke-width="1" opacity="1"/>
+                                </g>
+                            </g>
+                            <path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/>
+                        </g>
+                    </g>
+                    <g class="mark-group role-scope pathgroup" role="graphics-object" aria-roledescription="group mark container">
+                        <g transform="translate(0,0)">
+                            <path class="background" aria-hidden="true" d="M0,0h700v200h-700Z"/>
+                            <g>
+                                <g class="mark-line role-mark marks" role="graphics-object" aria-roledescription="line mark container">
+                                    <path aria-label="Month/year: 02/2019; percent: 2.2; individual: Canadian born" role="graphics-symbol" aria-roledescription="line mark" d="M19.444444444444457,178L58.33333333333334,179L97.22222222222223,176L136.11111111111111,180L175,181L213.88888888888889,161L252.77777777777777,173L291.66666666666663,164L330.55555555555554,177L369.44444444444446,173L408.3333333333333,176L447.2222222222222,164L486.1111111111111,180L525,132L563.8888888888888,64.99999999999999L602.7777777777777,142L641.6666666666666,158L680.5555555555555,152" stroke="#4c78a8" stroke-width="2" stroke-dasharray="1,0"/>
+                                </g>
+                            </g>
+                            <path class="foreground" aria-hidden="true" d="" display="none"/>
+                        </g>
+                        <g transform="translate(0,0)">
+                            <path class="background" aria-hidden="true" d="M0,0h700v200h-700Z"/>
+                            <g>
+                                <g class="mark-line role-mark marks" role="graphics-object" aria-roledescription="line mark container">
+                                    <path aria-label="Month/year: 02/2019; percent: 2.2; individual: Recent immigrants" role="graphics-symbol" aria-roledescription="line mark" d="M19.444444444444457,178L58.33333333333334,164L97.22222222222223,178L136.11111111111111,173L175,175L213.88888888888889,164L252.77777777777777,165L291.66666666666663,167L330.55555555555554,175L369.44444444444446,163L408.3333333333333,173L447.2222222222222,169L486.1111111111111,173L525,103L563.8888888888888,27L602.7777777777777,100L641.6666666666666,150L680.5555555555555,150" stroke="#4c78a8" stroke-width="2" stroke-dasharray="4,2"/>
+                                </g>
+                            </g>
+                            <path class="foreground" aria-hidden="true" d="" display="none"/>
+                        </g>
+                        <g transform="translate(0,0)">
+                            <path class="background" aria-hidden="true" d="M0,0h700v200h-700Z"/>
+                            <g>
+                                <g class="mark-line role-mark marks" role="graphics-object" aria-roledescription="line mark container">
+                                    <path aria-label="Month/year: 02/2019; percent: 2; individual: Long-term immigrants" role="graphics-symbol" aria-roledescription="line mark" d="M19.444444444444457,180L58.33333333333334,176L97.22222222222223,175L136.11111111111111,179L175,180L213.88888888888889,165L252.77777777777777,178L291.66666666666663,174L330.55555555555554,177L369.44444444444446,178L408.3333333333333,178L447.2222222222222,173L486.1111111111111,176L525,114.00000000000001L563.8888888888888,65.99999999999999L602.7777777777777,117L641.6666666666666,144L680.5555555555555,147" stroke="#4c78a8" stroke-width="2" stroke-dasharray="2,1"/>
+                                </g>
+                            </g>
+                            <path class="foreground" aria-hidden="true" d="" display="none"/>
+                        </g>
+                    </g>
+                    <g class="mark-group role-legend" role="graphics-symbol" aria-roledescription="legend" aria-label="Symbol legend for strokeDash with 3 values: Canadian born, Recent immigrants, Long-term immigrants">
+                        <g transform="translate(210,230)">
+                            <path class="background" aria-hidden="true" d="M0,0h318v11h-318Z" pointer-events="none"/>
+                            <g>
+                                <g class="mark-group role-legend-entry">
+                                    <g transform="translate(0,0)">
+                                        <path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none"/>
+                                        <g>
+                                            <g class="mark-group role-scope" role="graphics-object" aria-roledescription="group mark container">
+                                                <g transform="translate(0,0)">
+                                                    <path class="background" aria-hidden="true" d="M0,0h81.60546875v11h-81.60546875Z" pointer-events="none" opacity="1"/>
+                                                    <g>
+                                                        <g class="mark-symbol role-legend-symbol" pointer-events="none">
+                                                            <path transform="translate(6,6)" d="M-5,0L5,0" stroke="#4c78a8" stroke-width="1.5" stroke-dasharray="1,0" opacity="1"/>
+                                                        </g>
+                                                        <g class="mark-text role-legend-label" pointer-events="none">
+                                                            <text text-anchor="start" transform="translate(16,9)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">Canadian born</text>
+                                                        </g>
+                                                    </g>
+                                                    <path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/>
+                                                </g>
+                                                <g transform="translate(93,0)">
+                                                    <path class="background" aria-hidden="true" d="M0,0h99.359375v11h-99.359375Z" pointer-events="none" opacity="1"/>
+                                                    <g>
+                                                        <g class="mark-symbol role-legend-symbol" pointer-events="none">
+                                                            <path transform="translate(6,6)" d="M-5,0L5,0" stroke="#4c78a8" stroke-width="1.5" stroke-dasharray="4,2" opacity="1"/>
+                                                        </g>
+                                                        <g class="mark-text role-legend-label" pointer-events="none">
+                                                            <text text-anchor="start" transform="translate(16,9)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">Recent immigrants</text>
+                                                        </g>
+                                                    </g>
+                                                    <path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/>
+                                                </g>
+                                                <g transform="translate(204,0)">
+                                                    <path class="background" aria-hidden="true" d="M0,0h113.2509765625v11h-113.2509765625Z" pointer-events="none" opacity="1"/>
+                                                    <g>
+                                                        <g class="mark-symbol role-legend-symbol" pointer-events="none">
+                                                            <path transform="translate(6,6)" d="M-5,0L5,0" stroke="#4c78a8" stroke-width="1.5" stroke-dasharray="2,1" opacity="1"/>
+                                                        </g>
+                                                        <g class="mark-text role-legend-label" pointer-events="none">
+                                                            <text text-anchor="start" transform="translate(16,9)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">Long-term immigrants</text>
+                                                        </g>
+                                                    </g>
+                                                    <path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/>
+                                                </g>
+                                            </g>
+                                        </g>
+                                        <path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/>
+                                    </g>
+                                </g>
+                            </g>
+                            <path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/>
+                        </g>
+                    </g>
+                    <g class="mark-group role-title">
+                        <g transform="translate(350,-22)">
+                            <path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none"/>
+                            <g>
+                                <g class="mark-text role-title-text" role="graphics-symbol" aria-roledescription="title" aria-label="Title text 'Rates of transition from employment to non-employment among individuals'" pointer-events="none">
+                                    <text text-anchor="middle" transform="translate(0,10)" font-family="sans-serif" font-size="13px" font-weight="bold" fill="#000" opacity="1">Rates of transition from employment to non-employment among individuals</text>
+                                </g>
+                            </g>
+                            <path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/>
+                        </g>
+                    </g>
+                </g>
+                <path class="foreground" aria-hidden="true" d="" display="none"/>
+            </g>
+        </g>
+    </g>
+</svg>

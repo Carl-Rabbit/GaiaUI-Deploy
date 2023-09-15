@@ -1,0 +1,211 @@
+{
+  projectId: 'example-bar-chart-task4',
+  chart: './ExampleBarChart1.svg',
+  audio: './empty.txt',
+  binder: {
+    from: "svg",
+    to: "gaia.chart.BarChart",
+    rules: [
+      {
+        from: ".title",
+        to: ":scope > .Title"
+      },
+      {
+        from: "#x-domain",
+        to: ".XAxis .Domain"
+      },
+      {
+        from: "#y-domain",
+        to: ".YAxis .Domain"
+      },
+      {
+        from: ".bar",
+        to: ".Bar",
+        dataList: [
+          {xVal: 'a', yVal: 20},
+          {xVal: 'b', yVal: 50},
+          {xVal: 'c', yVal: 40},
+          {xVal: 'd', yVal: 30},
+          {xVal: 'e', yVal: 60}
+        ]
+      },
+      {
+        from: ".bar-label",
+        to: ".BarLabel",
+        dataList: [
+          {xVal: 'a', yVal: 20},
+          {xVal: 'b', yVal: 50},
+          {xVal: 'c', yVal: 40},
+          {xVal: 'd', yVal: 30},
+          {xVal: 'e', yVal: 60}
+        ]
+      },
+      {
+        from: ".x-label",
+        to: ".XAxis .Label",
+        dataList: [
+          {xVal: 'a', yVal: 20},
+          {xVal: 'b', yVal: 50},
+          {xVal: 'c', yVal: 40},
+          {xVal: 'd', yVal: 30},
+          {xVal: 'e', yVal: 60}
+        ]
+      },
+      {
+        from: ".y-label",
+        to: ".YAxis .Label",
+        dataList: [
+          {yVal:  0},
+          {yVal: 30},
+          {yVal: 60},
+        ]
+      }
+    ]
+  },
+  animation: {
+    comments: [
+      'Task 4 (Example): Reusing across Different Infographics',
+      "1. Use 'CategoryEnter' to create animations for the first bar groups (at 4s).",
+      "2. Creat the stagger animation of the reset bars (at 7s) using 'StaggeredCategoryEnter'.",
+      "3. Fine-tune 'CategoryEnterPrepare'."
+    ],
+    main: {
+      sync: [
+        {
+          ref: 'CategoryEnterPrepare',
+        },
+        {
+          ref: 'CategoryEnter',
+          category: 'a',
+          offset: 4,
+        },
+        {
+          ref: 'StaggeredCategoryEnter',
+          startIdx: 1,
+          endIdx: 4,
+          staggerValue: 0.8,
+          offset: 7,
+        },
+      ],
+    },
+  },
+  templates: [
+    {
+      name: 'CategoryEnter',
+      params: {
+        category: { type: 'string' }
+      },
+      main: {
+        sync: [
+          {
+            ref: 'Grow',
+            target: ".Bar[xVal='$category']",
+          },
+          {
+            ref: 'ZoomIn',
+            target: ".AxisLabel[xVal='$category']",
+          },
+          {
+            ref: 'ZoomIn',
+            target: ".BarLabel[xVal='$category']",
+            offset: 1,
+          },
+        ],
+      },
+    },
+    {
+      name: 'CategoryEnterPrepare',
+      params: {
+        xDomainWipeFrom: "left",
+        yDomainWipeFrom: "bottom",
+        xTickWipeFrom: 'top',
+        yTickWipeFrom: 'right',
+        lineEnterDuration: 3,
+        yAxisLabelEffect: 'CutIn',
+        axisLabelOffset: 2,
+      },
+      main: {
+        sync: [
+          {
+            ref: 'CutIn',
+            target: '.Title',
+            from: 'bottom',
+          },
+          {
+            ref: 'WipeIn',
+            target: '.XAxis.Domain',
+            ease: 'power3.inOut',
+            from: '$xDomainWipeFrom',
+            duration: '$lineEnterDuration',
+          },
+          {
+            ref: 'WipeIn',
+            target: '.YAxis.Domain',
+            ease: 'power3.inOut',
+            from: '$yDomainWipeFrom',
+            duration: '$lineEnterDuration'
+          },
+          {
+            ref: 'WipeIn',
+            target: '.XAxis.Tick',
+            ease: 'power3.inOut',
+            from: '$xTickWipeFrom',
+            duration: '$lineEnterDuration'
+          },
+          {
+            ref: 'WipeIn',
+            target: '.YAxis.Tick',
+            ease: 'power3.inOut',
+            from: '$yTickWipeFrom',
+            duration: '$lineEnterDuration'
+          },
+          {
+            ref: '$yAxisLabelEffect',
+            target: '.YAxis.Label',
+            offset: '$axisLabelOffset',
+          }
+        ]
+      }
+    },
+    {
+      name: 'StaggeredCategoryEnter',
+      params: {
+        startIdx: { type: "number" },
+        endIdx: { type: "number" },
+        staggerValue: 0.2,
+        barWipeFrom: 'bottom',
+        barLabelEffect: 'CutIn',
+        axisLabelEffect: 'CutIn',
+      },
+      main: {
+        sync: [
+          {
+            ref: 'WipeIn',
+            target: [
+              { filter: '.Bar' },
+              { slice: ['$startIdx', '$endIdx'] },
+            ],
+            from: '$barWipeFrom',
+            stagger: '$staggerValue',
+          },
+          {
+            ref: '$barLabelEffect',
+            target: [
+              { filter: '.BarLabel' },
+              { slice: ['$startIdx', '$endIdx'] },
+            ],
+            stagger: '$staggerValue',
+          },
+          {
+            ref: '$axisLabelEffect',
+            target: [
+              { filter: '.XAxis.Label' },
+              { slice: ['$startIdx', '$endIdx'] },
+            ],
+            stagger: '$staggerValue',
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  projectId: 'tornado-chart-0',
+  chart: './tornado-chart.svg',
+  audio: './empty.txt',
+  binder: {
+    from: "svg",
+    to: "gaia.chart.TornadoChart",
+    rules: [
+      {
+        from: ".category.label",
+        to: ".Axis .Label",
+        dataList: [
+          { category: "Apple" },
+          { category: "Banana" },
+          { category: "Orange" },
+          { category: "Grape" },
+          { category: "Watermelon" },
+          { category: "Pineapple" },
+        ]
+      },
+      {
+        from: "path.background",
+        to: ".Background",
+      },
+      {
+        from: ".bar",
+        to: ".Path.Bar",
+        dataList: [
+          { series: 0, category: "Apple", value: 0.5 },
+          { series: 0, category: "Banana", value: 0.85 },
+          { series: 0, category: "Orange", value: 0.2 },
+          { series: 0, category: "Grape", value: 0.5 },
+          { series: 0, category: "Watermelon", value: 0.9 },
+          { series: 0, category: "Pineapple", value: 0.6 },
+          { series: 1, category: "Apple", value: 0.5 },
+          { series: 1, category: "Banana", value: 0.65 },
+          { series: 1, category: "Orange", value: 0.2 },
+          { series: 1, category: "Grape", value: 0.5 },
+          { series: 1, category: "Watermelon", value: 0.75 },
+          { series: 1, category: "Pineapple", value: 0.9 },
+        ]
+      },
+      {
+        from: ".bar-label",
+        to: ".BarLabel",
+        dataList: [
+          { series: 0, category: "Apple", value: 0.5 },
+          { series: 0, category: "Banana", value: 0.85 },
+          { series: 0, category: "Orange", value: 0.2 },
+          { series: 0, category: "Grape", value: 0.5 },
+          { series: 0, category: "Watermelon", value: 0.9 },
+          { series: 0, category: "Pineapple", value: 0.6 },
+          { series: 1, category: "Apple", value: 0.5 },
+          { series: 1, category: "Banana", value: 0.65 },
+          { series: 1, category: "Orange", value: 0.2 },
+          { series: 1, category: "Grape", value: 0.5 },
+          { series: 1, category: "Watermelon", value: 0.75 },
+          { series: 1, category: "Pineapple", value: 0.9 }
+        ]
+      }
+    ]
+  },
+  animation: {
+    main: {
+      sync: [
+        {
+          ref: 'TornadoChartEnter',
+        },
+      ],
+    },
+  },
+  templates: [
+    {
+      name: "TornadoChartEnter",
+      params: {
+        axisLabelAnimation: 'CutIn',
+        barAnimation: 'CutIn',
+        barLabelAnimation: 'CutIn',
+        staggerValue: 0.3,
+        leftAttrSel: '[series="0"]',
+        rightAttrSel: '[series="1"]',
+      },
+      main: {
+        concat: [
+          {
+            ref: 'Fade',
+            target: '.Background',
+          },
+          {
+            sync: [
+              {
+                ref: '$axisLabelAnimation',
+                target: '.Axis.Label',
+                from: 'top',
+                stagger: '$staggerValue',
+              },
+              {
+                ref: '$barAnimation',
+                target: '.Bar$leftAttrSel',
+                from: 'right',
+                stagger: '$staggerValue'
+              },
+              {
+                ref: '$barAnimation',
+                target: '.Bar$rightAttrSel',
+                from: 'left',
+                stagger: '$staggerValue'
+              }
+            ]
+          },
+          {
+            sync: [
+              {
+                ref: '$barLabelAnimation',
+                target: '.BarLabel$leftAttrSel',
+                from: 'right',
+                stagger: '$staggerValue'
+              },
+              {
+                ref: '$barLabelAnimation',
+                target: '.BarLabel$rightAttrSel',
+                from: 'left',
+                stagger: '$staggerValue'
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

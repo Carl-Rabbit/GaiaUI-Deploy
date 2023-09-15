@@ -1,0 +1,332 @@
+{
+  "results": [
+    {
+      "alternatives": [
+        {
+          "transcript": "In May 2021, the number of Canadians who worked from home was at 5.1 million or 30.6% of the employed labour force, similar to that observed in June 2020. There were 49.3 million transit passenger trips in May 2021, much higher than trips taken in the grips of the initial lockdown last May. ",
+          "confidence": 1.0,
+          "words": [
+            {
+              "startTime": "0.000s",
+              "endTime": "0.160s",
+              "word": "In",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.160s",
+              "endTime": "0.455s",
+              "word": "May",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.455s",
+              "endTime": "2.065s",
+              "word": "2021,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.065s",
+              "endTime": "2.140s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.140s",
+              "endTime": "2.559s",
+              "word": "number",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.559s",
+              "endTime": "2.639s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.639s",
+              "endTime": "3.451s",
+              "word": "Canadians",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.451s",
+              "endTime": "3.563s",
+              "word": "who",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.563s",
+              "endTime": "3.893s",
+              "word": "worked",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.893s",
+              "endTime": "4.103s",
+              "word": "from",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.103s",
+              "endTime": "4.581s",
+              "word": "home",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.581s",
+              "endTime": "4.768s",
+              "word": "was",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.768s",
+              "endTime": "4.933s",
+              "word": "at",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.933s",
+              "endTime": "5.941s",
+              "word": "5.1",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.941s",
+              "endTime": "6.401s",
+              "word": "million",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.401s",
+              "endTime": "6.532s",
+              "word": "or",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.532s",
+              "endTime": "8.206s",
+              "word": "30.6%",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.206s",
+              "endTime": "8.326s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.326s",
+              "endTime": "8.471s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.471s",
+              "endTime": "9.004s",
+              "word": "employed",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.004s",
+              "endTime": "9.429s",
+              "word": "labour",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.429s",
+              "endTime": "10.260s",
+              "word": "force,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.260s",
+              "endTime": "10.766s",
+              "word": "similar",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.766s",
+              "endTime": "10.931s",
+              "word": "to",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.931s",
+              "endTime": "11.081s",
+              "word": "that",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.081s",
+              "endTime": "11.657s",
+              "word": "observed",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.657s",
+              "endTime": "11.827s",
+              "word": "in",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.827s",
+              "endTime": "12.166s",
+              "word": "June",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "12.166s",
+              "endTime": "14.009s",
+              "word": "2020.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.009s",
+              "endTime": "14.164s",
+              "word": "There",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.164s",
+              "endTime": "14.309s",
+              "word": "were",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.309s",
+              "endTime": "15.756s",
+              "word": "49.3",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.756s",
+              "endTime": "16.285s",
+              "word": "million",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.285s",
+              "endTime": "16.860s",
+              "word": "transit",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.860s",
+              "endTime": "17.554s",
+              "word": "passenger",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.554s",
+              "endTime": "18.006s",
+              "word": "trips",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.006s",
+              "endTime": "18.151s",
+              "word": "in",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.151s",
+              "endTime": "18.413s",
+              "word": "May",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.413s",
+              "endTime": "20.123s",
+              "word": "2021,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "20.123s",
+              "endTime": "20.413s",
+              "word": "much",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "20.413s",
+              "endTime": "20.802s",
+              "word": "higher",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "20.802s",
+              "endTime": "20.997s",
+              "word": "than",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "20.997s",
+              "endTime": "21.461s",
+              "word": "trips",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "21.461s",
+              "endTime": "21.851s",
+              "word": "taken",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "21.851s",
+              "endTime": "21.991s",
+              "word": "in",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "21.991s",
+              "endTime": "22.111s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "22.111s",
+              "endTime": "22.568s",
+              "word": "grips",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "22.568s",
+              "endTime": "22.678s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "22.678s",
+              "endTime": "22.823s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "22.823s",
+              "endTime": "23.301s",
+              "word": "initial",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "23.301s",
+              "endTime": "23.972s",
+              "word": "lockdown",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "23.972s",
+              "endTime": "24.345s",
+              "word": "last",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "24.345s",
+              "endTime": "25.632s",
+              "word": "May.",
+              "speakerTag": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

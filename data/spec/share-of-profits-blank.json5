@@ -1,0 +1,12 @@
+{
+  charts: [
+    {source: './share-of-profits.svg'},
+  ],
+  templates: [
+  ],
+  animation: {
+    sequence: {
+      sync: []
+    }
+  }
+}

@@ -1,0 +1,338 @@
+{
+  "results": [
+    {
+      "alternatives": [
+        {
+          "transcript": "Most companies and organizations have recruitment, retention, and training plans for the coming year. Compared to private sector businesses, a greater percentage of non-profit organizations have specific plans. And non-profit organizations were more likely to provide employees with paid time to engage in learning and development programs, more than twice of private sector businesses.",
+          "confidence": 1.0,
+          "words": [
+            {
+              "startTime": "0.000s",
+              "endTime": "0.400s",
+              "word": "Most",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.400s",
+              "endTime": "1.026s",
+              "word": "companies",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.026s",
+              "endTime": "1.141s",
+              "word": "and",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.141s",
+              "endTime": "2.250s",
+              "word": "organizations",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.250s",
+              "endTime": "2.480s",
+              "word": "have",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.480s",
+              "endTime": "3.428s",
+              "word": "recruitment,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.428s",
+              "endTime": "4.315s",
+              "word": "retention,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.315s",
+              "endTime": "4.450s",
+              "word": "and",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.450s",
+              "endTime": "4.940s",
+              "word": "training",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.940s",
+              "endTime": "5.370s",
+              "word": "plans",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.370s",
+              "endTime": "5.515s",
+              "word": "for",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.515s",
+              "endTime": "5.640s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.640s",
+              "endTime": "6.011s",
+              "word": "coming",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.011s",
+              "endTime": "7.376s",
+              "word": "year.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.376s",
+              "endTime": "7.901s",
+              "word": "Compared",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.901s",
+              "endTime": "8.053s",
+              "word": "to",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.053s",
+              "endTime": "8.579s",
+              "word": "private",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.579s",
+              "endTime": "9.019s",
+              "word": "sector",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.019s",
+              "endTime": "10.177s",
+              "word": "businesses,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.177s",
+              "endTime": "10.267s",
+              "word": "a",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.267s",
+              "endTime": "10.671s",
+              "word": "greater",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.671s",
+              "endTime": "11.408s",
+              "word": "percentage",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.408s",
+              "endTime": "11.545s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.545s",
+              "endTime": "12.368s",
+              "word": "non-profit",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "12.368s",
+              "endTime": "13.446s",
+              "word": "organizations",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.446s",
+              "endTime": "13.611s",
+              "word": "have",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.611s",
+              "endTime": "14.282s",
+              "word": "specific",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.282s",
+              "endTime": "15.868s",
+              "word": "plans.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.868s",
+              "endTime": "16.058s",
+              "word": "And",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.058s",
+              "endTime": "16.834s",
+              "word": "non-profit",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.834s",
+              "endTime": "17.967s",
+              "word": "organizations",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.967s",
+              "endTime": "18.092s",
+              "word": "were",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.092s",
+              "endTime": "18.367s",
+              "word": "more",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.367s",
+              "endTime": "18.873s",
+              "word": "likely",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.873s",
+              "endTime": "19.028s",
+              "word": "to",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.028s",
+              "endTime": "19.466s",
+              "word": "provide",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.466s",
+              "endTime": "20.241s",
+              "word": "employees",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "20.241s",
+              "endTime": "20.381s",
+              "word": "with",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "20.381s",
+              "endTime": "20.766s",
+              "word": "paid",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "20.766s",
+              "endTime": "21.151s",
+              "word": "time",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "21.151s",
+              "endTime": "21.349s",
+              "word": "to",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "21.349s",
+              "endTime": "21.839s",
+              "word": "engage",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "21.839s",
+              "endTime": "21.989s",
+              "word": "in",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "21.989s",
+              "endTime": "22.462s",
+              "word": "learning",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "22.462s",
+              "endTime": "22.627s",
+              "word": "and",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "22.627s",
+              "endTime": "23.376s",
+              "word": "development",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "23.376s",
+              "endTime": "24.443s",
+              "word": "programs,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "24.443s",
+              "endTime": "24.618s",
+              "word": "more",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "24.618s",
+              "endTime": "24.804s",
+              "word": "than",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "24.804s",
+              "endTime": "25.294s",
+              "word": "twice",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "25.294s",
+              "endTime": "25.398s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "25.398s",
+              "endTime": "25.923s",
+              "word": "private",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "25.923s",
+              "endTime": "26.342s",
+              "word": "sector",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "26.342s",
+              "endTime": "28.087s",
+              "word": "businesses.",
+              "speakerTag": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

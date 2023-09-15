@@ -1,0 +1,16 @@
+{
+  projectId: 'figma-test',
+  scenes: [
+    {
+      charts: [
+        {source: './figma.svg'},
+      ],
+      animation: {
+        target: '.figma',
+        sequence: {
+          sync: [],
+        }
+      },
+    },
+  ],
+}

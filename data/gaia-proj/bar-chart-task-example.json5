@@ -1,0 +1,51 @@
+{
+  projectId: 'bar-chart-task-example',
+  chart: './BarChartSVG.svg',
+  audio: './empty.txt',
+  binder: {
+    from: 'svg',
+    to: 'BarChart',
+    rules: [
+      {
+        from: "#x-domain",
+        to: ".XAxis .Domain"
+      },
+      {
+        from: "#y-domain",
+        to: ".YAxis .Domain"
+      },
+      {
+        from: "rect",
+        to: ".Bar",
+        dataList: [
+          { xVal: 1, yVal: 40 },
+          { xVal: 2, yVal: 50 },
+        ]
+      },
+      {
+        from: "text",
+        to: ".BarLabel",
+        dataList: [
+          { xVal: 1, yVal: 40 },
+          { xVal: 2, yVal: 50 },
+        ]
+      },
+    ]
+  },
+  animation: {
+    // AniUnit Sync, which contains 3 children starting at the same time
+    "main": {
+      "sync": [
+        { ref: "PathDraw",
+          target: ".Domain" },
+        { ref: "WipeIn",
+          target: ".Bar",
+          offset: 1.5 },
+        { ref: "CutIn",
+          target: ".BarLabel",
+          offset: 3 }
+      ]
+    }
+  },
+  templates: []
+}

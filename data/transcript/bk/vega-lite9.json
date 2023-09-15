@@ -1,0 +1,272 @@
+{
+  "results": [
+    {
+      "alternatives": [
+        {
+          "transcript": "The number of Canadian international arrivals changes significantly from 2019 to 2020. Prior to the outbreak, the number of arrivals peaked in July and August at around 11,500,000, but after the outbreak control, the number of arrivals plummeted and stabilized at around 500,000.",
+          "confidence": 1.0,
+          "words": [
+            {
+              "startTime": "0.000s",
+              "endTime": "0.110s",
+              "word": "The",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.110s",
+              "endTime": "0.570s",
+              "word": "number",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.570s",
+              "endTime": "0.653s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.653s",
+              "endTime": "1.329s",
+              "word": "Canadian",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.329s",
+              "endTime": "2.277s",
+              "word": "international",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.277s",
+              "endTime": "2.991s",
+              "word": "arrivals",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.991s",
+              "endTime": "3.476s",
+              "word": "changes",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.476s",
+              "endTime": "4.459s",
+              "word": "significantly",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.459s",
+              "endTime": "4.684s",
+              "word": "from",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.684s",
+              "endTime": "5.709s",
+              "word": "2019",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.709s",
+              "endTime": "5.859s",
+              "word": "to",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.859s",
+              "endTime": "7.705s",
+              "word": "2020.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.705s",
+              "endTime": "8.120s",
+              "word": "Prior",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.120s",
+              "endTime": "8.285s",
+              "word": "to",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.285s",
+              "endTime": "8.451s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.451s",
+              "endTime": "9.394s",
+              "word": "outbreak,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.394s",
+              "endTime": "9.474s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.474s",
+              "endTime": "9.938s",
+              "word": "number",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.938s",
+              "endTime": "10.043s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.043s",
+              "endTime": "10.744s",
+              "word": "arrivals",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.744s",
+              "endTime": "11.109s",
+              "word": "peaked",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.109s",
+              "endTime": "11.269s",
+              "word": "in",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.269s",
+              "endTime": "11.808s",
+              "word": "July",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.808s",
+              "endTime": "11.985s",
+              "word": "and",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.985s",
+              "endTime": "12.596s",
+              "word": "August",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "12.596s",
+              "endTime": "12.701s",
+              "word": "at",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "12.701s",
+              "endTime": "13.066s",
+              "word": "around",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.066s",
+              "endTime": "15.812s",
+              "word": "11,500,000,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.812s",
+              "endTime": "15.947s",
+              "word": "but",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.947s",
+              "endTime": "16.272s",
+              "word": "after",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.272s",
+              "endTime": "16.457s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.457s",
+              "endTime": "16.982s",
+              "word": "outbreak",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.982s",
+              "endTime": "17.958s",
+              "word": "control,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.958s",
+              "endTime": "18.033s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.033s",
+              "endTime": "18.440s",
+              "word": "number",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.440s",
+              "endTime": "18.540s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.540s",
+              "endTime": "19.199s",
+              "word": "arrivals",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.199s",
+              "endTime": "19.865s",
+              "word": "plummeted",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.865s",
+              "endTime": "20.010s",
+              "word": "and",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "20.010s",
+              "endTime": "20.922s",
+              "word": "stabilized",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "20.922s",
+              "endTime": "21.037s",
+              "word": "at",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "21.037s",
+              "endTime": "21.399s",
+              "word": "around",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "21.399s",
+              "endTime": "23.576s",
+              "word": "500,000.",
+              "speakerTag": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

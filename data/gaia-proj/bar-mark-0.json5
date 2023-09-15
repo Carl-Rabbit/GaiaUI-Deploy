@@ -1,0 +1,51 @@
+{
+  projectId: 'bar-mark-0',
+  chart: './BarMark.svg',
+  audio: './empty.txt',
+  binder: {
+    from: 'svg',
+    to: 'BarMark',
+    rules: [
+      {
+        from: "rect",
+        to: ".Bar",
+        dataList: [
+          { xVal: 1, yVal: 40 },
+          { xVal: 2, yVal: 50 },
+        ]
+      },
+      {
+        from: "text",
+        to: ".BarLabel",
+        dataList: [
+          { xVal: 1, yVal: 40 },
+          { xVal: 2, yVal: 50 },
+        ]
+      },
+    ]
+  },
+  animation: {
+    "params": {
+      "direction": "bottom"
+    },
+    // AniUnit Sync, which contains two children starting at the same time
+    "main": {
+      "sync": [
+        // AniUnit Wipe
+        {
+          "ref": "Wipe",      // A reference to the Wipe template animation
+          "target": ".Bar",   // A CSS selector that picks elements from the parent AniUnit
+          "from": "$direction",
+          "duration": 1.5,    // default duration is 1
+        },
+        // AniUnit Zoom
+        {
+          "ref": "Zoom",
+          "target": ".BarLabel",
+          "offset": 0.5,    // start time offset
+        }
+      ]
+    }
+  },
+  templates: []
+}

@@ -1,0 +1,482 @@
+{
+  "results": [
+    {
+      "alternatives": [
+        {
+          "transcript": "Here's that idea we asked everyone about something like this curve. This isn't too bad we've got some incentive as the wealthiest folks are now about 10 to 20 times better off than the poorest Americans. But hey even the poor folks aren't actually poor since the poverty line has stayed almost entirely off the chart. We have a super healthy middle class with a smooth transition into wealth, and yes Republicans and Democrats alike chose this curve.",
+          "confidence": 1.0,
+          "words": [
+            {
+              "startTime": "0.000s",
+              "endTime": "0.295s",
+              "word": "Here's",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.295s",
+              "endTime": "0.470s",
+              "word": "that",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.470s",
+              "endTime": "0.949s",
+              "word": "idea",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.949s",
+              "endTime": "1.202s",
+              "word": "we",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.202s",
+              "endTime": "1.552s",
+              "word": "asked",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.552s",
+              "endTime": "2.021s",
+              "word": "everyone",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.021s",
+              "endTime": "2.346s",
+              "word": "about",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.346s",
+              "endTime": "2.744s",
+              "word": "something",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.744s",
+              "endTime": "2.959s",
+              "word": "like",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.959s",
+              "endTime": "3.202s",
+              "word": "this",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.202s",
+              "endTime": "4.149s",
+              "word": "curve.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.149s",
+              "endTime": "4.399s",
+              "word": "This",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.399s",
+              "endTime": "4.789s",
+              "word": "isn't",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.789s",
+              "endTime": "4.984s",
+              "word": "too",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.984s",
+              "endTime": "5.434s",
+              "word": "bad",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.434s",
+              "endTime": "5.639s",
+              "word": "we've",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.639s",
+              "endTime": "5.894s",
+              "word": "got",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.894s",
+              "endTime": "6.091s",
+              "word": "some",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.091s",
+              "endTime": "6.720s",
+              "word": "incentive",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.720s",
+              "endTime": "6.905s",
+              "word": "as",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.905s",
+              "endTime": "7.000s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.000s",
+              "endTime": "7.720s",
+              "word": "wealthiest",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.720s",
+              "endTime": "8.215s",
+              "word": "folks",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.215s",
+              "endTime": "8.300s",
+              "word": "are",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.300s",
+              "endTime": "8.598s",
+              "word": "now",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.598s",
+              "endTime": "8.918s",
+              "word": "about",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.918s",
+              "endTime": "9.238s",
+              "word": "10",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.238s",
+              "endTime": "9.403s",
+              "word": "to",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.403s",
+              "endTime": "9.827s",
+              "word": "20",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.827s",
+              "endTime": "10.229s",
+              "word": "times",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.229s",
+              "endTime": "10.634s",
+              "word": "better",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.634s",
+              "endTime": "10.907s",
+              "word": "off",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.907s",
+              "endTime": "11.072s",
+              "word": "than",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.072s",
+              "endTime": "11.157s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.157s",
+              "endTime": "11.695s",
+              "word": "poorest",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.695s",
+              "endTime": "13.468s",
+              "word": "Americans.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.468s",
+              "endTime": "13.638s",
+              "word": "But",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.638s",
+              "endTime": "14.018s",
+              "word": "hey",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.018s",
+              "endTime": "14.380s",
+              "word": "even",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.380s",
+              "endTime": "14.495s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.495s",
+              "endTime": "14.852s",
+              "word": "poor",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.852s",
+              "endTime": "15.397s",
+              "word": "folks",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.397s",
+              "endTime": "15.652s",
+              "word": "aren't",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.652s",
+              "endTime": "16.233s",
+              "word": "actually",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.233s",
+              "endTime": "16.724s",
+              "word": "poor",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.724s",
+              "endTime": "17.058s",
+              "word": "since",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.058s",
+              "endTime": "17.153s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.153s",
+              "endTime": "17.733s",
+              "word": "poverty",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.733s",
+              "endTime": "18.073s",
+              "word": "line",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.073s",
+              "endTime": "18.268s",
+              "word": "has",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.268s",
+              "endTime": "18.593s",
+              "word": "stayed",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.593s",
+              "endTime": "19.096s",
+              "word": "almost",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.096s",
+              "endTime": "19.830s",
+              "word": "entirely",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.830s",
+              "endTime": "20.020s",
+              "word": "off",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "20.020s",
+              "endTime": "20.135s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "20.135s",
+              "endTime": "21.567s",
+              "word": "chart.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "21.567s",
+              "endTime": "21.722s",
+              "word": "We",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "21.722s",
+              "endTime": "21.887s",
+              "word": "have",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "21.887s",
+              "endTime": "21.967s",
+              "word": "a",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "21.967s",
+              "endTime": "22.566s",
+              "word": "super",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "22.566s",
+              "endTime": "22.994s",
+              "word": "healthy",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "22.994s",
+              "endTime": "23.388s",
+              "word": "middle",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "23.388s",
+              "endTime": "23.923s",
+              "word": "class",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "23.923s",
+              "endTime": "24.078s",
+              "word": "with",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "24.078s",
+              "endTime": "24.123s",
+              "word": "a",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "24.123s",
+              "endTime": "24.643s",
+              "word": "smooth",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "24.643s",
+              "endTime": "25.386s",
+              "word": "transition",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "25.386s",
+              "endTime": "25.676s",
+              "word": "into",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "25.676s",
+              "endTime": "26.462s",
+              "word": "wealth,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "26.462s",
+              "endTime": "26.577s",
+              "word": "and",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "26.577s",
+              "endTime": "26.927s",
+              "word": "yes",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "26.927s",
+              "endTime": "27.824s",
+              "word": "Republicans",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "27.824s",
+              "endTime": "28.004s",
+              "word": "and",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "28.004s",
+              "endTime": "28.768s",
+              "word": "Democrats",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "28.768s",
+              "endTime": "29.248s",
+              "word": "alike",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "29.248s",
+              "endTime": "29.639s",
+              "word": "chose",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "29.639s",
+              "endTime": "29.834s",
+              "word": "this",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "29.834s",
+              "endTime": "31.218s",
+              "word": "curve.",
+              "speakerTag": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

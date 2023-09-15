@@ -1,0 +1,927 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg id="visChart" x="0" y="0" width="900" height="450" viewBox="0 0 900.000000 600.000000"
+     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" trans="0,0"><g id="chartContent" transform="" trans="450,300"><g transform="" opacity="1" trans="450,300"><g transform="" opacity="1" trans="450,300"></g><g
+        transform="" opacity="1" trans="450,300"><g transform="" opacity="1" trans="450,300"><g transform="" opacity="1" trans="450,300"><g transform="" opacity="1" trans="450,300"><path id="mark1" class=" mark Link1 link" d="M175.52427809 358.88922206L175.52865574999998 79.99578482000001L217.48579475 80.09364439999999L217.48485234 271.67563326L175.52804657000001 358.89004436ZZ" data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-301.6702933854907,&quot;_y&quot;:80.55538908078387,&quot;_id&quot;:&quot;0&quot;,&quot;Year&quot;:&quot;2009&quot;,&quot;OperatingSystem&quot;:&quot;iOS&quot;,&quot;Share&quot;:59.35},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-205.31661882747406,&quot;_y&quot;:124.11567704409146,&quot;_id&quot;:&quot;8&quot;,&quot;Year&quot;:&quot;2010&quot;,&quot;OperatingSystem&quot;:&quot;iOS&quot;,&quot;Share&quot;:40.77}]" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(166,206,227)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path><path id="mark2" class=" mark Link1 link"
+                d="M271.87795265 271.67466493L271.87897175 80.09411014L313.84361953999996 80.0517496L313.83762241 259.92953003L271.88228948 271.67533782ZZ"
+                data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-205.31661882747406,&quot;_y&quot;:124.11567704409146,&quot;_id&quot;:&quot;8&quot;,&quot;Year&quot;:&quot;2010&quot;,&quot;OperatingSystem&quot;:&quot;iOS&quot;,&quot;Share&quot;:40.77},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-108.96294426945741,&quot;_y&quot;:130.01299758281328,&quot;_id&quot;:&quot;16&quot;,&quot;Year&quot;:&quot;2011&quot;,&quot;OperatingSystem&quot;:&quot;iOS&quot;,&quot;Share&quot;:38.28}]"
+                stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                fill="rgb(166,206,227)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path><path id="mark3" class=" mark Link1 link"
+                d="M368.23162721 259.92701446L368.23290904 80.04444505000001L410.19993606 80.1404564L410.19908345 312.04350907L368.22714362 259.92807994ZZ"
+                data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-108.96294426945741,&quot;_y&quot;:130.01299758281328,&quot;_id&quot;:&quot;16&quot;,&quot;Year&quot;:&quot;2011&quot;,&quot;OperatingSystem&quot;:&quot;iOS&quot;,&quot;Share&quot;:38.28},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-12.609269711440728,&quot;_y&quot;:103.90971822616024,&quot;_id&quot;:&quot;24&quot;,&quot;Year&quot;:&quot;2012&quot;,&quot;OperatingSystem&quot;:&quot;iOS&quot;,&quot;Share&quot;:49.35}]"
+                stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                fill="rgb(166,206,227)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path><path id="mark4" class=" mark Link1 link"
+                d="M464.58530177 312.03959197L464.58539454 80.14529585L506.54805996 79.99955639000001L506.54669078 328.3964811L464.58501114 312.04124374ZZ"
+                data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-12.609269711440728,&quot;_y&quot;:103.90971822616024,&quot;_id&quot;:&quot;24&quot;,&quot;Year&quot;:&quot;2012&quot;,&quot;OperatingSystem&quot;:&quot;iOS&quot;,&quot;Share&quot;:49.35},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:83.74440484657592,&quot;_y&quot;:95.8038393980367,&quot;_id&quot;:&quot;32&quot;,&quot;Year&quot;:&quot;2013&quot;,&quot;OperatingSystem&quot;:&quot;iOS&quot;,&quot;Share&quot;:52.86}]"
+                stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                fill="rgb(166,206,227)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path><path id="mark5" class=" mark Link1 link"
+                d="M560.9389763300001 328.39232143L560.94206231 80.00352419999999L602.90114183 80.05054154999999L602.90534667 325.71024253L560.93879068 328.3953538ZZ"
+                data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:83.74440484657592,&quot;_y&quot;:95.8038393980367,&quot;_id&quot;:&quot;32&quot;,&quot;Year&quot;:&quot;2013&quot;,&quot;OperatingSystem&quot;:&quot;iOS&quot;,&quot;Share&quot;:52.86},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:180.0980794045926,&quot;_y&quot;:97.1195762512973,&quot;_id&quot;:&quot;40&quot;,&quot;Year&quot;:&quot;2014&quot;,&quot;OperatingSystem&quot;:&quot;iOS&quot;,&quot;Share&quot;:52.28}]"
+                stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                fill="rgb(166,206,227)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path><path id="mark6" class=" mark Link1 link"
+                d="M657.29265088 325.71385712L657.29380875 80.04733711L699.25782938 80.00455690000001L699.25678782 318.66179899L657.29688103 325.71164654ZZ"
+                data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:180.0980794045926,&quot;_y&quot;:97.1195762512973,&quot;_id&quot;:&quot;40&quot;,&quot;Year&quot;:&quot;2014&quot;,&quot;OperatingSystem&quot;:&quot;iOS&quot;,&quot;Share&quot;:52.28},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:276.4517539626093,&quot;_y&quot;:100.66736669491081,&quot;_id&quot;:&quot;48&quot;,&quot;Year&quot;:&quot;2015&quot;,&quot;OperatingSystem&quot;:&quot;iOS&quot;,&quot;Share&quot;:50.79}]"
+                stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                fill="rgb(166,206,227)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path><path id="mark7" class=" mark Link1 link"
+                d="M753.64632544 318.66526684L753.64893367 79.99980266L795.6128431899999 80.08991707000001L795.60895969 329.99053467L753.6419527400001 318.66165226ZZ"
+                data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:276.4517539626093,&quot;_y&quot;:100.66736669491081,&quot;_id&quot;:&quot;48&quot;,&quot;Year&quot;:&quot;2015&quot;,&quot;OperatingSystem&quot;:&quot;iOS&quot;,&quot;Share&quot;:50.79},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:372.805428520626,&quot;_y&quot;:94.9580085637977,&quot;_id&quot;:&quot;56&quot;,&quot;Year&quot;:&quot;2016&quot;,&quot;OperatingSystem&quot;:&quot;iOS&quot;,&quot;Share&quot;:53.18}]"
+                stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                fill="rgb(166,206,227)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path></g><g transform="" opacity="1" trans="450,300"><path id="mark8" class=" mark Link1 link" d="M175.52427809 483.60227951L175.52430895999998 457.37714772000004L217.48849121 413.02355798L217.48973839 492.76215802L175.52421203 483.6039135ZZ" data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-301.6702933854907,&quot;_y&quot;:-170.49190158153579,&quot;_id&quot;:&quot;1&quot;,&quot;Year&quot;:&quot;2009&quot;,&quot;OperatingSystem&quot;:&quot;Android&quot;,&quot;Share&quot;:5.58},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-205.31661882747406,&quot;_y&quot;:-152.89392116917477,&quot;_id&quot;:&quot;9&quot;,&quot;Year&quot;:&quot;2010&quot;,&quot;OperatingSystem&quot;:&quot;Android&quot;,&quot;Share&quot;:16.97}]" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(31,120,180)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+    <path id="mark9" class=" mark Link1 link"
+          d="M271.87795265 492.76544688L271.87477344 413.02358318L313.83948476 259.9317722L313.83799597999996 424.76698432L271.87549848000003 492.76672685ZZ"
+          data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-205.31661882747406,&quot;_y&quot;:-152.89392116917477,&quot;_id&quot;:&quot;9&quot;,&quot;Year&quot;:&quot;2010&quot;,&quot;OperatingSystem&quot;:&quot;Android&quot;,&quot;Share&quot;:16.97},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-108.96294426945741,&quot;_y&quot;:-42.34853019433021,&quot;_id&quot;:&quot;17&quot;,&quot;Year&quot;:&quot;2011&quot;,&quot;OperatingSystem&quot;:&quot;Android&quot;,&quot;Share&quot;:35.08}]"
+          stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+          fill="rgb(31,120,180)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+    <path id="mark10" class=" mark Link1 link"
+          d="M368.23162721 424.77004593L368.22918985 259.92614306L410.19842546 312.03818699L410.19695924 503.10075832999996L368.22675091 424.76951171999997ZZ"
+          data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-108.96294426945741,&quot;_y&quot;:-42.34853019433021,&quot;_id&quot;:&quot;17&quot;,&quot;Year&quot;:&quot;2011&quot;,&quot;OperatingSystem&quot;:&quot;Android&quot;,&quot;Share&quot;:35.08},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-12.609269711440728,&quot;_y&quot;:-107.57148563453606,&quot;_id&quot;:&quot;25&quot;,&quot;Year&quot;:&quot;2012&quot;,&quot;OperatingSystem&quot;:&quot;Android&quot;,&quot;Share&quot;:40.66}]"
+          stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+          fill="rgb(31,120,180)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+    <path id="mark11" class=" mark Link1 link"
+          d="M464.58530177 503.10337930000003L464.58519978 312.03758245L506.55065018 328.38832089L506.5525133 512.87580911L464.58978222 503.09844809000003ZZ"
+          data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-12.609269711440728,&quot;_y&quot;:-107.57148563453606,&quot;_id&quot;:&quot;25&quot;,&quot;Year&quot;:&quot;2012&quot;,&quot;OperatingSystem&quot;:&quot;Android&quot;,&quot;Share&quot;:40.66},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:83.74440484657592,&quot;_y&quot;:-120.6348729633381,&quot;_id&quot;:&quot;33&quot;,&quot;Year&quot;:&quot;2013&quot;,&quot;OperatingSystem&quot;:&quot;Android&quot;,&quot;Share&quot;:39.26}]"
+          stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+          fill="rgb(31,120,180)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+    <path id="mark12" class=" mark Link1 link"
+          d="M560.9389763300001 512.8774245L560.93610761 328.39612559L602.8992089 325.71269991L602.90631894 525.090224L560.9346540500001 512.88139313ZZ"
+          data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:83.74440484657592,&quot;_y&quot;:-120.6348729633381,&quot;_id&quot;:&quot;33&quot;,&quot;Year&quot;:&quot;2013&quot;,&quot;OperatingSystem&quot;:&quot;Android&quot;,&quot;Share&quot;:39.26},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:180.0980794045926,&quot;_y&quot;:-125.4044190564079,&quot;_id&quot;:&quot;41&quot;,&quot;Year&quot;:&quot;2014&quot;,&quot;OperatingSystem&quot;:&quot;Android&quot;,&quot;Share&quot;:42.43}]"
+          stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+          fill="rgb(31,120,180)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+    <path id="mark13" class=" mark Link1 link"
+          d="M657.29265088 525.0949809900001L657.2947975 325.71146479L699.25428987 318.66111187L699.25940851 537.17044214L657.29572692 525.09715741ZZ"
+          data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:180.0980794045926,&quot;_y&quot;:-125.4044190564079,&quot;_id&quot;:&quot;41&quot;,&quot;Year&quot;:&quot;2014&quot;,&quot;OperatingSystem&quot;:&quot;Android&quot;,&quot;Share&quot;:42.43},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:276.4517539626093,&quot;_y&quot;:-127.91841625817376,&quot;_id&quot;:&quot;49&quot;,&quot;Year&quot;:&quot;2015&quot;,&quot;OperatingSystem&quot;:&quot;Android&quot;,&quot;Share&quot;:46.5}]"
+          stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+          fill="rgb(31,120,180)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+    <path id="mark14" class=" mark Link1 link"
+          d="M753.64632544 537.17156568L753.64842896 318.66948568L795.60622025 329.98544288L795.6118057599999 542.3895827599999L753.65008876 537.16981348ZZ"
+          data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:276.4517539626093,&quot;_y&quot;:-127.91841625817376,&quot;_id&quot;:&quot;49&quot;,&quot;Year&quot;:&quot;2015&quot;,&quot;OperatingSystem&quot;:&quot;Android&quot;,&quot;Share&quot;:46.5},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:372.805428520626,&quot;_y&quot;:-136.1887621929549,&quot;_id&quot;:&quot;57&quot;,&quot;Year&quot;:&quot;2016&quot;,&quot;OperatingSystem&quot;:&quot;Android&quot;,&quot;Share&quot;:45.2}]"
+          stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+          fill="rgb(31,120,180)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path></g><g transform="" opacity="1" trans="450,300"><path id="mark15" class=" mark Link1 link" d="M175.52427809 426.64967001L175.52028692 358.88817849L217.48451209 271.67930428L217.49118688 413.01800357L175.52690868000002 426.65120387ZZ" data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-301.6702933854907,&quot;_y&quot;:-92.7694460353539,&quot;_id&quot;:&quot;2&quot;,&quot;Year&quot;:&quot;2009&quot;,&quot;OperatingSystem&quot;:&quot;BlackBerry OS&quot;,&quot;Share&quot;:14.42},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-205.31661882747406,&quot;_y&quot;:-42.34853019433021,&quot;_id&quot;:&quot;10&quot;,&quot;Year&quot;:&quot;2010&quot;,&quot;OperatingSystem&quot;:&quot;BlackBerry OS&quot;,&quot;Share&quot;:30.08}]" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(178,223,138)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+    <path id="mark16" class=" mark Link1 link"
+          d="M271.87795265 413.02239546L271.88258053000004 271.66967356L313.84566696 424.76590385L313.84016771 503.61628939L271.88262252000004 413.02597717000003ZZ"
+          data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-205.31661882747406,&quot;_y&quot;:-42.34853019433021,&quot;_id&quot;:&quot;10&quot;,&quot;Year&quot;:&quot;2010&quot;,&quot;OperatingSystem&quot;:&quot;BlackBerry OS&quot;,&quot;Share&quot;:30.08},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-108.96294426945741,&quot;_y&quot;:-164.1951609266456,&quot;_id&quot;:&quot;18&quot;,&quot;Year&quot;:&quot;2011&quot;,&quot;OperatingSystem&quot;:&quot;BlackBerry OS&quot;,&quot;Share&quot;:16.78}]"
+          stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+          fill="rgb(178,223,138)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+    <path id="mark17" class=" mark Link1 link"
+          d="M368.23162721 503.62027592000004L368.23003744 424.76573659L410.19807069 503.10264241L410.19702483 519.97519051L368.2268186 503.62069534ZZ"
+          data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-108.96294426945741,&quot;_y&quot;:-164.1951609266456,&quot;_id&quot;:&quot;18&quot;,&quot;Year&quot;:&quot;2011&quot;,&quot;OperatingSystem&quot;:&quot;BlackBerry OS&quot;,&quot;Share&quot;:16.78},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-12.609269711440728,&quot;_y&quot;:-211.53819234307744,&quot;_id&quot;:&quot;26&quot;,&quot;Year&quot;:&quot;2012&quot;,&quot;OperatingSystem&quot;:&quot;BlackBerry OS&quot;,&quot;Share&quot;:3.59}]"
+          stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+          fill="rgb(178,223,138)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+    <path id="mark18" class=" mark Link1 link"
+          d="M464.58530177 519.97300538L464.58559547 503.10196793L506.55462425999997 512.87638781L506.54911519 528.38101685L464.58479196 519.96953167ZZ"
+          data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-12.609269711440728,&quot;_y&quot;:-211.53819234307744,&quot;_id&quot;:&quot;26&quot;,&quot;Year&quot;:&quot;2012&quot;,&quot;OperatingSystem&quot;:&quot;BlackBerry OS&quot;,&quot;Share&quot;:3.59},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:83.74440484657592,&quot;_y&quot;:-220.6308738111465,&quot;_id&quot;:&quot;34&quot;,&quot;Year&quot;:&quot;2013&quot;,&quot;OperatingSystem&quot;:&quot;BlackBerry OS&quot;,&quot;Share&quot;:3.3}]"
+          stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+          fill="rgb(178,223,138)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+    <path id="mark19" class=" mark Link1 link"
+          d="M560.9389763300001 528.38432313L560.93614373 512.88122228L602.8998898899999 532.98768923L602.90670764 540.8411269000001L560.93821882 528.38631348ZZ"
+          data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:83.74440484657592,&quot;_y&quot;:-220.6308738111465,&quot;_id&quot;:&quot;34&quot;,&quot;Year&quot;:&quot;2013&quot;,&quot;OperatingSystem&quot;:&quot;BlackBerry OS&quot;,&quot;Share&quot;:3.3},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:180.0980794045926,&quot;_y&quot;:-236.91311737024688,&quot;_id&quot;:&quot;42&quot;,&quot;Year&quot;:&quot;2014&quot;,&quot;OperatingSystem&quot;:&quot;BlackBerry OS&quot;,&quot;Share&quot;:1.67}]"
+          stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+          fill="rgb(178,223,138)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+    <path id="mark20" class=" mark Link1 link"
+          d="M657.29265088 540.83683263L657.29246141 532.99007522L699.25441851 544.92389775L699.26020579 547.13307878L657.29352116 540.83289891ZZ"
+          data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:180.0980794045926,&quot;_y&quot;:-236.91311737024688,&quot;_id&quot;:&quot;42&quot;,&quot;Year&quot;:&quot;2014&quot;,&quot;OperatingSystem&quot;:&quot;BlackBerry OS&quot;,&quot;Share&quot;:1.67},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:276.4517539626093,&quot;_y&quot;:-246.029294139267,&quot;_id&quot;:&quot;50&quot;,&quot;Year&quot;:&quot;2015&quot;,&quot;OperatingSystem&quot;:&quot;BlackBerry OS&quot;,&quot;Share&quot;:0.47}]"
+          stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+          fill="rgb(178,223,138)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+    <path id="mark21" class=" mark Link1 link"
+          d="M753.64632544 547.1335732800001L753.6512089 544.92434147L795.61345068 548.82706293L795.6136609499999 549.72183028L753.6496043899999 547.13202938ZZ"
+          data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:276.4517539626093,&quot;_y&quot;:-246.029294139267,&quot;_id&quot;:&quot;50&quot;,&quot;Year&quot;:&quot;2015&quot;,&quot;OperatingSystem&quot;:&quot;BlackBerry OS&quot;,&quot;Share&quot;:0.47},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:372.805428520626,&quot;_y&quot;:-249.27164567051642,&quot;_id&quot;:&quot;58&quot;,&quot;Year&quot;:&quot;2016&quot;,&quot;OperatingSystem&quot;:&quot;BlackBerry OS&quot;,&quot;Share&quot;:0.19}]"
+          stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+          fill="rgb(178,223,138)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path></g><g transform="" opacity="1" trans="450,300"><path id="mark22" class=" mark Link1 link" d="M175.52427809 538.25234952L175.52911812000002 524.57950777L217.49120083 548.02929049L217.49118671 550.00019127L175.52768148 538.24916411ZZ" data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-301.6702933854907,&quot;_y&quot;:-231.4152169476935,&quot;_id&quot;:&quot;3&quot;,&quot;Year&quot;:&quot;2009&quot;,&quot;OperatingSystem&quot;:&quot;Windows&quot;,&quot;Share&quot;:2.91},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-205.31661882747406,&quot;_y&quot;:-249.01319736005453,&quot;_id&quot;:&quot;11&quot;,&quot;Year&quot;:&quot;2010&quot;,&quot;OperatingSystem&quot;:&quot;Windows&quot;,&quot;Share&quot;:0.42}]" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(51,160,44)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+    <path id="mark23" class=" mark Link1 link"
+          d="M271.87795265 550L271.87508119 548.03037436L313.84577823999996 543.61416583L313.84215665 547.2245915999999L271.87382701 550.0037025500001ZZ"
+          data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-205.31661882747406,&quot;_y&quot;:-249.01319736005453,&quot;_id&quot;:&quot;11&quot;,&quot;Year&quot;:&quot;2010&quot;,&quot;OperatingSystem&quot;:&quot;Windows&quot;,&quot;Share&quot;:0.42},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-108.96294426945741,&quot;_y&quot;:-245.41841631453886,&quot;_id&quot;:&quot;19&quot;,&quot;Year&quot;:&quot;2011&quot;,&quot;OperatingSystem&quot;:&quot;Windows&quot;,&quot;Share&quot;:0.77}]"
+          stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+          fill="rgb(51,160,44)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+    <path id="mark24" class=" mark Link1 link"
+          d="M368.23162721 547.22755449L368.23508377999997 543.60673932L410.19544121 539.42876591L410.19742992 544.64498852L368.2283417 547.22975252ZZ"
+          data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-108.96294426945741,&quot;_y&quot;:-245.41841631453886,&quot;_id&quot;:&quot;19&quot;,&quot;Year&quot;:&quot;2011&quot;,&quot;OperatingSystem&quot;:&quot;Windows&quot;,&quot;Share&quot;:0.77},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-12.609269711440728,&quot;_y&quot;:-242.03509297758293,&quot;_id&quot;:&quot;27&quot;,&quot;Year&quot;:&quot;2012&quot;,&quot;OperatingSystem&quot;:&quot;Windows&quot;,&quot;Share&quot;:1.11}]"
+          stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+          fill="rgb(51,160,44)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+    <path id="mark25" class=" mark Link1 link"
+          d="M464.58530177 544.64307138L464.58656833 539.4259765300001L506.54673067 538.29735435L506.55309877 545.02301206L464.58535261 544.6420862ZZ"
+          data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-12.609269711440728,&quot;_y&quot;:-242.03509297758293,&quot;_id&quot;:&quot;27&quot;,&quot;Year&quot;:&quot;2012&quot;,&quot;OperatingSystem&quot;:&quot;Windows&quot;,&quot;Share&quot;:1.11},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:83.74440484657592,&quot;_y&quot;:-241.6591681623656,&quot;_id&quot;:&quot;35&quot;,&quot;Year&quot;:&quot;2013&quot;,&quot;OperatingSystem&quot;:&quot;Windows&quot;,&quot;Share&quot;:1.43}]"
+          stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+          fill="rgb(51,160,44)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+    <path id="mark26" class=" mark Link1 link"
+          d="M560.9389763300001 545.0189962L560.94092008 538.29562917L602.90211192 525.09444762L602.89994108 532.9901109699999L560.93911074 545.0188821300001ZZ"
+          data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:83.74440484657592,&quot;_y&quot;:-241.6591681623656,&quot;_id&quot;:&quot;35&quot;,&quot;Year&quot;:&quot;2013&quot;,&quot;OperatingSystem&quot;:&quot;Windows&quot;,&quot;Share&quot;:1.43},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:180.0980794045926,&quot;_y&quot;:-229.04219155163415,&quot;_id&quot;:&quot;43&quot;,&quot;Year&quot;:&quot;2014&quot;,&quot;OperatingSystem&quot;:&quot;Windows&quot;,&quot;Share&quot;:1.68}]"
+          stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+          fill="rgb(51,160,44)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+    <path id="mark27" class=" mark Link1 link"
+          d="M657.29265088 532.98940211L657.29608812 525.09511808L699.26017196 537.16718717L699.26212444 544.92731788L657.28851934 532.99005868ZZ"
+          data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:180.0980794045926,&quot;_y&quot;:-229.04219155163415,&quot;_id&quot;:&quot;43&quot;,&quot;Year&quot;:&quot;2014&quot;,&quot;OperatingSystem&quot;:&quot;Windows&quot;,&quot;Share&quot;:1.68},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:276.4517539626093,&quot;_y&quot;:-241.04829033763744,&quot;_id&quot;:&quot;51&quot;,&quot;Year&quot;:&quot;2015&quot;,&quot;OperatingSystem&quot;:&quot;Windows&quot;,&quot;Share&quot;:1.65}]"
+          stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+          fill="rgb(51,160,44)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+    <path id="mark28" class=" mark Link1 link"
+          d="M753.64632544 544.92501499L753.65032299 537.1703536L795.6126326 542.38444641L795.6063351 546.66581202L753.64155164 544.9231104099999ZZ"
+          data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:276.4517539626093,&quot;_y&quot;:-241.04829033763744,&quot;_id&quot;:&quot;51&quot;,&quot;Year&quot;:&quot;2015&quot;,&quot;OperatingSystem&quot;:&quot;Windows&quot;,&quot;Share&quot;:1.65},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:372.805428520626,&quot;_y&quot;:-244.5255948783977,&quot;_id&quot;:&quot;59&quot;,&quot;Year&quot;:&quot;2016&quot;,&quot;OperatingSystem&quot;:&quot;Windows&quot;,&quot;Share&quot;:0.91}]"
+          stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+          fill="rgb(51,160,44)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path></g><g transform="" opacity="1" trans="450,300"><path id="mark29" class=" mark Link1 link" d="M175.52427809 550L175.52683032 538.25037214L217.48645733 542.43702954L217.48868079 548.02539069L175.52755399 550.00050463ZZ" data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-301.6702933854907,&quot;_y&quot;:-244.1261747622293,&quot;_id&quot;:&quot;4&quot;,&quot;Year&quot;:&quot;2009&quot;,&quot;OperatingSystem&quot;:&quot;SymbianOS&quot;,&quot;Share&quot;:2.5},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-205.31661882747406,&quot;_y&quot;:-245.2304539069302,&quot;_id&quot;:&quot;12&quot;,&quot;Year&quot;:&quot;2010&quot;,&quot;OperatingSystem&quot;:&quot;SymbianOS&quot;,&quot;Share&quot;:1.19}]" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(251,154,153)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+    <path id="mark30" class=" mark Link1 link"
+          d="M271.87795265 548.02639472L271.8732847 542.4312522L313.83937841 503.62003382L313.84691355 520.35117514L271.87353207 548.02616505ZZ"
+          data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-205.31661882747406,&quot;_y&quot;:-245.2304539069302,&quot;_id&quot;:&quot;12&quot;,&quot;Year&quot;:&quot;2010&quot;,&quot;OperatingSystem&quot;:&quot;SymbianOS&quot;,&quot;Share&quot;:1.19},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-108.96294426945741,&quot;_y&quot;:-211.98460306114805,&quot;_id&quot;:&quot;20&quot;,&quot;Year&quot;:&quot;2011&quot;,&quot;OperatingSystem&quot;:&quot;SymbianOS&quot;,&quot;Share&quot;:3.56}]"
+          stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+          fill="rgb(251,154,153)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+    <path id="mark31" class=" mark Link1 link"
+          d="M368.23162721 520.3489302L368.23257033 503.62027801L410.19729291 544.64174942L410.19891399 548.26202562L368.23071978999997 520.34586065ZZ"
+          data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-108.96294426945741,&quot;_y&quot;:-211.98460306114805,&quot;_id&quot;:&quot;20&quot;,&quot;Year&quot;:&quot;2011&quot;,&quot;OperatingSystem&quot;:&quot;SymbianOS&quot;,&quot;Share&quot;:3.56},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-12.609269711440728,&quot;_y&quot;:-246.4522095563865,&quot;_id&quot;:&quot;28&quot;,&quot;Year&quot;:&quot;2012&quot;,&quot;OperatingSystem&quot;:&quot;SymbianOS&quot;,&quot;Share&quot;:0.77}]"
+          stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+          fill="rgb(251,154,153)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+    <path id="mark32" class=" mark Link1 link"
+          d="M464.58530177 548.26134773L464.58989876 544.64233213L506.55009631 547.7867530999999L506.54765443 549.33819291L464.58900046 548.26218536ZZ"
+          data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-12.609269711440728,&quot;_y&quot;:-246.4522095563865,&quot;_id&quot;:&quot;28&quot;,&quot;Year&quot;:&quot;2012&quot;,&quot;OperatingSystem&quot;:&quot;SymbianOS&quot;,&quot;Share&quot;:0.77},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:83.74440484657592,&quot;_y&quot;:-248.56678664198395,&quot;_id&quot;:&quot;36&quot;,&quot;Year&quot;:&quot;2013&quot;,&quot;OperatingSystem&quot;:&quot;SymbianOS&quot;,&quot;Share&quot;:0.33}]"
+          stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+          fill="rgb(251,154,153)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+    <path id="mark33" class=" mark Link1 link"
+          d="M560.9389763300001 549.34213157L560.93592956 547.79589957L602.8998274200001 548.67927137L602.90638555 549.48119001L560.93827807 549.3400585100001ZZ"
+          data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:83.74440484657592,&quot;_y&quot;:-248.56678664198395,&quot;_id&quot;:&quot;36&quot;,&quot;Year&quot;:&quot;2013&quot;,&quot;OperatingSystem&quot;:&quot;SymbianOS&quot;,&quot;Share&quot;:0.33},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:180.0980794045926,&quot;_y&quot;:-249.08368326290778,&quot;_id&quot;:&quot;44&quot;,&quot;Year&quot;:&quot;2014&quot;,&quot;OperatingSystem&quot;:&quot;SymbianOS&quot;,&quot;Share&quot;:0.17}]"
+          stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+          fill="rgb(251,154,153)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+    <path id="mark34" class=" mark Link1 link"
+          d="M657.29265088 549.48310338L657.29557482 548.68289435L699.2556404100001 549.85509314L699.2582489 550.00366529L657.2896951 549.4835385599999ZZ"
+          data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:180.0980794045926,&quot;_y&quot;:-249.08368326290778,&quot;_id&quot;:&quot;44&quot;,&quot;Year&quot;:&quot;2014&quot;,&quot;OperatingSystem&quot;:&quot;SymbianOS&quot;,&quot;Share&quot;:0.17},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:276.4517539626093,&quot;_y&quot;:-249.92951409714675,&quot;_id&quot;:&quot;52&quot;,&quot;Year&quot;:&quot;2015&quot;,&quot;OperatingSystem&quot;:&quot;SymbianOS&quot;,&quot;Share&quot;:0.03}]"
+          stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+          fill="rgb(251,154,153)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+    <path id="mark35" class=" mark Link1 link"
+          d="M753.64632544 550L753.6512538100001 549.8562051399999L795.61071527 549.9536667899999L795.61257342 550.00405594L753.64579124 549.99638243ZZ"
+          data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:276.4517539626093,&quot;_y&quot;:-249.92951409714675,&quot;_id&quot;:&quot;52&quot;,&quot;Year&quot;:&quot;2015&quot;,&quot;OperatingSystem&quot;:&quot;SymbianOS&quot;,&quot;Share&quot;:0.03},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:372.805428520626,&quot;_y&quot;:-249.97650469904892,&quot;_id&quot;:&quot;60&quot;,&quot;Year&quot;:&quot;2016&quot;,&quot;OperatingSystem&quot;:&quot;SymbianOS&quot;,&quot;Share&quot;:0.01}]"
+          stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+          fill="rgb(251,154,153)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path></g><g transform="" opacity="1" trans="450,300"><path id="mark36" class=" mark Link1 link" d="M175.52427809 505.4999L175.52331322999999 483.60205872L217.48403456 536.23456857L217.49356132 542.43287977L175.52515057 505.50489199000003ZZ" data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-301.6702933854907,&quot;_y&quot;:-194.5510897554446,&quot;_id&quot;:&quot;5&quot;,&quot;Year&quot;:&quot;2009&quot;,&quot;OperatingSystem&quot;:&quot;Playstation&quot;,&quot;Share&quot;:4.66},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-205.31661882747406,&quot;_y&quot;:-239.33313336820842,&quot;_id&quot;:&quot;13&quot;,&quot;Year&quot;:&quot;2010&quot;,&quot;OperatingSystem&quot;:&quot;Playstation&quot;,&quot;Share&quot;:1.32}]" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(227,26,28)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+    <path id="mark37" class=" mark Link1 link"
+          d="M271.87795265 542.43451309L271.87698229 536.2314069399999L313.83812931 547.22263631L313.84279637 550.00064176L271.87905075000003 542.43570737ZZ"
+          data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-205.31661882747406,&quot;_y&quot;:-239.33313336820842,&quot;_id&quot;:&quot;13&quot;,&quot;Year&quot;:&quot;2010&quot;,&quot;OperatingSystem&quot;:&quot;Playstation&quot;,&quot;Share&quot;:1.32},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-108.96294426945741,&quot;_y&quot;:-248.61377724388612,&quot;_id&quot;:&quot;21&quot;,&quot;Year&quot;:&quot;2011&quot;,&quot;OperatingSystem&quot;:&quot;Playstation&quot;,&quot;Share&quot;:0.59}]"
+          stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+          fill="rgb(227,26,28)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+    <path id="mark38" class=" mark Link1 link"
+          d="M368.23162721 550L368.22890194 547.22978661L410.19836941 548.26520304L410.19626490999997 549.99905844L368.22682553 550.0047001099999ZZ"
+          data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-108.96294426945741,&quot;_y&quot;:-248.61377724388612,&quot;_id&quot;:&quot;21&quot;,&quot;Year&quot;:&quot;2011&quot;,&quot;OperatingSystem&quot;:&quot;Playstation&quot;,&quot;Share&quot;:0.59},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-12.609269711440728,&quot;_y&quot;:-249.13067386480995,&quot;_id&quot;:&quot;29&quot;,&quot;Year&quot;:&quot;2012&quot;,&quot;OperatingSystem&quot;:&quot;Playstation&quot;,&quot;Share&quot;:0.37}]"
+          stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+          fill="rgb(227,26,28)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+    <path id="mark39" class=" mark Link1 link"
+          d="M464.58530177 550L464.58065864 548.26251552L506.54785916000003 549.34454765L506.54915483 549.99953312L464.58229837 549.99519844ZZ"
+          data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-12.609269711440728,&quot;_y&quot;:-249.13067386480995,&quot;_id&quot;:&quot;29&quot;,&quot;Year&quot;:&quot;2012&quot;,&quot;OperatingSystem&quot;:&quot;Playstation&quot;,&quot;Share&quot;:0.37},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:83.74440484657592,&quot;_y&quot;:-249.67106578668484,&quot;_id&quot;:&quot;37&quot;,&quot;Year&quot;:&quot;2013&quot;,&quot;OperatingSystem&quot;:&quot;Playstation&quot;,&quot;Share&quot;:0.14}]"
+          stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+          fill="rgb(227,26,28)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+    <path id="mark40" class=" mark Link1 link"
+          d="M560.9389763300001 550L560.93858923 549.33981281L602.90015409 549.48593089L602.90124681 550.0005778L560.93455682 550.0039042999999ZZ"
+          data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:83.74440484657592,&quot;_y&quot;:-249.67106578668484,&quot;_id&quot;:&quot;37&quot;,&quot;Year&quot;:&quot;2013&quot;,&quot;OperatingSystem&quot;:&quot;Playstation&quot;,&quot;Share&quot;:0.14},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:180.0980794045926,&quot;_y&quot;:-249.74155168953808,&quot;_id&quot;:&quot;45&quot;,&quot;Year&quot;:&quot;2014&quot;,&quot;OperatingSystem&quot;:&quot;Playstation&quot;,&quot;Share&quot;:0.11}]"
+          stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+          fill="rgb(227,26,28)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+    <path id="mark41" class=" mark Link1 link"
+          d="M657.29265088 550L657.2911509200001 549.48711536L699.25554612 549.48012246L699.25851951 549.8567605000001L657.29492652 549.9960288ZZ"
+          data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:180.0980794045926,&quot;_y&quot;:-249.74155168953808,&quot;_id&quot;:&quot;45&quot;,&quot;Year&quot;:&quot;2014&quot;,&quot;OperatingSystem&quot;:&quot;Playstation&quot;,&quot;Share&quot;:0.11},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:276.4517539626093,&quot;_y&quot;:-249.67106578668484,&quot;_id&quot;:&quot;53&quot;,&quot;Year&quot;:&quot;2015&quot;,&quot;OperatingSystem&quot;:&quot;Playstation&quot;,&quot;Share&quot;:0.08}]"
+          stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+          fill="rgb(227,26,28)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+    <path id="mark42" class=" mark Link1 link"
+          d="M753.64632544 549.85902819L753.64169692 549.48169101L795.6142577200001 549.71977213L795.61036913 549.94813012L753.65130688 549.85842264ZZ"
+          data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:276.4517539626093,&quot;_y&quot;:-249.67106578668484,&quot;_id&quot;:&quot;53&quot;,&quot;Year&quot;:&quot;2015&quot;,&quot;OperatingSystem&quot;:&quot;Playstation&quot;,&quot;Share&quot;:0.08},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:372.805428520626,&quot;_y&quot;:-249.83553289334242,&quot;_id&quot;:&quot;61&quot;,&quot;Year&quot;:&quot;2016&quot;,&quot;OperatingSystem&quot;:&quot;Playstation&quot;,&quot;Share&quot;:0.05}]"
+          stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+          fill="rgb(227,26,28)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path></g><g transform="" opacity="1" trans="450,300"><path id="mark43" class=" mark Link1 link" d="M175.52427809 524.5780843699999L175.5267516 505.50046685L217.49291734 514.85267113L217.49196223 536.22813806L175.52635909999998 524.58286383ZZ" data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-301.6702933854907,&quot;_y&quot;:-215.03899218478878,&quot;_id&quot;:&quot;6&quot;,&quot;Year&quot;:&quot;2009&quot;,&quot;OperatingSystem&quot;:&quot;Other&quot;,&quot;Share&quot;:4.06},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-205.31661882747406,&quot;_y&quot;:-225.5413917099228,&quot;_id&quot;:&quot;14&quot;,&quot;Year&quot;:&quot;2010&quot;,&quot;OperatingSystem&quot;:&quot;Other&quot;,&quot;Share&quot;:4.55}]" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(253,191,111)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+    <path id="mark44" class=" mark Link1 link"
+          d="M271.87795265 536.23175364L271.87392792 514.8484194L313.84711078 532.13954973L313.84733857000003 543.6070565800001L271.88201375 536.23001672ZZ"
+          data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-205.31661882747406,&quot;_y&quot;:-225.5413917099228,&quot;_id&quot;:&quot;14&quot;,&quot;Year&quot;:&quot;2010&quot;,&quot;OperatingSystem&quot;:&quot;Other&quot;,&quot;Share&quot;:4.55},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-108.96294426945741,&quot;_y&quot;:-237.87642470924126,&quot;_id&quot;:&quot;22&quot;,&quot;Year&quot;:&quot;2011&quot;,&quot;OperatingSystem&quot;:&quot;Other&quot;,&quot;Share&quot;:2.44}]"
+          stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+          fill="rgb(253,191,111)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+    <path id="mark45" class=" mark Link1 link"
+          d="M368.23162721 543.60927814L368.22762552 532.14650226L410.19533152 519.97531422L410.19322589 533.8791288699999L368.23293954999997 543.61207765ZZ"
+          data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-108.96294426945741,&quot;_y&quot;:-237.87642470924126,&quot;_id&quot;:&quot;22&quot;,&quot;Year&quot;:&quot;2011&quot;,&quot;OperatingSystem&quot;:&quot;Other&quot;,&quot;Share&quot;:2.44},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-12.609269711440728,&quot;_y&quot;:-226.9276144660367,&quot;_id&quot;:&quot;30&quot;,&quot;Year&quot;:&quot;2012&quot;,&quot;OperatingSystem&quot;:&quot;Other&quot;,&quot;Share&quot;:2.96}]"
+          stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+          fill="rgb(253,191,111)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+    <path id="mark46" class=" mark Link1 link"
+          d="M464.58530177 533.8822235499999L464.58179316 519.9733268699999L506.55333272 528.3869488L506.55110629 538.29800209L464.58972062 533.88549372ZZ"
+          data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-12.609269711440728,&quot;_y&quot;:-226.9276144660367,&quot;_id&quot;:&quot;30&quot;,&quot;Year&quot;:&quot;2012&quot;,&quot;OperatingSystem&quot;:&quot;Other&quot;,&quot;Share&quot;:2.96},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:83.74440484657592,&quot;_y&quot;:-233.3418316256823,&quot;_id&quot;:&quot;38&quot;,&quot;Year&quot;:&quot;2013&quot;,&quot;OperatingSystem&quot;:&quot;Other&quot;,&quot;Share&quot;:2.11}]"
+          stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+          fill="rgb(253,191,111)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+    <path id="mark47" class=" mark Link1 link"
+          d="M560.9389763300001 538.29934013L560.94338331 528.38251476L602.89968365 540.83249479L602.90567188 546.94246608L560.94280205 538.29996355ZZ"
+          data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:83.74440484657592,&quot;_y&quot;:-233.3418316256823,&quot;_id&quot;:&quot;38&quot;,&quot;Year&quot;:&quot;2013&quot;,&quot;OperatingSystem&quot;:&quot;Other&quot;,&quot;Share&quot;:2.11},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:180.0980794045926,&quot;_y&quot;:-243.89122175271848,&quot;_id&quot;:&quot;46&quot;,&quot;Year&quot;:&quot;2014&quot;,&quot;OperatingSystem&quot;:&quot;Other&quot;,&quot;Share&quot;:1.3}]"
+          stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+          fill="rgb(253,191,111)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+    <path id="mark48" class=" mark Link1 link"
+          d="M657.29265088 546.94561088L657.29468347 540.83550423L699.25803602 547.13134984L699.2552885499999 548.68291079L657.28817753 546.94555109ZZ"
+          data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:180.0980794045926,&quot;_y&quot;:-243.89122175271848,&quot;_id&quot;:&quot;46&quot;,&quot;Year&quot;:&quot;2014&quot;,&quot;OperatingSystem&quot;:&quot;Other&quot;,&quot;Share&quot;:1.3},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:276.4517539626093,&quot;_y&quot;:-247.90891821535362,&quot;_id&quot;:&quot;54&quot;,&quot;Year&quot;:&quot;2015&quot;,&quot;OperatingSystem&quot;:&quot;Other&quot;,&quot;Share&quot;:0.33}]"
+          stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+          fill="rgb(253,191,111)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+    <path id="mark49" class=" mark Link1 link"
+          d="M753.64632544 548.68426315L753.6430577599999 547.13719043L795.61400954 546.66519538L795.6146873 547.83590014L753.64390976 548.68912795ZZ"
+          data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:276.4517539626093,&quot;_y&quot;:-247.90891821535362,&quot;_id&quot;:&quot;54&quot;,&quot;Year&quot;:&quot;2015&quot;,&quot;OperatingSystem&quot;:&quot;Other&quot;,&quot;Share&quot;:0.33},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:372.805428520626,&quot;_y&quot;:-247.25104978872332,&quot;_id&quot;:&quot;62&quot;,&quot;Year&quot;:&quot;2016&quot;,&quot;OperatingSystem&quot;:&quot;Other&quot;,&quot;Share&quot;:0.25}]"
+          stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+          fill="rgb(253,191,111)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path></g><g transform="" opacity="1" trans="450,300"><path id="mark50" class=" mark Link1 link" d="M175.52427809 457.38152364999996L175.52657288 426.64702974L217.48727421 492.76181125L217.49304827 514.8555763100001L175.52014251999998 457.37711074000003ZZ" data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-301.6702933854907,&quot;_y&quot;:-142.01559682882345,&quot;_id&quot;:&quot;7&quot;,&quot;Year&quot;:&quot;2009&quot;,&quot;OperatingSystem&quot;:&quot;Unknown&quot;,&quot;Share&quot;:6.54},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-205.31661882747406,&quot;_y&quot;:-203.8082383301712,&quot;_id&quot;:&quot;15&quot;,&quot;Year&quot;:&quot;2010&quot;,&quot;OperatingSystem&quot;:&quot;Unknown&quot;,&quot;Share&quot;:4.7}]" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(255,127,0)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+    <path id="mark51" class=" mark Link1 link"
+          d="M271.87795265 514.85102978L271.87355819000004 492.76469653000004L313.84025269 520.3448436L313.84085927 532.14671884L271.87831153 514.84624638ZZ"
+          data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-205.31661882747406,&quot;_y&quot;:-203.8082383301712,&quot;_id&quot;:&quot;15&quot;,&quot;Year&quot;:&quot;2010&quot;,&quot;OperatingSystem&quot;:&quot;Unknown&quot;,&quot;Share&quot;:4.7},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-108.96294426945741,&quot;_y&quot;:-226.2462507384553,&quot;_id&quot;:&quot;23&quot;,&quot;Year&quot;:&quot;2011&quot;,&quot;OperatingSystem&quot;:&quot;Unknown&quot;,&quot;Share&quot;:2.51}]"
+          stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+          fill="rgb(255,127,0)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+    <path id="mark52" class=" mark Link1 link"
+          d="M368.23162721 532.1435712800001L368.23110411 520.34587151L410.19182327 533.88388085L410.19882854 539.42377813L368.23326052 532.14584906ZZ"
+          data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-108.96294426945741,&quot;_y&quot;:-226.2462507384553,&quot;_id&quot;:&quot;23&quot;,&quot;Year&quot;:&quot;2011&quot;,&quot;OperatingSystem&quot;:&quot;Unknown&quot;,&quot;Share&quot;:2.51},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-12.609269711440728,&quot;_y&quot;:-236.65466905978496,&quot;_id&quot;:&quot;31&quot;,&quot;Year&quot;:&quot;2012&quot;,&quot;OperatingSystem&quot;:&quot;Unknown&quot;,&quot;Share&quot;:1.18}]"
+          stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+          fill="rgb(255,127,0)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+    <path id="mark53" class=" mark Link1 link"
+          d="M464.58530177 539.42711457L464.58759738 533.8860393L506.55250406 545.01411116L506.54504052 547.7925566L464.5882824 539.42715722ZZ"
+          data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:-12.609269711440728,&quot;_y&quot;:-236.65466905978496,&quot;_id&quot;:&quot;31&quot;,&quot;Year&quot;:&quot;2012&quot;,&quot;OperatingSystem&quot;:&quot;Unknown&quot;,&quot;Share&quot;:1.18},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:83.74440484657592,&quot;_y&quot;:-246.40521895448433,&quot;_id&quot;:&quot;39&quot;,&quot;Year&quot;:&quot;2013&quot;,&quot;OperatingSystem&quot;:&quot;Unknown&quot;,&quot;Share&quot;:0.59}]"
+          stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+          fill="rgb(255,127,0)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+    <path id="mark54" class=" mark Link1 link"
+          d="M560.9389763300001 547.79144171L560.93444558 545.01489403L602.9005585699999 546.94575647L602.9039344 548.68491062L560.94078145 547.78996312ZZ"
+          data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:83.74440484657592,&quot;_y&quot;:-246.40521895448433,&quot;_id&quot;:&quot;39&quot;,&quot;Year&quot;:&quot;2013&quot;,&quot;OperatingSystem&quot;:&quot;Unknown&quot;,&quot;Share&quot;:0.59},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:180.0980794045926,&quot;_y&quot;:-247.8149370115493,&quot;_id&quot;:&quot;47&quot;,&quot;Year&quot;:&quot;2014&quot;,&quot;OperatingSystem&quot;:&quot;Unknown&quot;,&quot;Share&quot;:0.37}]"
+          stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+          fill="rgb(255,127,0)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+    <path id="mark55" class=" mark Link1 link"
+          d="M657.29265088 548.68426315L657.29566443 546.94285006L699.26217395 548.68574943L699.25751439 549.48191977L657.2902945 548.6809709ZZ"
+          data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:180.0980794045926,&quot;_y&quot;:-247.8149370115493,&quot;_id&quot;:&quot;47&quot;,&quot;Year&quot;:&quot;2014&quot;,&quot;OperatingSystem&quot;:&quot;Unknown&quot;,&quot;Share&quot;:0.37},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:276.4517539626093,&quot;_y&quot;:-249.08368326290778,&quot;_id&quot;:&quot;55&quot;,&quot;Year&quot;:&quot;2015&quot;,&quot;OperatingSystem&quot;:&quot;Unknown&quot;,&quot;Share&quot;:0.17}]"
+          stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+          fill="rgb(255,127,0)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+    <path id="mark56" class=" mark Link1 link"
+          d="M753.64632544 549.48310338L753.649811 548.6837435L795.60654193 547.83827644L795.6082621200001 548.82961138L753.6458566700001 549.48709674ZZ"
+          data-datum="[{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:276.4517539626093,&quot;_y&quot;:-249.08368326290778,&quot;_id&quot;:&quot;55&quot;,&quot;Year&quot;:&quot;2015&quot;,&quot;OperatingSystem&quot;:&quot;Unknown&quot;,&quot;Share&quot;:0.17},{&quot;_TYPE&quot;:&quot;link&quot;,&quot;_MARKID&quot;:&quot;Link1&quot;,&quot;_x&quot;:372.805428520626,&quot;_y&quot;:-248.33183363247312,&quot;_id&quot;:&quot;63&quot;,&quot;Year&quot;:&quot;2016&quot;,&quot;OperatingSystem&quot;:&quot;Unknown&quot;,&quot;Share&quot;:0.21}]"
+          stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+          fill="rgb(255,127,0)" fill-opacity="0.5" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path></g></g></g></g><g transform="" opacity="1" trans="450,300"><g transform="" opacity="1" trans="450,300"><g transform="" opacity="1" trans="450,300"><g transform="" opacity="1" trans="450,300"></g><g
+        transform="" opacity="1" trans="450,300"><g transform="" opacity="1" trans="450,300"><rect id="mark1001" class=" mark Shape1 rectangle" x="121.13513513513516" y="79.9999997745397" width="54.3891px" height="278.889px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:-301.6702933854907,&quot;_y&quot;:80.55538908078387,&quot;_id&quot;:&quot;0&quot;,&quot;Year&quot;:&quot;2009&quot;,&quot;OperatingSystem&quot;:&quot;iOS&quot;,&quot;Share&quot;:59.35}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(166,206,227)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1002" class=" mark Shape1 rectangle" x="121.13513513513516" y="457.3815236508316" width="54.3891px" height="26.2208px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:-301.6702933854907,&quot;_y&quot;:-170.49190158153579,&quot;_id&quot;:&quot;1&quot;,&quot;Year&quot;:&quot;2009&quot;,&quot;OperatingSystem&quot;:&quot;Android&quot;,&quot;Share&quot;:5.58}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(31,120,180)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1003" class=" mark Shape1 rectangle" x="121.13513513513516" y="358.8892220638925" width="54.3891px" height="67.7604px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:-301.6702933854907,&quot;_y&quot;:-92.7694460353539,&quot;_id&quot;:&quot;2&quot;,&quot;Year&quot;:&quot;2009&quot;,&quot;OperatingSystem&quot;:&quot;BlackBerry OS&quot;,&quot;Share&quot;:14.42}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(178,223,138)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1004" class=" mark Shape1 rectangle" x="121.13513513513516" y="524.5780843709284" width="54.3891px" height="13.6743px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:-301.6702933854907,&quot;_y&quot;:-231.4152169476935,&quot;_id&quot;:&quot;3&quot;,&quot;Year&quot;:&quot;2009&quot;,&quot;OperatingSystem&quot;:&quot;Windows&quot;,&quot;Share&quot;:2.91}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(51,160,44)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1005" class=" mark Shape1 rectangle" x="121.13513513513516" y="538.2523495244586" width="54.3891px" height="11.7477px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:-301.6702933854907,&quot;_y&quot;:-244.1261747622293,&quot;_id&quot;:&quot;4&quot;,&quot;Year&quot;:&quot;2009&quot;,&quot;OperatingSystem&quot;:&quot;SymbianOS&quot;,&quot;Share&quot;:2.5}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(251,154,153)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1006" class=" mark Shape1 rectangle" x="121.13513513513516" y="483.60227951224" width="54.3891px" height="21.8976px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:-301.6702933854907,&quot;_y&quot;:-194.5510897554446,&quot;_id&quot;:&quot;5&quot;,&quot;Year&quot;:&quot;2009&quot;,&quot;OperatingSystem&quot;:&quot;Playstation&quot;,&quot;Share&quot;:4.66}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(227,26,28)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1007" class=" mark Shape1 rectangle" x="121.13513513513516" y="505.4998999986492" width="54.3891px" height="19.0782px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:-301.6702933854907,&quot;_y&quot;:-215.03899218478878,&quot;_id&quot;:&quot;6&quot;,&quot;Year&quot;:&quot;2009&quot;,&quot;OperatingSystem&quot;:&quot;Other&quot;,&quot;Share&quot;:4.06}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(253,191,111)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1008" class=" mark Shape1 rectangle" x="121.13513513513516" y="426.6496700068153" width="54.3891px" height="30.7319px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:-301.6702933854907,&quot;_y&quot;:-142.01559682882345,&quot;_id&quot;:&quot;7&quot;,&quot;Year&quot;:&quot;2009&quot;,&quot;OperatingSystem&quot;:&quot;Unknown&quot;,&quot;Share&quot;:6.54}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(255,127,0)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1009" class=" mark Shape1 rectangle" x="217.48880969315184" y="80.09398097834395" width="54.3891px" height="191.581px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:-205.31661882747406,&quot;_y&quot;:124.11567704409146,&quot;_id&quot;:&quot;8&quot;,&quot;Year&quot;:&quot;2010&quot;,&quot;OperatingSystem&quot;:&quot;iOS&quot;,&quot;Share&quot;:40.77}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(166,206,227)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1010" class=" mark Shape1 rectangle" x="217.48880969315184" y="413.0223954551873" width="54.3891px" height="79.743px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:-205.31661882747406,&quot;_y&quot;:-152.89392116917477,&quot;_id&quot;:&quot;9&quot;,&quot;Year&quot;:&quot;2010&quot;,&quot;OperatingSystem&quot;:&quot;Android&quot;,&quot;Share&quot;:16.97}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(31,120,180)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1011" class=" mark Shape1 rectangle" x="217.48880969315184" y="271.67466493347314" width="54.3891px" height="141.348px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:-205.31661882747406,&quot;_y&quot;:-42.34853019433021,&quot;_id&quot;:&quot;10&quot;,&quot;Year&quot;:&quot;2010&quot;,&quot;OperatingSystem&quot;:&quot;BlackBerry OS&quot;,&quot;Share&quot;:30.08}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(178,223,138)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1012" class=" mark Shape1 rectangle" x="217.48880969315184" y="548.026394720109" width="54.3891px" height="1.97361px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:-205.31661882747406,&quot;_y&quot;:-249.01319736005453,&quot;_id&quot;:&quot;11&quot;,&quot;Year&quot;:&quot;2010&quot;,&quot;OperatingSystem&quot;:&quot;Windows&quot;,&quot;Share&quot;:0.42}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(51,160,44)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1013" class=" mark Shape1 rectangle" x="217.48880969315184" y="542.4345130937513" width="54.3891px" height="5.59188px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:-205.31661882747406,&quot;_y&quot;:-245.2304539069302,&quot;_id&quot;:&quot;12&quot;,&quot;Year&quot;:&quot;2010&quot;,&quot;OperatingSystem&quot;:&quot;SymbianOS&quot;,&quot;Share&quot;:1.19}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(251,154,153)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1014" class=" mark Shape1 rectangle" x="217.48880969315184" y="536.2317536426655" width="54.3891px" height="6.20276px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:-205.31661882747406,&quot;_y&quot;:-239.33313336820842,&quot;_id&quot;:&quot;13&quot;,&quot;Year&quot;:&quot;2010&quot;,&quot;OperatingSystem&quot;:&quot;Playstation&quot;,&quot;Share&quot;:1.32}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(227,26,28)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1015" class=" mark Shape1 rectangle" x="217.48880969315184" y="514.8510297771802" width="54.3891px" height="21.3807px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:-205.31661882747406,&quot;_y&quot;:-225.5413917099228,&quot;_id&quot;:&quot;14&quot;,&quot;Year&quot;:&quot;2010&quot;,&quot;OperatingSystem&quot;:&quot;Other&quot;,&quot;Share&quot;:4.55}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(253,191,111)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1016" class=" mark Shape1 rectangle" x="217.48880969315184" y="492.7654468831623" width="54.3891px" height="22.0856px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:-205.31661882747406,&quot;_y&quot;:-203.8082383301712,&quot;_id&quot;:&quot;15&quot;,&quot;Year&quot;:&quot;2010&quot;,&quot;OperatingSystem&quot;:&quot;Unknown&quot;,&quot;Share&quot;:4.7}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(255,127,0)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1017" class=" mark Shape1 rectangle" x="313.84248425116846" y="80.04699037644176" width="54.3891px" height="179.88px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:-108.96294426945741,&quot;_y&quot;:130.01299758281328,&quot;_id&quot;:&quot;16&quot;,&quot;Year&quot;:&quot;2011&quot;,&quot;OperatingSystem&quot;:&quot;iOS&quot;,&quot;Share&quot;:38.28}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(166,206,227)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1018" class=" mark Shape1 rectangle" x="313.84248425116846" y="259.92701445793176" width="54.3891px" height="164.843px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:-108.96294426945741,&quot;_y&quot;:-42.34853019433021,&quot;_id&quot;:&quot;17&quot;,&quot;Year&quot;:&quot;2011&quot;,&quot;OperatingSystem&quot;:&quot;Android&quot;,&quot;Share&quot;:35.08}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(31,120,180)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1019" class=" mark Shape1 rectangle" x="313.84248425116846" y="424.77004593072866" width="54.3891px" height="78.8502px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:-108.96294426945741,&quot;_y&quot;:-164.1951609266456,&quot;_id&quot;:&quot;18&quot;,&quot;Year&quot;:&quot;2011&quot;,&quot;OperatingSystem&quot;:&quot;BlackBerry OS&quot;,&quot;Share&quot;:16.78}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(178,223,138)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1020" class=" mark Shape1 rectangle" x="313.84248425116846" y="543.6092781413055" width="54.3891px" height="3.61828px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:-108.96294426945741,&quot;_y&quot;:-245.41841631453886,&quot;_id&quot;:&quot;19&quot;,&quot;Year&quot;:&quot;2011&quot;,&quot;OperatingSystem&quot;:&quot;Windows&quot;,&quot;Share&quot;:0.77}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(51,160,44)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1021" class=" mark Shape1 rectangle" x="313.84248425116846" y="503.62027592256254" width="54.3891px" height="16.7287px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:-108.96294426945741,&quot;_y&quot;:-211.98460306114805,&quot;_id&quot;:&quot;20&quot;,&quot;Year&quot;:&quot;2011&quot;,&quot;OperatingSystem&quot;:&quot;SymbianOS&quot;,&quot;Share&quot;:3.56}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(251,154,153)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1022" class=" mark Shape1 rectangle" x="313.84248425116846" y="547.2275544877723" width="54.3891px" height="2.77245px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:-108.96294426945741,&quot;_y&quot;:-248.61377724388612,&quot;_id&quot;:&quot;21&quot;,&quot;Year&quot;:&quot;2011&quot;,&quot;OperatingSystem&quot;:&quot;Playstation&quot;,&quot;Share&quot;:0.59}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(227,26,28)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1023" class=" mark Shape1 rectangle" x="313.84248425116846" y="532.143571277177" width="54.3891px" height="11.4657px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:-108.96294426945741,&quot;_y&quot;:-237.87642470924126,&quot;_id&quot;:&quot;22&quot;,&quot;Year&quot;:&quot;2011&quot;,&quot;OperatingSystem&quot;:&quot;Other&quot;,&quot;Share&quot;:2.44}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(253,191,111)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1024" class=" mark Shape1 rectangle" x="313.84248425116846" y="520.3489301997336" width="54.3891px" height="11.7946px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:-108.96294426945741,&quot;_y&quot;:-226.2462507384553,&quot;_id&quot;:&quot;23&quot;,&quot;Year&quot;:&quot;2011&quot;,&quot;OperatingSystem&quot;:&quot;Unknown&quot;,&quot;Share&quot;:2.51}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(255,127,0)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1025" class=" mark Shape1 rectangle" x="410.19615880918514" y="80.14097158024612" width="54.3891px" height="231.899px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:-12.609269711440728,&quot;_y&quot;:103.90971822616024,&quot;_id&quot;:&quot;24&quot;,&quot;Year&quot;:&quot;2012&quot;,&quot;OperatingSystem&quot;:&quot;iOS&quot;,&quot;Share&quot;:49.35}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(166,206,227)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1026" class=" mark Shape1 rectangle" x="410.19615880918514" y="312.0395919674334" width="54.3891px" height="191.064px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:-12.609269711440728,&quot;_y&quot;:-107.57148563453606,&quot;_id&quot;:&quot;25&quot;,&quot;Year&quot;:&quot;2012&quot;,&quot;OperatingSystem&quot;:&quot;Android&quot;,&quot;Share&quot;:40.66}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(31,120,180)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1027" class=" mark Shape1 rectangle" x="410.19615880918514" y="503.1033793016387" width="54.3891px" height="16.8696px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:-12.609269711440728,&quot;_y&quot;:-211.53819234307744,&quot;_id&quot;:&quot;26&quot;,&quot;Year&quot;:&quot;2012&quot;,&quot;OperatingSystem&quot;:&quot;BlackBerry OS&quot;,&quot;Share&quot;:3.59}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(178,223,138)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1028" class=" mark Shape1 rectangle" x="410.19615880918514" y="539.4271145720128" width="54.3891px" height="5.21596px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:-12.609269711440728,&quot;_y&quot;:-242.03509297758293,&quot;_id&quot;:&quot;27&quot;,&quot;Year&quot;:&quot;2012&quot;,&quot;OperatingSystem&quot;:&quot;Windows&quot;,&quot;Share&quot;:1.11}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(51,160,44)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1029" class=" mark Shape1 rectangle" x="410.19615880918514" y="544.6430713831531" width="54.3891px" height="3.61828px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:-12.609269711440728,&quot;_y&quot;:-246.4522095563865,&quot;_id&quot;:&quot;28&quot;,&quot;Year&quot;:&quot;2012&quot;,&quot;OperatingSystem&quot;:&quot;SymbianOS&quot;,&quot;Share&quot;:0.77}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(251,154,153)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1030" class=" mark Shape1 rectangle" x="410.19615880918514" y="548.26134772962" width="54.3891px" height="1.73865px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:-12.609269711440728,&quot;_y&quot;:-249.13067386480995,&quot;_id&quot;:&quot;29&quot;,&quot;Year&quot;:&quot;2012&quot;,&quot;OperatingSystem&quot;:&quot;Playstation&quot;,&quot;Share&quot;:0.37}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(227,26,28)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1031" class=" mark Shape1 rectangle" x="410.19615880918514" y="519.9730053845162" width="54.3891px" height="13.9092px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:-12.609269711440728,&quot;_y&quot;:-226.9276144660367,&quot;_id&quot;:&quot;30&quot;,&quot;Year&quot;:&quot;2012&quot;,&quot;OperatingSystem&quot;:&quot;Other&quot;,&quot;Share&quot;:2.96}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(253,191,111)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1032" class=" mark Shape1 rectangle" x="410.19615880918514" y="533.8822235475573" width="54.3891px" height="5.54489px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:-12.609269711440728,&quot;_y&quot;:-236.65466905978496,&quot;_id&quot;:&quot;31&quot;,&quot;Year&quot;:&quot;2012&quot;,&quot;OperatingSystem&quot;:&quot;Unknown&quot;,&quot;Share&quot;:1.18}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(255,127,0)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1033" class=" mark Shape1 rectangle" x="506.5498333672018" y="79.99999977453962" width="54.3891px" height="248.392px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:83.74440484657592,&quot;_y&quot;:95.8038393980367,&quot;_id&quot;:&quot;32&quot;,&quot;Year&quot;:&quot;2013&quot;,&quot;OperatingSystem&quot;:&quot;iOS&quot;,&quot;Share&quot;:52.86}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(166,206,227)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1034" class=" mark Shape1 rectangle" x="506.5498333672018" y="328.39232142938704" width="54.3891px" height="184.485px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:83.74440484657592,&quot;_y&quot;:-120.6348729633381,&quot;_id&quot;:&quot;33&quot;,&quot;Year&quot;:&quot;2013&quot;,&quot;OperatingSystem&quot;:&quot;Android&quot;,&quot;Share&quot;:39.26}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(31,120,180)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1035" class=" mark Shape1 rectangle" x="506.5498333672018" y="512.8774244972892" width="54.3891px" height="15.5069px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:83.74440484657592,&quot;_y&quot;:-220.6308738111465,&quot;_id&quot;:&quot;34&quot;,&quot;Year&quot;:&quot;2013&quot;,&quot;OperatingSystem&quot;:&quot;BlackBerry OS&quot;,&quot;Share&quot;:3.3}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(178,223,138)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1036" class=" mark Shape1 rectangle" x="506.5498333672018" y="538.2993401263608" width="54.3891px" height="6.71966px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:83.74440484657592,&quot;_y&quot;:-241.6591681623656,&quot;_id&quot;:&quot;35&quot;,&quot;Year&quot;:&quot;2013&quot;,&quot;OperatingSystem&quot;:&quot;Windows&quot;,&quot;Share&quot;:1.43}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(51,160,44)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1037" class=" mark Shape1 rectangle" x="506.5498333672018" y="547.7914417105982" width="54.3891px" height="1.55069px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:83.74440484657592,&quot;_y&quot;:-248.56678664198395,&quot;_id&quot;:&quot;36&quot;,&quot;Year&quot;:&quot;2013&quot;,&quot;OperatingSystem&quot;:&quot;SymbianOS&quot;,&quot;Share&quot;:0.33}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(251,154,153)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1038" class=" mark Shape1 rectangle" x="506.5498333672018" y="549.3421315733697" width="54.3891px" height="0.657868px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:83.74440484657592,&quot;_y&quot;:-249.67106578668484,&quot;_id&quot;:&quot;37&quot;,&quot;Year&quot;:&quot;2013&quot;,&quot;OperatingSystem&quot;:&quot;Playstation&quot;,&quot;Share&quot;:0.14}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(227,26,28)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1039" class=" mark Shape1 rectangle" x="506.5498333672018" y="528.3843231250038" width="54.3891px" height="9.91502px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:83.74440484657592,&quot;_y&quot;:-233.3418316256823,&quot;_id&quot;:&quot;38&quot;,&quot;Year&quot;:&quot;2013&quot;,&quot;OperatingSystem&quot;:&quot;Other&quot;,&quot;Share&quot;:2.11}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(253,191,111)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1040" class=" mark Shape1 rectangle" x="506.5498333672018" y="545.0189961983705" width="54.3891px" height="2.77245px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:83.74440484657592,&quot;_y&quot;:-246.40521895448433,&quot;_id&quot;:&quot;39&quot;,&quot;Year&quot;:&quot;2013&quot;,&quot;OperatingSystem&quot;:&quot;Unknown&quot;,&quot;Share&quot;:0.59}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(255,127,0)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1041" class=" mark Shape1 rectangle" x="602.9035079252185" y="80.04699037644178" width="54.3891px" height="245.667px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:180.0980794045926,&quot;_y&quot;:97.1195762512973,&quot;_id&quot;:&quot;40&quot;,&quot;Year&quot;:&quot;2014&quot;,&quot;OperatingSystem&quot;:&quot;iOS&quot;,&quot;Share&quot;:52.28}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(166,206,227)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1042" class=" mark Shape1 rectangle" x="602.9035079252185" y="325.71385712096355" width="54.3891px" height="199.381px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:180.0980794045926,&quot;_y&quot;:-125.4044190564079,&quot;_id&quot;:&quot;41&quot;,&quot;Year&quot;:&quot;2014&quot;,&quot;OperatingSystem&quot;:&quot;Android&quot;,&quot;Share&quot;:42.43}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(31,120,180)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1043" class=" mark Shape1 rectangle" x="602.9035079252185" y="532.989402111416" width="54.3891px" height="7.84743px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:180.0980794045926,&quot;_y&quot;:-236.91311737024688,&quot;_id&quot;:&quot;42&quot;,&quot;Year&quot;:&quot;2014&quot;,&quot;OperatingSystem&quot;:&quot;BlackBerry OS&quot;,&quot;Share&quot;:1.67}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(178,223,138)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1044" class=" mark Shape1 rectangle" x="602.9035079252185" y="525.0949809918523" width="54.3891px" height="7.89442px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:180.0980794045926,&quot;_y&quot;:-229.04219155163415,&quot;_id&quot;:&quot;43&quot;,&quot;Year&quot;:&quot;2014&quot;,&quot;OperatingSystem&quot;:&quot;Windows&quot;,&quot;Share&quot;:1.68}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(51,160,44)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1045" class=" mark Shape1 rectangle" x="602.9035079252185" y="548.6842631467393" width="54.3891px" height="0.79884px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:180.0980794045926,&quot;_y&quot;:-249.08368326290778,&quot;_id&quot;:&quot;44&quot;,&quot;Year&quot;:&quot;2014&quot;,&quot;OperatingSystem&quot;:&quot;SymbianOS&quot;,&quot;Share&quot;:0.17}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(251,154,153)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1046" class=" mark Shape1 rectangle" x="602.9035079252185" y="549.4831033790762" width="54.3891px" height="0.516897px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:180.0980794045926,&quot;_y&quot;:-249.74155168953808,&quot;_id&quot;:&quot;45&quot;,&quot;Year&quot;:&quot;2014&quot;,&quot;OperatingSystem&quot;:&quot;Playstation&quot;,&quot;Share&quot;:0.11}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(227,26,28)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1047" class=" mark Shape1 rectangle" x="602.9035079252185" y="540.8368326290777" width="54.3891px" height="6.10878px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:180.0980794045926,&quot;_y&quot;:-243.89122175271848,&quot;_id&quot;:&quot;46&quot;,&quot;Year&quot;:&quot;2014&quot;,&quot;OperatingSystem&quot;:&quot;Other&quot;,&quot;Share&quot;:1.3}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(253,191,111)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1048" class=" mark Shape1 rectangle" x="602.9035079252185" y="546.9456108763593" width="54.3891px" height="1.73865px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:180.0980794045926,&quot;_y&quot;:-247.8149370115493,&quot;_id&quot;:&quot;47&quot;,&quot;Year&quot;:&quot;2014&quot;,&quot;OperatingSystem&quot;:&quot;Unknown&quot;,&quot;Share&quot;:0.37}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(255,127,0)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1049" class=" mark Shape1 rectangle" x="699.2571824832352" y="79.99999977453962" width="54.3891px" height="238.665px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:276.4517539626093,&quot;_y&quot;:100.66736669491081,&quot;_id&quot;:&quot;48&quot;,&quot;Year&quot;:&quot;2015&quot;,&quot;OperatingSystem&quot;:&quot;iOS&quot;,&quot;Share&quot;:50.79}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(166,206,227)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1050" class=" mark Shape1 rectangle" x="699.2571824832352" y="318.6652668356387" width="54.3891px" height="218.506px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:276.4517539626093,&quot;_y&quot;:-127.91841625817376,&quot;_id&quot;:&quot;49&quot;,&quot;Year&quot;:&quot;2015&quot;,&quot;OperatingSystem&quot;:&quot;Android&quot;,&quot;Share&quot;:46.5}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(31,120,180)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1051" class=" mark Shape1 rectangle" x="699.2571824832352" y="544.9250149945661" width="54.3891px" height="2.20856px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:276.4517539626093,&quot;_y&quot;:-246.029294139267,&quot;_id&quot;:&quot;50&quot;,&quot;Year&quot;:&quot;2015&quot;,&quot;OperatingSystem&quot;:&quot;BlackBerry OS&quot;,&quot;Share&quot;:0.47}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(178,223,138)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1052" class=" mark Shape1 rectangle" x="699.2571824832352" y="537.1715656807088" width="54.3891px" height="7.75345px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:276.4517539626093,&quot;_y&quot;:-241.04829033763744,&quot;_id&quot;:&quot;51&quot;,&quot;Year&quot;:&quot;2015&quot;,&quot;OperatingSystem&quot;:&quot;Windows&quot;,&quot;Share&quot;:1.65}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(51,160,44)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1053" class=" mark Shape1 rectangle" x="699.2571824832352" y="549.8590281942935" width="54.3891px" height="0.140972px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:276.4517539626093,&quot;_y&quot;:-249.92951409714675,&quot;_id&quot;:&quot;52&quot;,&quot;Year&quot;:&quot;2015&quot;,&quot;OperatingSystem&quot;:&quot;SymbianOS&quot;,&quot;Share&quot;:0.03}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(251,154,153)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1054" class=" mark Shape1 rectangle" x="699.2571824832352" y="549.4831033790762" width="54.3891px" height="0.375925px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:276.4517539626093,&quot;_y&quot;:-249.67106578668484,&quot;_id&quot;:&quot;53&quot;,&quot;Year&quot;:&quot;2015&quot;,&quot;OperatingSystem&quot;:&quot;Playstation&quot;,&quot;Share&quot;:0.08}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(227,26,28)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1055" class=" mark Shape1 rectangle" x="699.2571824832352" y="547.1335732839678" width="54.3891px" height="1.55069px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:276.4517539626093,&quot;_y&quot;:-247.90891821535362,&quot;_id&quot;:&quot;54&quot;,&quot;Year&quot;:&quot;2015&quot;,&quot;OperatingSystem&quot;:&quot;Other&quot;,&quot;Share&quot;:0.33}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(253,191,111)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1056" class=" mark Shape1 rectangle" x="699.2571824832352" y="548.6842631467393" width="54.3891px" height="0.79884px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:276.4517539626093,&quot;_y&quot;:-249.08368326290778,&quot;_id&quot;:&quot;55&quot;,&quot;Year&quot;:&quot;2015&quot;,&quot;OperatingSystem&quot;:&quot;Unknown&quot;,&quot;Share&quot;:0.17}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(255,127,0)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1057" class=" mark Shape1 rectangle" x="795.6108570412518" y="80.09398097834395" width="54.3891px" height="249.896px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:372.805428520626,&quot;_y&quot;:94.9580085637977,&quot;_id&quot;:&quot;56&quot;,&quot;Year&quot;:&quot;2016&quot;,&quot;OperatingSystem&quot;:&quot;iOS&quot;,&quot;Share&quot;:53.18}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(166,206,227)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1058" class=" mark Shape1 rectangle" x="795.6108570412518" y="329.99000189406064" width="54.3891px" height="212.398px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:372.805428520626,&quot;_y&quot;:-136.1887621929549,&quot;_id&quot;:&quot;57&quot;,&quot;Year&quot;:&quot;2016&quot;,&quot;OperatingSystem&quot;:&quot;Android&quot;,&quot;Share&quot;:45.2}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(31,120,180)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1059" class=" mark Shape1 rectangle" x="795.6108570412518" y="548.8252349524458" width="54.3891px" height="0.892821px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:372.805428520626,&quot;_y&quot;:-249.27164567051642,&quot;_id&quot;:&quot;58&quot;,&quot;Year&quot;:&quot;2016&quot;,&quot;OperatingSystem&quot;:&quot;BlackBerry OS&quot;,&quot;Share&quot;:0.19}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(178,223,138)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1060" class=" mark Shape1 rectangle" x="795.6108570412518" y="542.3875224918492" width="54.3891px" height="4.27614px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:372.805428520626,&quot;_y&quot;:-244.5255948783977,&quot;_id&quot;:&quot;59&quot;,&quot;Year&quot;:&quot;2016&quot;,&quot;OperatingSystem&quot;:&quot;Windows&quot;,&quot;Share&quot;:0.91}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(51,160,44)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1061" class=" mark Shape1 rectangle" x="795.6108570412518" y="549.9530093980978" width="54.3891px" height="0.0469906px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:372.805428520626,&quot;_y&quot;:-249.97650469904892,&quot;_id&quot;:&quot;60&quot;,&quot;Year&quot;:&quot;2016&quot;,&quot;OperatingSystem&quot;:&quot;SymbianOS&quot;,&quot;Share&quot;:0.01}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(251,154,153)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1062" class=" mark Shape1 rectangle" x="795.6108570412518" y="549.718056388587" width="54.3891px" height="0.234953px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:372.805428520626,&quot;_y&quot;:-249.83553289334242,&quot;_id&quot;:&quot;61&quot;,&quot;Year&quot;:&quot;2016&quot;,&quot;OperatingSystem&quot;:&quot;Playstation&quot;,&quot;Share&quot;:0.05}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(227,26,28)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1063" class=" mark Shape1 rectangle" x="795.6108570412518" y="546.6636672649463" width="54.3891px" height="1.17476px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:372.805428520626,&quot;_y&quot;:-247.25104978872332,&quot;_id&quot;:&quot;62&quot;,&quot;Year&quot;:&quot;2016&quot;,&quot;OperatingSystem&quot;:&quot;Other&quot;,&quot;Share&quot;:0.25}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(253,191,111)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g>
+    <g transform="" opacity="1" trans="450,300"><rect id="mark1064" class=" mark Shape1 rectangle" x="795.6108570412518" y="547.8384323125003" width="54.3891px" height="0.986803px" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;Shape1&quot;,&quot;_x&quot;:372.805428520626,&quot;_y&quot;:-248.33183363247312,&quot;_id&quot;:&quot;63&quot;,&quot;Year&quot;:&quot;2016&quot;,&quot;OperatingSystem&quot;:&quot;Unknown&quot;,&quot;Share&quot;:0.21}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="miter" fill="rgb(255,127,0)" fill-opacity="1" text-anchor="start" opacity="1" cursor="pointer" pointer-events="all" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></rect></g></g><g transform="" opacity="1" trans="450,300"><g transform="" opacity="1" trans="450,300"><g transform="" opacity="1" trans="121.13513513999999,219.44461092"><text id="mark2001" class=" mark Text1 text" x="89.8936744231976" y="224.067406493675" data-datum="{&quot;_TYPE&quot;:&quot;text&quot;,&quot;_MARKID&quot;:&quot;Text1&quot;,&quot;_x&quot;:-301.6702933854907,&quot;_y&quot;:80.55538908078387,&quot;_id&quot;:&quot;0&quot;,&quot;Year&quot;:&quot;2009&quot;,&quot;OperatingSystem&quot;:&quot;iOS&quot;,&quot;Share&quot;:59.35}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(166,206,227)" fill-opacity="1" text-anchor="start" opacity="1" font-family="Arial" font-size="14px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}">iOS</text></g></g>
+    <g transform="" opacity="1" trans="450,300"><g transform="" opacity="1" trans="121.13513513999999,470.49190158"><text id="mark2002" class=" mark Text1 text" x="64.9766822356976" y="475.114697153675" data-datum="{&quot;_TYPE&quot;:&quot;text&quot;,&quot;_MARKID&quot;:&quot;Text1&quot;,&quot;_x&quot;:-301.6702933854907,&quot;_y&quot;:-170.49190158153579,&quot;_id&quot;:&quot;1&quot;,&quot;Year&quot;:&quot;2009&quot;,&quot;OperatingSystem&quot;:&quot;Android&quot;,&quot;Share&quot;:5.58}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(31,120,180)" fill-opacity="1" text-anchor="start" opacity="1" font-family="Arial" font-size="14px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}">Android</text></g></g>
+    <g transform="" opacity="1" trans="450,300"><g transform="" opacity="1" trans="121.13513513999999,392.76944604"><text id="mark2003" class=" mark Text1 text" x="21.431760360697595" y="397.392241613675" data-datum="{&quot;_TYPE&quot;:&quot;text&quot;,&quot;_MARKID&quot;:&quot;Text1&quot;,&quot;_x&quot;:-301.6702933854907,&quot;_y&quot;:-92.7694460353539,&quot;_id&quot;:&quot;2&quot;,&quot;Year&quot;:&quot;2009&quot;,&quot;OperatingSystem&quot;:&quot;BlackBerry OS&quot;,&quot;Share&quot;:14.42}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(178,223,138)" fill-opacity="1" text-anchor="start" opacity="1" font-family="Arial" font-size="14px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}">BlackBerry OS</text></g></g>
+    <g transform="" opacity="1" trans="450,300"><g transform="" opacity="1" trans="121.13513513999999,531.4152169500001"><text id="mark2004" class=" mark Text1 text" x="56.438596298197595" y="536.0380125236751" data-datum="{&quot;_TYPE&quot;:&quot;text&quot;,&quot;_MARKID&quot;:&quot;Text1&quot;,&quot;_x&quot;:-301.6702933854907,&quot;_y&quot;:-231.4152169476935,&quot;_id&quot;:&quot;3&quot;,&quot;Year&quot;:&quot;2009&quot;,&quot;OperatingSystem&quot;:&quot;Windows&quot;,&quot;Share&quot;:2.91}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(51,160,44)" fill-opacity="1" text-anchor="start" opacity="1" font-family="Arial" font-size="14px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}">Windows</text></g></g>
+    <g transform="" opacity="1" trans="450,300"><g transform="" opacity="1" trans="121.13513513999999,544.12617476"><text id="mark2005" class=" mark Text1 text" x="38.535275985697595" y="548.7489703336751" data-datum="{&quot;_TYPE&quot;:&quot;text&quot;,&quot;_MARKID&quot;:&quot;Text1&quot;,&quot;_x&quot;:-301.6702933854907,&quot;_y&quot;:-244.1261747622293,&quot;_id&quot;:&quot;4&quot;,&quot;Year&quot;:&quot;2009&quot;,&quot;OperatingSystem&quot;:&quot;SymbianOS&quot;,&quot;Share&quot;:2.5}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(251,154,153)" fill-opacity="1" text-anchor="start" opacity="1" font-family="Arial" font-size="14px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}">SymbianOS</text></g></g>
+    <g transform="" opacity="1" trans="450,300"><g transform="" opacity="1" trans="121.13513513999999,494.55108975999997"><text id="mark2006" class=" mark Text1 text" x="44.749143173197595" y="499.173885333675" data-datum="{&quot;_TYPE&quot;:&quot;text&quot;,&quot;_MARKID&quot;:&quot;Text1&quot;,&quot;_x&quot;:-301.6702933854907,&quot;_y&quot;:-194.5510897554446,&quot;_id&quot;:&quot;5&quot;,&quot;Year&quot;:&quot;2009&quot;,&quot;OperatingSystem&quot;:&quot;Playstation&quot;,&quot;Share&quot;:4.66}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(227,26,28)" fill-opacity="1" text-anchor="start" opacity="1" font-family="Arial" font-size="14px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}">Playstation</text></g></g>
+    <g transform="" opacity="1" trans="450,300"><g transform="" opacity="1" trans="121.13513513999999,515.03899218"><text id="mark2007" class=" mark Text1 text" x="78.2178931731976" y="519.6617877536751" data-datum="{&quot;_TYPE&quot;:&quot;text&quot;,&quot;_MARKID&quot;:&quot;Text1&quot;,&quot;_x&quot;:-301.6702933854907,&quot;_y&quot;:-215.03899218478878,&quot;_id&quot;:&quot;6&quot;,&quot;Year&quot;:&quot;2009&quot;,&quot;OperatingSystem&quot;:&quot;Other&quot;,&quot;Share&quot;:4.06}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(253,191,111)" fill-opacity="1" text-anchor="start" opacity="1" font-family="Arial" font-size="14px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}">Other</text></g></g>
+    <g transform="" opacity="1" trans="450,300"><g transform="" opacity="1" trans="121.13513513999999,442.01559683"><text id="mark2008" class=" mark Text1 text" x="54.866330673197595" y="446.638392403675" data-datum="{&quot;_TYPE&quot;:&quot;text&quot;,&quot;_MARKID&quot;:&quot;Text1&quot;,&quot;_x&quot;:-301.6702933854907,&quot;_y&quot;:-142.01559682882345,&quot;_id&quot;:&quot;7&quot;,&quot;Year&quot;:&quot;2009&quot;,&quot;OperatingSystem&quot;:&quot;Unknown&quot;,&quot;Share&quot;:6.54}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(255,127,0)" fill-opacity="1" text-anchor="start" opacity="1" font-family="Arial" font-size="14px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}">Unknown</text></g></g></g></g><g transform="" opacity="1" trans="450,300"><g transform="" class="axis" data-datum="{&quot;_TYPE&quot;:&quot;axis&quot;,&quot;type&quot;:&quot;x&quot;,&quot;position&quot;:&quot;Year&quot;}" opacity="1" trans="450,300"><path id="mark3001" class=" mark axis-domain" d="M121.13513513999999 550L849.9989634 550.00274537" data-datum="{&quot;_TYPE&quot;:&quot;axis-domain&quot;}" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="round" fill="none" fill-opacity="1" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path><path id="mark4001" class=" mark axis-tick" d="M148.32970661000002 550L148.33388358000002 555.00256389"
+                data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;2009&quot;}"
+                stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="round"
+                fill="none" fill-opacity="1" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path><path id="mark4002" class=" mark axis-tick" d="M244.68338117 550L244.6801803 554.99810914"
+                data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;2010&quot;}"
+                stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="round"
+                fill="none" fill-opacity="1" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path><path id="mark4003" class=" mark axis-tick" d="M341.03705573 550L341.03611053 554.9960895"
+                data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;2011&quot;}"
+                stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="round"
+                fill="none" fill-opacity="1" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path><path id="mark4004" class=" mark axis-tick" d="M437.39073029 550L437.39334321 555.0001068"
+                data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;2012&quot;}"
+                stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="round"
+                fill="none" fill-opacity="1" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path><path id="mark4005" class=" mark axis-tick" d="M533.74440485 550L533.74352079 554.99714966"
+                data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;2013&quot;}"
+                stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="round"
+                fill="none" fill-opacity="1" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path><path id="mark4006" class=" mark axis-tick" d="M630.0980794 550L630.10113819 554.9975457"
+                data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;2014&quot;}"
+                stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="round"
+                fill="none" fill-opacity="1" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path><path id="mark4007" class=" mark axis-tick" d="M726.45175396 550L726.4512541500001 554.99657532"
+                data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;2015&quot;}"
+                stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="round"
+                fill="none" fill-opacity="1" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path><path id="mark4008" class=" mark axis-tick" d="M822.8054285200001 550L822.80984712 555.00192301"
+                data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;,&quot;text&quot;:&quot;2016&quot;}"
+                stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="round"
+                fill="none" fill-opacity="1" text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path><path id="mark3002" class=" mark axis-domain" d="M121.13513513999999 550L121.13201752999998 555.00377773"
+                data-datum="{&quot;_TYPE&quot;:&quot;axis-domain&quot;}" stroke="rgb(0,0,0)" stroke-opacity="1"
+                stroke-width="1" stroke-linecap="square" stroke-linejoin="round" fill="none" fill-opacity="1"
+                text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path><path id="mark3003" class=" mark axis-domain" d="M850 550L849.99551778 555.00248176"
+                data-datum="{&quot;_TYPE&quot;:&quot;axis-domain&quot;}" stroke="rgb(0,0,0)" stroke-opacity="1"
+                stroke-width="1" stroke-linecap="square" stroke-linejoin="round" fill="none" fill-opacity="1"
+                text-anchor="start" opacity="1" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path><g transform="" opacity="1" trans="148.32970661000002,558"><text id="mark5001" class=" mark axis-label" x="134.98205036000002" y="568.3962725684333" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;2009&quot;}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" fill-opacity="1" text-anchor="start" opacity="1" font-family="Arial" font-size="12px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}">2009</text></g><g transform="" opacity="1" trans="244.68338117,558"><text id="mark5002" class=" mark axis-label" x="231.33572492" y="568.3962725684333" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;2010&quot;}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" fill-opacity="1" text-anchor="start" opacity="1" font-family="Arial" font-size="12px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}">2010</text></g><g transform="" opacity="1" trans="341.03705573,558"><text id="mark5003" class=" mark axis-label" x="328.13471198" y="568.3962725684333" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;2011&quot;}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" fill-opacity="1" text-anchor="start" opacity="1" font-family="Arial" font-size="12px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}">2011</text></g><g transform="" opacity="1" trans="437.39073029,558"><text id="mark5004" class=" mark axis-label" x="424.04307404" y="568.3962725684333" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;2012&quot;}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" fill-opacity="1" text-anchor="start" opacity="1" font-family="Arial" font-size="12px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}">2012</text></g><g transform="" opacity="1" trans="533.74440485,558"><text id="mark5005" class=" mark axis-label" x="520.3967486" y="568.3962725684333" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;2013&quot;}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" fill-opacity="1" text-anchor="start" opacity="1" font-family="Arial" font-size="12px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}">2013</text></g><g transform="" opacity="1" trans="630.0980794,558"><text id="mark5006" class=" mark axis-label" x="616.75042315" y="568.3962725684333" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;2014&quot;}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" fill-opacity="1" text-anchor="start" opacity="1" font-family="Arial" font-size="12px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}">2014</text></g><g transform="" opacity="1" trans="726.45175396,558"><text id="mark5007" class=" mark axis-label" x="713.10409771" y="568.3962725684333" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;2015&quot;}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" fill-opacity="1" text-anchor="start" opacity="1" font-family="Arial" font-size="12px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}">2015</text></g><g transform="" opacity="1" trans="822.8054285200001,558"><text id="mark5008" class=" mark axis-label" x="809.4577722700001" y="568.3962725684333" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;,&quot;text&quot;:&quot;2016&quot;}" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" fill-opacity="1" text-anchor="start" opacity="1" font-family="Arial" font-size="12px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}">2016</text></g></g></g></g></g><g transform="" opacity="1" trans="450,300"><g transform="" opacity="1" trans="485.56756757,0"><text x="275.479676945" y="51.254979615608626" stroke="none" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="rgb(0,0,0)" fill-opacity="1" text-anchor="start" opacity="1" font-family="Arial" font-size="24px">Mobile Operating System Market Share</text></g></g></g></g></svg>

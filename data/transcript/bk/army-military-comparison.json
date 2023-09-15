@@ -1,0 +1,320 @@
+{
+  "results": [
+    {
+      "alternatives": [
+        {
+          "transcript": "The USA has the world's highest GDP of around 18.5 trillion dollars. It's followed by China with a nominal GDP of 11.8 trillion dollars, and then Japan with a GDP of around 4.8 trillion dollars. The European Union would take second place, but the EU is a combination of 28 states.",
+          "confidence": 1.0,
+          "words": [
+            {
+              "startTime": "0.000s",
+              "endTime": "0.110s",
+              "word": "The",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.110s",
+              "endTime": "0.943s",
+              "word": "USA",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.943s",
+              "endTime": "1.206s",
+              "word": "has",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.206s",
+              "endTime": "1.291s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.291s",
+              "endTime": "1.741s",
+              "word": "world's",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.741s",
+              "endTime": "2.341s",
+              "word": "highest",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.341s",
+              "endTime": "3.225s",
+              "word": "GDP",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.225s",
+              "endTime": "3.330s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.330s",
+              "endTime": "3.695s",
+              "word": "around",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.695s",
+              "endTime": "4.856s",
+              "word": "18.5",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.856s",
+              "endTime": "5.391s",
+              "word": "trillion",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.391s",
+              "endTime": "6.940s",
+              "word": "dollars.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.940s",
+              "endTime": "7.155s",
+              "word": "It's",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.155s",
+              "endTime": "7.607s",
+              "word": "followed",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.607s",
+              "endTime": "7.792s",
+              "word": "by",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.792s",
+              "endTime": "8.348s",
+              "word": "China",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.348s",
+              "endTime": "8.583s",
+              "word": "with",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.583s",
+              "endTime": "8.633s",
+              "word": "a",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.633s",
+              "endTime": "9.266s",
+              "word": "nominal",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.266s",
+              "endTime": "10.195s",
+              "word": "GDP",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.195s",
+              "endTime": "10.310s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.310s",
+              "endTime": "11.398s",
+              "word": "11.8",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.398s",
+              "endTime": "11.907s",
+              "word": "trillion",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.907s",
+              "endTime": "12.915s",
+              "word": "dollars,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "12.915s",
+              "endTime": "13.035s",
+              "word": "and",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.035s",
+              "endTime": "13.210s",
+              "word": "then",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.210s",
+              "endTime": "13.825s",
+              "word": "Japan",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.825s",
+              "endTime": "14.000s",
+              "word": "with",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.000s",
+              "endTime": "14.092s",
+              "word": "a",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.092s",
+              "endTime": "14.982s",
+              "word": "GDP",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.982s",
+              "endTime": "15.087s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.087s",
+              "endTime": "15.455s",
+              "word": "around",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.455s",
+              "endTime": "16.431s",
+              "word": "4.8",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.431s",
+              "endTime": "16.916s",
+              "word": "trillion",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.916s",
+              "endTime": "18.459s",
+              "word": "dollars.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.459s",
+              "endTime": "18.554s",
+              "word": "The",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.554s",
+              "endTime": "19.265s",
+              "word": "European",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.265s",
+              "endTime": "19.764s",
+              "word": "Union",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.764s",
+              "endTime": "19.934s",
+              "word": "would",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.934s",
+              "endTime": "20.184s",
+              "word": "take",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "20.184s",
+              "endTime": "20.678s",
+              "word": "second",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "20.678s",
+              "endTime": "21.444s",
+              "word": "place,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "21.444s",
+              "endTime": "21.629s",
+              "word": "but",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "21.629s",
+              "endTime": "21.784s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "21.784s",
+              "endTime": "22.271s",
+              "word": "EU",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "22.271s",
+              "endTime": "22.411s",
+              "word": "is",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "22.411s",
+              "endTime": "22.506s",
+              "word": "a",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "22.506s",
+              "endTime": "23.277s",
+              "word": "combination",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "23.277s",
+              "endTime": "23.387s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "23.387s",
+              "endTime": "24.084s",
+              "word": "28",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "24.084s",
+              "endTime": "25.599s",
+              "word": "states.",
+              "speakerTag": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

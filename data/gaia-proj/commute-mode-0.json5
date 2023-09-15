@@ -1,0 +1,159 @@
+{
+  projectId: 'commute-mode-0',
+  chart: './commute-mode.svg',
+  audio: './commute-mode.txt',
+  binder: {
+    from: "svg",
+    to: "gaia.chart.PieChart",
+    rules: [
+      {
+        from: "rect.background",
+        to: ".Background",
+      },
+      {
+        from: "path.sector",
+        to: ".Sector",
+        dataList: [
+          { label: "Public transportation", value: 0.05 },
+          { label: "Drive alone", value: 0.76 },
+          { label: "Taxi, motorcycle, or other", value: 0.02 },
+          { label: "Work at home", value: 0.05 },
+          { label: "Walk", value: 0.03 },
+          { label: "Carpool", value: 0.08 },
+          { label: "Bicycle", value: 0.01 },
+        ]
+      },
+      {
+        from: ".sector-label",
+        to: ".SectorLabel",
+        dataList: [
+          { label: "Public transportation", value: 0.05 },
+          { label: "Drive alone", value: 0.76 },
+          { label: "Taxi, motorcycle, or other", value: 0.02 },
+          { label: "Work at home", value: 0.05 },
+          { label: "Walk", value: 0.03 },
+          { label: "Carpool", value: 0.08 },
+          { label: "Bicycle", value: 0.01 }
+        ]
+      },
+      {
+        from: ".sector-line",
+        to: ".SectorLine",
+        dataList: [
+          { label: "Public transportation", value: 0.05 },
+          { label: "Drive alone", value: 0.76 },
+          { label: "Taxi, motorcycle, or other", value: 0.02 },
+          { label: "Work at home", value: 0.05 },
+          { label: "Walk", value: 0.03 },
+          { label: "Carpool", value: 0.08 },
+          { label: "Bicycle", value: 0.01 }
+        ]
+      },
+      {
+        from: "path.contour",
+        to: ".Annotation .Line",
+      },
+      {
+        from: "text.annotation",
+        to: ".Annotation .Text",
+        dataList: [
+          { label: "Drive alone", value: 0.76 },
+          { label: "Public transportation", value: 0.05 },
+        ]
+      }
+    ]
+  },
+  animation: {
+    main: {
+      sync: [
+        {
+          ref: 'PieChartEnter',
+          pieDuration: 3,
+        },
+        {
+          ref: 'HighlightSectorWithAnnotation',
+          attrSel: '[label="Drive alone"]',
+          offset: 8,
+        },
+        {
+          ref: 'DisplayPath',
+          target: '.Annotation.Line',
+          offset: 12.5,
+        },
+        {
+          ref: 'HighlightSectorWithAnnotation',
+          attrSel: '[label="Public transportation"]',
+          displayTime: 2,
+          offset: 19,
+        }
+      ],
+    },
+  },
+  templates: [
+    {
+      name: "PieChartEnter",
+      targetType: 'PieChart',
+      params: {
+        titleEffect: "CutIn",
+        labelEffect: "CutIn",
+        lineEffect: "PathDraw",
+        staggerValue: 0.4,
+        pieDuration: 2,
+      },
+      main: {
+        sync: [
+          {
+            ref: "$titleEffect",
+            target: ".Title",
+          },
+          {
+            ref: "SectorWheel",
+            target: ".Sector",
+            centerSelector: ".Sector",
+            duration: "$pieDuration",
+          },
+          {
+            ref: "$labelEffect",
+            target: ".SectorLabel",
+            stagger: "$staggerValue",
+          },
+          {
+            ref: "$lineEffect",
+            target: ".SectorLine",
+            stagger: '$staggerValue',
+          },
+        ]
+      }
+    },
+    {
+      name: "HighlightSectorWithAnnotation",
+      params: {
+        attrSel: { type: "string" },
+        displayTime: 3,
+      },
+      main: {
+        sync: [
+          {
+            ref: "Highlight",
+            target: ".Sector$attrSel",
+            contrastTarget: ".Sector:not($attrSel)",
+            yoyo: {
+              delay: '$displayTime'
+            }
+          },
+          {
+            ref: "CutIn",
+            target: ".Annotation$attrSel",
+            yoyo: {
+              delay: '$displayTime'
+            }
+          },
+          {
+            ref: "DynamicNumber",
+            target: ".Annotation$attrSel",
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  charts: [
+    {source: './australia-fire.svg'},
+  ],
+  animation: {
+    sequence: {
+      sync: []
+    }
+  }
+}

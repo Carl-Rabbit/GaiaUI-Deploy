@@ -1,0 +1,83 @@
+{
+  projectId: 'example-bar-chart-task2',
+  chart: './ExampleBarChart0.svg',
+  audio: './empty.txt',
+  binder: {
+    from: "svg",
+    to: "gaia.chart.BarChart",
+    rules: [
+      {
+        from: "#title",
+        to: ":scope > .Title"
+      },
+      {
+        from: "#x-domain",
+        to: ".XAxis .Domain"
+      },
+      {
+        from: "#y-domain",
+        to: ".YAxis .Domain"
+      },
+      {
+        from: ".bar",
+        to: ".Bar",
+        dataList: [
+          { xVal: 'a', yVal: 30 },
+          { xVal: 'b', yVal: 10 },
+          { xVal: 'c', yVal: 20 },
+        ]
+      },
+      {
+        from: ".bar-label",
+        to: ".BarLabel",
+        dataList: [
+          { xVal: 'a', yVal: 30 },
+          { xVal: 'b', yVal: 10 },
+          { xVal: 'c', yVal: 20 },
+        ]
+      },
+      {
+        from: ".x-label",
+        to: ".XAxis .Label",
+        dataList: [
+          { xVal: 'a', yVal: 30 },
+          { xVal: 'b', yVal: 10 },
+          { xVal: 'c', yVal: 20 },
+        ]
+      }
+    ]
+  },
+  animation: {
+    comments: [
+      'Task 2 (Example): Target Selection',
+      '1. Modify the target of last 3 AniUnits (*) in the list, selecting the bar, axis label and bar label at the top.',
+      '2. Copy AniUnits * twice and set the target to the other two groups of elements.',
+      '3. Set offset.'
+    ],
+    main: {
+      sync: [
+        {
+          ref: "ZoomIn",
+          target: ".Title",
+          ease: 'elastic',
+        },
+        {
+          ref: "Grow",
+          target: ".Bar",
+          offset: 1,
+        },
+        {
+          ref: "ZoomIn",
+          target: ".AxisLabel",
+          offset: 1
+        },
+        {
+          ref: "ZoomIn",
+          target: ".BarLabel",
+          offset: 2
+        }
+      ],
+    }
+  },
+  templates: []
+}

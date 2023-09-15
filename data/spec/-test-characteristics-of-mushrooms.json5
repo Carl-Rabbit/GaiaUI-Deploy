@@ -1,0 +1,38 @@
+{
+  charts: [
+    {source: './characteristics-of-mushrooms.svg'},
+  ],
+  templates: [
+    {
+      templateName: 'grow-using-filter',
+      parameters: [
+        {paramName: 'surface', paramType: 'string'},
+      ],
+      animation: {
+        use: 'grow',
+        target: {
+          selector: '.symbol',
+          transform: {type: 'filter', expr: '@datum.Surface === "$surface"'},
+        },
+      }
+    }
+  ],
+  animation: {
+    sequence: {
+      concat: [
+        {
+          use: 'grow-using-filter',
+          settings: {surface: 'Fibrous'},
+        },
+        {
+          use: 'grow-using-filter',
+          settings: {surface: 'Scaly'},
+        },
+        {
+          use: 'grow-using-filter',
+          settings: {surface: 'Smooth'},
+        }
+      ],
+    }
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "results": [
+    {
+      "alternatives": [
+        {
+          "transcript": "Debt service savings account for 65 percent of the saving. The remaining savings are due mainly to accruals from underspending of personal service and other than personal services expenditures, funding shifts of certain City-funded expenditures to Federal and State funding, and expenditure re-estimates. ",
+          "confidence": 1.0,
+          "words": [
+            {
+              "startTime": "0.000s",
+              "endTime": "0.345s",
+              "word": "Debt",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.345s",
+              "endTime": "0.831s",
+              "word": "service",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.831s",
+              "endTime": "1.437s",
+              "word": "savings",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.437s",
+              "endTime": "1.917s",
+              "word": "account",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.917s",
+              "endTime": "2.087s",
+              "word": "for",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.087s",
+              "endTime": "2.916s",
+              "word": "65",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.916s",
+              "endTime": "3.444s",
+              "word": "percent",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.444s",
+              "endTime": "3.569s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.569s",
+              "endTime": "3.638s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.638s",
+              "endTime": "4.727s",
+              "word": "saving.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.727s",
+              "endTime": "4.807s",
+              "word": "The",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.807s",
+              "endTime": "5.414s",
+              "word": "remaining",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.414s",
+              "endTime": "6.077s",
+              "word": "savings",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.077s",
+              "endTime": "6.207s",
+              "word": "are",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.207s",
+              "endTime": "6.387s",
+              "word": "due",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.387s",
+              "endTime": "6.916s",
+              "word": "mainly",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.916s",
+              "endTime": "7.128s",
+              "word": "to",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.128s",
+              "endTime": "7.718s",
+              "word": "accruals",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.718s",
+              "endTime": "7.928s",
+              "word": "from",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.928s",
+              "endTime": "8.809s",
+              "word": "underspending",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.809s",
+              "endTime": "8.917s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.917s",
+              "endTime": "9.511s",
+              "word": "personal",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.511s",
+              "endTime": "10.172s",
+              "word": "service",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.172s",
+              "endTime": "10.287s",
+              "word": "and",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.287s",
+              "endTime": "10.587s",
+              "word": "other",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.587s",
+              "endTime": "10.782s",
+              "word": "than",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.782s",
+              "endTime": "11.321s",
+              "word": "personal",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.321s",
+              "endTime": "11.988s",
+              "word": "services",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.988s",
+              "endTime": "13.440s",
+              "word": "expenditures,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.440s",
+              "endTime": "13.867s",
+              "word": "funding",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.867s",
+              "endTime": "14.288s",
+              "word": "shifts",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.288s",
+              "endTime": "14.383s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.383s",
+              "endTime": "14.840s",
+              "word": "certain",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.840s",
+              "endTime": "15.722s",
+              "word": "City-funded",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.722s",
+              "endTime": "16.715s",
+              "word": "expenditures",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.715s",
+              "endTime": "16.860s",
+              "word": "to",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.860s",
+              "endTime": "17.448s",
+              "word": "Federal",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.448s",
+              "endTime": "17.553s",
+              "word": "and",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.553s",
+              "endTime": "17.934s",
+              "word": "State",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.934s",
+              "endTime": "18.682s",
+              "word": "funding,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.682s",
+              "endTime": "18.767s",
+              "word": "and",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.767s",
+              "endTime": "19.624s",
+              "word": "expenditure",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.624s",
+              "endTime": "21.472s",
+              "word": "re-estimates.",
+              "speakerTag": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

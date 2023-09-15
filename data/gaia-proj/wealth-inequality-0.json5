@@ -1,0 +1,1031 @@
+{
+  projectId: 'wealth-inequality-0',
+  chart: './wealth-inequality.svg',
+  audio: './wealth-inequality.txt',
+  binder: {
+    from: "svg",
+    to: "gaia.chart.BarChart",
+    rules: [
+      {
+        from: '.mark.bar',
+        to: '.Bar',
+        dataList: [
+          {
+            category: 0.01,
+            value: 8
+          },
+          {
+            category: 0.02,
+            value: 12
+          },
+          {
+            category: 0.03,
+            value: 14
+          },
+          {
+            category: 0.04,
+            value: 14
+          },
+          {
+            category: 0.05,
+            value: 16
+          },
+          {
+            category: 0.06,
+            value: 16
+          },
+          {
+            category: 0.07,
+            value: 16
+          },
+          {
+            category: 0.08,
+            value: 17
+          },
+          {
+            category: 0.09,
+            value: 17
+          },
+          {
+            category: 0.1,
+            value: 17
+          },
+          {
+            category: 0.11,
+            value: 17
+          },
+          {
+            category: 0.12,
+            value: 17
+          },
+          {
+            category: 0.13,
+            value: 17
+          },
+          {
+            category: 0.14,
+            value: 19
+          },
+          {
+            category: 0.15,
+            value: 19
+          },
+          {
+            category: 0.16,
+            value: 19
+          },
+          {
+            category: 0.17,
+            value: 19
+          },
+          {
+            category: 0.18,
+            value: 19
+          },
+          {
+            category: 0.19,
+            value: 19
+          },
+          {
+            category: 0.2,
+            value: 20
+          },
+          {
+            category: 0.21,
+            value: 20
+          },
+          {
+            category: 0.22,
+            value: 20
+          },
+          {
+            category: 0.23,
+            value: 21
+          },
+          {
+            category: 0.24,
+            value: 22
+          },
+          {
+            category: 0.25,
+            value: 22
+          },
+          {
+            category: 0.26,
+            value: 22
+          },
+          {
+            category: 0.27,
+            value: 22
+          },
+          {
+            category: 0.28,
+            value: 23
+          },
+          {
+            category: 0.29,
+            value: 24
+          },
+          {
+            category: 0.3,
+            value: 24
+          },
+          {
+            category: 0.31,
+            value: 24
+          },
+          {
+            category: 0.32,
+            value: 25
+          },
+          {
+            category: 0.33,
+            value: 25
+          },
+          {
+            category: 0.34,
+            value: 25
+          },
+          {
+            category: 0.35,
+            value: 26
+          },
+          {
+            category: 0.36,
+            value: 26
+          },
+          {
+            category: 0.37,
+            value: 26
+          },
+          {
+            category: 0.38,
+            value: 27
+          },
+          {
+            category: 0.39,
+            value: 28
+          },
+          {
+            category: 0.4,
+            value: 28
+          },
+          {
+            category: 0.41,
+            value: 30
+          },
+          {
+            category: 0.42,
+            value: 30
+          },
+          {
+            category: 0.43,
+            value: 32
+          },
+          {
+            category: 0.44,
+            value: 32
+          },
+          {
+            category: 0.45,
+            value: 32
+          },
+          {
+            category: 0.46,
+            value: 34
+          },
+          {
+            category: 0.47,
+            value: 34
+          },
+          {
+            category: 0.48,
+            value: 34
+          },
+          {
+            category: 0.49,
+            value: 34
+          },
+          {
+            category: 0.5,
+            value: 35
+          },
+          {
+            category: 0.51,
+            value: 35
+          },
+          {
+            category: 0.52,
+            value: 35
+          },
+          {
+            category: 0.53,
+            value: 35
+          },
+          {
+            category: 0.54,
+            value: 35
+          },
+          {
+            category: 0.55,
+            value: 37
+          },
+          {
+            category: 0.56,
+            value: 37
+          },
+          {
+            category: 0.57,
+            value: 37
+          },
+          {
+            category: 0.58,
+            value: 37
+          },
+          {
+            category: 0.59,
+            value: 37
+          },
+          {
+            category: 0.6,
+            value: 38
+          },
+          {
+            category: 0.61,
+            value: 38
+          },
+          {
+            category: 0.62,
+            value: 38
+          },
+          {
+            category: 0.63,
+            value: 38
+          },
+          {
+            category: 0.64,
+            value: 38
+          },
+          {
+            category: 0.65,
+            value: 38
+          },
+          {
+            category: 0.66,
+            value: 40
+          },
+          {
+            category: 0.67,
+            value: 40
+          },
+          {
+            category: 0.68,
+            value: 40
+          },
+          {
+            category: 0.69,
+            value: 40
+          },
+          {
+            category: 0.7,
+            value: 40
+          },
+          {
+            category: 0.71,
+            value: 40
+          },
+          {
+            category: 0.72,
+            value: 40
+          },
+          {
+            category: 0.73,
+            value: 40
+          },
+          {
+            category: 0.74,
+            value: 40
+          },
+          {
+            category: 0.75,
+            value: 40
+          },
+          {
+            category: 0.76,
+            value: 41
+          },
+          {
+            category: 0.77,
+            value: 41
+          },
+          {
+            category: 0.78,
+            value: 41
+          },
+          {
+            category: 0.79,
+            value: 41
+          },
+          {
+            category: 0.8,
+            value: 41
+          },
+          {
+            category: 0.81,
+            value: 43
+          },
+          {
+            category: 0.82,
+            value: 43
+          },
+          {
+            category: 0.83,
+            value: 45
+          },
+          {
+            category: 0.84,
+            value: 45
+          },
+          {
+            category: 0.85,
+            value: 47
+          },
+          {
+            category: 0.86,
+            value: 47
+          },
+          {
+            category: 0.87,
+            value: 48
+          },
+          {
+            category: 0.88,
+            value: 50
+          },
+          {
+            category: 0.89,
+            value: 52
+          },
+          {
+            category: 0.9,
+            value: 54
+          },
+          {
+            category: 0.91,
+            value: 56
+          },
+          {
+            category: 0.92,
+            value: 58
+          },
+          {
+            category: 0.93,
+            value: 59
+          },
+          {
+            category: 0.94,
+            value: 61
+          },
+          {
+            category: 0.95,
+            value: 65
+          },
+          {
+            category: 0.96,
+            value: 68
+          },
+          {
+            category: 0.97,
+            value: 71
+          },
+          {
+            category: 0.98,
+            value: 78
+          },
+          {
+            category: 0.99,
+            value: 86
+          },
+          {
+            category: 1,
+            value: 97
+          }
+        ],
+      },
+      {
+        from: '.mark.bar-label',
+        to: '.BarLabel',
+      },
+      // title
+      {
+        from: '.title',
+        to: '.ChartTitle'
+      },
+      // axis
+      {
+        from: '.x-axis.symbol',
+        to: '.XAxis .Symbol',
+        dataList: [
+          {
+            category: 0.01,
+            value: 8
+          },
+          {
+            category: 0.02,
+            value: 12
+          },
+          {
+            category: 0.03,
+            value: 14
+          },
+          {
+            category: 0.04,
+            value: 14
+          },
+          {
+            category: 0.05,
+            value: 16
+          },
+          {
+            category: 0.06,
+            value: 16
+          },
+          {
+            category: 0.07,
+            value: 16
+          },
+          {
+            category: 0.08,
+            value: 17
+          },
+          {
+            category: 0.09,
+            value: 17
+          },
+          {
+            category: 0.1,
+            value: 17
+          },
+          {
+            category: 0.11,
+            value: 17
+          },
+          {
+            category: 0.12,
+            value: 17
+          },
+          {
+            category: 0.13,
+            value: 17
+          },
+          {
+            category: 0.14,
+            value: 19
+          },
+          {
+            category: 0.15,
+            value: 19
+          },
+          {
+            category: 0.16,
+            value: 19
+          },
+          {
+            category: 0.17,
+            value: 19
+          },
+          {
+            category: 0.18,
+            value: 19
+          },
+          {
+            category: 0.19,
+            value: 19
+          },
+          {
+            category: 0.2,
+            value: 20
+          },
+          {
+            category: 0.21,
+            value: 20
+          },
+          {
+            category: 0.22,
+            value: 20
+          },
+          {
+            category: 0.23,
+            value: 21
+          },
+          {
+            category: 0.24,
+            value: 22
+          },
+          {
+            category: 0.25,
+            value: 22
+          },
+          {
+            category: 0.26,
+            value: 22
+          },
+          {
+            category: 0.27,
+            value: 22
+          },
+          {
+            category: 0.28,
+            value: 23
+          },
+          {
+            category: 0.29,
+            value: 24
+          },
+          {
+            category: 0.3,
+            value: 24
+          },
+          {
+            category: 0.31,
+            value: 24
+          },
+          {
+            category: 0.32,
+            value: 25
+          },
+          {
+            category: 0.33,
+            value: 25
+          },
+          {
+            category: 0.34,
+            value: 25
+          },
+          {
+            category: 0.35,
+            value: 26
+          },
+          {
+            category: 0.36,
+            value: 26
+          },
+          {
+            category: 0.37,
+            value: 26
+          },
+          {
+            category: 0.38,
+            value: 27
+          },
+          {
+            category: 0.39,
+            value: 28
+          },
+          {
+            category: 0.4,
+            value: 28
+          },
+          {
+            category: 0.41,
+            value: 30
+          },
+          {
+            category: 0.42,
+            value: 30
+          },
+          {
+            category: 0.43,
+            value: 32
+          },
+          {
+            category: 0.44,
+            value: 32
+          },
+          {
+            category: 0.45,
+            value: 32
+          },
+          {
+            category: 0.46,
+            value: 34
+          },
+          {
+            category: 0.47,
+            value: 34
+          },
+          {
+            category: 0.48,
+            value: 34
+          },
+          {
+            category: 0.49,
+            value: 34
+          },
+          {
+            category: 0.5,
+            value: 35
+          },
+          {
+            category: 0.51,
+            value: 35
+          },
+          {
+            category: 0.52,
+            value: 35
+          },
+          {
+            category: 0.53,
+            value: 35
+          },
+          {
+            category: 0.54,
+            value: 35
+          },
+          {
+            category: 0.55,
+            value: 37
+          },
+          {
+            category: 0.56,
+            value: 37
+          },
+          {
+            category: 0.57,
+            value: 37
+          },
+          {
+            category: 0.58,
+            value: 37
+          },
+          {
+            category: 0.59,
+            value: 37
+          },
+          {
+            category: 0.6,
+            value: 38
+          },
+          {
+            category: 0.61,
+            value: 38
+          },
+          {
+            category: 0.62,
+            value: 38
+          },
+          {
+            category: 0.63,
+            value: 38
+          },
+          {
+            category: 0.64,
+            value: 38
+          },
+          {
+            category: 0.65,
+            value: 38
+          },
+          {
+            category: 0.66,
+            value: 40
+          },
+          {
+            category: 0.67,
+            value: 40
+          },
+          {
+            category: 0.68,
+            value: 40
+          },
+          {
+            category: 0.69,
+            value: 40
+          },
+          {
+            category: 0.7,
+            value: 40
+          },
+          {
+            category: 0.71,
+            value: 40
+          },
+          {
+            category: 0.72,
+            value: 40
+          },
+          {
+            category: 0.73,
+            value: 40
+          },
+          {
+            category: 0.74,
+            value: 40
+          },
+          {
+            category: 0.75,
+            value: 40
+          },
+          {
+            category: 0.76,
+            value: 41
+          },
+          {
+            category: 0.77,
+            value: 41
+          },
+          {
+            category: 0.78,
+            value: 41
+          },
+          {
+            category: 0.79,
+            value: 41
+          },
+          {
+            category: 0.8,
+            value: 41
+          },
+          {
+            category: 0.81,
+            value: 43
+          },
+          {
+            category: 0.82,
+            value: 43
+          },
+          {
+            category: 0.83,
+            value: 45
+          },
+          {
+            category: 0.84,
+            value: 45
+          },
+          {
+            category: 0.85,
+            value: 47
+          },
+          {
+            category: 0.86,
+            value: 47
+          },
+          {
+            category: 0.87,
+            value: 48
+          },
+          {
+            category: 0.88,
+            value: 50
+          },
+          {
+            category: 0.89,
+            value: 52
+          },
+          {
+            category: 0.9,
+            value: 54
+          },
+          {
+            category: 0.91,
+            value: 56
+          },
+          {
+            category: 0.92,
+            value: 58
+          },
+          {
+            category: 0.93,
+            value: 59
+          },
+          {
+            category: 0.94,
+            value: 61
+          },
+          {
+            category: 0.95,
+            value: 65
+          },
+          {
+            category: 0.96,
+            value: 68
+          },
+          {
+            category: 0.97,
+            value: 71
+          },
+          {
+            category: 0.98,
+            value: 78
+          },
+          {
+            category: 0.99,
+            value: 86
+          },
+          {
+            category: 1,
+            value: 97
+          }
+        ]
+      },
+      {
+        from: '.x-axis.label',
+        to: '.XAxis .Label',
+      },
+      {
+        from: '.x-tick',
+        to: '.XAxis .Tick'
+      },
+      // annotation
+      {
+        from: 'line.annotation',
+        to: '.Annotation .Line'
+      },
+      {
+        from: 'text.annotation',
+        to: '.Annotation .Label',
+      }
+    ]
+  },
+  animation: {
+    comment: 'You can create and use parameters and template locally to simplify the animation definition.',
+    params: {
+      wealthySelExpr: '@data.category >= 0.9',
+      poorSelExpr: '@data.category <= 0.2',
+      middleSelExpr: '0.3 <= @data.category && @data.category < 0.7',
+      transitionSelExpr: '0.2 <= @data.category && @data.category < 0.9',
+    },
+    main: {
+      sync: [
+        {
+          ref: 'BarChartEnter',
+          axisTickAnimation: {
+            ref: 'Grow',
+            from: 'top',
+            ease: 'circ.inOut',
+          },
+        },
+        {
+          ref: 'Fly',
+          target: '.Annotation',
+          from: 'left',
+          offset: 3,
+        },
+        {
+          ref: 'MyRangeBounce',
+          barSelExpr: '$wealthySelExpr',
+          barLabelSel: '#bar-label-3',
+          offset: 7,
+        },
+        {
+          ref: 'MyRangeBounce',
+          barSelExpr: '$poorSelExpr',
+          barLabelSel: '#bar-label-0',
+          offset: 9,
+        },
+        {
+          ref: 'ChangeColor',
+          target: [
+            { filter: '.Bar' },
+            { filterExpr: '$poorSelExpr' },
+          ],
+          fill: '#ffffff',
+          stagger: 0.02,
+          yoyo: true,
+          offset: 13,
+          duration: 3,
+        },
+        {
+          ref: 'MoveTo',
+          target: '.Annotation',
+          x: '+=60px',
+          yoyo: true,
+          offset: 15.5,
+        },
+        {
+          ref: 'MyRangeBounce',
+          barSelExpr: '$middleSelExpr',
+          barLabelSel: '#bar-label-1',
+          offset: 19,
+        },
+        {
+          target: [
+            { filter: '.Bar' },
+            { filterExpr: '$transitionSelExpr' },
+          ],
+          groupBy: 'parseInt(@data.category * 10)',
+          foreach: {  ref: 'Bounce' },
+          stagger: 0.4,
+          offset: 21,
+        },
+      ],
+    },
+  },
+  templates: [
+    {
+      name: 'MyRangeBounce',
+      params: {
+        barSelExpr: { type: "string" },
+        barLabelSel: { type: "string" },
+      },
+      main: {
+        sync: [
+          {
+            ref: 'Bounce',
+            target: [
+              { filter: '.Bar' },
+              { filterExpr: '$barSelExpr' }
+            ],
+          },
+          {
+            ref: 'Bounce',
+            target: '$barLabelSel',
+            offset: 0.4
+          }
+        ],
+      }
+    },
+    {
+      name: 'BarChartEnter',
+      params: {
+        titleStagger: 0.02,
+        titleDuration: 2,
+        componentDuration: 2,
+        axisLabelStagger: 0.04,
+        axisTickAnimation: {
+          type: 'aniUnit',
+          value: { ref: 'Empty' }
+        },
+        barLabelAnimation: {
+          type: 'aniUnit',
+          value: {
+            ref: 'Type',
+            effect: 'fade'
+          }
+        }
+      },
+      main: {
+        sync: [
+          {
+            ref: 'Type',
+            target: '.Title',
+            typeStagger: '$titleStagger',
+            effect: 'fade',
+            duration: '$titleDuration'
+          },
+          {
+            concat: [
+              {
+                ref: 'PathDraw',
+                target: '.XAxis.Domain',
+                ease: 'circ.inOut',
+                duration: '$componentDuration',
+              },
+              {
+                sync: [
+                  {
+                    ref: 'PathDraw',
+                    target: '.YAxis.Domain',
+                    ease: 'circ.inOut',
+                  },
+                  {
+                    target: '.Axis.Tick',
+                    child: '$axisTickAnimation',
+                  },
+                  {
+                    ref: 'Wipe',
+                    target: '.Bar',
+                    ease: 'circ.inOut',
+                  }
+                ],
+                duration: '$componentDuration'
+              },
+              {
+                ref: 'Type',
+                target: '.Axis.Label',
+                typeStagger: '$axisLabelStagger',
+                effect: 'fade',
+                duration: '$componentDuration'
+              },
+              {
+                target: '.BarLabel',
+                child: '$barLabelAnimation',
+              }
+            ]
+          },
+        ]
+      }
+    },
+    {
+      name: 'Bounce',
+      params: {
+        distance: 20,
+      },
+      main: {
+        ref: 'MoveTo',
+        y: '-=$distance',
+        yoyo: true,
+      }
+    },
+  ]
+}

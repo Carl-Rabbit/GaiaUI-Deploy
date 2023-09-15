@@ -1,0 +1,229 @@
+{
+  projectId: 'vega-line-chart-0',
+  chart: './vega-line-chart0.svg',
+  audio: './empty.txt',
+//  binder: {
+//    from: "svg",
+//    to: "gaia.chart.LineChart",
+//    rules: [
+//      {
+//        from: '.mark-line path',
+//        to: '.Mark .Line',
+//      },
+//      {
+//        from: '.mark-symbol:not(.role-legend-symbol) path',
+//        to: '.Mark .Symbol',
+//      },
+//      // legend
+//      {
+//        from: '.role-legend-title text',
+//        to: '.LegendTitle',
+//      },
+//      {
+//        from: '.role-legend-symbol path',
+//        to: '.LegendSymbol',
+//      },
+//      {
+//        from: '.role-legend-label text',
+//        to: '.LegendLabel',
+//      },
+//      // grid
+//      {
+//        from: '.role-axis-grid line',
+//        to: '.Grid .Horizontal',
+//      },
+//      // x axis
+//      {
+//        from: '.role-axis[aria-label~="X-axis"] .role-axis-tick line',
+//        to: '.XAxis .Tick',
+//      },
+//      {
+//        from: '.role-axis[aria-label~="X-axis"] .role-axis-label text',
+//        to: '.XAxis .Label',
+//      },
+//      {
+//        from: '.role-axis[aria-label~="X-axis"] .role-axis-domain line',
+//        to: '.XAxis .Domain',
+//      },
+//      {
+//        from: '.role-axis[aria-label~="X-axis"] .role-axis-title text',
+//        to: '.XAxis .Title',
+//      },
+//      // y axis
+//      {
+//        from: '.role-axis[aria-label~="Y-axis"] .role-axis-tick line',
+//        to: '.YAxis .Tick',
+//      },
+//      {
+//        from: '.role-axis[aria-label~="Y-axis"] .role-axis-label text',
+//        to: '.YAxis .Label',
+//      },
+//      {
+//        from: '.role-axis[aria-label~="Y-axis"] .role-axis-domain line',
+//        to: '.YAxis .Domain',
+//      },
+//      {
+//        from: '.role-axis[aria-label~="Y-axis"] .role-axis-title text',
+//        to: '.YAxis .Title',
+//      },
+//      // background
+//      {
+//        from: '.background',
+//        to: '.Background',
+//      }
+//    ]
+//  },
+  binder: {"from":"svg","to":"LineChart","rules":[{"from":".mark-line path","to":".Mark .Line","dataList":[{"series":"MSFT"},{"series":"AMZN"},{"series":"IBM"},{"series":"GOOG"},{"series":"AAPL"}]},{"from":".mark-symbol:not(.role-legend-symbol) path","to":".Mark .Symbol","dataList":[{"series":"MSFT"},{"series":"MSFT"},{"series":"MSFT"},{"series":"MSFT"},{"series":"MSFT"},{"series":"MSFT"},{"series":"MSFT"},{"series":"MSFT"},{"series":"MSFT"},{"series":"MSFT"},{"series":"MSFT"},{"series":"AMZN"},{"series":"AMZN"},{"series":"AMZN"},{"series":"AMZN"},{"series":"AMZN"},{"series":"AMZN"},{"series":"AMZN"},{"series":"AMZN"},{"series":"AMZN"},{"series":"AMZN"},{"series":"AMZN"},{"series":"IBM"},{"series":"IBM"},{"series":"IBM"},{"series":"IBM"},{"series":"IBM"},{"series":"IBM"},{"series":"IBM"},{"series":"IBM"},{"series":"IBM"},{"series":"IBM"},{"series":"IBM"},{"series":"GOOG"},{"series":"GOOG"},{"series":"GOOG"},{"series":"GOOG"},{"series":"GOOG"},{"series":"GOOG"},{"series":"GOOG"},{"series":"AAPL"},{"series":"AAPL"},{"series":"AAPL"},{"series":"AAPL"},{"series":"AAPL"},{"series":"AAPL"},{"series":"AAPL"},{"series":"AAPL"},{"series":"AAPL"},{"series":"AAPL"},{"series":"AAPL"}]},{"from":".role-legend-title text","to":".LegendTitle"},{"from":".role-legend-symbol path","to":".LegendSymbol","dataList":[{"series":"AAPL"},{"series":"AMZN"},{"series":"GOOG"},{"series":"IBM"},{"series":"MSFT"}]},{"from":".role-legend-label text","to":".LegendLabel","dataList":[{"series":"AAPL"},{"series":"AMZN"},{"series":"GOOG"},{"series":"IBM"},{"series":"MSFT"}]},{"from":".role-axis-grid line","to":".Grid"},{"from":".role-axis[aria-label~=\"X-axis\"] .role-axis-tick line","to":".XAxis .Tick"},{"from":".role-axis[aria-label~=\"X-axis\"] .role-axis-label text","to":".XAxis .Label"},{"from":".role-axis[aria-label~=\"X-axis\"] .role-axis-domain line","to":".XAxis .Domain"},{"from":".role-axis[aria-label~=\"X-axis\"] .role-axis-title text","to":".XAxis .Title"},{"from":".role-axis[aria-label~=\"Y-axis\"] .role-axis-tick line","to":".YAxis .Tick"},{"from":".role-axis[aria-label~=\"Y-axis\"] .role-axis-label text","to":".YAxis .Label"},{"from":".role-axis[aria-label~=\"Y-axis\"] .role-axis-domain line","to":".YAxis .Domain"},{"from":".role-axis[aria-label~=\"Y-axis\"] .role-axis-title text","to":".YAxis .Title"},{"from":".background","to":".Background"},{"from":".role-title text","to":".Title"}]},
+  animation: {
+    main: {
+      sync: [
+        {
+          ref: 'ChartFrameworkEnter',
+        },
+        {
+          ref: 'StaggeredLineSeriesEnter',
+          target: {
+            sortBy: '@data.series',
+            order: ['AAPL', 'AMZN', 'GOOG', 'IBM', 'MSFT'],
+          },
+          offset: 3,
+        },
+      ],
+    },
+  },
+  templates: [
+    {
+      name: 'ChartFrameworkEnter',
+      params: {
+        xDomainFrom: 'left',
+        yDomainFrom: 'bottom',
+        axisLabelStagger: 0.2,
+      },
+      main: {
+        concat: [
+          {
+            sync: [
+              {
+                ref: 'Fade',
+                target: '.Background',
+              },
+              {
+                ref: 'PathDraw',
+                target: '.Grid',
+              },
+            ]
+          },
+          // legend title, axis
+          {
+            sync: [
+              {
+                ref: 'AxisEnter',
+                xDomainFrom: '$xDomainFrom',
+                yDomainFrom: '$yDomainFrom',
+                axisLabelStagger: '$axisLabelStagger',
+              },
+              {
+                ref: 'ZoomIn',
+                target: '.LegendTitle',
+              },
+            ]
+          },
+        ]
+      }
+    },
+    {
+      name: 'AxisEnter',
+      params: {
+        xDomainFrom: 'left',
+        yDomainFrom: 'bottom',
+        axisLabelStagger: 0.2,
+      },
+      main: {
+        sync: [
+          {
+            ref: 'WipeIn',
+            target: '.XAxis.Domain',
+            from: '$xDomainFrom',
+          },
+          {
+            ref: 'WipeIn',
+            target: '.YAxis.Domain',
+            from: '$yDomainFrom',
+          },
+          {
+            ref: 'ZoomIn',
+            target: '.Axis.Title'
+          },
+          {
+            ref: 'Fade',
+            target: '.Axis.Tick'
+          },
+          {
+            ref: 'ZoomIn',
+            target: '.XAxis.Label',
+            stagger: '$axisLabelStagger',
+          },
+          {
+            ref: 'ZoomIn',
+            target: '.YAxis.Label',
+            stagger: '$axisLabelStagger',
+          }
+        ]
+      }
+    },
+    {
+      name: "StaggeredLineSeriesEnter",
+      params: {
+        lineWipeFrom: 'left',
+        lineEnterDuration: 1,
+        seriesStagger: 0,
+        seriesStart: 'after prev',
+        legendSymbolAnimation: {
+          type: 'aniUnit',
+          value: {
+            ref: 'Wheel',
+          }
+        },
+        legendTextAnimation: {
+          type: 'aniUnit',
+          value: {
+            ref: 'CutIn',
+          }
+        },
+      },
+      main: {
+        target: '.Mark, .Legend:not(.Title)',
+        groupBy: '@data.series',
+        foreach: {
+          sync: [
+            {
+              target: '.Legend.Text',
+              child: '$legendTextAnimation'
+            },
+            {
+              target: '.Legend.Symbol',
+              child: '$legendSymbolAnimation'
+            },
+            {
+              sync: [
+                {
+                  ref: 'Wipe',
+                  target: '.Mark.Line',
+                  from: '$lineWipeFrom',
+                },
+                {
+                  ref: 'ZoomIn',
+                  target: '.Mark.Symbol',
+                }
+              ],
+              duration: '$lineEnterDuration'
+            },
+
+          ],
+        },
+        stagger: '$seriesStagger',
+        start: '$seriesStart',
+      }
+    }
+  ]
+}

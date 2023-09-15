@@ -1,0 +1,284 @@
+{
+  "results": [
+    {
+      "alternatives": [
+        {
+          "transcript": "Over four-fifths of Canada\u2019s total beef supply was produced domestically in 2019, while 11.8% was imported. Canadian retailers are therefore mostly reliant on domestic beef supply, suggesting that the supply shortage at the start of the lockdown was mainly due to disruptions in domestic facilities.",
+          "confidence": 1.0,
+          "words": [
+            {
+              "startTime": "0.000s",
+              "endTime": "0.295s",
+              "word": "Over",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.295s",
+              "endTime": "1.211s",
+              "word": "four-fifths",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.211s",
+              "endTime": "1.331s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.331s",
+              "endTime": "1.948s",
+              "word": "Canada\u2019s",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.948s",
+              "endTime": "2.398s",
+              "word": "total",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.398s",
+              "endTime": "2.718s",
+              "word": "beef",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.718s",
+              "endTime": "3.346s",
+              "word": "supply",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.346s",
+              "endTime": "3.566s",
+              "word": "was",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.566s",
+              "endTime": "4.098s",
+              "word": "produced",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.098s",
+              "endTime": "5.022s",
+              "word": "domestically",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.022s",
+              "endTime": "5.167s",
+              "word": "in",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.167s",
+              "endTime": "6.571s",
+              "word": "2019,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.571s",
+              "endTime": "6.776s",
+              "word": "while",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.776s",
+              "endTime": "8.356s",
+              "word": "11.8%",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.356s",
+              "endTime": "8.541s",
+              "word": "was",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.541s",
+              "endTime": "10.082s",
+              "word": "imported.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.082s",
+              "endTime": "10.757s",
+              "word": "Canadian",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.757s",
+              "endTime": "11.516s",
+              "word": "retailers",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.516s",
+              "endTime": "11.646s",
+              "word": "are",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.646s",
+              "endTime": "12.193s",
+              "word": "therefore",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "12.193s",
+              "endTime": "12.787s",
+              "word": "mostly",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "12.787s",
+              "endTime": "13.442s",
+              "word": "reliant",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.442s",
+              "endTime": "13.637s",
+              "word": "on",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.637s",
+              "endTime": "14.205s",
+              "word": "domestic",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.205s",
+              "endTime": "14.489s",
+              "word": "beef",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.489s",
+              "endTime": "15.496s",
+              "word": "supply,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.496s",
+              "endTime": "16.200s",
+              "word": "suggesting",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.200s",
+              "endTime": "16.375s",
+              "word": "that",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.375s",
+              "endTime": "16.435s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.435s",
+              "endTime": "17.011s",
+              "word": "supply",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.011s",
+              "endTime": "17.604s",
+              "word": "shortage",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.604s",
+              "endTime": "17.764s",
+              "word": "at",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.764s",
+              "endTime": "17.823s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.823s",
+              "endTime": "18.258s",
+              "word": "start",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.258s",
+              "endTime": "18.373s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.373s",
+              "endTime": "18.447s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.447s",
+              "endTime": "19.240s",
+              "word": "lockdown",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.240s",
+              "endTime": "19.445s",
+              "word": "was",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.445s",
+              "endTime": "19.885s",
+              "word": "mainly",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.885s",
+              "endTime": "20.075s",
+              "word": "due",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "20.075s",
+              "endTime": "20.246s",
+              "word": "to",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "20.246s",
+              "endTime": "21.087s",
+              "word": "disruptions",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "21.087s",
+              "endTime": "21.237s",
+              "word": "in",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "21.237s",
+              "endTime": "21.796s",
+              "word": "domestic",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "21.796s",
+              "endTime": "23.594s",
+              "word": "facilities.",
+              "speakerTag": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

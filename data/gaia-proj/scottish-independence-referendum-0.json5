@@ -1,0 +1,171 @@
+{
+  projectId: 'scottish-independence-referendum-0',
+  chart: './scottish-independence-referendum.svg',
+  audio: './scottish-independence-referendum.txt',
+  binder: {
+    from: "svg",
+    to: "gaia.chart.Map",
+    rules: [
+      {
+        from: '.mark.area',
+        to: '.Area',
+        dataList: [
+          { category: "Scotland" },
+          { category: "Northern Ireland" },
+          { category: "England" },
+          { category: "Wales" },
+        ]
+      },
+      {
+        from: '.anno-label',
+        to: '.Annotation .Label',
+        dataList: [
+          { category: "Scotland" },
+          { category: "Northern Ireland" },
+          { category: "England" },
+          { category: "Wales" },
+          { category: "United Kingdom" },
+          { category: "Scotland" },
+        ]
+      },
+      {
+        from: '.anno-path',
+        to: '.Annotation .Path',
+        dataList: [
+          { category: "Scotland" },
+          { category: "Northern Ireland" },
+          { category: "England" },
+          { category: "Wales" },
+          { category: "United Kingdom" },
+        ]
+      },
+      {
+        from: '.anno-circle',
+        to: '.Annotation .Path',
+        dataList: [
+          { category: "Scotland" },
+          { category: "Northern Ireland" },
+          { category: "England" },
+          { category: "Wales" },
+          { category: "United Kingdom" },
+        ]
+      }
+    ]
+  },
+  animation: {
+    main: {
+      sync: [
+        {
+          ref: "ChangeColor",
+          target: '.Area[category="Scotland"]',
+          fill: '#1b5d8e',
+          yoyo: {delay: 10},
+        },
+        {
+          ref: "DisplayAnnotation",
+          attrSel: '[category="Scotland"]',
+          linkReverse: true,
+          displayTime: 9,
+        },
+        {
+          ref: "DisplayAnnotation",
+          attrSel: '[category="United Kingdom"]',
+          displayTime: 4.5,
+          offset: 10.5,
+        },
+        {
+          ref: "DisplayAnnotation",
+          attrSel: '[category="Scotland"]',
+          linkReverse: true,
+          displayTime: 12,
+          offset: 19
+        },
+        {
+          ref: "DisplayAnnotation",
+          attrSel: '[category="England"]',
+          linkReverse: true,
+          displayTime: 3.6,
+          offset: 27.4
+        },
+        {
+          ref: "DisplayAnnotation",
+          attrSel: '[category="Wales"]',
+          linkReverse: true,
+          displayTime: 3,
+          offset: 28
+        },
+        {
+          ref: "DisplayAnnotation",
+          attrSel: '[category="Northern Ireland"]',
+          linkReverse: true,
+          displayTime: 2.5,
+          offset: 28.6
+        }
+      ],
+    },
+  },
+  templates: [
+    {
+      name: 'DisplayAnnotation',
+      params: {
+        attrSel: '',
+        displayTime: 3,
+        linkReverse: false,
+      },
+      main: {
+        target: '.Annotation$attrSel',
+        sync: [
+          {
+            ref: 'DisplayTextByTyping',
+            target: '.Label',
+            effect: 'fade',
+            displayTime: '$displayTime',
+          },
+          {
+            ref: 'PathDraw',
+            target: '.Circle',
+            yoyo: { delay: "$displayTime" }
+          },
+          {
+            ref: "PathDraw",
+            target: '.Path',
+            reverseDirection: '$linkReverse',
+            yoyo: { delay: "$displayTime" }
+          },
+          {
+            ref: 'ZoomIn',
+            target: '.Symbol',
+            yoyo: { delay: "$displayTime" }
+          }
+        ]
+      }
+    },
+    {
+      name: 'DisplayTextByTyping',
+      params: {
+        typeStagger: 0.2,
+        effect: 'show',
+        aniTime: 1,
+        displayTime: 3,
+      },
+      main: {
+        concat: [
+          {
+            ref: 'Type',
+            effect: '$effect',
+            typeStagger: '$typeStagger',
+            duration: '$aniTime',
+          },
+          {
+            ref: 'Type',
+            type: 'out',
+            effect: '$effect',
+            typeStagger: '$typeStagger',
+            duration: '$aniTime',
+            offset: '$displayTime',
+          }
+        ]
+      }
+    }
+  ]
+}

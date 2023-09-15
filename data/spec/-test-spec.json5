@@ -1,0 +1,51 @@
+{
+  sequence: {
+    sync: [
+      {
+        use: 'wipe-enter-then-wipe-exit',
+        target: {
+          selector: '.annotation.path',
+          transform: {
+            type: 'sort',
+            data: 'name',
+            order: [
+              'General Motors',
+              'Volkswagen',
+              'Toyota',
+            ],
+          },
+        },
+        settings: {
+          stagger: 4,
+          displayTime: 2,
+        },
+        timing: {
+          start: 0,
+        },
+      },
+      {
+        use: 'wipe-enter-then-wipe-exit',
+        target: {
+          selector: '.annotation.path',
+          transform: {
+            type: 'sort',
+            data: 'name',
+            order: [
+              'General Motors',
+              'Volkswagen',
+              'Toyota',
+            ],
+          },
+        },
+        settings: {
+          stagger: 4,
+          displayTime: 2,
+        },
+        timing: {
+          start: 13,
+        },
+      }
+    ],
+  },
+}
+

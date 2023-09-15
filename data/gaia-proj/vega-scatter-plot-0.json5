@@ -1,0 +1,149 @@
+{
+  projectId: 'vega-scatter-plot-0',
+  chart: './vega-scatter-plot0.svg',
+  audio: './empty.txt',
+  binder: {"from":"svg","to":"ScatterPlot","rules":[{"from":".role-mark *","to":".Mark .Symbol","dataList":[{"xVal":181,"yVal":3750,"series":"Adelie"},{"xVal":186,"yVal":3800,"series":"Adelie"},{"xVal":195,"yVal":3250,"series":"Adelie"},{"xVal":193,"yVal":3450,"series":"Adelie"},{"xVal":190,"yVal":3650,"series":"Adelie"},{"xVal":181,"yVal":3625,"series":"Adelie"},{"xVal":195,"yVal":4675,"series":"Adelie"},{"xVal":193,"yVal":3475,"series":"Adelie"},{"xVal":190,"yVal":4250,"series":"Adelie"},{"xVal":186,"yVal":3300,"series":"Adelie"},{"xVal":180,"yVal":3700,"series":"Adelie"},{"xVal":182,"yVal":3200,"series":"Adelie"},{"xVal":191,"yVal":3800,"series":"Adelie"},{"xVal":198,"yVal":4400,"series":"Adelie"},{"xVal":185,"yVal":3700,"series":"Adelie"},{"xVal":195,"yVal":3450,"series":"Adelie"},{"xVal":197,"yVal":4500,"series":"Adelie"},{"xVal":184,"yVal":3325,"series":"Adelie"},{"xVal":194,"yVal":4200,"series":"Adelie"},{"xVal":174,"yVal":3400,"series":"Adelie"},{"xVal":180,"yVal":3600,"series":"Adelie"},{"xVal":189,"yVal":3800,"series":"Adelie"},{"xVal":185,"yVal":3950,"series":"Adelie"},{"xVal":180,"yVal":3800,"series":"Adelie"},{"xVal":187,"yVal":3800,"series":"Adelie"},{"xVal":183,"yVal":3550,"series":"Adelie"},{"xVal":187,"yVal":3200,"series":"Adelie"},{"xVal":172,"yVal":3150,"series":"Adelie"},{"xVal":180,"yVal":3950,"series":"Adelie"},{"xVal":178,"yVal":3250,"series":"Adelie"},{"xVal":178,"yVal":3900,"series":"Adelie"},{"xVal":188,"yVal":3300,"series":"Adelie"},{"xVal":184,"yVal":3900,"series":"Adelie"},{"xVal":195,"yVal":3325,"series":"Adelie"},{"xVal":196,"yVal":4150,"series":"Adelie"},{"xVal":190,"yVal":3950,"series":"Adelie"},{"xVal":180,"yVal":3550,"series":"Adelie"},{"xVal":181,"yVal":3300,"series":"Adelie"},{"xVal":184,"yVal":4650,"series":"Adelie"},{"xVal":182,"yVal":3150,"series":"Adelie"},{"xVal":195,"yVal":3900,"series":"Adelie"},{"xVal":186,"yVal":3100,"series":"Adelie"},{"xVal":196,"yVal":4400,"series":"Adelie"},{"xVal":185,"yVal":3000,"series":"Adelie"},{"xVal":190,"yVal":4600,"series":"Adelie"},{"xVal":182,"yVal":3425,"series":"Adelie"},{"xVal":179,"yVal":2975,"series":"Adelie"},{"xVal":190,"yVal":3450,"series":"Adelie"},{"xVal":191,"yVal":4150,"series":"Adelie"},{"xVal":186,"yVal":3500,"series":"Adelie"},{"xVal":188,"yVal":4300,"series":"Adelie"},{"xVal":190,"yVal":3450,"series":"Adelie"},{"xVal":200,"yVal":4050,"series":"Adelie"},{"xVal":187,"yVal":2900,"series":"Adelie"},{"xVal":191,"yVal":3700,"series":"Adelie"},{"xVal":186,"yVal":3550,"series":"Adelie"},{"xVal":193,"yVal":3800,"series":"Adelie"},{"xVal":181,"yVal":2850,"series":"Adelie"},{"xVal":194,"yVal":3750,"series":"Adelie"},{"xVal":185,"yVal":3150,"series":"Adelie"},{"xVal":195,"yVal":4400,"series":"Adelie"},{"xVal":185,"yVal":3600,"series":"Adelie"},{"xVal":192,"yVal":4050,"series":"Adelie"},{"xVal":184,"yVal":2850,"series":"Adelie"},{"xVal":192,"yVal":3950,"series":"Adelie"},{"xVal":195,"yVal":3350,"series":"Adelie"},{"xVal":188,"yVal":4100,"series":"Adelie"},{"xVal":190,"yVal":3050,"series":"Adelie"},{"xVal":198,"yVal":4450,"series":"Adelie"},{"xVal":190,"yVal":3600,"series":"Adelie"},{"xVal":190,"yVal":3900,"series":"Adelie"},{"xVal":196,"yVal":3550,"series":"Adelie"},{"xVal":197,"yVal":4150,"series":"Adelie"},{"xVal":190,"yVal":3700,"series":"Adelie"},{"xVal":195,"yVal":4250,"series":"Adelie"},{"xVal":191,"yVal":3700,"series":"Adelie"},{"xVal":184,"yVal":3900,"series":"Adelie"},{"xVal":187,"yVal":3550,"series":"Adelie"},{"xVal":195,"yVal":4000,"series":"Adelie"},{"xVal":189,"yVal":3200,"series":"Adelie"},{"xVal":196,"yVal":4700,"series":"Adelie"},{"xVal":187,"yVal":3800,"series":"Adelie"},{"xVal":193,"yVal":4200,"series":"Adelie"},{"xVal":191,"yVal":3350,"series":"Adelie"},{"xVal":194,"yVal":3550,"series":"Adelie"},{"xVal":190,"yVal":3800,"series":"Adelie"},{"xVal":189,"yVal":3500,"series":"Adelie"},{"xVal":189,"yVal":3950,"series":"Adelie"},{"xVal":190,"yVal":3600,"series":"Adelie"},{"xVal":202,"yVal":3550,"series":"Adelie"},{"xVal":205,"yVal":4300,"series":"Adelie"},{"xVal":185,"yVal":3400,"series":"Adelie"},{"xVal":186,"yVal":4450,"series":"Adelie"},{"xVal":187,"yVal":3300,"series":"Adelie"},{"xVal":208,"yVal":4300,"series":"Adelie"},{"xVal":190,"yVal":3700,"series":"Adelie"},{"xVal":196,"yVal":4350,"series":"Adelie"},{"xVal":178,"yVal":2900,"series":"Adelie"},{"xVal":192,"yVal":4100,"series":"Adelie"},{"xVal":192,"yVal":3725,"series":"Adelie"},{"xVal":203,"yVal":4725,"series":"Adelie"},{"xVal":183,"yVal":3075,"series":"Adelie"},{"xVal":190,"yVal":4250,"series":"Adelie"},{"xVal":193,"yVal":2925,"series":"Adelie"},{"xVal":184,"yVal":3550,"series":"Adelie"},{"xVal":199,"yVal":3750,"series":"Adelie"},{"xVal":190,"yVal":3900,"series":"Adelie"},{"xVal":181,"yVal":3175,"series":"Adelie"},{"xVal":197,"yVal":4775,"series":"Adelie"},{"xVal":198,"yVal":3825,"series":"Adelie"},{"xVal":191,"yVal":4600,"series":"Adelie"},{"xVal":193,"yVal":3200,"series":"Adelie"},{"xVal":197,"yVal":4275,"series":"Adelie"},{"xVal":191,"yVal":3900,"series":"Adelie"},{"xVal":196,"yVal":4075,"series":"Adelie"},{"xVal":188,"yVal":2900,"series":"Adelie"},{"xVal":199,"yVal":3775,"series":"Adelie"},{"xVal":189,"yVal":3350,"series":"Adelie"},{"xVal":189,"yVal":3325,"series":"Adelie"},{"xVal":187,"yVal":3150,"series":"Adelie"},{"xVal":198,"yVal":3500,"series":"Adelie"},{"xVal":176,"yVal":3450,"series":"Adelie"},{"xVal":202,"yVal":3875,"series":"Adelie"},{"xVal":186,"yVal":3050,"series":"Adelie"},{"xVal":199,"yVal":4000,"series":"Adelie"},{"xVal":191,"yVal":3275,"series":"Adelie"},{"xVal":195,"yVal":4300,"series":"Adelie"},{"xVal":191,"yVal":3050,"series":"Adelie"},{"xVal":210,"yVal":4000,"series":"Adelie"},{"xVal":190,"yVal":3325,"series":"Adelie"},{"xVal":197,"yVal":3500,"series":"Adelie"},{"xVal":193,"yVal":3500,"series":"Adelie"},{"xVal":199,"yVal":4475,"series":"Adelie"},{"xVal":187,"yVal":3425,"series":"Adelie"},{"xVal":190,"yVal":3900,"series":"Adelie"},{"xVal":191,"yVal":3175,"series":"Adelie"},{"xVal":200,"yVal":3975,"series":"Adelie"},{"xVal":185,"yVal":3400,"series":"Adelie"},{"xVal":193,"yVal":4250,"series":"Adelie"},{"xVal":193,"yVal":3400,"series":"Adelie"},{"xVal":187,"yVal":3475,"series":"Adelie"},{"xVal":188,"yVal":3050,"series":"Adelie"},{"xVal":190,"yVal":3725,"series":"Adelie"},{"xVal":192,"yVal":3000,"series":"Adelie"},{"xVal":185,"yVal":3650,"series":"Adelie"},{"xVal":190,"yVal":4250,"series":"Adelie"},{"xVal":184,"yVal":3475,"series":"Adelie"},{"xVal":195,"yVal":3450,"series":"Adelie"},{"xVal":193,"yVal":3750,"series":"Adelie"},{"xVal":187,"yVal":3700,"series":"Adelie"},{"xVal":201,"yVal":4000,"series":"Adelie"},{"xVal":192,"yVal":3500,"series":"Chinstrap"},{"xVal":196,"yVal":3900,"series":"Chinstrap"},{"xVal":193,"yVal":3650,"series":"Chinstrap"},{"xVal":188,"yVal":3525,"series":"Chinstrap"},{"xVal":197,"yVal":3725,"series":"Chinstrap"},{"xVal":198,"yVal":3950,"series":"Chinstrap"},{"xVal":178,"yVal":3250,"series":"Chinstrap"},{"xVal":197,"yVal":3750,"series":"Chinstrap"},{"xVal":195,"yVal":4150,"series":"Chinstrap"},{"xVal":198,"yVal":3700,"series":"Chinstrap"},{"xVal":193,"yVal":3800,"series":"Chinstrap"},{"xVal":194,"yVal":3775,"series":"Chinstrap"},{"xVal":185,"yVal":3700,"series":"Chinstrap"},{"xVal":201,"yVal":4050,"series":"Chinstrap"},{"xVal":190,"yVal":3575,"series":"Chinstrap"},{"xVal":201,"yVal":4050,"series":"Chinstrap"},{"xVal":197,"yVal":3300,"series":"Chinstrap"},{"xVal":181,"yVal":3700,"series":"Chinstrap"},{"xVal":190,"yVal":3450,"series":"Chinstrap"},{"xVal":195,"yVal":4400,"series":"Chinstrap"},{"xVal":181,"yVal":3600,"series":"Chinstrap"},{"xVal":191,"yVal":3400,"series":"Chinstrap"},{"xVal":187,"yVal":2900,"series":"Chinstrap"},{"xVal":193,"yVal":3800,"series":"Chinstrap"},{"xVal":195,"yVal":3300,"series":"Chinstrap"},{"xVal":197,"yVal":4150,"series":"Chinstrap"},{"xVal":200,"yVal":3400,"series":"Chinstrap"},{"xVal":200,"yVal":3800,"series":"Chinstrap"},{"xVal":191,"yVal":3700,"series":"Chinstrap"},{"xVal":205,"yVal":4550,"series":"Chinstrap"},{"xVal":187,"yVal":3200,"series":"Chinstrap"},{"xVal":201,"yVal":4300,"series":"Chinstrap"},{"xVal":187,"yVal":3350,"series":"Chinstrap"},{"xVal":203,"yVal":4100,"series":"Chinstrap"},{"xVal":195,"yVal":3600,"series":"Chinstrap"},{"xVal":199,"yVal":3900,"series":"Chinstrap"},{"xVal":195,"yVal":3850,"series":"Chinstrap"},{"xVal":210,"yVal":4800,"series":"Chinstrap"},{"xVal":192,"yVal":2700,"series":"Chinstrap"},{"xVal":205,"yVal":4500,"series":"Chinstrap"},{"xVal":210,"yVal":3950,"series":"Chinstrap"},{"xVal":187,"yVal":3650,"series":"Chinstrap"},{"xVal":196,"yVal":3550,"series":"Chinstrap"},{"xVal":196,"yVal":3500,"series":"Chinstrap"},{"xVal":196,"yVal":3675,"series":"Chinstrap"},{"xVal":201,"yVal":4450,"series":"Chinstrap"},{"xVal":190,"yVal":3400,"series":"Chinstrap"},{"xVal":212,"yVal":4300,"series":"Chinstrap"},{"xVal":187,"yVal":3250,"series":"Chinstrap"},{"xVal":198,"yVal":3675,"series":"Chinstrap"},{"xVal":199,"yVal":3325,"series":"Chinstrap"},{"xVal":201,"yVal":3950,"series":"Chinstrap"},{"xVal":193,"yVal":3600,"series":"Chinstrap"},{"xVal":203,"yVal":4050,"series":"Chinstrap"},{"xVal":187,"yVal":3350,"series":"Chinstrap"},{"xVal":197,"yVal":3450,"series":"Chinstrap"},{"xVal":191,"yVal":3250,"series":"Chinstrap"},{"xVal":203,"yVal":4050,"series":"Chinstrap"},{"xVal":202,"yVal":3800,"series":"Chinstrap"},{"xVal":194,"yVal":3525,"series":"Chinstrap"},{"xVal":206,"yVal":3950,"series":"Chinstrap"},{"xVal":189,"yVal":3650,"series":"Chinstrap"},{"xVal":195,"yVal":3650,"series":"Chinstrap"},{"xVal":207,"yVal":4000,"series":"Chinstrap"},{"xVal":202,"yVal":3400,"series":"Chinstrap"},{"xVal":193,"yVal":3775,"series":"Chinstrap"},{"xVal":210,"yVal":4100,"series":"Chinstrap"},{"xVal":198,"yVal":3775,"series":"Chinstrap"},{"xVal":211,"yVal":4500,"series":"Gentoo"},{"xVal":230,"yVal":5700,"series":"Gentoo"},{"xVal":210,"yVal":4450,"series":"Gentoo"},{"xVal":218,"yVal":5700,"series":"Gentoo"},{"xVal":215,"yVal":5400,"series":"Gentoo"},{"xVal":210,"yVal":4550,"series":"Gentoo"},{"xVal":211,"yVal":4800,"series":"Gentoo"},{"xVal":219,"yVal":5200,"series":"Gentoo"},{"xVal":209,"yVal":4400,"series":"Gentoo"},{"xVal":215,"yVal":5150,"series":"Gentoo"},{"xVal":214,"yVal":4650,"series":"Gentoo"},{"xVal":216,"yVal":5550,"series":"Gentoo"},{"xVal":214,"yVal":4650,"series":"Gentoo"},{"xVal":213,"yVal":5850,"series":"Gentoo"},{"xVal":210,"yVal":4200,"series":"Gentoo"},{"xVal":217,"yVal":5850,"series":"Gentoo"},{"xVal":210,"yVal":4150,"series":"Gentoo"},{"xVal":221,"yVal":6300,"series":"Gentoo"},{"xVal":209,"yVal":4800,"series":"Gentoo"},{"xVal":222,"yVal":5350,"series":"Gentoo"},{"xVal":218,"yVal":5700,"series":"Gentoo"},{"xVal":215,"yVal":5000,"series":"Gentoo"},{"xVal":213,"yVal":4400,"series":"Gentoo"},{"xVal":215,"yVal":5050,"series":"Gentoo"},{"xVal":215,"yVal":5000,"series":"Gentoo"},{"xVal":215,"yVal":5100,"series":"Gentoo"},{"xVal":216,"yVal":4100,"series":"Gentoo"},{"xVal":215,"yVal":5650,"series":"Gentoo"},{"xVal":210,"yVal":4600,"series":"Gentoo"},{"xVal":220,"yVal":5550,"series":"Gentoo"},{"xVal":222,"yVal":5250,"series":"Gentoo"},{"xVal":209,"yVal":4700,"series":"Gentoo"},{"xVal":207,"yVal":5050,"series":"Gentoo"},{"xVal":230,"yVal":6050,"series":"Gentoo"},{"xVal":220,"yVal":5150,"series":"Gentoo"},{"xVal":220,"yVal":5400,"series":"Gentoo"},{"xVal":213,"yVal":4950,"series":"Gentoo"},{"xVal":219,"yVal":5250,"series":"Gentoo"},{"xVal":208,"yVal":4350,"series":"Gentoo"},{"xVal":208,"yVal":5350,"series":"Gentoo"},{"xVal":208,"yVal":3950,"series":"Gentoo"},{"xVal":225,"yVal":5700,"series":"Gentoo"},{"xVal":210,"yVal":4300,"series":"Gentoo"},{"xVal":216,"yVal":4750,"series":"Gentoo"},{"xVal":222,"yVal":5550,"series":"Gentoo"},{"xVal":217,"yVal":4900,"series":"Gentoo"},{"xVal":210,"yVal":4200,"series":"Gentoo"},{"xVal":225,"yVal":5400,"series":"Gentoo"},{"xVal":213,"yVal":5100,"series":"Gentoo"},{"xVal":215,"yVal":5300,"series":"Gentoo"},{"xVal":210,"yVal":4850,"series":"Gentoo"},{"xVal":220,"yVal":5300,"series":"Gentoo"},{"xVal":210,"yVal":4400,"series":"Gentoo"},{"xVal":225,"yVal":5000,"series":"Gentoo"},{"xVal":217,"yVal":4900,"series":"Gentoo"},{"xVal":220,"yVal":5050,"series":"Gentoo"},{"xVal":208,"yVal":4300,"series":"Gentoo"},{"xVal":220,"yVal":5000,"series":"Gentoo"},{"xVal":208,"yVal":4450,"series":"Gentoo"},{"xVal":224,"yVal":5550,"series":"Gentoo"},{"xVal":208,"yVal":4200,"series":"Gentoo"},{"xVal":221,"yVal":5300,"series":"Gentoo"},{"xVal":214,"yVal":4400,"series":"Gentoo"},{"xVal":231,"yVal":5650,"series":"Gentoo"},{"xVal":219,"yVal":4700,"series":"Gentoo"},{"xVal":230,"yVal":5700,"series":"Gentoo"},{"xVal":214,"yVal":4650,"series":"Gentoo"},{"xVal":229,"yVal":5800,"series":"Gentoo"},{"xVal":220,"yVal":4700,"series":"Gentoo"},{"xVal":223,"yVal":5550,"series":"Gentoo"},{"xVal":216,"yVal":4750,"series":"Gentoo"},{"xVal":221,"yVal":5000,"series":"Gentoo"},{"xVal":221,"yVal":5100,"series":"Gentoo"},{"xVal":217,"yVal":5200,"series":"Gentoo"},{"xVal":216,"yVal":4700,"series":"Gentoo"},{"xVal":230,"yVal":5800,"series":"Gentoo"},{"xVal":209,"yVal":4600,"series":"Gentoo"},{"xVal":220,"yVal":6000,"series":"Gentoo"},{"xVal":215,"yVal":4750,"series":"Gentoo"},{"xVal":223,"yVal":5950,"series":"Gentoo"},{"xVal":212,"yVal":4625,"series":"Gentoo"},{"xVal":221,"yVal":5450,"series":"Gentoo"},{"xVal":212,"yVal":4725,"series":"Gentoo"},{"xVal":224,"yVal":5350,"series":"Gentoo"},{"xVal":212,"yVal":4750,"series":"Gentoo"},{"xVal":228,"yVal":5600,"series":"Gentoo"},{"xVal":218,"yVal":4600,"series":"Gentoo"},{"xVal":218,"yVal":5300,"series":"Gentoo"},{"xVal":212,"yVal":4875,"series":"Gentoo"},{"xVal":230,"yVal":5550,"series":"Gentoo"},{"xVal":218,"yVal":4950,"series":"Gentoo"},{"xVal":228,"yVal":5400,"series":"Gentoo"},{"xVal":212,"yVal":4750,"series":"Gentoo"},{"xVal":224,"yVal":5650,"series":"Gentoo"},{"xVal":214,"yVal":4850,"series":"Gentoo"},{"xVal":226,"yVal":5200,"series":"Gentoo"},{"xVal":216,"yVal":4925,"series":"Gentoo"},{"xVal":222,"yVal":4875,"series":"Gentoo"},{"xVal":203,"yVal":4625,"series":"Gentoo"},{"xVal":225,"yVal":5250,"series":"Gentoo"},{"xVal":219,"yVal":4850,"series":"Gentoo"},{"xVal":228,"yVal":5600,"series":"Gentoo"},{"xVal":215,"yVal":4975,"series":"Gentoo"},{"xVal":228,"yVal":5500,"series":"Gentoo"},{"xVal":216,"yVal":4725,"series":"Gentoo"},{"xVal":215,"yVal":5500,"series":"Gentoo"},{"xVal":210,"yVal":4700,"series":"Gentoo"},{"xVal":219,"yVal":5500,"series":"Gentoo"},{"xVal":208,"yVal":4575,"series":"Gentoo"},{"xVal":209,"yVal":5500,"series":"Gentoo"},{"xVal":216,"yVal":5000,"series":"Gentoo"},{"xVal":229,"yVal":5950,"series":"Gentoo"},{"xVal":213,"yVal":4650,"series":"Gentoo"},{"xVal":230,"yVal":5500,"series":"Gentoo"},{"xVal":217,"yVal":4375,"series":"Gentoo"},{"xVal":230,"yVal":5850,"series":"Gentoo"},{"xVal":217,"yVal":4875,"series":"Gentoo"},{"xVal":222,"yVal":6000,"series":"Gentoo"},{"xVal":214,"yVal":4925,"series":"Gentoo"},{"xVal":215,"yVal":4850,"series":"Gentoo"},{"xVal":222,"yVal":5750,"series":"Gentoo"},{"xVal":212,"yVal":5200,"series":"Gentoo"},{"xVal":213,"yVal":5400,"series":"Gentoo"}]},{"from":".role-legend-title text","to":".LegendTitle"},{"from":".role-legend-symbol path","to":".LegendSymbol","dataList":[{"series":"Adelie"},{"series":"Chinstrap"},{"series":"Gentoo"}]},{"from":".role-legend-label text","to":".LegendLabel","dataList":[{"series":"Adelie"},{"series":"Chinstrap"},{"series":"Gentoo"}]},{"from":".role-axis-grid line","to":".Grid"},{"from":".role-axis[aria-label~=\"X-axis\"] .role-axis-tick line","to":".XAxis .Tick"},{"from":".role-axis[aria-label~=\"X-axis\"] .role-axis-label text","to":".XAxis .Label"},{"from":".role-axis[aria-label~=\"X-axis\"] .role-axis-domain line","to":".XAxis .Domain"},{"from":".role-axis[aria-label~=\"X-axis\"] .role-axis-title text","to":".XAxis .Title"},{"from":".role-axis[aria-label~=\"Y-axis\"] .role-axis-tick line","to":".YAxis .Tick"},{"from":".role-axis[aria-label~=\"Y-axis\"] .role-axis-label text","to":".YAxis .Label"},{"from":".role-axis[aria-label~=\"Y-axis\"] .role-axis-domain line","to":".YAxis .Domain"},{"from":".role-axis[aria-label~=\"Y-axis\"] .role-axis-title text","to":".YAxis .Title"},{"from":".background","to":".Background"},{"from":".role-title text","to":".Title"}]},
+  animation: {
+    main: {
+      sync: [
+        {
+          ref: 'ChartFrameworkEnter',
+        },
+        {
+          ref: 'StaggeredPointSeriesEnter',
+          offset: 3,
+        },
+      ],
+    },
+  },
+  templates: [
+    {
+      name: 'ChartFrameworkEnter',
+      params: {
+        xDomainFrom: 'left',
+        yDomainFrom: 'bottom',
+        axisLabelStagger: 0.2,
+      },
+      main: {
+        concat: [
+          {
+            sync: [
+              {
+                ref: 'Fade',
+                target: '.Background',
+              },
+              {
+                ref: 'PathDraw',
+                target: '.Grid',
+              },
+            ]
+          },
+          // legend title, axis
+          {
+            sync: [
+              {
+                ref: 'AxisEnter',
+                xDomainFrom: '$xDomainFrom',
+                yDomainFrom: '$yDomainFrom',
+                axisLabelStagger: '$axisLabelStagger',
+              },
+              {
+                ref: 'ZoomIn',
+                target: '.LegendTitle',
+              },
+            ]
+          },
+        ]
+      }
+    },
+    {
+      name: 'AxisEnter',
+      params: {
+        xDomainFrom: 'left',
+        yDomainFrom: 'bottom',
+        axisLabelStagger: 0.2,
+      },
+      main: {
+        sync: [
+          {
+            ref: 'WipeIn',
+            target: '.XAxis.Domain',
+            from: '$xDomainFrom',
+          },
+          {
+            ref: 'WipeIn',
+            target: '.YAxis.Domain',
+            from: '$yDomainFrom',
+          },
+          {
+            ref: 'ZoomIn',
+            target: '.Axis.Title'
+          },
+          {
+            ref: 'Fade',
+            target: '.Axis.Tick'
+          },
+          {
+            ref: 'ZoomIn',
+            target: '.XAxis.Label',
+            stagger: '$axisLabelStagger',
+          },
+          {
+            ref: 'ZoomIn',
+            target: '.YAxis.Label',
+            stagger: '$axisLabelStagger',
+          }
+        ]
+      }
+    },
+    {
+      name: "StaggeredPointSeriesEnter",
+      params: {
+        pointStagger: 0,
+        seriesStagger: 0,
+        seriesStart: 'after prev',
+        pointAnimation: {
+          type: 'aniUnit',
+          value: {
+              ref: 'ZoomIn',
+          }
+        },
+        legendSymbolAnimation: {
+          type: 'aniUnit',
+          value: {
+            ref: 'Wheel',
+          }
+        },
+        legendTextAnimation: {
+          type: 'aniUnit',
+          value: {
+            ref: 'CutIn',
+          }
+        },
+      },
+      main: {
+        target: '.Mark, .Legend:not(.Title)',
+        groupBy: '@data.series',
+        foreach: {
+          sync: [
+            {
+              target: '.Legend.Text',
+              child: '$legendTextAnimation'
+            },
+            {
+              target: '.Legend.Symbol',
+              child: '$legendSymbolAnimation'
+            },
+            {
+              target: '.Mark.Symbol',
+              child: '$pointAnimation',
+              stagger: '$pointStagger',
+            }
+          ],
+        },
+        stagger: '$seriesStagger',
+        start: '$seriesStart',
+      }
+    }
+  ]
+}

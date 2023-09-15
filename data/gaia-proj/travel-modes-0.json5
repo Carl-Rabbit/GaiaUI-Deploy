@@ -1,0 +1,132 @@
+{
+  projectId: 'travel-modes-0',
+  chart: './travel-modes.svg',
+  audio: './empty.txt',
+  binder: {
+    from: "svg",
+    to: "gaia.chart.IsotypeChart",
+    rules: [
+      {
+        from: ".symbol-group",
+        to: ".XAxis .Symbol",
+        dataList: [
+          { category: "train", value: 8 },
+          { category: "airplane", value: 17 },
+          { category: "car", value: 13 },
+          { category: "ship", value: 18 },
+        ]
+      },
+      {
+        from: ".isotype-0 path",
+        to: ".IsotypeMark .Path",
+        data: {
+          category: "train",
+          value: 8,
+        }
+      },
+      {
+        from: ".isotype-1 path",
+        to: ".IsotypeMark .Path",
+        data: {
+          category: "airplane",
+          value: 17,
+        }
+      },
+      {
+        from: ".isotype-2 path",
+        to: ".IsotypeMark .Path",
+        data: {
+          category: "car",
+          value: 13,
+        }
+      },
+      {
+        from: ".isotype-3 path",
+        to: ".IsotypeMark .Path",
+        data: {
+          category: "ship",
+          value: 18,
+        }
+      },
+    ]
+  },
+  animation: {
+    main: {
+      sync: [
+        {
+          ref: 'IsotypeEnter',
+          colorChangeFrom: '#919191'
+        },
+      ],
+    },
+  },
+  templates: [
+    {
+      name: "IsotypeEnter",
+      params: {
+        symbolAnimation: {
+          type: "aniUnit",
+          value: {
+            ref: 'ZoomIn',
+          }
+        },
+        isotypeAnimation: {
+          type: "aniUnit",
+          value: {
+            ref: 'Fade',
+          }
+        },
+        colorChangeFrom: { type: "string" },
+        coloredFilterExpr: '@index < @data.value',
+        markGroupBy: '@data.category',
+        staggerValue: 0.02,
+        isotypeScale: 1.2,
+        isotypeScaleDuration: 0.5,
+        isotypeStart: 'after prev',
+      },
+      main: {
+        concat: [
+          {
+            target: '.Symbol',
+            child: '$symbolAnimation',
+          },
+          {
+            target: '.IsotypeMark',
+            groupBy: '$markGroupBy',
+            foreach: {
+              groupBy: '@id',
+              foreach: '$isotypeAnimation',
+              stagger: '$staggerValue',
+            },
+          },
+          {
+            target: '.IsotypeMark',
+            groupBy: '$markGroupBy',
+            foreach: {
+              target: {
+                filterExpr: '$coloredFilterExpr',
+              },
+              sync: [
+                {
+                  ref: 'ChangeColor',
+                  type: 'from',
+                  fill: '$colorChangeFrom',
+                  stagger: '$staggerValue',
+                },
+                {
+                  ref: 'Custom',
+                  attr: 'scale',
+                  to: '*=$isotypeScale',
+                  yoyo: true,
+                  stagger: '$staggerValue',
+                  duration: '$isotypeScaleDuration',
+                }
+              ]
+            },
+            start: '$isotypeStart',
+          }
+        ]
+      }
+    }
+  ]
+}

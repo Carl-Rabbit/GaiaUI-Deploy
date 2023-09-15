@@ -1,0 +1,578 @@
+{
+  "chartType": "line-chart",
+  "elements": [
+    {
+      "type": "bg-rect",
+      "id": "house-prices-background-rect",
+      "clazz": "scene chart house-prices background rect bg-rect",
+      "data": null,
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "x-domain",
+      "id": "house-prices-x-domain",
+      "clazz": "domain scene chart house-prices axis x-axis x-domain",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-label",
+      "id": "house-prices-x-label-0",
+      "clazz": "scene chart house-prices axis x-axis label label-0 x-label",
+      "data": null,
+      "tag": "text",
+      "text": "1991"
+    },
+    {
+      "type": "x-label",
+      "id": "house-prices-x-label-1",
+      "clazz": "scene chart house-prices axis x-axis label label-1 x-label",
+      "data": null,
+      "tag": "text",
+      "text": "1995"
+    },
+    {
+      "type": "x-label",
+      "id": "house-prices-x-label-2",
+      "clazz": "scene chart house-prices axis x-axis label label-2 x-label",
+      "data": null,
+      "tag": "text",
+      "text": "1999"
+    },
+    {
+      "type": "x-label",
+      "id": "house-prices-x-label-3",
+      "clazz": "scene chart house-prices axis x-axis label label-3 x-label",
+      "data": null,
+      "tag": "text",
+      "text": "2003"
+    },
+    {
+      "type": "x-label",
+      "id": "house-prices-x-label-4",
+      "clazz": "scene chart house-prices axis x-axis label label-4 x-label",
+      "data": null,
+      "tag": "text",
+      "text": "2007"
+    },
+    {
+      "type": "x-label",
+      "id": "house-prices-x-label-5",
+      "clazz": "scene chart house-prices axis x-axis label label-5 x-label",
+      "data": null,
+      "tag": "text",
+      "text": "2011"
+    },
+    {
+      "type": "x-label",
+      "id": "house-prices-x-label-6",
+      "clazz": "scene chart house-prices axis x-axis label label-6 x-label",
+      "data": null,
+      "tag": "text",
+      "text": "2015"
+    },
+    {
+      "type": "y-domain",
+      "id": "house-prices-y-domain",
+      "clazz": "domain scene chart house-prices axis y-axis y-domain",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "y-label",
+      "id": "house-prices-y-label-0",
+      "clazz": "scene chart house-prices axis y-axis label label-0 y-label",
+      "data": null,
+      "tag": "text",
+      "text": "1"
+    },
+    {
+      "type": "y-label",
+      "id": "house-prices-y-label-1",
+      "clazz": "scene chart house-prices axis y-axis label label-1 y-label",
+      "data": null,
+      "tag": "text",
+      "text": "2"
+    },
+    {
+      "type": "y-label",
+      "id": "house-prices-y-label-2",
+      "clazz": "scene chart house-prices axis y-axis label label-2 y-label",
+      "data": null,
+      "tag": "text",
+      "text": "3"
+    },
+    {
+      "type": "y-label",
+      "id": "house-prices-y-label-3",
+      "clazz": "scene chart house-prices axis y-axis label label-3 y-label",
+      "data": null,
+      "tag": "text",
+      "text": "4"
+    },
+    {
+      "type": "y-label",
+      "id": "house-prices-y-label-4",
+      "clazz": "scene chart house-prices axis y-axis label label-4 y-label",
+      "data": null,
+      "tag": "text",
+      "text": "5"
+    },
+    {
+      "type": "y-label",
+      "id": "house-prices-y-label-5",
+      "clazz": "scene chart house-prices axis y-axis label label-5 y-label",
+      "data": null,
+      "tag": "text",
+      "text": "6"
+    },
+    {
+      "type": "y-label",
+      "id": "house-prices-y-label-6",
+      "clazz": "scene chart house-prices axis y-axis label label-6 y-label",
+      "data": null,
+      "tag": "text",
+      "text": "7"
+    },
+    {
+      "type": "y-label",
+      "id": "house-prices-y-label-7",
+      "clazz": "scene chart house-prices axis y-axis label label-7 y-label",
+      "data": null,
+      "tag": "text",
+      "text": "8"
+    },
+    {
+      "type": "y-label",
+      "id": "house-prices-y-label-8",
+      "clazz": "scene chart house-prices axis y-axis label label-8 y-label",
+      "data": null,
+      "tag": "text",
+      "text": "9"
+    },
+    {
+      "type": "y-label",
+      "id": "house-prices-y-label-9",
+      "clazz": "scene chart house-prices axis y-axis label label-9 y-label",
+      "data": null,
+      "tag": "text",
+      "text": "10"
+    },
+    {
+      "type": "y-tick",
+      "id": "house-prices-y-tick-0",
+      "clazz": "scene chart house-prices axis y-axis tick tick-0 y-tick",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "y-tick",
+      "id": "house-prices-y-tick-1",
+      "clazz": "scene chart house-prices axis y-axis tick tick-1 y-tick",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "y-tick",
+      "id": "house-prices-y-tick-2",
+      "clazz": "scene chart house-prices axis y-axis tick tick-2 y-tick",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "y-tick",
+      "id": "house-prices-y-tick-3",
+      "clazz": "scene chart house-prices axis y-axis tick tick-3 y-tick",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "y-tick",
+      "id": "house-prices-y-tick-4",
+      "clazz": "scene chart house-prices axis y-axis tick tick-4 y-tick",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "y-tick",
+      "id": "house-prices-y-tick-5",
+      "clazz": "scene chart house-prices axis y-axis tick tick-5 y-tick",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "y-tick",
+      "id": "house-prices-y-tick-6",
+      "clazz": "scene chart house-prices axis y-axis tick tick-6 y-tick",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "y-tick",
+      "id": "house-prices-y-tick-7",
+      "clazz": "scene chart house-prices axis y-axis tick tick-7 y-tick",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "y-tick",
+      "id": "house-prices-y-tick-8",
+      "clazz": "scene chart house-prices axis y-axis tick tick-8 y-tick",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "y-tick",
+      "id": "house-prices-y-tick-9",
+      "clazz": "scene chart house-prices axis y-axis tick tick-9 y-tick",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "line",
+      "id": "house-prices-line-0",
+      "clazz": "scene chart house-prices mark series-0 line-0 line",
+      "data": {
+        "name": "Base Rate",
+        "type": "line",
+        "data": [
+          0.103653,
+          0.0586,
+          0.053881,
+          0.061339,
+          0.058274,
+          0.072054,
+          0.055403,
+          0.0536,
+          0.060042,
+          0.04,
+          0.039906,
+          0.036252,
+          0.045455,
+          0.044573,
+          0.048837,
+          0.055556,
+          0.028767,
+          0.004887,
+          0.004429,
+          0.004306,
+          0.004332,
+          0.004444,
+          0.004666,
+          0.004891,
+          0.002588,
+          0.002603
+        ]
+      },
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "line",
+      "id": "house-prices-line-1",
+      "clazz": "scene chart house-prices mark series-1 line-1 line",
+      "data": {
+        "name": "Mortgage Rate",
+        "type": "line",
+        "data": [
+          0.029153,
+          0.057862,
+          0.0791,
+          0.07931,
+          0.082801,
+          0.068493,
+          0.057822,
+          0.070624,
+          0.061796,
+          0.056773,
+          0.050837,
+          0.055403,
+          0.057839,
+          0.050076,
+          0.055099,
+          0.060061,
+          0.054464,
+          0.05723,
+          0.047184,
+          0.040335,
+          0.039117,
+          0.03379,
+          0.032725,
+          0.028006,
+          0.022738,
+          0.022831
+        ]
+      },
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "anno-label",
+      "id": "house-prices-annotation-group-0-text-0",
+      "clazz": "scene chart house-prices annotation annotation-0 label label-0 anno-label",
+      "data": {
+        "name": "Base Rate",
+        "type": "line",
+        "data": [
+          0.103653,
+          0.0586,
+          0.053881,
+          0.061339,
+          0.058274,
+          0.072054,
+          0.055403,
+          0.0536,
+          0.060042,
+          0.04,
+          0.039906,
+          0.036252,
+          0.045455,
+          0.044573,
+          0.048837,
+          0.055556,
+          0.028767,
+          0.004887,
+          0.004429,
+          0.004306,
+          0.004332,
+          0.004444,
+          0.004666,
+          0.004891,
+          0.002588,
+          0.002603
+        ]
+      },
+      "tag": "text",
+      "text": "Base Rate"
+    },
+    {
+      "type": "anno-label",
+      "id": "house-prices-annotation-group-0-text-1",
+      "clazz": "scene chart house-prices annotation annotation-0 label label-1 anno-label",
+      "data": {
+        "name": "Base Rate",
+        "type": "line",
+        "data": [
+          0.103653,
+          0.0586,
+          0.053881,
+          0.061339,
+          0.058274,
+          0.072054,
+          0.055403,
+          0.0536,
+          0.060042,
+          0.04,
+          0.039906,
+          0.036252,
+          0.045455,
+          0.044573,
+          0.048837,
+          0.055556,
+          0.028767,
+          0.004887,
+          0.004429,
+          0.004306,
+          0.004332,
+          0.004444,
+          0.004666,
+          0.004891,
+          0.002588,
+          0.002603
+        ]
+      },
+      "tag": "text",
+      "text": "Bank of England"
+    },
+    {
+      "type": "anno-arrow",
+      "id": "house-prices-annotation-group-0-arrow",
+      "clazz": "scene chart house-prices annotation annotation-0 arrow anno-arrow",
+      "data": {
+        "name": "Base Rate",
+        "type": "line",
+        "data": [
+          0.103653,
+          0.0586,
+          0.053881,
+          0.061339,
+          0.058274,
+          0.072054,
+          0.055403,
+          0.0536,
+          0.060042,
+          0.04,
+          0.039906,
+          0.036252,
+          0.045455,
+          0.044573,
+          0.048837,
+          0.055556,
+          0.028767,
+          0.004887,
+          0.004429,
+          0.004306,
+          0.004332,
+          0.004444,
+          0.004666,
+          0.004891,
+          0.002588,
+          0.002603
+        ]
+      },
+      "tag": "g",
+      "text": null
+    },
+    {
+      "type": "anno-label",
+      "id": "house-prices-annotation-group-1-text-0",
+      "clazz": "scene chart house-prices annotation annotation-1 label label-0 anno-label",
+      "data": {
+        "name": "Mortgage Rate",
+        "type": "line",
+        "data": [
+          0.029153,
+          0.057862,
+          0.0791,
+          0.07931,
+          0.082801,
+          0.068493,
+          0.057822,
+          0.070624,
+          0.061796,
+          0.056773,
+          0.050837,
+          0.055403,
+          0.057839,
+          0.050076,
+          0.055099,
+          0.060061,
+          0.054464,
+          0.05723,
+          0.047184,
+          0.040335,
+          0.039117,
+          0.03379,
+          0.032725,
+          0.028006,
+          0.022738,
+          0.022831
+        ]
+      },
+      "tag": "text",
+      "text": "Mortgage Rate"
+    },
+    {
+      "type": "anno-label",
+      "id": "house-prices-annotation-group-1-text-1",
+      "clazz": "scene chart house-prices annotation annotation-1 label label-1 anno-label",
+      "data": {
+        "name": "Mortgage Rate",
+        "type": "line",
+        "data": [
+          0.029153,
+          0.057862,
+          0.0791,
+          0.07931,
+          0.082801,
+          0.068493,
+          0.057822,
+          0.070624,
+          0.061796,
+          0.056773,
+          0.050837,
+          0.055403,
+          0.057839,
+          0.050076,
+          0.055099,
+          0.060061,
+          0.054464,
+          0.05723,
+          0.047184,
+          0.040335,
+          0.039117,
+          0.03379,
+          0.032725,
+          0.028006,
+          0.022738,
+          0.022831
+        ]
+      },
+      "tag": "text",
+      "text": "Example: 5 year fixed, 75% LTV"
+    },
+    {
+      "type": "anno-arrow",
+      "id": "house-prices-annotation-group-1-arrow",
+      "clazz": "scene chart house-prices annotation annotation-1 arrow anno-arrow",
+      "data": {
+        "name": "Mortgage Rate",
+        "type": "line",
+        "data": [
+          0.029153,
+          0.057862,
+          0.0791,
+          0.07931,
+          0.082801,
+          0.068493,
+          0.057822,
+          0.070624,
+          0.061796,
+          0.056773,
+          0.050837,
+          0.055403,
+          0.057839,
+          0.050076,
+          0.055099,
+          0.060061,
+          0.054464,
+          0.05723,
+          0.047184,
+          0.040335,
+          0.039117,
+          0.03379,
+          0.032725,
+          0.028006,
+          0.022738,
+          0.022831
+        ]
+      },
+      "tag": "g",
+      "text": null
+    },
+    {
+      "type": "anno-circle",
+      "id": "house-prices-annotation-circle",
+      "clazz": "scene chart house-prices annotation annotation-2 circle anno-circle",
+      "data": null,
+      "tag": "circle",
+      "text": null
+    },
+    {
+      "type": "anno-label",
+      "id": "house-prices-title-0",
+      "clazz": "scene chart house-prices annotation title main-title",
+      "data": null,
+      "tag": "text",
+      "text": " Ultra low interest rates"
+    }
+  ],
+  "layout": {
+    "xAxis": "bottom",
+    "yAxis": "left",
+    "title": "center"
+  }
+}

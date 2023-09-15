@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg data-v-c113cc6e="" class="svg-container" width="800" height="500" viewBox="0 0 800 500"
+     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+    <rect id="bg-rect" class="scene chart background bg-rect" x="0" y="0" width="800" height="500"
+          fill="#353535"></rect>
+    <text text-anchor="middle" dominant-baseline="middle" id="main-title" x="400" y="40" font-size="32"
+          font-family="Georgia, serif" fill="#f6f6f6" class="scene chart title main-title">Transportation mode, by share
+        of use
+    </text>
+    <text text-anchor="end" dominant-baseline="middle" id="sub-title" x="400" y="68" fill="#f6f6f6" font-size="18"
+          class="scene chart title sub-title">Congressional Research Service
+    </text>
+    <g id="ticks">
+        <line x1="80" y1="418" x2="720" y2="418" stroke="rgb(124, 125, 127)" stroke-width="7" id="y-tick-0" class="scene chart axis y-axis tick y-tick-0 y-tick"/>
+        <line x1="80" y1="330.5" x2="720" y2="330.5" stroke="rgb(61, 61, 60)" stroke-width="7" id="y-tick-1" class="scene chart axis y-axis tick y-tick-1 y-tick"/>
+        <line x1="80" y1="243" x2="720" y2="243" stroke="rgb(61, 61, 60)" stroke-width="7" id="y-tick-2" class="scene chart axis y-axis tick y-tick-2 y-tick"/>
+        <line x1="80" y1="155.5" x2="720" y2="155.5" stroke="rgb(61, 61, 60)" stroke-width="7" id="y-tick-3" class="scene chart axis y-axis tick y-tick-3 y-tick"/>
+        <text text-anchor="end" dominant-baseline="middle" fill="#f6f6f6" font-size="18" x="55" y="421.5" id="y-label-0"
+              class="scene chart axis y-axis label y-label-0 y-label">0%
+        </text>
+        <text text-anchor="end" dominant-baseline="middle" fill="#f6f6f6" font-size="18" x="55" y="334" id="y-label-1"
+              class="scene chart axis y-axis label y-label-1 y-label">25%
+        </text>
+        <text text-anchor="end" dominant-baseline="middle" fill="#f6f6f6" font-size="18" x="55" y="246.5" id="y-label-2"
+              class="scene chart axis y-axis label y-label-2 y-label">50%
+        </text>
+        <text text-anchor="end" dominant-baseline="middle" fill="#f6f6f6" font-size="18" x="55" y="159" id="y-label-3"
+              class="scene chart axis y-axis label y-label-3 y-label">75%
+        </text>
+    </g>
+    <g id="legend">
+        <g transform="translate(0,0)" style="opacity: 1;">
+            <text text-anchor="start" dominant-baseline="middle" transform="translate(568,134.7)" fill="#f6f6f6"
+                  font-size="20" id="legend-label-0" class="scene chart legend legend-0 series-0 label legend-label">
+                <tspan x="0" y="0">National average</tspan>
+            </text>
+            <rect height="30" width="30" fill="rgb(123, 178, 193)" y="115.5" x="528" id="legend-symbol-0"
+                  class="scene chart legend legend-0 series-0 symbol legend-symbol"></rect>
+        </g>
+        <g transform="translate(0,0)" style="opacity: 1;">
+            <text text-anchor="start" dominant-baseline="middle" transform="translate(568,183.3)" fill="#f6f6f6"
+                  font-size="20" id="legend-label-1" class="scene chart legend legend-1 series-1 label legend-label">
+                <tspan x="0" y="0">Transit-oriented</tspan>
+                <tspan x="0" y="20.8">developments</tspan>
+            </text>
+            <rect height="30" width="30" fill="rgb(84, 121, 169)" y="172.5" x="528" id="legend-symbol-1"
+                  class="scene chart legend legend-1 series-1 symbol legend-symbol"></rect>
+        </g>
+    </g>
+    <g id="bars">
+        <g>
+            <rect x="115" width="40" fill="rgb(123, 178, 193)" y="138" height="280" id="bar-0"
+                  class="scene chart mark bar-0 series-0 data-group data-group-0 bar"></rect>
+            <rect x="165" width="40" fill="rgb(84, 121, 169)" y="260.5" height="157.5" id="bar-4"
+                  class="scene chart mark bar-4 series-1 data-group data-group-0 bar"></rect>
+            <text text-anchor="middle" dominant-baseline="middle" transform="translate(160,442)" font-size="20"
+                  font-family="Georgia, serif" fill="#f6f6f6" id="x-label-0"
+                  class="scene chart axis x-axis x-axis-0 data-group-0 label x-label">
+                <tspan x="0" y="0">Auto</tspan>
+            </text>
+        </g>
+        <g>
+            <rect x="275" width="40" fill="rgb(123, 178, 193)" y="400.5" height="17.5" id="bar-1"
+                  class="scene chart mark bar-1 series-0 data-group data-group-1 bar"></rect>
+            <rect x="325" width="40" fill="rgb(84, 121, 169)" y="295.5" height="122.49999999999999" id="bar-5"
+                  class="scene chart mark bar-5 series-1 data-group data-group-1 bar"></rect>
+            <text text-anchor="middle" dominant-baseline="middle" transform="translate(320,442)" font-size="20"
+                  font-family="Georgia, serif" fill="#f6f6f6" id="x-label-1"
+                  class="scene chart axis x-axis x-axis-1 data-group-1 label x-label">
+                <tspan x="0" y="0">Public</tspan>
+                <tspan x="0" y="24">transit</tspan>
+            </text>
+        </g>
+        <g>
+            <rect x="435" width="40" fill="rgb(123, 178, 193)" y="414.5" height="3.5" id="bar-2"
+                  class="scene chart mark bar-2 series-0 data-group data-group-2 bar"></rect>
+            <rect x="485" width="40" fill="rgb(84, 121, 169)" y="407.5" height="10.5" id="bar-6"
+                  class="scene chart mark bar-6 series-1 data-group data-group-2 bar"></rect>
+            <text text-anchor="middle" dominant-baseline="middle" transform="translate(480,442)" font-size="20"
+                  font-family="Georgia, serif" fill="#f6f6f6" id="x-label-2"
+                  class="scene chart axis x-axis x-axis-2 data-group-2 label x-label">
+                <tspan x="0" y="0">Bike</tspan>
+            </text>
+        </g>
+        <g>
+            <rect x="595" width="40" fill="rgb(123, 178, 193)" y="404" height="14" id="bar-3"
+                  class="scene chart mark bar-3 series-0 data-group data-group-3 bar"></rect>
+            <rect x="645" width="40" fill="rgb(84, 121, 169)" y="337.5" height="80.5" id="bar-7"
+                  class="scene chart mark bar-7 series-1 data-group data-group-3 bar"></rect>
+            <text text-anchor="middle" dominant-baseline="middle" transform="translate(640,442)" font-size="20"
+                  font-family="Georgia, serif" fill="#f6f6f6" id="x-label-3"
+                  class="scene chart axis x-axis x-axis-3 data-group-3 label x-label">
+                <tspan x="0" y="0">Walk</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

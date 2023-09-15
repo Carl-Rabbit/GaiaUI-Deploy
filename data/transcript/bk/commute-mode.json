@@ -1,0 +1,416 @@
+{
+  "results": [
+    {
+      "alternatives": [
+        {
+          "transcript": "The most common American commute is actually from suburb to suburb; routes that public transit in the US usually doesn\u2019t serve. It\u2019s one reason that the overwhelming majority of Americans get to work by driving alone. Most Americans don\u2019t rely on public transit, making it better is rarely a top political priority, which makes things even harder for the people who do rely on neglected transit systems.",
+          "confidence": 1.0,
+          "words": [
+            {
+              "startTime": "0.000s",
+              "endTime": "0.105s",
+              "word": "The",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.105s",
+              "endTime": "0.440s",
+              "word": "most",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.440s",
+              "endTime": "0.895s",
+              "word": "common",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.895s",
+              "endTime": "1.527s",
+              "word": "American",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.527s",
+              "endTime": "2.041s",
+              "word": "commute",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.041s",
+              "endTime": "2.201s",
+              "word": "is",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.201s",
+              "endTime": "2.780s",
+              "word": "actually",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.780s",
+              "endTime": "2.975s",
+              "word": "from",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.975s",
+              "endTime": "3.540s",
+              "word": "suburb",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.540s",
+              "endTime": "3.648s",
+              "word": "to",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.648s",
+              "endTime": "4.728s",
+              "word": "suburb;",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.728s",
+              "endTime": "5.078s",
+              "word": "routes",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.078s",
+              "endTime": "5.193s",
+              "word": "that",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.193s",
+              "endTime": "5.731s",
+              "word": "public",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.731s",
+              "endTime": "6.310s",
+              "word": "transit",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.310s",
+              "endTime": "6.460s",
+              "word": "in",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.460s",
+              "endTime": "6.505s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.505s",
+              "endTime": "7.108s",
+              "word": "US",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.108s",
+              "endTime": "7.645s",
+              "word": "usually",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.645s",
+              "endTime": "8.045s",
+              "word": "doesn\u2019t",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.045s",
+              "endTime": "9.430s",
+              "word": "serve.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.430s",
+              "endTime": "9.650s",
+              "word": "It\u2019s",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.650s",
+              "endTime": "9.960s",
+              "word": "one",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.960s",
+              "endTime": "10.439s",
+              "word": "reason",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.439s",
+              "endTime": "10.626s",
+              "word": "that",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.626s",
+              "endTime": "10.756s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.756s",
+              "endTime": "11.545s",
+              "word": "overwhelming",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.545s",
+              "endTime": "12.196s",
+              "word": "majority",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "12.196s",
+              "endTime": "12.296s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "12.296s",
+              "endTime": "13.075s",
+              "word": "Americans",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.075s",
+              "endTime": "13.265s",
+              "word": "get",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.265s",
+              "endTime": "13.420s",
+              "word": "to",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.420s",
+              "endTime": "13.765s",
+              "word": "work",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.765s",
+              "endTime": "13.960s",
+              "word": "by",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.960s",
+              "endTime": "14.462s",
+              "word": "driving",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.462s",
+              "endTime": "15.661s",
+              "word": "alone.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.661s",
+              "endTime": "15.998s",
+              "word": "Most",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.998s",
+              "endTime": "16.734s",
+              "word": "Americans",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.734s",
+              "endTime": "16.984s",
+              "word": "don\u2019t",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.984s",
+              "endTime": "17.365s",
+              "word": "rely",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.365s",
+              "endTime": "17.545s",
+              "word": "on",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.545s",
+              "endTime": "18.023s",
+              "word": "public",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.023s",
+              "endTime": "19.090s",
+              "word": "transit,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.090s",
+              "endTime": "19.420s",
+              "word": "making",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.420s",
+              "endTime": "19.515s",
+              "word": "it",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.515s",
+              "endTime": "19.910s",
+              "word": "better",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.910s",
+              "endTime": "20.075s",
+              "word": "is",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "20.075s",
+              "endTime": "20.518s",
+              "word": "rarely",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "20.518s",
+              "endTime": "20.633s",
+              "word": "a",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "20.633s",
+              "endTime": "20.972s",
+              "word": "top",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "20.972s",
+              "endTime": "21.568s",
+              "word": "political",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "21.568s",
+              "endTime": "22.771s",
+              "word": "priority,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "22.771s",
+              "endTime": "22.986s",
+              "word": "which",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "22.986s",
+              "endTime": "23.281s",
+              "word": "makes",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "23.281s",
+              "endTime": "23.581s",
+              "word": "things",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "23.581s",
+              "endTime": "23.891s",
+              "word": "even",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "23.891s",
+              "endTime": "24.390s",
+              "word": "harder",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "24.390s",
+              "endTime": "24.570s",
+              "word": "for",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "24.570s",
+              "endTime": "24.710s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "24.710s",
+              "endTime": "25.161s",
+              "word": "people",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "25.161s",
+              "endTime": "25.291s",
+              "word": "who",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "25.291s",
+              "endTime": "25.497s",
+              "word": "do",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "25.497s",
+              "endTime": "25.987s",
+              "word": "rely",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "25.987s",
+              "endTime": "26.132s",
+              "word": "on",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "26.132s",
+              "endTime": "26.818s",
+              "word": "neglected",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "26.818s",
+              "endTime": "27.361s",
+              "word": "transit",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "27.361s",
+              "endTime": "28.939s",
+              "word": "systems.",
+              "speakerTag": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "chartType": "bar-chart",
+  "elements": [
+    {
+      "type": "y-title",
+      "id": "army-military-comparison-y-axis-title",
+      "clazz": "scene chart army-military-comparison axis y-axis title y-title",
+      "data": null,
+      "tag": "text",
+      "text": "GDP"
+    },
+    {
+      "type": "x-symbol",
+      "id": "army-military-comparison-x-axis-symbol-0",
+      "clazz": "scene chart army-military-comparison axis x-axis symbol symbol-0 data-item data-item-0 x-symbol",
+      "data": {
+        "name": "USA",
+        "value": 18.5
+      },
+      "tag": "g",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "army-military-comparison-x-axis-symbol-1",
+      "clazz": "scene chart army-military-comparison axis x-axis symbol symbol-1 data-item data-item-1 x-symbol",
+      "data": {
+        "name": "EU",
+        "value": 15.40125
+      },
+      "tag": "g",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "army-military-comparison-x-axis-symbol-2",
+      "clazz": "scene chart army-military-comparison axis x-axis symbol symbol-2 data-item data-item-2 x-symbol",
+      "data": {
+        "name": "China",
+        "value": 11.8
+      },
+      "tag": "g",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "army-military-comparison-x-axis-symbol-3",
+      "clazz": "scene chart army-military-comparison axis x-axis symbol symbol-3 data-item data-item-3 x-symbol",
+      "data": {
+        "name": "Japan",
+        "value": 4.8
+      },
+      "tag": "g",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "army-military-comparison-bar-0",
+      "clazz": "scene chart army-military-comparison mark bar-0 data-item data-item-0 bar",
+      "data": {
+        "name": "USA",
+        "value": 18.5
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar-label",
+      "id": "army-military-comparison-bar-label-0",
+      "clazz": "scene chart army-military-comparison mark bar-label-0 data-item data-item-0 bar-label",
+      "data": {
+        "name": "USA",
+        "value": 18.5
+      },
+      "tag": "text",
+      "text": "$18.5 TRILLION"
+    },
+    {
+      "type": "bar",
+      "id": "army-military-comparison-bar-1",
+      "clazz": "scene chart army-military-comparison mark bar-1 data-item data-item-1 bar",
+      "data": {
+        "name": "EU",
+        "value": 15.40125
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar-label",
+      "id": "army-military-comparison-bar-label-1",
+      "clazz": "scene chart army-military-comparison mark bar-label-1 data-item data-item-1 bar-label",
+      "data": {
+        "name": "EU",
+        "value": 15.40125
+      },
+      "tag": "text",
+      "text": "$15.4 TRILLION"
+    },
+    {
+      "type": "bar",
+      "id": "army-military-comparison-bar-2",
+      "clazz": "scene chart army-military-comparison mark bar-2 data-item data-item-2 bar",
+      "data": {
+        "name": "China",
+        "value": 11.8
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar-label",
+      "id": "army-military-comparison-bar-label-2",
+      "clazz": "scene chart army-military-comparison mark bar-label-2 data-item data-item-2 bar-label",
+      "data": {
+        "name": "China",
+        "value": 11.8
+      },
+      "tag": "text",
+      "text": "$11.8 TRILLION"
+    },
+    {
+      "type": "bar",
+      "id": "army-military-comparison-bar-3",
+      "clazz": "scene chart army-military-comparison mark bar-3 data-item data-item-3 bar",
+      "data": {
+        "name": "Japan",
+        "value": 4.8
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar-label",
+      "id": "army-military-comparison-bar-label-3",
+      "clazz": "scene chart army-military-comparison mark bar-label-3 data-item data-item-3 bar-label",
+      "data": {
+        "name": "Japan",
+        "value": 4.8
+      },
+      "tag": "text",
+      "text": "$4.8 TRILLION"
+    }
+  ],
+  "layout": {
+    "xAxis": "bottom",
+    "yAxis": "left",
+    "title": "unknown"
+  }
+}

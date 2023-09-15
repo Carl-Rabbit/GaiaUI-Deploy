@@ -1,0 +1,1811 @@
+{
+  "chartType": "line-chart",
+  "elements": [
+    {
+      "type": "bg-rect",
+      "id": "shortage-of-water-background-rect",
+      "clazz": "scene chart shortage-of-water background rect bg-rect",
+      "data": null,
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "FO",
+      "clazz": "scene chart shortage-of-water mark area-0 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "UM",
+      "clazz": "scene chart shortage-of-water mark area-1 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "US",
+      "clazz": "scene chart shortage-of-water mark area-2 area",
+      "data": {
+        "name": "The United States",
+        "value": 250000
+      },
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "US-Alaska",
+      "clazz": "scene chart shortage-of-water mark area-3 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "JP",
+      "clazz": "scene chart shortage-of-water mark area-4 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "SC",
+      "clazz": "scene chart shortage-of-water mark area-5 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "IN",
+      "clazz": "scene chart shortage-of-water mark area-6 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "FR",
+      "clazz": "scene chart shortage-of-water mark area-7 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "FM",
+      "clazz": "scene chart shortage-of-water mark area-8 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "CN",
+      "clazz": "scene chart shortage-of-water mark area-9 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "SW",
+      "clazz": "scene chart shortage-of-water mark area-10 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "SH",
+      "clazz": "scene chart shortage-of-water mark area-11 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "BR",
+      "clazz": "scene chart shortage-of-water mark area-12 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "EC",
+      "clazz": "scene chart shortage-of-water mark area-13 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "AU",
+      "clazz": "scene chart shortage-of-water mark area-14 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "KI",
+      "clazz": "scene chart shortage-of-water mark area-15 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "PH",
+      "clazz": "scene chart shortage-of-water mark area-16 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "MX",
+      "clazz": "scene chart shortage-of-water mark area-17 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "ES",
+      "clazz": "scene chart shortage-of-water mark area-18 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "BU",
+      "clazz": "scene chart shortage-of-water mark area-19 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "MV",
+      "clazz": "scene chart shortage-of-water mark area-20 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "SP",
+      "clazz": "scene chart shortage-of-water mark area-21 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "GB",
+      "clazz": "scene chart shortage-of-water mark area-22 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "GR",
+      "clazz": "scene chart shortage-of-water mark area-23 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "AS",
+      "clazz": "scene chart shortage-of-water mark area-24 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "DK",
+      "clazz": "scene chart shortage-of-water mark area-25 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "GL",
+      "clazz": "scene chart shortage-of-water mark area-26 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "GU",
+      "clazz": "scene chart shortage-of-water mark area-27 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "MP",
+      "clazz": "scene chart shortage-of-water mark area-28 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "PR",
+      "clazz": "scene chart shortage-of-water mark area-29 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "VI",
+      "clazz": "scene chart shortage-of-water mark area-30 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "CA",
+      "clazz": "scene chart shortage-of-water mark area-31 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "ST",
+      "clazz": "scene chart shortage-of-water mark area-32 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "TZ",
+      "clazz": "scene chart shortage-of-water mark area-33 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "CV",
+      "clazz": "scene chart shortage-of-water mark area-34 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "DM",
+      "clazz": "scene chart shortage-of-water mark area-35 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "NL",
+      "clazz": "scene chart shortage-of-water mark area-36 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "JM",
+      "clazz": "scene chart shortage-of-water mark area-37 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "WS",
+      "clazz": "scene chart shortage-of-water mark area-38 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "OM",
+      "clazz": "scene chart shortage-of-water mark area-39 area",
+      "data": {
+        "name": "Middle East",
+        "value": 0
+      },
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "VC",
+      "clazz": "scene chart shortage-of-water mark area-40 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "TR",
+      "clazz": "scene chart shortage-of-water mark area-41 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "BD",
+      "clazz": "scene chart shortage-of-water mark area-42 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "SB",
+      "clazz": "scene chart shortage-of-water mark area-43 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "LC",
+      "clazz": "scene chart shortage-of-water mark area-44 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "NR",
+      "clazz": "scene chart shortage-of-water mark area-45 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "NO",
+      "clazz": "scene chart shortage-of-water mark area-46 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "KN",
+      "clazz": "scene chart shortage-of-water mark area-47 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "BH",
+      "clazz": "scene chart shortage-of-water mark area-48 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "TO",
+      "clazz": "scene chart shortage-of-water mark area-49 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "FI",
+      "clazz": "scene chart shortage-of-water mark area-50 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "ID",
+      "clazz": "scene chart shortage-of-water mark area-51 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "MU",
+      "clazz": "scene chart shortage-of-water mark area-52 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "SE",
+      "clazz": "scene chart shortage-of-water mark area-53 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "TT",
+      "clazz": "scene chart shortage-of-water mark area-54 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "MY",
+      "clazz": "scene chart shortage-of-water mark area-55 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "BS",
+      "clazz": "scene chart shortage-of-water mark area-56 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "PA",
+      "clazz": "scene chart shortage-of-water mark area-57 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "PW",
+      "clazz": "scene chart shortage-of-water mark area-58 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "TV",
+      "clazz": "scene chart shortage-of-water mark area-59 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "MH",
+      "clazz": "scene chart shortage-of-water mark area-60 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "CL",
+      "clazz": "scene chart shortage-of-water mark area-61 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "TH",
+      "clazz": "scene chart shortage-of-water mark area-62 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "GD",
+      "clazz": "scene chart shortage-of-water mark area-63 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "EE",
+      "clazz": "scene chart shortage-of-water mark area-64 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "AG",
+      "clazz": "scene chart shortage-of-water mark area-65 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "TW",
+      "clazz": "scene chart shortage-of-water mark area-66 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "BB",
+      "clazz": "scene chart shortage-of-water mark area-67 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "IT",
+      "clazz": "scene chart shortage-of-water mark area-68 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "MT",
+      "clazz": "scene chart shortage-of-water mark area-69 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "PG",
+      "clazz": "scene chart shortage-of-water mark area-70 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "DE",
+      "clazz": "scene chart shortage-of-water mark area-71 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "VU",
+      "clazz": "scene chart shortage-of-water mark area-72 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "SG",
+      "clazz": "scene chart shortage-of-water mark area-73 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "CY",
+      "clazz": "scene chart shortage-of-water mark area-74 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "KM",
+      "clazz": "scene chart shortage-of-water mark area-75 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "FJ",
+      "clazz": "scene chart shortage-of-water mark area-76 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "RU",
+      "clazz": "scene chart shortage-of-water mark area-77 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "VA",
+      "clazz": "scene chart shortage-of-water mark area-78 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "SM",
+      "clazz": "scene chart shortage-of-water mark area-79 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "KZ",
+      "clazz": "scene chart shortage-of-water mark area-80 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "AZ",
+      "clazz": "scene chart shortage-of-water mark area-81 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "AM",
+      "clazz": "scene chart shortage-of-water mark area-82 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "TJ",
+      "clazz": "scene chart shortage-of-water mark area-83 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "LS",
+      "clazz": "scene chart shortage-of-water mark area-84 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "UZ",
+      "clazz": "scene chart shortage-of-water mark area-85 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "PT",
+      "clazz": "scene chart shortage-of-water mark area-86 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "MA",
+      "clazz": "scene chart shortage-of-water mark area-87 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "CO",
+      "clazz": "scene chart shortage-of-water mark area-88 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "TL",
+      "clazz": "scene chart shortage-of-water mark area-89 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "KH",
+      "clazz": "scene chart shortage-of-water mark area-90 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "AR",
+      "clazz": "scene chart shortage-of-water mark area-91 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "SA",
+      "clazz": "scene chart shortage-of-water mark area-92 area",
+      "data": {
+        "name": "Middle East",
+        "value": 0
+      },
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "PK",
+      "clazz": "scene chart shortage-of-water mark area-93 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "YE",
+      "clazz": "scene chart shortage-of-water mark area-94 area",
+      "data": {
+        "name": "Middle East",
+        "value": 0
+      },
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "AE",
+      "clazz": "scene chart shortage-of-water mark area-95 area",
+      "data": {
+        "name": "Middle East",
+        "value": 0
+      },
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "KE",
+      "clazz": "scene chart shortage-of-water mark area-96 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "PE",
+      "clazz": "scene chart shortage-of-water mark area-97 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "DO",
+      "clazz": "scene chart shortage-of-water mark area-98 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "HT",
+      "clazz": "scene chart shortage-of-water mark area-99 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "AO",
+      "clazz": "scene chart shortage-of-water mark area-100 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "VN",
+      "clazz": "scene chart shortage-of-water mark area-101 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "MZ",
+      "clazz": "scene chart shortage-of-water mark area-102 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "CR",
+      "clazz": "scene chart shortage-of-water mark area-103 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "IR",
+      "clazz": "scene chart shortage-of-water mark area-104 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "SV",
+      "clazz": "scene chart shortage-of-water mark area-105 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "SL",
+      "clazz": "scene chart shortage-of-water mark area-106 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "GW",
+      "clazz": "scene chart shortage-of-water mark area-107 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "HR",
+      "clazz": "scene chart shortage-of-water mark area-108 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "BZ",
+      "clazz": "scene chart shortage-of-water mark area-109 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "ZA",
+      "clazz": "scene chart shortage-of-water mark area-110 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "CD",
+      "clazz": "scene chart shortage-of-water mark area-111 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "KW",
+      "clazz": "scene chart shortage-of-water mark area-112 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "IE",
+      "clazz": "scene chart shortage-of-water mark area-113 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "KP",
+      "clazz": "scene chart shortage-of-water mark area-114 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "KR",
+      "clazz": "scene chart shortage-of-water mark area-115 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "GY",
+      "clazz": "scene chart shortage-of-water mark area-116 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "HN",
+      "clazz": "scene chart shortage-of-water mark area-117 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "MM",
+      "clazz": "scene chart shortage-of-water mark area-118 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "GA",
+      "clazz": "scene chart shortage-of-water mark area-119 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "GQ",
+      "clazz": "scene chart shortage-of-water mark area-120 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "NI",
+      "clazz": "scene chart shortage-of-water mark area-121 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "UG",
+      "clazz": "scene chart shortage-of-water mark area-122 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "MW",
+      "clazz": "scene chart shortage-of-water mark area-123 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "SX",
+      "clazz": "scene chart shortage-of-water mark area-124 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "TM",
+      "clazz": "scene chart shortage-of-water mark area-125 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "ZM",
+      "clazz": "scene chart shortage-of-water mark area-126 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "NC",
+      "clazz": "scene chart shortage-of-water mark area-127 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "MR",
+      "clazz": "scene chart shortage-of-water mark area-128 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "DZ",
+      "clazz": "scene chart shortage-of-water mark area-129 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "LT",
+      "clazz": "scene chart shortage-of-water mark area-130 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "ET",
+      "clazz": "scene chart shortage-of-water mark area-131 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "SD",
+      "clazz": "scene chart shortage-of-water mark area-132 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "ER",
+      "clazz": "scene chart shortage-of-water mark area-133 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "GH",
+      "clazz": "scene chart shortage-of-water mark area-134 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "SI",
+      "clazz": "scene chart shortage-of-water mark area-135 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "GT",
+      "clazz": "scene chart shortage-of-water mark area-136 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "BA",
+      "clazz": "scene chart shortage-of-water mark area-137 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "JO",
+      "clazz": "scene chart shortage-of-water mark area-138 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "SY",
+      "clazz": "scene chart shortage-of-water mark area-139 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "MC",
+      "clazz": "scene chart shortage-of-water mark area-140 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "AL",
+      "clazz": "scene chart shortage-of-water mark area-141 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "UY",
+      "clazz": "scene chart shortage-of-water mark area-142 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "CNM",
+      "clazz": "scene chart shortage-of-water mark area-143 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "MN",
+      "clazz": "scene chart shortage-of-water mark area-144 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "RW",
+      "clazz": "scene chart shortage-of-water mark area-145 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "SO",
+      "clazz": "scene chart shortage-of-water mark area-146 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "BO",
+      "clazz": "scene chart shortage-of-water mark area-147 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "CM",
+      "clazz": "scene chart shortage-of-water mark area-148 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "CG",
+      "clazz": "scene chart shortage-of-water mark area-149 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "EH",
+      "clazz": "scene chart shortage-of-water mark area-150 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "RS",
+      "clazz": "scene chart shortage-of-water mark area-151 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "ME",
+      "clazz": "scene chart shortage-of-water mark area-152 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "BJ",
+      "clazz": "scene chart shortage-of-water mark area-153 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "NG",
+      "clazz": "scene chart shortage-of-water mark area-154 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "TG",
+      "clazz": "scene chart shortage-of-water mark area-155 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "LA",
+      "clazz": "scene chart shortage-of-water mark area-156 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "AF",
+      "clazz": "scene chart shortage-of-water mark area-157 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "UA",
+      "clazz": "scene chart shortage-of-water mark area-158 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "SK",
+      "clazz": "scene chart shortage-of-water mark area-159 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "JK",
+      "clazz": "scene chart shortage-of-water mark area-160 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "BG",
+      "clazz": "scene chart shortage-of-water mark area-161 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "QA",
+      "clazz": "scene chart shortage-of-water mark area-162 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "LI",
+      "clazz": "scene chart shortage-of-water mark area-163 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "AT",
+      "clazz": "scene chart shortage-of-water mark area-164 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "SZ",
+      "clazz": "scene chart shortage-of-water mark area-165 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "HU",
+      "clazz": "scene chart shortage-of-water mark area-166 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "RO",
+      "clazz": "scene chart shortage-of-water mark area-167 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "LU",
+      "clazz": "scene chart shortage-of-water mark area-168 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "AD",
+      "clazz": "scene chart shortage-of-water mark area-169 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "CI",
+      "clazz": "scene chart shortage-of-water mark area-170 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "LR",
+      "clazz": "scene chart shortage-of-water mark area-171 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "BN",
+      "clazz": "scene chart shortage-of-water mark area-172 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "BE",
+      "clazz": "scene chart shortage-of-water mark area-173 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "IQ",
+      "clazz": "scene chart shortage-of-water mark area-174 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "GE",
+      "clazz": "scene chart shortage-of-water mark area-175 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "GM",
+      "clazz": "scene chart shortage-of-water mark area-176 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "CH",
+      "clazz": "scene chart shortage-of-water mark area-177 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "TD",
+      "clazz": "scene chart shortage-of-water mark area-178 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "KV",
+      "clazz": "scene chart shortage-of-water mark area-179 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "LB",
+      "clazz": "scene chart shortage-of-water mark area-180 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "DJ",
+      "clazz": "scene chart shortage-of-water mark area-181 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "BI",
+      "clazz": "scene chart shortage-of-water mark area-182 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "SR",
+      "clazz": "scene chart shortage-of-water mark area-183 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "IL",
+      "clazz": "scene chart shortage-of-water mark area-184 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "ML",
+      "clazz": "scene chart shortage-of-water mark area-185 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "SN",
+      "clazz": "scene chart shortage-of-water mark area-186 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "GN",
+      "clazz": "scene chart shortage-of-water mark area-187 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "ZW",
+      "clazz": "scene chart shortage-of-water mark area-188 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "PL",
+      "clazz": "scene chart shortage-of-water mark area-189 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "MK",
+      "clazz": "scene chart shortage-of-water mark area-190 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "PY",
+      "clazz": "scene chart shortage-of-water mark area-191 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "BY",
+      "clazz": "scene chart shortage-of-water mark area-192 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "LV",
+      "clazz": "scene chart shortage-of-water mark area-193 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "CZ",
+      "clazz": "scene chart shortage-of-water mark area-194 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "BF",
+      "clazz": "scene chart shortage-of-water mark area-195 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "NA",
+      "clazz": "scene chart shortage-of-water mark area-196 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "NE",
+      "clazz": "scene chart shortage-of-water mark area-197 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "LY",
+      "clazz": "scene chart shortage-of-water mark area-198 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "TN",
+      "clazz": "scene chart shortage-of-water mark area-199 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "BT",
+      "clazz": "scene chart shortage-of-water mark area-200 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "MD",
+      "clazz": "scene chart shortage-of-water mark area-201 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "SS",
+      "clazz": "scene chart shortage-of-water mark area-202 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "CF",
+      "clazz": "scene chart shortage-of-water mark area-203 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "NZ",
+      "clazz": "scene chart shortage-of-water mark area-204 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "CU",
+      "clazz": "scene chart shortage-of-water mark area-205 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "VE",
+      "clazz": "scene chart shortage-of-water mark area-206 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "MG",
+      "clazz": "scene chart shortage-of-water mark area-207 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "IS",
+      "clazz": "scene chart shortage-of-water mark area-208 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "EG",
+      "clazz": "scene chart shortage-of-water mark area-209 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "LK",
+      "clazz": "scene chart shortage-of-water mark area-210 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "BW",
+      "clazz": "scene chart shortage-of-water mark area-211 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "KG",
+      "clazz": "scene chart shortage-of-water mark area-212 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "NP",
+      "clazz": "scene chart shortage-of-water mark area-213 area",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "anno-label",
+      "id": "shortage-of-water-annotation-0-label",
+      "clazz": "scene chart shortage-of-water annotation annotation-0 label anno-label",
+      "data": {
+        "name": "Middle East",
+        "value": 0
+      },
+      "tag": "text",
+      "text": "0"
+    },
+    {
+      "type": "anno-path",
+      "id": "shortage-of-water-annotation-0-path-0",
+      "clazz": "scene chart shortage-of-water annotation annotation-0 path anno-path-0 anno-path",
+      "data": {
+        "name": "Middle East",
+        "value": 0
+      },
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "anno-path",
+      "id": "shortage-of-water-annotation-0-path-1",
+      "clazz": "scene chart shortage-of-water annotation annotation-0 path anno-path-1 anno-path",
+      "data": {
+        "name": "Middle East",
+        "value": 0
+      },
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "anno-label",
+      "id": "shortage-of-water-annotation-1-label",
+      "clazz": "scene chart shortage-of-water annotation annotation-1 label anno-label",
+      "data": {
+        "name": "The United States",
+        "value": 250000
+      },
+      "tag": "text",
+      "text": "250000"
+    },
+    {
+      "type": "anno-path",
+      "id": "shortage-of-water-annotation-1-path-0",
+      "clazz": "scene chart shortage-of-water annotation annotation-1 path anno-path-0 anno-path",
+      "data": {
+        "name": "The United States",
+        "value": 250000
+      },
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "anno-path",
+      "id": "shortage-of-water-annotation-1-path-1",
+      "clazz": "scene chart shortage-of-water annotation annotation-1 path anno-path-1 anno-path",
+      "data": {
+        "name": "The United States",
+        "value": 250000
+      },
+      "tag": "path",
+      "text": null
+    }
+  ],
+  "layout": {
+    "xAxis": "unknown",
+    "yAxis": "unknown",
+    "title": "unknown"
+  }
+}

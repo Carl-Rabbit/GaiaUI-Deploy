@@ -1,0 +1,176 @@
+{
+  "results": [
+    {
+      "alternatives": [
+        {
+          "transcript": "Slaughter rates were down sharply in April and May year over year. A June month-over-month spike in slaughter numbers was the industry\u2019s response to the cattle backlog.",
+          "confidence": 1.0,
+          "words": [
+            {
+              "startTime": "0.000s",
+              "endTime": "0.620s",
+              "word": "Slaughter",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.620s",
+              "endTime": "1.015s",
+              "word": "rates",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.015s",
+              "endTime": "1.160s",
+              "word": "were",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.160s",
+              "endTime": "1.460s",
+              "word": "down",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.460s",
+              "endTime": "2.175s",
+              "word": "sharply",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.175s",
+              "endTime": "2.285s",
+              "word": "in",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.285s",
+              "endTime": "2.880s",
+              "word": "April",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.880s",
+              "endTime": "2.981s",
+              "word": "and",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.981s",
+              "endTime": "3.171s",
+              "word": "May",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.171s",
+              "endTime": "3.506s",
+              "word": "year",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.506s",
+              "endTime": "3.751s",
+              "word": "over",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.751s",
+              "endTime": "5.154s",
+              "word": "year.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.154s",
+              "endTime": "5.259s",
+              "word": "A",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.259s",
+              "endTime": "5.629s",
+              "word": "June",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.629s",
+              "endTime": "6.582s",
+              "word": "month-over-month",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.582s",
+              "endTime": "7.096s",
+              "word": "spike",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.096s",
+              "endTime": "7.236s",
+              "word": "in",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.236s",
+              "endTime": "7.752s",
+              "word": "slaughter",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.752s",
+              "endTime": "8.309s",
+              "word": "numbers",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.309s",
+              "endTime": "8.509s",
+              "word": "was",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.509s",
+              "endTime": "8.697s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.697s",
+              "endTime": "9.355s",
+              "word": "industry\u2019s",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.355s",
+              "endTime": "9.991s",
+              "word": "response",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.991s",
+              "endTime": "10.126s",
+              "word": "to",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.126s",
+              "endTime": "10.251s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.251s",
+              "endTime": "10.643s",
+              "word": "cattle",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.643s",
+              "endTime": "12.272s",
+              "word": "backlog.",
+              "speakerTag": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg data-v-4f7dc853="" class="svg-container" id="container" width="800" height="500" viewBox="0 0 800 500"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" style="width: 800px; height: 500px;">
+    <g id="top-grp">
+        <g id="background">
+            <rect id="background-rect" class="chart background rect bg-rect" width="800" height="500" fill="#fbfbfb"></rect>
+        </g>
+        <text id="title" class="chart title main-title" x="60" y="60" font-size="38" font-family="Times New Roman" font-weight="bold" fill="#262626">Share of profits spent on stock buybacks</text>
+        <text id="subtitle" class="chart title sub-title" x="60" y="82.5" font-family="Copperplate" font-size="12" font-weight="bold" fill="#505050" style="letter-spacing: 4px;">ACADEMIC-INDUSTRY RESEARCH NETWORK</text>
+        <g id="x-axis" transform="translate(120,415)" fill="none" font-size="10" font-family="sans-serif" text-anchor="middle">
+            <g class="tick" opacity="1" transform="translate(55.54098360655735,0)">
+                <text fill="#262626" y="5" dy="0.71em" class="chart axis x-axis label x-label-0 x-label" id="x-label-0" transform="translate(0, 25)" font-size="16" font-family="Copperplate" font-weight="bold">2012</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(156.5245901639344,0)">
+                <text fill="#262626" y="5" dy="0.71em" class="chart axis x-axis label x-label-1 x-label" id="x-label-1" transform="translate(0, 25)" font-size="16" font-family="Copperplate" font-weight="bold">2013</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(257.50819672131144,0)">
+                <text fill="#262626" y="5" dy="0.71em" class="chart axis x-axis label x-label-2 x-label" id="x-label-2" transform="translate(0, 25)" font-size="16" font-family="Copperplate" font-weight="bold">2014</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(358.4918032786885,0)">
+                <text fill="#262626" y="5" dy="0.71em" class="chart axis x-axis label x-label-3 x-label" id="x-label-3" transform="translate(0, 25)" font-size="16" font-family="Copperplate" font-weight="bold">2015</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(459.4754098360655,0)">
+                <text fill="#262626" y="5" dy="0.71em" class="chart axis x-axis label x-label-4 x-label" id="x-label-4" transform="translate(0, 25)" font-size="16" font-family="Copperplate" font-weight="bold">2016</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(560.4590163934425,0)">
+                <text fill="#262626" y="5" dy="0.71em" class="chart axis x-axis label x-label-5 x-label" id="x-label-5" transform="translate(0, 25)" font-size="16" font-family="Copperplate" font-weight="bold">2017</text>
+            </g>
+        </g>
+        <g id="y-axis" transform="translate(100,75)" fill="none" font-size="10" font-family="sans-serif" text-anchor="end">
+            <g class="tick" opacity="1" transform="translate(0,340.5)">
+                <text fill="#262626" x="-5" dy="0.32em" class="chart axis y-axis label y-label-0 y-label" id="y-label-0" font-size="16" font-family="Copperplate" font-weight="bold">0%</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,287.2826086956522)">
+                <text fill="#262626" x="-5" dy="0.32em" class="chart axis y-axis label y-label-1 y-label" id="y-label-1" font-size="16" font-family="Copperplate" font-weight="bold">20%</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,234.06521739130437)">
+                <text fill="#262626" x="-5" dy="0.32em" class="chart axis y-axis label y-label-2 y-label" id="y-label-2" font-size="16" font-family="Copperplate" font-weight="bold">40%</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,180.84782608695647)">
+                <text fill="#262626" x="-5" dy="0.32em" class="chart axis y-axis label y-label-3 y-label" id="y-label-3" font-size="16" font-family="Copperplate" font-weight="bold">60%</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,127.63043478260867)">
+                <text fill="#262626" x="-5" dy="0.32em" class="chart axis y-axis label y-label-4 y-label" id="y-label-4" font-size="16" font-family="Copperplate" font-weight="bold">80%</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,74.41304347826086)">
+                <text fill="#262626" x="-5" dy="0.32em" class="chart axis y-axis label y-label-5 y-label" id="y-label-5" font-size="16" font-family="Copperplate" font-weight="bold">100%</text>
+            </g>
+        </g>
+        <g id="y-tick-group" class="group tick-group">
+            <path id="y-tick-0" class="chart axis y-axis tick y-tick-0 y-tick" d="M120,415L736,415" stroke="gray" stroke-width="1" opacity="0.2"></path>
+            <path id="y-tick-1" class="chart axis y-axis tick y-tick-1 y-tick" d="M120,361.7826086956522L736,361.7826086956522" stroke="gray" stroke-width="1" opacity="0.2"></path>
+            <path id="y-tick-2" class="chart axis y-axis tick y-tick-2 y-tick" d="M120,308.5652173913044L736,308.5652173913044" stroke="gray" stroke-width="1" opacity="0.2"></path>
+            <path id="y-tick-3" class="chart axis y-axis tick y-tick-3 y-tick" d="M120,255.34782608695647L736,255.34782608695647" stroke="gray" stroke-width="1" opacity="0.2"></path>
+            <path id="y-tick-4" class="chart axis y-axis tick y-tick-4 y-tick" d="M120,202.1304347826087L736,202.1304347826087" stroke="gray" stroke-width="1" opacity="0.2"></path>
+            <path id="y-tick-5" class="chart axis y-axis tick y-tick-5 y-tick" d="M120,148.91304347826087L736,148.91304347826087" stroke="gray" stroke-width="1" opacity="0.2"></path>
+        </g>
+        <g>
+            <g transform="translate(167.33333333333334,75)" class="grp line-group">
+                <path id="line-0" class="chart mark line-0 series-0 line" d="M10.098360655737679,121.80869565217392L111.08196721311472,214.9391304347826L212.06557377049177,121.80869565217392L313.04918032786884,244.2086956521739L414.03278688524586,265.495652173913L515.0163934426229,33.99999999999999" stroke="#33477f" stroke-width="4" fill="none" opacity="0.7"></path>
+            </g>
+            <g transform="translate(167.33333333333334,75)" class="grp line-group">
+                <path id="line-1" class="chart mark line-1 series-1 line" d="M10.098360655737679,318.7130434782609L111.08196721311472,340L212.06557377049177,292.10434782608695L313.04918032786884,257.5130434782609L414.03278688524586,236.22608695652173L515.0163934426229,289.44347826086954" stroke="gray" stroke-width="4" fill="none" opacity="0.7"></path>
+            </g>
+            <g transform="translate(167.33333333333334,75)" class="grp line-group">
+                <path id="line-2" class="chart mark line-2 series-2 line" d="M10.098360655737679,340L111.08196721311472,340L212.06557377049177,340L313.04918032786884,340L414.03278688524586,340L515.0163934426229,340" stroke="gray" stroke-width="4" fill="none" opacity="0.7"></path>
+            </g>
+        </g>
+        <g id="legend-group-group" class="group legend-group-group">
+            <g id="legend-group-0" transform="translate(140.09836065573768,165)">
+                <g id="legend-0" class="chart series-0 legend-0 legend symbol legend-symbol">
+                    <rect height="30" width="30" fill="#304680" x="0" y="0"></rect>
+                    <text fill="white" text-anchor="middle" transform="translate(15,18) scale(0.6,1)">GM</text>
+                    <rect height="2" width="15" fill="white" x="8" y="21.5"></rect>
+                </g>
+            </g>
+            <g id="legend-group-1" class="chart series-1 legend-1 legend symbol legend-symbol" transform="translate(140.09836065573768,370)">
+                <svg id="legend-1" viewBox="0 0 1024 1024" width="30" height="30">
+                    <path fill="gray" d="M512 180.736c-282.752 0-512 148.309333-512 331.178667 0 182.997333 229.248 331.349333 512 331.349333s512-148.309333 512-331.349333-229.248-331.178667-512-331.178667z m0 520.362667c-42.069333 0-76.373333-82.858667-78.506667-187.093334a899.968 899.968 0 0 0 157.013334 0c-2.133333 104.192-36.437333 187.093333-78.506667 187.093334z m-73.344-269.824c11.434667-73.685333 39.978667-125.994667 73.344-125.994667s61.866667 52.309333 73.344 125.994667a829.269333 829.269333 0 0 1-146.688 0zM512 228.608c-54.912 0-101.76 82.261333-119.04 197.077333-104.106667-16.213333-176.768-53.248-176.768-96.256 0-58.026667 132.437333-105.002667 295.808-105.002666 163.413333 0 295.808 47.018667 295.808 105.002666 0 43.008-72.661333 80.042667-176.768 96.256-17.28-114.773333-64.128-197.034667-119.04-197.034666z m-438.613333 270.933333c0-56.106667 21.632-108.8 59.221333-154.026666-0.384 3.157333-0.64 6.4-0.64 9.642666 0 70.698667 106.026667 130.986667 253.994667 153.173334-0.128 5.12-0.128 10.325333-0.128 15.530666 0 131.84 36.949333 243.413333 88.021333 281.301334-224.426667-13.525333-400.426667-145.194667-400.426667-305.621334z m476.757333 305.621334c51.072-37.888 88.021333-149.504 88.021333-281.301334 0-5.248-0.085333-10.368-0.128-15.488 147.882667-22.186667 253.994667-82.432 253.994667-153.216 0-3.242667-0.256-6.485333-0.64-9.642666 37.589333 45.354667 59.178667 97.92 59.178667 154.026666 0 160.426667-176 292.096-400.426667 305.621334z m0 0z"></path>
+                </svg>
+            </g>
+            <g id="legend-group-2" class="chart series-2 legend-2 legend symbol legend-symbol" transform="translate(140.09836065573768,400)">
+                <svg id="legend-2" viewBox="0 0 1024 1024" width="30" height="30">
+                    <path fill="gray" d="M953.51 452.67c-7.73-63.1-28.12-122-61.94-175.69C818 160.16 712.47 91 576.32 68.54c-13.69-2.26-27.59-3.29-41.39-4.89h-47.82c-15.51 1.91-31.11 3.47-46.51 5.8C268 95.52 123 226.37 79.46 396.41c-6.93 27.07-9.41 55.27-14 82.94-0.39 2.4-0.86 4.79-1.29 7.18v47.82c1.91 15.48 3.1 31.1 5.86 46.43q41.15 228.92 249.39 332.87c52.18 25.95 108 39.49 166.36 42.36a59.34 59.34 0 0 1 7.26 1.23h34.37c13.3-1.43 26.61-2.73 39.89-4.32 49-5.85 95.73-19.65 139.58-42.05 121.52-62.09 200.68-159 236.53-290.89a385.78 385.78 0 0 0 13.05-84.41 80.92 80.92 0 0 1 1.3-8.69v-34.37c-1.37-13.28-2.62-26.59-4.25-39.84z m-444 452.8c-218.59-0.06-397.27-178.83-396.55-396.74 0.72-219.13 178.9-397 397-396.3 218.84 0.7 395.71 177.65 396.17 396.38 0.45 218.11-178.13 396.72-396.64 396.66z M369.84 836.7l-200.15-434c-52.16 152.3 15.45 354.24 200.15 434zM849.37 402.42L649.14 836.54c173.51-74.07 254.34-267.28 200.23-434.12zM743.39 240.35c-16.12-14.8-34.8-26.82-53.14-40.66-2.06 4.5-3.23 6.89-4.27 9.33q-59.14 137.9-118.13 275.87c-2.24 5.24-4.89 7.29-10.69 7.24-31.6-0.28-63.21-0.33-94.8 0-6.59 0.08-9.22-2.41-11.68-8.19Q400.8 366.73 350.42 249.71c-6.89-16.06-13.83-32.1-20.69-48a10.34 10.34 0 0 0-2.18 0.47q-2.83 1.57-5.59 3.27a364.52 364.52 0 0 0-98.13 89.64c-3.8 5-4.17 8.64-1.48 14.34q79.83 169 159.23 338.17c4.8 10.2 9.71 20.33 15 31.34 1.3-2.74 2.17-4.39 2.89-6.11 18.15-43.55 36.37-87.07 54.3-130.71 2.06-5 4.5-7 10-6.91q45.78 0.38 91.56 0c5.69-0.06 7.89 2.24 9.85 7.1 9.29 23 19 45.85 28.48 68.75s19 45.65 28.49 68.48l25.74-54.65Q722 467.44 796.27 310.14c3-6.29 2.93-10.72-1.81-15.73-17.03-18.03-32.86-37.33-51.07-54.06z M410.45 851.68c66.3 18.58 131.62 18.56 197.95 0l-98.94-230.89zM609.85 166.38c-67.52-19.07-133.69-19.18-200.85 0l100.47 241.79z"></path>
+                </svg>
+            </g>
+        </g>
+        <g class="grp annotation-group">
+            <g transform="translate(167.33333333333334,75)" class="grp line-group">
+                <path id="annotation-path0" class="chart annotation annotation-0 path anno-path" d="M10.098360655737679,121.80869565217392L111.08196721311472,214.9391304347826L212.06557377049177,121.80869565217392L313.04918032786884,244.2086956521739L414.03278688524586,265.495652173913L515.0163934426229,33.99999999999999" stroke="rgba(243,226,79,0.73)" stroke-width="8" fill="none" opacity="0.7"></path>
+            </g>
+            <g transform="translate(167.33333333333334,75)" class="grp line-group">
+                <path id="annotation-path1" class="chart annotation annotation-1 path anno-path" d="M10.098360655737679,318.7130434782609L111.08196721311472,340L212.06557377049177,292.10434782608695L313.04918032786884,257.5130434782609L414.03278688524586,236.22608695652173L515.0163934426229,289.44347826086954" stroke="rgba(243,226,79,0.73)" stroke-width="8" fill="none" opacity="0.7"></path>
+            </g>
+            <g transform="translate(167.33333333333334,75)" class="grp line-group">
+                <path id="annotation-path2" class="chart annotation annotation-2 path anno-path" d="M10.098360655737679,340L111.08196721311472,340L212.06557377049177,340L313.04918032786884,340L414.03278688524586,340L515.0163934426229,340" stroke="rgba(243,226,79,0.73)" stroke-width="8" fill="none" opacity="0.7"></path>
+            </g>
+            <circle transform="translate(581,311)" id="annotation-circle" class="chart annotation annotation-3 circle anno-circle" r="20" fill="none" stroke="#a74b4a" stroke-width="4"></circle>
+        </g>
+    </g>
+</svg>

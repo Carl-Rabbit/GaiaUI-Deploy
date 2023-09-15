@@ -1,0 +1,164 @@
+{
+  "results": [
+    {
+      "alternatives": [
+        {
+          "transcript": "The people who live in these places are less likely than the national average to drive, and more likely to walk, bike, or take transit.",
+          "confidence": 1.0,
+          "words": [
+            {
+              "startTime": "0.000s",
+              "endTime": "0.150s",
+              "word": "The",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.150s",
+              "endTime": "0.632s",
+              "word": "people",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.632s",
+              "endTime": "0.752s",
+              "word": "who",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.752s",
+              "endTime": "1.032s",
+              "word": "live",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.032s",
+              "endTime": "1.197s",
+              "word": "in",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.197s",
+              "endTime": "1.422s",
+              "word": "these",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.422s",
+              "endTime": "2.062s",
+              "word": "places",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.062s",
+              "endTime": "2.167s",
+              "word": "are",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.167s",
+              "endTime": "2.555s",
+              "word": "less",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.555s",
+              "endTime": "3.060s",
+              "word": "likely",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.060s",
+              "endTime": "3.235s",
+              "word": "than",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.235s",
+              "endTime": "3.300s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.300s",
+              "endTime": "3.962s",
+              "word": "national",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.962s",
+              "endTime": "4.432s",
+              "word": "average",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.432s",
+              "endTime": "4.592s",
+              "word": "to",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.592s",
+              "endTime": "5.465s",
+              "word": "drive,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.465s",
+              "endTime": "5.561s",
+              "word": "and",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.561s",
+              "endTime": "5.766s",
+              "word": "more",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.766s",
+              "endTime": "6.247s",
+              "word": "likely",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.247s",
+              "endTime": "6.357s",
+              "word": "to",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.357s",
+              "endTime": "7.055s",
+              "word": "walk,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.055s",
+              "endTime": "7.597s",
+              "word": "bike,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.597s",
+              "endTime": "7.717s",
+              "word": "or",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.717s",
+              "endTime": "8.059s",
+              "word": "take",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.059s",
+              "endTime": "9.603s",
+              "word": "transit.",
+              "speakerTag": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

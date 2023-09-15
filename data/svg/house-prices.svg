@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg data-v-b9e85440="" class="svg-container" id="container" style="width: 800px; height: 500px;" width="800" height="500" viewBox="0 0 800 500"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+    <g class="container" id="top-grp">
+        <g id="background">
+            <rect id="background-rect" class="scene chart  background rect bg-rect" width="800" height="500" fill="#0f0f0f"></rect>
+        </g>
+        <g id="x-axis" transform="translate(80,415)" fill="none" font-size="10" font-family="sans-serif" text-anchor="middle">
+            <path class="domain scene chart  axis x-axis x-domain" stroke="#c29448" d="M0.5,0.5H656.5" id="x-domain"></path>
+            <g class="tick" opacity="1" transform="translate(14.374501992031856,0)">
+                <text fill="#c29448" y="5" dy="0.71em" class="scene chart  axis x-axis label label-0 x-label" id="x-label-0" transform="translate(0, 25)" font-size="16" font-family="Copperplate" font-weight="bold">1991</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(92.78087649402389,0)">
+                <text fill="#c29448" y="5" dy="0.71em" class="scene chart  axis x-axis label label-1 x-label" id="x-label-1" transform="translate(0, 25)" font-size="16" font-family="Copperplate" font-weight="bold">1995</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(197.32270916334662,0)">
+                <text fill="#c29448" y="5" dy="0.71em" class="scene chart  axis x-axis label label-2 x-label" id="x-label-2" transform="translate(0, 25)" font-size="16" font-family="Copperplate" font-weight="bold">1999</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(301.8645418326693,0)">
+                <text fill="#c29448" y="5" dy="0.71em" class="scene chart  axis x-axis label label-3 x-label" id="x-label-3" transform="translate(0, 25)" font-size="16" font-family="Copperplate" font-weight="bold">2003</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(406.40637450199205,0)">
+                <text fill="#c29448" y="5" dy="0.71em" class="scene chart  axis x-axis label label-4 x-label" id="x-label-4" transform="translate(0, 25)" font-size="16" font-family="Copperplate" font-weight="bold">2007</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(510.9482071713148,0)">
+                <text fill="#c29448" y="5" dy="0.71em" class="scene chart  axis x-axis label label-5 x-label" id="x-label-5" transform="translate(0, 25)" font-size="16" font-family="Copperplate" font-weight="bold">2011</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(615.4900398406376,0)">
+                <text fill="#c29448" y="5" dy="0.71em" class="scene chart  axis x-axis label label-6 x-label" id="x-label-6" transform="translate(0, 25)" font-size="16" font-family="Copperplate" font-weight="bold">2015</text>
+            </g>
+        </g>
+        <g id="y-axis" transform="translate(60,10)" fill="none" font-size="10" font-family="sans-serif" text-anchor="end">
+            <path class="domain scene chart  axis y-axis y-domain" stroke="currentColor" d="M0.5,0.5V405.5" id="y-domain" opacity="0"></path>
+            <g class="tick" opacity="1" transform="translate(0,370.3345923417557)">
+                <text fill="gray" x="-5" dy="0.32em" class="scene chart  axis y-axis label label-0 y-label" id="y-label-0" font-size="16" font-family="Copperplate" font-weight="bold">1</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,335.16918468351133)">
+                <text fill="gray" x="-5" dy="0.32em" class="scene chart  axis y-axis label label-1 y-label" id="y-label-1" font-size="16" font-family="Copperplate" font-weight="bold">2</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,300.003777025267)">
+                <text fill="gray" x="-5" dy="0.32em" class="scene chart  axis y-axis label label-2 y-label" id="y-label-2" font-size="16" font-family="Copperplate" font-weight="bold">3</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,264.8383693670226)">
+                <text fill="gray" x="-5" dy="0.32em" class="scene chart  axis y-axis label label-3 y-label" id="y-label-3" font-size="16" font-family="Copperplate" font-weight="bold">4</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,229.6729617087783)">
+                <text fill="gray" x="-5" dy="0.32em" class="scene chart  axis y-axis label label-4 y-label" id="y-label-4" font-size="16" font-family="Copperplate" font-weight="bold">5</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,194.50755405053394)">
+                <text fill="gray" x="-5" dy="0.32em" class="scene chart  axis y-axis label label-5 y-label" id="y-label-5" font-size="16" font-family="Copperplate" font-weight="bold">6</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,159.3421463922897)">
+                <text fill="gray" x="-5" dy="0.32em" class="scene chart  axis y-axis label label-6 y-label" id="y-label-6" font-size="16" font-family="Copperplate" font-weight="bold">7</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,124.17673873404532)">
+                <text fill="gray" x="-5" dy="0.32em" class="scene chart  axis y-axis label label-7 y-label" id="y-label-7" font-size="16" font-family="Copperplate" font-weight="bold">8</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,89.011331075801)">
+                <text fill="gray" x="-5" dy="0.32em" class="scene chart  axis y-axis label label-8 y-label" id="y-label-8" font-size="16" font-family="Copperplate" font-weight="bold">9</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,53.845923417556676)">
+                <text fill="gray" x="-5" dy="0.32em" class="scene chart  axis y-axis label label-9 y-label" id="y-label-9" font-size="16" font-family="Copperplate" font-weight="bold">10</text>
+            </g>
+        </g>
+        <g id="y-tick-group" class="group tick-group">
+            <path id="y-tick-0" class="scene chart  axis y-axis tick tick-0 y-tick" d="M80,379.8345923417557L736,379.8345923417557" stroke="gray" stroke-width="1"></path>
+            <path id="y-tick-1" class="scene chart  axis y-axis tick tick-1 y-tick" d="M80,344.66918468351133L736,344.66918468351133" stroke="gray" stroke-width="1"></path>
+            <path id="y-tick-2" class="scene chart  axis y-axis tick tick-2 y-tick" d="M80,309.503777025267L736,309.503777025267" stroke="gray" stroke-width="1"></path>
+            <path id="y-tick-3" class="scene chart  axis y-axis tick tick-3 y-tick" d="M80,274.3383693670226L736,274.3383693670226" stroke="gray" stroke-width="1"></path>
+            <path id="y-tick-4" class="scene chart  axis y-axis tick tick-4 y-tick" d="M80,239.1729617087783L736,239.1729617087783" stroke="gray" stroke-width="1"></path>
+            <path id="y-tick-5" class="scene chart  axis y-axis tick tick-5 y-tick" d="M80,204.00755405053394L736,204.00755405053394" stroke="gray" stroke-width="1"></path>
+            <path id="y-tick-6" class="scene chart  axis y-axis tick tick-6 y-tick" d="M80,168.8421463922897L736,168.8421463922897" stroke="gray" stroke-width="1"></path>
+            <path id="y-tick-7" class="scene chart  axis y-axis tick tick-7 y-tick" d="M80,133.67673873404533L736,133.67673873404533" stroke="gray" stroke-width="1"></path>
+            <path id="y-tick-8" class="scene chart  axis y-axis tick tick-8 y-tick" d="M80,98.511331075801L736,98.511331075801" stroke="gray" stroke-width="1"></path>
+            <path id="y-tick-9" class="scene chart  axis y-axis tick tick-9 y-tick" d="M80,63.345923417556676L736,63.345923417556676" stroke="gray" stroke-width="1"></path>
+        </g>
+        <g class="grp content">
+            <g transform="translate(88.61538461538461,10)" class="grp line-group">
+                <path id="line-0" class="scene chart  mark series-0 line-0 line" d="M2.613545816733051,40.49999999999999L28.74900398406373,198.9307111226882L54.88446215139441,215.5252669966137L81.01992031872508,189.2989059650951L107.15537848605577,200.07710341234696L133.29083665338644,151.61917165928622L159.42629482071712,210.1730919510289L185.5617529880478,216.51341495181035L211.69721115537848,193.85985933836935L237.83266932270917,264.3383693670226L263.9681274900398,264.6689241990102L290.1035856573705,277.51836415733266L316.2390438247012,245.15563948945035L342.37450199203187,248.25722844490753L368.50996015936255,233.26269861943217L394.64541832669323,209.63506121385774L420.7808764940239,303.8396717895285L446.9163346613546,387.814665277416L473.0517928286853,389.4252409481636L499.18725099601596,389.85777546236L525.3227091633466,389.76634540244856L551.4581673306773,389.3724928366762L577.5936254980079,388.5918207866632L603.7290836653387,387.80059911435274L629.8645418326694,395.8991924980464L629.8645418326694,395.84644438655897" stroke="#ffffff" stroke-width="4" fill="none" opacity="0.7"></path>
+            </g>
+            <g transform="translate(88.61538461538461,10)" class="grp line-group">
+                <path id="line-1" class="scene chart  mark series-1 line-1 line" d="M2.613545816733051,302.4822870539203L28.74900398406373,201.52591820786662L54.88446215139441,126.8416254232873L81.01992031872508,126.10315186246414L107.15537848605577,113.82690804897105L133.29083665338644,164.14157332638706L159.42629482071712,201.66657983849962L185.5617529880478,156.64782495441517L211.69721115537848,187.6918468351133L237.83266932270917,205.35543110184943L263.9681274900398,226.22961708778325L290.1035856573705,210.1730919510289L316.2390438247012,201.60679864548058L342.37450199203187,228.90570461057567L368.50996015936255,211.24212034383953L394.64541832669323,193.79304506381868L420.7808764940239,213.47512373013808L446.9163346613546,203.74837197186764L473.0517928286853,239.07554050533992L499.18725099601596,263.16032821047145L525.3227091633466,267.4434748632456L551.4581673306773,286.1760875227924L577.5936254980079,289.92120343839537L603.7290836653387,306.51575931232094L629.8645418326694,325.040896066684L629.8645418326694,324.7138577754624" stroke="#f6523e" stroke-width="4" fill="none" opacity="0.7"></path>
+            </g>
+        </g>
+        <g class="grp annotation-group-group">
+            <g transform="translate(130,230)" id="annotation-group-0">
+                <text transform="translate(100,140)" id="annotation-group-0-text-0" class="scene chart  annotation annotation-0 label label-0 anno-label" font-size="25" text-anchor="middle" font-family="Copperplate" font-weight="bold" fill="white">Base Rate</text>
+                <text transform="translate(100,160)" id="annotation-group-0-text-1" class="scene chart  annotation annotation-0 label label-1 anno-label" font-size="20" text-anchor="middle" font-style="italic" font-family="Copperplate" fill="white">Bank of England</text>
+                <g id="annotation-group-0-arrow" class="scene chart  annotation annotation-0 arrow anno-arrow" transform="translate(100,20)">
+                    <svg height="100" width="100" viewBox="40 0 1000 1000">
+                        <path d="M355.885 907.208c-15.813-77.937 1.694-158.139 25.982-232.114 25.414-77.374 61.004-150.789 98.269-223.082 74.548-144.582 171.689-288.599 323.049-359.195 16.379-7.907 19.201-32.761-3.385-22.031-158.7 74.548-262.619 219.694-342.811 370.491-40.094 75.677-77.374 153.621-104.486 234.377-26.544 78.506-45.742 164.349-28.802 246.804 2.827 15.248 34.457-1.694 32.187-15.248z M405.589 197.851c137.802-45.187 286.335-55.911 416.797-122.553-9.041-7.341-18.071-14.684-27.108-21.47-25.982 62.688-57.039 123.679-80.761 187.502-16.942 46.309-35.579 101.093-15.813 148.533 6.214 14.122 39.534 18.071 31.065-2.256-19.201-46.309 9.041-109.003 25.982-151.924 22.031-55.347 49.131-109.003 71.724-164.349 5.083-12.429-15.813-27.108-27.108-21.47-130.463 67.204-278.994 77.937-416.797 122.553-18.639 5.651 7.341 29.929 22.031 25.414z" fill="white"></path>
+                    </svg>
+                </g>
+            </g>
+            <g transform="translate(300,50)" id="annotation-group-0">
+                <text transform="translate(150,30)" id="annotation-group-1-text-0" class="scene chart  annotation annotation-1 label label-0 anno-label" font-size="25" text-anchor="middle" font-family="Copperplate" font-weight="bold" fill="#fe5b44">Mortgage Rate</text>
+                <text transform="translate(170,50)" id="annotation-group-1-text-1" class="scene chart  annotation annotation-1 label label-1 anno-label" font-size="15" text-anchor="middle" font-style="italic" font-family="Copperplate" fill="#fe5b44">Example: 5 year fixed, 75% LTV</text>
+                <g id="annotation-group-1-arrow" class="scene chart  annotation annotation-1 arrow anno-arrow" transform="translate(80,160) rotate(200)">
+                    <svg height="100" width="100" viewBox="40 0 1000 1000">
+                        <path d="M355.885 907.208c-15.813-77.937 1.694-158.139 25.982-232.114 25.414-77.374 61.004-150.789 98.269-223.082 74.548-144.582 171.689-288.599 323.049-359.195 16.379-7.907 19.201-32.761-3.385-22.031-158.7 74.548-262.619 219.694-342.811 370.491-40.094 75.677-77.374 153.621-104.486 234.377-26.544 78.506-45.742 164.349-28.802 246.804 2.827 15.248 34.457-1.694 32.187-15.248z M405.589 197.851c137.802-45.187 286.335-55.911 416.797-122.553-9.041-7.341-18.071-14.684-27.108-21.47-25.982 62.688-57.039 123.679-80.761 187.502-16.942 46.309-35.579 101.093-15.813 148.533 6.214 14.122 39.534 18.071 31.065-2.256-19.201-46.309 9.041-109.003 25.982-151.924 22.031-55.347 49.131-109.003 71.724-164.349 5.083-12.429-15.813-27.108-27.108-21.47-130.463 67.204-278.994 77.937-416.797 122.553-18.639 5.651 7.341 29.929 22.031 25.414z" fill="#fe5b44"></path>
+                    </svg>
+                </g>
+            </g>
+            <circle transform="translate(620,325)" id="annotation-circle" class="scene chart  annotation annotation-2 circle anno-circle" r="130" fill="none" stroke="#ffffff" stroke-width="3"></circle>
+        </g>
+        <text id="title-0" class="scene chart  title main-title" font-size="50" text-anchor="middle" font-family="Times New Roman" font-weight="bold" fill="#ffffff">
+            <tspan x="408" y="170" text-decoration="underline">Ultra</tspan>
+            <tspan x="408" y="215" text-decoration="underline">low</tspan>
+            <tspan x="408" y="260" text-decoration="underline">interest</tspan>
+            <tspan x="408" y="305" text-decoration="underline">rates</tspan>
+        </text>
+    </g>
+</svg>

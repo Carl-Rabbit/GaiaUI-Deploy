@@ -1,0 +1,10 @@
+{
+  charts: [
+    {source: './commute-mode.svg'},
+  ],
+  animation: {
+    sequence: {
+      sync: []
+    }
+  }
+}

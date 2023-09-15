@@ -1,0 +1,80 @@
+{
+  projectId: 'example-bar-chart-task1',
+  chart: './ExampleBarChart0.svg',
+  audio: './empty.txt',
+  binder: {
+    from: "svg",
+    to: "gaia.chart.BarChart",
+    rules: [
+      {
+        from: "#title",
+        to: ":scope > .Title"
+      },
+      {
+        from: "#x-domain",
+        to: ".XAxis .Domain"
+      },
+      {
+        from: "#y-domain",
+        to: ".YAxis .Domain"
+      },
+      {
+        from: ".bar",
+        to: ".Bar",
+        dataList: [
+          { xVal: 'a', yVal: 30 },
+          { xVal: 'b', yVal: 10 },
+          { xVal: 'c', yVal: 20 },
+        ]
+      },
+      {
+        from: ".bar-label",
+        to: ".BarLabel",
+        dataList: [
+          { xVal: 'a', yVal: 30 },
+          { xVal: 'b', yVal: 10 },
+          { xVal: 'c', yVal: 20 },
+        ]
+      },
+      {
+        from: ".x-label",
+        to: ".XAxis .Label",
+        dataList: [
+          { xVal: 'a', yVal: 30 },
+          { xVal: 'b', yVal: 10 },
+          { xVal: 'c', yVal: 20 },
+        ]
+      }
+    ]
+  },
+  animation: {
+    comments: [
+      'Task 1 (Example): Create animations in Gaia',
+      '1. Adjust effects. Candidates: ZoomIn, Grow.',
+      '2. Adjust params. ZoomIn has a "ease" param (default: "back"), Grow has a "from" param (default "bottom").',
+      '3. Set stagger to let each bar, bar label and axis label appear one by one.',
+      '4. Set offset.',
+    ],
+    main: {
+      sync: [
+        {
+          ref: "Fade",
+          target: ".Title",
+        },
+        {
+          ref: "Fade",
+          target: ".Bar",
+        },
+        {
+          ref: "Fade",
+          target: ".AxisLabel",
+        },
+        {
+          ref: "Fade",
+          target: ".BarLabel",
+        }
+      ],
+    }
+  },
+  templates: []
+}

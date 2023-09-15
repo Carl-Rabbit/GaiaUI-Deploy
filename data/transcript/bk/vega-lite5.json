@@ -1,0 +1,350 @@
+{
+  "results": [
+    {
+      "alternatives": [
+        {
+          "transcript": "According to the survey, the manufacturing industry received the largest amount of subsidy and the largest share of employees among the rural industries. It accounts for more than 20% of CEWS amount and number of employees. Construction, accommodations and food services, transportation and warehousing, retail trade, and mining, quarrying and oil and gas extraction followed behind.",
+          "confidence": 1.0,
+          "words": [
+            {
+              "startTime": "0.000s",
+              "endTime": "0.520s",
+              "word": "According",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.520s",
+              "endTime": "0.668s",
+              "word": "to",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.668s",
+              "endTime": "0.763s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.763s",
+              "endTime": "1.787s",
+              "word": "survey,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.787s",
+              "endTime": "1.857s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.857s",
+              "endTime": "2.918s",
+              "word": "manufacturing",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.918s",
+              "endTime": "3.533s",
+              "word": "industry",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.533s",
+              "endTime": "4.063s",
+              "word": "received",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.063s",
+              "endTime": "4.123s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.123s",
+              "endTime": "4.854s",
+              "word": "largest",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.854s",
+              "endTime": "5.204s",
+              "word": "amount",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.204s",
+              "endTime": "5.294s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.294s",
+              "endTime": "6.106s",
+              "word": "subsidy",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.106s",
+              "endTime": "6.221s",
+              "word": "and",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.221s",
+              "endTime": "6.251s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.251s",
+              "endTime": "6.921s",
+              "word": "largest",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.921s",
+              "endTime": "7.322s",
+              "word": "share",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.322s",
+              "endTime": "7.412s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.412s",
+              "endTime": "8.181s",
+              "word": "employees",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.181s",
+              "endTime": "8.489s",
+              "word": "among",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.489s",
+              "endTime": "8.544s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.544s",
+              "endTime": "8.982s",
+              "word": "rural",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.982s",
+              "endTime": "10.739s",
+              "word": "industries.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.739s",
+              "endTime": "10.859s",
+              "word": "It",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.859s",
+              "endTime": "11.378s",
+              "word": "accounts",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.378s",
+              "endTime": "11.518s",
+              "word": "for",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.518s",
+              "endTime": "11.753s",
+              "word": "more",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.753s",
+              "endTime": "11.961s",
+              "word": "than",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.961s",
+              "endTime": "12.985s",
+              "word": "20%",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "12.985s",
+              "endTime": "13.095s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.095s",
+              "endTime": "14.375s",
+              "word": "CEWS",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.375s",
+              "endTime": "14.820s",
+              "word": "amount",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.820s",
+              "endTime": "14.949s",
+              "word": "and",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.949s",
+              "endTime": "15.329s",
+              "word": "number",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.329s",
+              "endTime": "15.414s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.414s",
+              "endTime": "17.154s",
+              "word": "employees.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.154s",
+              "endTime": "18.366s",
+              "word": "Construction,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.366s",
+              "endTime": "19.492s",
+              "word": "accommodations",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.492s",
+              "endTime": "19.659s",
+              "word": "and",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.659s",
+              "endTime": "20.014s",
+              "word": "food",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "20.014s",
+              "endTime": "21.020s",
+              "word": "services,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "21.020s",
+              "endTime": "22.084s",
+              "word": "transportation",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "22.084s",
+              "endTime": "22.239s",
+              "word": "and",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "22.239s",
+              "endTime": "23.394s",
+              "word": "warehousing,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "23.394s",
+              "endTime": "23.866s",
+              "word": "retail",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "23.866s",
+              "endTime": "24.547s",
+              "word": "trade,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "24.547s",
+              "endTime": "24.667s",
+              "word": "and",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "24.667s",
+              "endTime": "25.536s",
+              "word": "mining,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "25.536s",
+              "endTime": "26.099s",
+              "word": "quarrying",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "26.099s",
+              "endTime": "26.244s",
+              "word": "and",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "26.244s",
+              "endTime": "26.699s",
+              "word": "oil",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "26.699s",
+              "endTime": "26.849s",
+              "word": "and",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "26.849s",
+              "endTime": "27.239s",
+              "word": "gas",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "27.239s",
+              "endTime": "28.007s",
+              "word": "extraction",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "28.007s",
+              "endTime": "28.484s",
+              "word": "followed",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "28.484s",
+              "endTime": "30.028s",
+              "word": "behind.",
+              "speakerTag": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

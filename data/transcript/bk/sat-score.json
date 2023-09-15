@@ -1,0 +1,338 @@
+{
+  "results": [
+    {
+      "alternatives": [
+        {
+          "transcript": "Here's a chart of the average SAT scores by family income. Students whose families earn less than $20,000 score around 890 -- way below average. And as we move up the income brackets, students score higher and higher. The wealthiest students -- whose parents earn more than $200,000 -- score an average of 1150.",
+          "confidence": 1.0,
+          "words": [
+            {
+              "startTime": "0.000s",
+              "endTime": "0.300s",
+              "word": "Here's",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.300s",
+              "endTime": "0.420s",
+              "word": "a",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.420s",
+              "endTime": "0.805s",
+              "word": "chart",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.805s",
+              "endTime": "0.935s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.935s",
+              "endTime": "1.105s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.105s",
+              "endTime": "1.602s",
+              "word": "average",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.602s",
+              "endTime": "2.384s",
+              "word": "SAT",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.384s",
+              "endTime": "2.914s",
+              "word": "scores",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.914s",
+              "endTime": "3.106s",
+              "word": "by",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.106s",
+              "endTime": "3.656s",
+              "word": "family",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.656s",
+              "endTime": "5.103s",
+              "word": "income.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.103s",
+              "endTime": "5.731s",
+              "word": "Students",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.731s",
+              "endTime": "5.976s",
+              "word": "whose",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.976s",
+              "endTime": "6.605s",
+              "word": "families",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.605s",
+              "endTime": "6.825s",
+              "word": "earn",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.825s",
+              "endTime": "7.144s",
+              "word": "less",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.144s",
+              "endTime": "7.324s",
+              "word": "than",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.324s",
+              "endTime": "8.647s",
+              "word": "$20,000",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.647s",
+              "endTime": "9.133s",
+              "word": "score",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.133s",
+              "endTime": "9.473s",
+              "word": "around",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.473s",
+              "endTime": "10.530s",
+              "word": "890",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.530s",
+              "endTime": "10.585s",
+              "word": "--",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.585s",
+              "endTime": "10.870s",
+              "word": "way",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.870s",
+              "endTime": "11.281s",
+              "word": "below",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.281s",
+              "endTime": "12.818s",
+              "word": "average.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "12.818s",
+              "endTime": "12.988s",
+              "word": "And",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "12.988s",
+              "endTime": "13.203s",
+              "word": "as",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.203s",
+              "endTime": "13.333s",
+              "word": "we",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.333s",
+              "endTime": "13.623s",
+              "word": "move",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.623s",
+              "endTime": "13.848s",
+              "word": "up",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.848s",
+              "endTime": "14.008s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.008s",
+              "endTime": "14.433s",
+              "word": "income",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.433s",
+              "endTime": "15.319s",
+              "word": "brackets,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.319s",
+              "endTime": "15.807s",
+              "word": "students",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.807s",
+              "endTime": "16.162s",
+              "word": "score",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.162s",
+              "endTime": "16.682s",
+              "word": "higher",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.682s",
+              "endTime": "16.767s",
+              "word": "and",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.767s",
+              "endTime": "18.275s",
+              "word": "higher.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.275s",
+              "endTime": "18.365s",
+              "word": "The",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.365s",
+              "endTime": "19.090s",
+              "word": "wealthiest",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.090s",
+              "endTime": "19.757s",
+              "word": "students",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.757s",
+              "endTime": "20.007s",
+              "word": "--",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "20.007s",
+              "endTime": "20.228s",
+              "word": "whose",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "20.228s",
+              "endTime": "20.841s",
+              "word": "parents",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "20.841s",
+              "endTime": "21.066s",
+              "word": "earn",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "21.066s",
+              "endTime": "21.276s",
+              "word": "more",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "21.276s",
+              "endTime": "21.476s",
+              "word": "than",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "21.476s",
+              "endTime": "23.240s",
+              "word": "$200,000",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "23.240s",
+              "endTime": "23.600s",
+              "word": "--",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "23.600s",
+              "endTime": "23.947s",
+              "word": "score",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "23.947s",
+              "endTime": "24.022s",
+              "word": "an",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "24.022s",
+              "endTime": "24.526s",
+              "word": "average",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "24.526s",
+              "endTime": "24.631s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "24.631s",
+              "endTime": "26.582s",
+              "word": "1150.",
+              "speakerTag": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

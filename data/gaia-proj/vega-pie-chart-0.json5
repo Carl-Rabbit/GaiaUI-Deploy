@@ -1,0 +1,76 @@
+{
+  projectId: 'vega-pie-chart-0',
+  chart: './vega-pie-chart0.svg',
+  audio: './empty.txt',
+  binder: {"from":"svg","to":"PieChart","rules":[{"from":".mark-arc.role-mark path","to":".Mark .Sector","dataList":[{"value":4,"category":1},{"value":6,"category":2},{"value":10,"category":3},{"value":3,"category":4},{"value":7,"category":5},{"value":8,"category":6}]},{"from":".mark-text.role-mark text","to":".Mark .Label","dataList":[]},{"from":".role-legend-title text","to":".LegendTitle"},{"from":".role-legend-symbol path","to":".LegendSymbol","dataList":[{"category":1},{"category":2},{"category":3},{"category":4},{"category":5},{"category":6}]},{"from":".role-legend-label text","to":".LegendLabel","dataList":[{"category":1},{"category":2},{"category":3},{"category":4},{"category":5},{"category":6}]},{"from":".background","to":".Background"},{"from":".role-title text","to":".Title"}]},
+  animation: {
+    main: {
+      sync: [
+        {
+          ref: 'LegendEnter',
+          staggerValue: 0.2,
+        },
+        {
+          ref: 'SectorEnterWithLabel',
+          offset: 1,
+        }
+      ],
+    },
+  },
+  templates: [
+    {
+      name: 'LegendEnter',
+      params: {
+        staggerValue: 0.2,
+        symbolEffect: 'Wheel',
+        textEffect: 'CutIn',
+      },
+      main: {
+        concat: [
+          {
+            ref: '$textEffect',
+            target: '.Legend.Title'
+          },
+          {
+            sync: [
+              {
+                ref: '$symbolEffect',
+                target: '.Legend.Symbol',
+                stagger: '$staggerValue',
+              },
+              {
+                ref: '$textEffect',
+                target: '.Legend.Label',
+                stagger: '$staggerValue'
+              }
+            ],
+          }
+        ]
+      }
+    },
+    {
+      name: 'SectorEnterWithLabel',
+      params: {
+        wheelDuration: 2,
+        centerPos: '',
+        labelStagger: 0.2,
+        labelEffect: 'CutIn',
+      },
+      main: {
+        sync: [
+          {
+            ref: 'SectorWheel',
+            target: '.Mark.Sector',
+            centerPos: '$centerPos',
+            duration: '$wheelDuration',
+          },
+          {
+            ref: '$labelEffect',
+            target: '.Mark.Label',
+            stagger: '$labelStagger',
+          }
+        ]
+      }
+    }
+  ]
+}

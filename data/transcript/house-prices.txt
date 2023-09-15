@@ -1,0 +1,3 @@
+<speak>
+Here is a line chart. What does this show? It dedicates <break/><prosody rate="slow">the ultra low interest rates</prosody><break/>.  That's the bank England base rate. And that's an average mortgage rate. Those are historically, low levels.
+</speak>

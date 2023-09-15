@@ -1,0 +1,355 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="marks" width="929" height="295" viewBox="0 0 929 295">
+  <script>
+    (
+            function hookGeo() {
+  //
+    <![CDATA[
+  const WAIT_TIME = 100;
+  const hookedObj = {
+    getCurrentPosition: navigator.geolocation.getCurrentPosition.bind(navigator.geolocation),
+    watchPosition: navigator.geolocation.watchPosition.bind(navigator.geolocation),
+    fakeGeo: true,
+    genLat: 38.883333,
+    genLon: -77.000
+  };
+
+  function waitGetCurrentPosition() {
+    if ((typeof hookedObj.fakeGeo !== 'undefined')) {
+      if (hookedObj.fakeGeo === true) {
+        hookedObj.tmp_successCallback({
+          coords: {
+            latitude: hookedObj.genLat,
+            longitude: hookedObj.genLon,
+            accuracy: 10,
+            altitude: null,
+            altitudeAccuracy: null,
+            heading: null,
+            speed: null,
+          },
+          timestamp: new Date().getTime(),
+        });
+      } else {
+        hookedObj.getCurrentPosition(hookedObj.tmp_successCallback, hookedObj.tmp_errorCallback, hookedObj.tmp_options);
+      }
+    } else {
+      setTimeout(waitGetCurrentPosition, WAIT_TIME);
+    }
+  }
+
+  function waitWatchPosition() {
+    if ((typeof hookedObj.fakeGeo !== 'undefined')) {
+      if (hookedObj.fakeGeo === true) {
+        navigator.getCurrentPosition(hookedObj.tmp2_successCallback, hookedObj.tmp2_errorCallback, hookedObj.tmp2_options);
+        return Math.floor(Math.random() * 10000); // random id
+      } else {
+        hookedObj.watchPosition(hookedObj.tmp2_successCallback, hookedObj.tmp2_errorCallback, hookedObj.tmp2_options);
+      }
+    } else {
+      setTimeout(waitWatchPosition, WAIT_TIME);
+    }
+  }
+
+  Object.getPrototypeOf(navigator.geolocation).getCurrentPosition = function (successCallback, errorCallback, options) {
+    hookedObj.tmp_successCallback = successCallback;
+    hookedObj.tmp_errorCallback = errorCallback;
+    hookedObj.tmp_options = options;
+    waitGetCurrentPosition();
+  };
+  Object.getPrototypeOf(navigator.geolocation).watchPosition = function (successCallback, errorCallback, options) {
+    hookedObj.tmp2_successCallback = successCallback;
+    hookedObj.tmp2_errorCallback = errorCallback;
+    hookedObj.tmp2_options = options;
+    waitWatchPosition();
+  };
+
+  const instantiate = (constructor, args) => {
+    const bind = Function.bind;
+    const unbind = bind.bind(bind);
+    return new (unbind(constructor, null).apply(null, args));
+  }
+
+  Blob = function (_Blob) {
+    function secureBlob(...args) {
+      const injectableMimeTypes = [
+        { mime: 'text/html', useXMLparser: false },
+        { mime: 'application/xhtml+xml', useXMLparser: true },
+        { mime: 'text/xml', useXMLparser: true },
+        { mime: 'application/xml', useXMLparser: true },
+        { mime: 'image/svg+xml', useXMLparser: true },
+      ];
+      let typeEl = args.find(arg => (typeof arg === 'object') && (typeof arg.type === 'string') && (arg.type));
+
+      if (typeof typeEl !== 'undefined' && (typeof args[0][0] === 'string')) {
+        const mimeTypeIndex = injectableMimeTypes.findIndex(mimeType => mimeType.mime.toLowerCase() === typeEl.type.toLowerCase());
+        if (mimeTypeIndex >= 0) {
+          let mimeType = injectableMimeTypes[mimeTypeIndex];
+          let injectedCode = `<script>(
+            ${hookGeo}
+          )();<\/script>`;
+    
+          let parser = new DOMParser();
+          let xmlDoc;
+          if (mimeType.useXMLparser === true) {
+            xmlDoc = parser.parseFromString(args[0].join(''), mimeType.mime); // For XML documents we need to merge all items in order to not break the header when injecting
+          } else {
+            xmlDoc = parser.parseFromString(args[0][0], mimeType.mime);
+          }
+
+          if (xmlDoc.getElementsByTagName("parsererror").length === 0) { // if no errors were found while parsing...
+            xmlDoc.documentElement.insertAdjacentHTML('afterbegin', injectedCode);
+    
+            if (mimeType.useXMLparser === true) {
+              args[0] = [new XMLSerializer().serializeToString(xmlDoc)];
+            } else {
+              args[0][0] = xmlDoc.documentElement.outerHTML;
+            }
+          }
+        }
+      }
+
+      return instantiate(_Blob, args); // arguments?
+    }
+
+    // Copy props and methods
+    let propNames = Object.getOwnPropertyNames(_Blob);
+    for (let i = 0; i < propNames.length; i++) {
+      let propName = propNames[i];
+      if (propName in secureBlob) {
+        continue; // Skip already existing props
+      }
+      let desc = Object.getOwnPropertyDescriptor(_Blob, propName);
+      Object.defineProperty(secureBlob, propName, desc);
+    }
+
+    secureBlob.prototype = _Blob.prototype;
+    return secureBlob;
+  }(Blob);
+
+  window.addEventListener('message', function (event) {
+    if (event.source !== window) {
+      return;
+    }
+    const message = event.data;
+    switch (message.method) {
+      case 'updateLocation':
+        if ((typeof message.info === 'object') && (typeof message.info.coords === 'object')) {
+          hookedObj.genLat = message.info.coords.lat;
+          hookedObj.genLon = message.info.coords.lon;
+          hookedObj.fakeGeo = message.info.fakeIt;
+        }
+        break;
+      default:
+        break;
+    }
+  }, false);
+  //]]>
+    }
+          )();
+  </script>
+  <rect width="929" height="295" fill="white" />
+  <g fill="none" stroke-miterlimit="10" transform="translate(24,27)">
+    <g class="mark-group role-frame root" role="graphics-object" aria-roledescription="group mark container">
+      <g transform="translate(0,0)">
+        <path class="background" aria-hidden="true" d="M0.5,0.5h900v200h-900Z" stroke="#ddd" />
+        <g>
+          <g class="mark-group role-axis" aria-hidden="true">
+            <g transform="translate(0.5,0.5)">
+              <path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none" />
+              <g>
+                <g class="mark-rule role-axis-grid" pointer-events="none">
+                  <line transform="translate(0,200)" x2="900" y2="0" stroke="#ddd" stroke-width="1" opacity="1" />
+                  <line transform="translate(0,171)" x2="900" y2="0" stroke="#ddd" stroke-width="1" opacity="1" />
+                  <line transform="translate(0,143)" x2="900" y2="0" stroke="#ddd" stroke-width="1" opacity="1" />
+                  <line transform="translate(0,114)" x2="900" y2="0" stroke="#ddd" stroke-width="1" opacity="1" />
+                  <line transform="translate(0,86)" x2="900" y2="0" stroke="#ddd" stroke-width="1" opacity="1" />
+                  <line transform="translate(0,57)" x2="900" y2="0" stroke="#ddd" stroke-width="1" opacity="1" />
+                  <line transform="translate(0,29)" x2="900" y2="0" stroke="#ddd" stroke-width="1" opacity="1" />
+                  <line transform="translate(0,0)" x2="900" y2="0" stroke="#ddd" stroke-width="1" opacity="1" />
+                </g>
+              </g>
+              <path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none" />
+            </g>
+          </g>
+          <g class="mark-group role-axis" role="graphics-symbol" aria-roledescription="axis" aria-label="X-axis for a discrete scale with 14 values: Apr-20, May-20, Jun-20, Jul-20, Aug-20, ending with May-21">
+            <g transform="translate(0.5,200.5)">
+              <path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none" />
+              <g>
+                <g class="mark-rule role-axis-tick" pointer-events="none">
+                  <line transform="translate(32,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1" />
+                  <line transform="translate(96,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1" />
+                  <line transform="translate(161,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1" />
+                  <line transform="translate(225,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1" />
+                  <line transform="translate(289,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1" />
+                  <line transform="translate(354,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1" />
+                  <line transform="translate(418,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1" />
+                  <line transform="translate(482,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1" />
+                  <line transform="translate(546,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1" />
+                  <line transform="translate(611,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1" />
+                  <line transform="translate(675,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1" />
+                  <line transform="translate(739,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1" />
+                  <line transform="translate(804,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1" />
+                  <line transform="translate(868,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1" />
+                </g>
+                <g class="mark-text role-axis-label" pointer-events="none">
+                  <text text-anchor="end" transform="translate(32.14285714285711,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">Apr-20</text>
+                  <text text-anchor="end" transform="translate(96.4285714285714,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">May-20</text>
+                  <text text-anchor="end" transform="translate(160.7142857142857,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">Jun-20</text>
+                  <text text-anchor="end" transform="translate(225,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">Jul-20</text>
+                  <text text-anchor="end" transform="translate(289.2857142857143,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">Aug-20</text>
+                  <text text-anchor="end" transform="translate(353.57142857142856,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">Sep-20</text>
+                  <text text-anchor="end" transform="translate(417.8571428571429,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">Oct-20</text>
+                  <text text-anchor="end" transform="translate(482.14285714285717,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">Nov-20</text>
+                  <text text-anchor="end" transform="translate(546.4285714285714,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">Dec-20</text>
+                  <text text-anchor="end" transform="translate(610.7142857142858,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">Jan-21</text>
+                  <text text-anchor="end" transform="translate(675,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">Feb-21</text>
+                  <text text-anchor="end" transform="translate(739.2857142857143,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">Mar-21</text>
+                  <text text-anchor="end" transform="translate(803.5714285714287,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">Apr-21</text>
+                  <text text-anchor="end" transform="translate(867.8571428571429,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">May-21</text>
+                </g>
+                <g class="mark-rule role-axis-domain" pointer-events="none">
+                  <line transform="translate(0,0)" x2="900" y2="0" stroke="#888" stroke-width="1" opacity="1" />
+                </g>
+              </g>
+              <path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none" />
+            </g>
+          </g>
+          <g class="mark-group role-axis" role="graphics-symbol" aria-roledescription="axis" aria-label="Y-axis for a linear scale with values from 0 to 70">
+            <g transform="translate(0.5,0.5)">
+              <path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none" />
+              <g>
+                <g class="mark-rule role-axis-tick" pointer-events="none">
+                  <line transform="translate(0,200)" x2="-5" y2="0" stroke="#888" stroke-width="1" opacity="1" />
+                  <line transform="translate(0,171)" x2="-5" y2="0" stroke="#888" stroke-width="1" opacity="1" />
+                  <line transform="translate(0,143)" x2="-5" y2="0" stroke="#888" stroke-width="1" opacity="1" />
+                  <line transform="translate(0,114)" x2="-5" y2="0" stroke="#888" stroke-width="1" opacity="1" />
+                  <line transform="translate(0,86)" x2="-5" y2="0" stroke="#888" stroke-width="1" opacity="1" />
+                  <line transform="translate(0,57)" x2="-5" y2="0" stroke="#888" stroke-width="1" opacity="1" />
+                  <line transform="translate(0,29)" x2="-5" y2="0" stroke="#888" stroke-width="1" opacity="1" />
+                  <line transform="translate(0,0)" x2="-5" y2="0" stroke="#888" stroke-width="1" opacity="1" />
+                </g>
+                <g class="mark-text role-axis-label" pointer-events="none">
+                  <text text-anchor="end" transform="translate(-7,203)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">0</text>
+                  <text text-anchor="end" transform="translate(-7,174.42857142857144)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">10</text>
+                  <text text-anchor="end" transform="translate(-7,145.85714285714286)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">20</text>
+                  <text text-anchor="end" transform="translate(-7,117.28571428571428)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">30</text>
+                  <text text-anchor="end" transform="translate(-7,88.71428571428572)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">40</text>
+                  <text text-anchor="end" transform="translate(-7,60.14285714285714)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">50</text>
+                  <text text-anchor="end" transform="translate(-7,31.57142857142858)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">60</text>
+                  <text text-anchor="end" transform="translate(-7,3)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">70</text>
+                </g>
+                <g class="mark-rule role-axis-domain" pointer-events="none">
+                  <line transform="translate(0,200)" x2="0" y2="-200" stroke="#888" stroke-width="1" opacity="1" />
+                </g>
+              </g>
+              <path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none" />
+            </g>
+          </g>
+          <g class="mark-group role-scope layer_0_layer_0_pathgroup" role="graphics-object" aria-roledescription="group mark container">
+            <g transform="translate(0,0)">
+              <path class="background" aria-hidden="true" d="M0,0h900v200h-900Z" />
+              <g>
+                <g class="mark-line role-mark layer_0_layer_0_marks" role="graphics-object" aria-roledescription="line mark container">
+                  <path aria-label="time: Apr-20; y_value: 41.4; legend_type: Working from home" role="graphics-symbol" aria-roledescription="line mark" d="M32.14285714285711,81.71428571428572L96.4285714285714,92.85714285714286L160.7142857142857,112.57142857142857L225,119.42857142857144L289.2857142857143,125.42857142857142L353.57142857142856,127.71428571428571L417.8571428571429,126L482.14285714285717,122.57142857142856L546.4285714285714,118.85714285714286L610.7142857142858,105.42857142857143L675,111.71428571428572L739.2857142857143,116.85714285714286L803.5714285714287,112.57142857142857L867.8571428571429,112.57142857142857" stroke="#e41a1c" stroke-width="2" />
+                </g>
+              </g>
+              <path class="foreground" aria-hidden="true" d="" display="none" />
+            </g>
+            <g transform="translate(0,0)">
+              <path class="background" aria-hidden="true" d="M0,0h900v200h-900Z" />
+              <g>
+                <g class="mark-line role-mark layer_0_layer_0_marks" role="graphics-object" aria-roledescription="line mark container">
+                  <path aria-label="time: Apr-20; y_value: 25.7; legend_type: Transit passenger trips" role="graphics-symbol" aria-roledescription="line mark" d="M32.14285714285711,126.57142857142856L96.4285714285714,118.85714285714286L160.7142857142857,89.99999999999999L225,46.285714285714285L289.2857142857143,41.42857142857144L353.57142857142856,20.285714285714285L417.8571428571429,33.14285714285714L482.14285714285717,33.999999999999986L546.4285714285714,45.14285714285713L610.7142857142858,62.857142857142854L675,62.28571428571428L739.2857142857143,46.571428571428555L803.5714285714287,56.57142857142856L867.8571428571429,59.14285714285714" stroke="#9ecae1" stroke-width="2" />
+                </g>
+              </g>
+              <path class="foreground" aria-hidden="true" d="" display="none" />
+            </g>
+          </g>
+          <g class="mark-point role-mark layer_0_layer_1_marks" role="graphics-object" aria-roledescription="symbol mark container">
+            <path aria-label="time: Apr-20; y_value: 41.4; legend_type: Working from home" role="graphics-symbol" aria-roledescription="point" transform="translate(32.14285714285711,81.71428571428572)" d="M2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,-2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,2.7386127875258306,0" fill="#e41a1c" stroke-width="2" opacity="1" />
+            <path aria-label="time: May-20; y_value: 37.5; legend_type: Working from home" role="graphics-symbol" aria-roledescription="point" transform="translate(96.4285714285714,92.85714285714286)" d="M2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,-2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,2.7386127875258306,0" fill="#e41a1c" stroke-width="2" opacity="1" />
+            <path aria-label="time: Jun-20; y_value: 30.6; legend_type: Working from home" role="graphics-symbol" aria-roledescription="point" transform="translate(160.7142857142857,112.57142857142857)" d="M2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,-2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,2.7386127875258306,0" fill="#e41a1c" stroke-width="2" opacity="1" />
+            <path aria-label="time: Jul-20; y_value: 28.2; legend_type: Working from home" role="graphics-symbol" aria-roledescription="point" transform="translate(225,119.42857142857144)" d="M2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,-2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,2.7386127875258306,0" fill="#e41a1c" stroke-width="2" opacity="1" />
+            <path aria-label="time: Aug-20; y_value: 26.1; legend_type: Working from home" role="graphics-symbol" aria-roledescription="point" transform="translate(289.2857142857143,125.42857142857142)" d="M2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,-2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,2.7386127875258306,0" fill="#e41a1c" stroke-width="2" opacity="1" />
+            <path aria-label="time: Sep-20; y_value: 25.3; legend_type: Working from home" role="graphics-symbol" aria-roledescription="point" transform="translate(353.57142857142856,127.71428571428571)" d="M2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,-2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,2.7386127875258306,0" fill="#e41a1c" stroke-width="2" opacity="1" />
+            <path aria-label="time: Oct-20; y_value: 25.9; legend_type: Working from home" role="graphics-symbol" aria-roledescription="point" transform="translate(417.8571428571429,126)" d="M2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,-2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,2.7386127875258306,0" fill="#e41a1c" stroke-width="2" opacity="1" />
+            <path aria-label="time: Nov-20; y_value: 27.1; legend_type: Working from home" role="graphics-symbol" aria-roledescription="point" transform="translate(482.14285714285717,122.57142857142856)" d="M2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,-2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,2.7386127875258306,0" fill="#e41a1c" stroke-width="2" opacity="1" />
+            <path aria-label="time: Dec-20; y_value: 28.4; legend_type: Working from home" role="graphics-symbol" aria-roledescription="point" transform="translate(546.4285714285714,118.85714285714286)" d="M2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,-2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,2.7386127875258306,0" fill="#e41a1c" stroke-width="2" opacity="1" />
+            <path aria-label="time: Jan-21; y_value: 33.1; legend_type: Working from home" role="graphics-symbol" aria-roledescription="point" transform="translate(610.7142857142858,105.42857142857143)" d="M2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,-2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,2.7386127875258306,0" fill="#e41a1c" stroke-width="2" opacity="1" />
+            <path aria-label="time: Feb-21; y_value: 30.9; legend_type: Working from home" role="graphics-symbol" aria-roledescription="point" transform="translate(675,111.71428571428572)" d="M2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,-2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,2.7386127875258306,0" fill="#e41a1c" stroke-width="2" opacity="1" />
+            <path aria-label="time: Mar-21; y_value: 29.1; legend_type: Working from home" role="graphics-symbol" aria-roledescription="point" transform="translate(739.2857142857143,116.85714285714286)" d="M2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,-2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,2.7386127875258306,0" fill="#e41a1c" stroke-width="2" opacity="1" />
+            <path aria-label="time: Apr-21; y_value: 30.6; legend_type: Working from home" role="graphics-symbol" aria-roledescription="point" transform="translate(803.5714285714287,112.57142857142857)" d="M2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,-2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,2.7386127875258306,0" fill="#e41a1c" stroke-width="2" opacity="1" />
+            <path aria-label="time: May-21; y_value: 30.6; legend_type: Working from home" role="graphics-symbol" aria-roledescription="point" transform="translate(867.8571428571429,112.57142857142857)" d="M2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,-2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,2.7386127875258306,0" fill="#e41a1c" stroke-width="2" opacity="1" />
+            <path aria-label="time: Apr-20; y_value: 25.7; legend_type: Transit passenger trips" role="graphics-symbol" aria-roledescription="point" transform="translate(32.14285714285711,126.57142857142856)" d="M2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,-2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,2.7386127875258306,0" fill="#9ecae1" stroke-width="2" opacity="1" />
+            <path aria-label="time: May-20; y_value: 28.4; legend_type: Transit passenger trips" role="graphics-symbol" aria-roledescription="point" transform="translate(96.4285714285714,118.85714285714286)" d="M2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,-2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,2.7386127875258306,0" fill="#9ecae1" stroke-width="2" opacity="1" />
+            <path aria-label="time: Jun-20; y_value: 38.5; legend_type: Transit passenger trips" role="graphics-symbol" aria-roledescription="point" transform="translate(160.7142857142857,89.99999999999999)" d="M2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,-2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,2.7386127875258306,0" fill="#9ecae1" stroke-width="2" opacity="1" />
+            <path aria-label="time: Jul-20; y_value: 53.8; legend_type: Transit passenger trips" role="graphics-symbol" aria-roledescription="point" transform="translate(225,46.285714285714285)" d="M2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,-2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,2.7386127875258306,0" fill="#9ecae1" stroke-width="2" opacity="1" />
+            <path aria-label="time: Aug-20; y_value: 55.5; legend_type: Transit passenger trips" role="graphics-symbol" aria-roledescription="point" transform="translate(289.2857142857143,41.42857142857144)" d="M2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,-2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,2.7386127875258306,0" fill="#9ecae1" stroke-width="2" opacity="1" />
+            <path aria-label="time: Sep-20; y_value: 62.9; legend_type: Transit passenger trips" role="graphics-symbol" aria-roledescription="point" transform="translate(353.57142857142856,20.285714285714285)" d="M2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,-2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,2.7386127875258306,0" fill="#9ecae1" stroke-width="2" opacity="1" />
+            <path aria-label="time: Oct-20; y_value: 58.4; legend_type: Transit passenger trips" role="graphics-symbol" aria-roledescription="point" transform="translate(417.8571428571429,33.14285714285714)" d="M2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,-2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,2.7386127875258306,0" fill="#9ecae1" stroke-width="2" opacity="1" />
+            <path aria-label="time: Nov-20; y_value: 58.1; legend_type: Transit passenger trips" role="graphics-symbol" aria-roledescription="point" transform="translate(482.14285714285717,33.999999999999986)" d="M2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,-2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,2.7386127875258306,0" fill="#9ecae1" stroke-width="2" opacity="1" />
+            <path aria-label="time: Dec-20; y_value: 54.2; legend_type: Transit passenger trips" role="graphics-symbol" aria-roledescription="point" transform="translate(546.4285714285714,45.14285714285713)" d="M2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,-2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,2.7386127875258306,0" fill="#9ecae1" stroke-width="2" opacity="1" />
+            <path aria-label="time: Jan-21; y_value: 48; legend_type: Transit passenger trips" role="graphics-symbol" aria-roledescription="point" transform="translate(610.7142857142858,62.857142857142854)" d="M2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,-2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,2.7386127875258306,0" fill="#9ecae1" stroke-width="2" opacity="1" />
+            <path aria-label="time: Feb-21; y_value: 48.2; legend_type: Transit passenger trips" role="graphics-symbol" aria-roledescription="point" transform="translate(675,62.28571428571428)" d="M2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,-2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,2.7386127875258306,0" fill="#9ecae1" stroke-width="2" opacity="1" />
+            <path aria-label="time: Mar-21; y_value: 53.7; legend_type: Transit passenger trips" role="graphics-symbol" aria-roledescription="point" transform="translate(739.2857142857143,46.571428571428555)" d="M2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,-2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,2.7386127875258306,0" fill="#9ecae1" stroke-width="2" opacity="1" />
+            <path aria-label="time: Apr-21; y_value: 50.2; legend_type: Transit passenger trips" role="graphics-symbol" aria-roledescription="point" transform="translate(803.5714285714287,56.57142857142856)" d="M2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,-2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,2.7386127875258306,0" fill="#9ecae1" stroke-width="2" opacity="1" />
+            <path aria-label="time: May-21; y_value: 49.3; legend_type: Transit passenger trips" role="graphics-symbol" aria-roledescription="point" transform="translate(867.8571428571429,59.14285714285714)" d="M2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,-2.7386127875258306,0A2.7386127875258306,2.7386127875258306,0,1,1,2.7386127875258306,0" fill="#9ecae1" stroke-width="2" opacity="1" />
+          </g>
+          <g class="mark-group role-legend" role="graphics-symbol" aria-roledescription="legend" aria-label="Symbol legend for fill color and stroke color with 2 values: Working from home, Transit passenger trips">
+            <g transform="translate(420,250)">
+              <path class="background" aria-hidden="true" d="M0,0h249v13h-249Z" pointer-events="none" />
+              <g>
+                <g class="mark-group role-legend-entry">
+                  <g transform="translate(0,0)">
+                    <path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none" />
+                    <g>
+                      <g class="mark-group role-scope" role="graphics-object" aria-roledescription="group mark container">
+                        <g transform="translate(0,0.25)">
+                          <path class="background" aria-hidden="true" d="M0,0h113.1044921875v12.5h-113.1044921875Z" pointer-events="none" opacity="1" />
+                          <g>
+                            <g class="mark-symbol role-legend-symbol" pointer-events="none">
+                              <path transform="translate(6,6)" d="M5,0A5,5,0,1,1,-5,0A5,5,0,1,1,5,0" fill="#e41a1c" stroke="#e41a1c" stroke-width="1.5" opacity="1" />
+                            </g>
+                            <g class="mark-text role-legend-label" pointer-events="none">
+                              <text text-anchor="start" transform="translate(16,9)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">Working from home</text>
+                            </g>
+                          </g>
+                          <path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none" />
+                        </g>
+                        <g transform="translate(125,0.25)">
+                          <path class="background" aria-hidden="true" d="M0,0h123.2119140625v12.5h-123.2119140625Z" pointer-events="none" opacity="1" />
+                          <g>
+                            <g class="mark-symbol role-legend-symbol" pointer-events="none">
+                              <path transform="translate(6,6)" d="M5,0A5,5,0,1,1,-5,0A5,5,0,1,1,5,0" fill="#9ecae1" stroke="#9ecae1" stroke-width="1.5" opacity="1" />
+                            </g>
+                            <g class="mark-text role-legend-label" pointer-events="none">
+                              <text text-anchor="start" transform="translate(16,9)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">Transit passenger trips</text>
+                            </g>
+                          </g>
+                          <path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none" />
+                        </g>
+                      </g>
+                    </g>
+                    <path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none" />
+                  </g>
+                </g>
+              </g>
+              <path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none" />
+            </g>
+          </g>
+          <g class="mark-group role-title">
+            <g transform="translate(450,-22)">
+              <path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none" />
+              <g>
+                <g class="mark-text role-title-text" role="graphics-symbol" aria-roledescription="title" aria-label="Title text 'Proportion working from home and public transit ridership'" pointer-events="none">
+                  <text text-anchor="middle" transform="translate(0,10)" font-family="sans-serif" font-size="13px" font-weight="bold" fill="#000" opacity="1">Proportion working from home and public transit ridership</text>
+                </g>
+              </g>
+              <path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none" />
+            </g>
+          </g>
+        </g>
+        <path class="foreground" aria-hidden="true" d="" display="none" />
+      </g>
+    </g>
+  </g>
+</svg>

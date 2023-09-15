@@ -1,0 +1,124 @@
+{
+  projectId: 'scottish-independence-referendum-example1',
+  scenes: [
+    {
+      charts: [
+        {source: './scottish-independence-referendum.svg'},
+      ],
+      templates: [
+        {
+          templateName: 'show-country-annotation',
+          parameters: [
+            {paramName: 'country', paramType: 'string'},
+            {paramName: 'enterDirection', paramType: 'string', required: false, defaultValue: 'right'},
+            {paramName: 'displayTime', paramType: 'number', required: false, defaultValue: 3},
+          ],
+          animation: {
+            target: {
+              selector: '.annotation',
+              transform: {type: 'filter', expr: '@datum.name === "$country"'}
+            },
+            sequence: {
+              sync: [
+                {
+                  use: 'Wipe',
+                  target: ':not(.circle)',
+                  settings: {direction: '$enterDirection'},
+                  timing: {yoyo: {repeat: 1, delay: '$displayTime'}}
+                },
+                {
+                  use: 'wheel',
+                  target: '.circle',
+                  timing: {yoyo: {repeat: 1, delay: '$displayTime'}}
+                }
+              ]
+            }
+          }
+        }
+      ],
+      animation: {
+        varibles: {
+
+        },
+        target: '.scottish-independence-referendum',
+        sequence: {
+          sync: [
+            {
+              use: 'Change-color',
+              target: {
+                selector: '.area',
+                transform: {type: 'filter', expr: '@datum.name === "Scotland"'}
+              },
+              settings: {fill: "#1b5d8e"},
+              timing: {yoyo: {repeat: 1, delay: 10}},
+            },
+
+            {
+              use: 'show-country-annotation',
+              settings: {
+                country: 'Scotland',
+                displayTime: 8,
+              },
+            },
+
+            {
+              use: 'Fade-in-then-fade-out',
+              target: '.annotation-5',
+              settings: {displayTime: 5},
+              timing: {start: 3},
+            },
+
+            {
+              use: 'show-country-annotation',
+              settings: {
+                country: 'United Kingdom',
+                enterDirection: 'left',
+                displayTime: 4.5,
+              },
+              timing: {start: 10.5},
+            },
+
+            {
+              use: 'show-country-annotation',
+              settings: {
+                country: 'Scotland',
+                displayTime: 12,
+              },
+              timing: {start: 19},
+            },
+
+            {
+              use: 'show-country-annotation',
+              settings: {
+                country: 'England',
+                enterDirection: 'left',
+                displayTime: 3.6,
+              },
+              timing: {start: 27.4},
+            },
+
+            {
+              use: 'show-country-annotation',
+              settings: {
+                country: 'Wales',
+                enterDirection: 'left',
+                displayTime: 3.0,
+              },
+              timing: {start: 28},
+            },
+
+            {
+              use: 'show-country-annotation',
+              settings: {
+                country: 'Northern Ireland',
+                displayTime: 2.4,
+              },
+              timing: {start: 28.6},
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
+

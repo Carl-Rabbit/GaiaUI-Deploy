@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg id="container" width="540" height="300" viewBox="0 0 540 300" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="svg-container" style="width: 540px; height: 300px;">
+    <g id="top-grp" class="container">
+        <g id="background" class="background group">
+            <rect id="background-rect" width="540" height="300" fill="#303030" class="scene chart commute-mode background rect bg-rect"></rect>
+        </g>
+        <text id="main_title" x="110" y="24.75" font-size="20" fill="white" class="scene chart commute-mode title main-title">Commute mode, by percentage</text>
+        <text id="sub_title" x="110" y="43.5" font-size="12" fill="white" class="scene chart commute-mode title sub-title">Bureau of Transportation Statistics</text>
+        <g transform="translate(270,
+      171)" class="group content">
+            <path d="M5.143516556418883e-15,-84A84,84,0,0,1,25.957427527495586,-79.88874736879289L0,0Z" id="sector-0" fill="#88AFBE" opacity="0.9" class="scene chart commute-mode mark data-item data-item-0 sector-0 sector"></path>
+            <path d="M25.957427527495586,-79.88874736879289A84,84,0,1,1,-78.10122481461313,-30.922462425512908L0,0Z" id="sector-1" fill="#DD574F" opacity="0.9" class="scene chart commute-mode mark data-item data-item-0 sector-0 sector"></path>
+            <path d="M-78.10122481461313,-30.922462425512908A84,84,0,0,1,-73.60976112368455,-40.46730862454406L0,0Z" id="sector-2" fill="#F2CD7F" opacity="0.9" class="scene chart commute-mode mark data-item data-item-0 sector-0 sector"></path>
+            <path d="M-73.60976112368455,-40.46730862454406A84,84,0,0,1,-57.50195689800987,-61.23336470339855L0,0Z" id="sector-3" fill="#286483" opacity="0.9" class="scene chart commute-mode mark data-item data-item-0 sector-0 sector"></path>
+            <path d="M-57.50195689800987,-61.23336470339855A84,84,0,0,1,-45.00945077823576,-70.92354574216925L0,0Z" id="sector-4" fill="#FAF154" opacity="0.9" class="scene chart commute-mode mark data-item data-item-0 sector-0 sector"></path>
+            <path d="M-45.00945077823576,-70.92354574216925A84,84,0,0,1,-5.274403640462384,-83.83424518797482L0,0Z" id="sector-5" fill="#DB8C64" opacity="0.9" class="scene chart commute-mode mark data-item data-item-0 sector-0 sector"></path>
+            <path d="M-5.274403640462384,-83.83424518797482A84,84,0,0,1,-9.003753692406716e-14,-84L0,0Z" id="sector-6" fill="#5B7BA4" opacity="0.9" class="scene chart commute-mode mark data-item data-item-0 sector-0 sector"></path>
+            <text id="sector-label-0" transform="translate(26.280990126758795,-107.85556679298904)" font-size="13" fill="white" dx="4.2em" dy="0.3em" class="scene chart commute-mode mark data-item data-item-0 sector-label-0 sector-label" style="text-anchor: middle;">Public transportation</text>
+            <text id="sector-label-1" transform="translate(71.53092098293223,98.80711412928933)" font-size="13" fill="white" dy="0.3em" class="scene chart commute-mode mark data-item data-item-0 sector-label-0 sector-label" style="text-anchor: middle;">Drive alone</text>
+            <text id="sector-label-2" transform="translate(-152.01094481429135,-46.49509863890585)" font-size="13" fill="white" dx="-1em" dy="0.3em" class="scene chart commute-mode mark data-item data-item-0 sector-label-0 sector-label" style="text-anchor: middle;">Taxi, motorcycle, or other</text>
+            <text id="sector-label-3" transform="translate(-132.74604207911602,-66.929450258905)" font-size="13" fill="white" dx="2em" dy="0.3em" class="scene chart commute-mode mark data-item data-item-0 sector-label-0 sector-label" style="text-anchor: middle;">Work at home</text>
+            <text id="sector-label-4" transform="translate(-102.96838501370004,-86.2849273514254)" font-size="13" fill="white" dx="2em" dy="0.3em" class="scene chart commute-mode mark data-item data-item-0 sector-label-0 sector-label" style="text-anchor: middle;">Walk</text>
+            <text id="sector-label-5" transform="translate(-51.91485505499119,-103.85537157943077)" font-size="13" fill="white" dy="0.3em" class="scene chart commute-mode mark data-item data-item-0 sector-label-0 sector-label" style="text-anchor: middle;">Carpool</text>
+            <text id="sector-label-6" transform="translate(-5.277007525125703,-109.14611639193788)" font-size="13" fill="white" dy="0.3em" class="scene chart commute-mode mark data-item data-item-0 sector-label-0 sector-label" style="text-anchor: middle;">Bicycle</text>
+            <polyline id="sector-line-0" points="13.140495063379397,-82.96582060999157,15.768594076055276,-99.55898473198988" stroke="white" class="scene chart commute-mode mark data-item data-item-0 sector-line-0 sector-line"></polyline>
+            <polyline id="sector-line-1" points="35.765460491466115,76.00547240714563,42.91855258975934,91.20656688857476" stroke="white" class="scene chart commute-mode mark data-item data-item-0 sector-line-0 sector-line"></polyline>
+            <polyline id="sector-line-2" points="-76.00547240714567,-35.76546049146604,-91.20656688857481,-42.918552589759244" stroke="white" class="scene chart commute-mode mark data-item data-item-0 sector-line-0 sector-line"></polyline>
+            <polyline id="sector-line-3" points="-66.37302103955801,-51.48419250685001,-79.6476252474696,-61.781031008220005" stroke="white" class="scene chart commute-mode mark data-item data-item-0 sector-line-0 sector-line"></polyline>
+            <polyline id="sector-line-4" points="-51.48419250685002,-66.373021039558,-61.781031008220026,-79.64762524746959" stroke="white" class="scene chart commute-mode mark data-item data-item-0 sector-line-0 sector-line"></polyline>
+            <polyline id="sector-line-5" points="-25.957427527495597,-79.88874736879289,-31.148913032994713,-95.86649684255147" stroke="white" class="scene chart commute-mode mark data-item data-item-0 sector-line-0 sector-line"></polyline>
+            <polyline id="sector-line-6" points="-2.6385037625628516,-83.95855107072144,-3.166204515075422,-100.75026128486573" stroke="white" class="scene chart commute-mode mark data-item data-item-0 sector-line-0 sector-line"></polyline>
+            <path d="M25.957427527495586,-79.88874736879289A84,84,0,1,1,-1.543054966925665e-14,-84L0,0Z" id="annotation-contour" fill-opacity="0" stroke="yellow" stroke-width="2.6" class="scene chart commute-mode foreground annotation-1 annotation path contour"></path>
+            <text font-weight="bold" fill="white" font-size="22" transform="translate(-5,40)" id="annotation-0-label" class="scene chart commute-mode foreground annotation annotation-0 label anno-label">76%</text>
+            <text font-weight="bold" fill="white" font-size="22" transform="translate(15,-10)" id="annotation-1-label" class="scene chart commute-mode foreground annotation annotation-1 label anno-label">5%</text>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg data-v-518bf234="" class="svg-container scene" id="sat-score-container" width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" style="width: 800px; height: 500px;">
+    <g id="sat-score-top-grp">
+        <g id="sat-score-background">
+            <rect id="sat-score-background-rect" class="scene chart sat-score background rect bg-rect" width="800" height="500" fill="#fefaf2"></rect>
+        </g>
+        <text id="sat-score-main-title" class="scene chart sat-score title main-title" x="400" y="61.666666666666664" font-size="36" fill="#54534e" text-anchor="middle" style="font-weight: bold;">Median SAT score by family income</text>
+        <text id="sat-score-sub-title" class="scene chart sat-score title sub-title" x="257" y="92.5" font-size="24" fill="#a9a59f" text-anchor="middle" style="font-weight: bold;">Data from the College Board</text>
+        <g id="sat-score-y-axis" transform="translate(160,450)" fill="none" font-size="10" font-family="sans-serif" text-anchor="middle">
+            <g class="tick" opacity="1" transform="translate(0.5,0)">
+                <text fill="currentColor" y="10" dy="0.71em" id="sat-score-y-label-0" class="scene chart sat-score axis y-axis label y-label-0 y-label" font-weight="bold" font-size="14" style="fill: rgb(85, 82, 78);">400</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(140.5,0)">
+                <text fill="currentColor" y="10" dy="0.71em" id="sat-score-y-label-1" class="scene chart sat-score axis y-axis label y-label-1 y-label" font-weight="bold" font-size="14" style="fill: rgb(85, 82, 78);">600</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(280.5,0)">
+                <text fill="currentColor" y="10" dy="0.71em" id="sat-score-y-label-2" class="scene chart sat-score axis y-axis label y-label-2 y-label" font-weight="bold" font-size="14" style="fill: rgb(85, 82, 78);">800</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(420.5,0)">
+                <text fill="currentColor" y="10" dy="0.71em" id="sat-score-y-label-3" class="scene chart sat-score axis y-axis label y-label-3 y-label" font-weight="bold" font-size="14" style="fill: rgb(85, 82, 78);">1,000</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(560.5,0)">
+                <text fill="currentColor" y="10" dy="0.71em" id="sat-score-y-label-4" class="scene chart sat-score axis y-axis label y-label-4 y-label" font-weight="bold" font-size="14" style="fill: rgb(85, 82, 78);">1,200</text>
+            </g>
+        </g>
+        <g>
+            <line class="scene chart sat-score axis y-axis tick y-tick-0 y-tick" id="sat-score-y-tick-line-0" x1="300" y1="450" x2="300" y2="125" stroke="gray" stroke-width="2" stroke-dasharray="6" opacity="0.4"></line>
+            <line class="scene chart sat-score axis y-axis tick y-tick-1 y-tick" id="sat-score-y-tick-line-1" x1="440" y1="450" x2="440" y2="125" stroke="gray" stroke-width="2" stroke-dasharray="6" opacity="0.4"></line>
+            <line class="scene chart sat-score axis y-axis tick y-tick-2 y-tick" id="sat-score-y-tick-line-2" x1="580" y1="450" x2="580" y2="125" stroke="gray" stroke-width="2" stroke-dasharray="6" opacity="0.4"></line>
+            <line class="scene chart sat-score axis y-axis tick y-tick-3 y-tick" id="sat-score-y-tick-line-3" x1="720" y1="450" x2="720" y2="125" stroke="gray" stroke-width="2" stroke-dasharray="6" opacity="0.4"></line>
+        </g>
+        <rect id="sat-score-bar-0" class="scene chart sat-score mark bar-0 bar" ac-data="{&quot;name&quot;:&quot;Less than $20,000&quot;,&quot;value&quot;:890}" width="343" height="34" x="160" y="129.5774647887324" rx="4" ry="4" fill="#3e9dd7"></rect>
+        <rect id="sat-score-bar-1" class="scene chart sat-score mark bar-1 bar" ac-data="{&quot;name&quot;:&quot;$40,000&quot;,&quot;value&quot;:930}" width="371" height="34" x="160" y="175.35211267605635" rx="4" ry="4" fill="#3e9dd7"></rect>
+        <rect id="sat-score-bar-2" class="scene chart sat-score mark bar-2 bar" ac-data="{&quot;name&quot;:&quot;$60,000&quot;,&quot;value&quot;:980}" width="406" height="34" x="160" y="221.1267605633803" rx="4" ry="4" fill="#3e9dd7"></rect>
+        <rect id="sat-score-bar-3" class="scene chart sat-score mark bar-3 bar" ac-data="{&quot;name&quot;:&quot;$80,000&quot;,&quot;value&quot;:1010}" width="427" height="34" x="160" y="266.90140845070425" rx="4" ry="4" fill="#3e9dd7"></rect>
+        <rect id="sat-score-bar-4" class="scene chart sat-score mark bar-4 bar" ac-data="{&quot;name&quot;:&quot;$100,000&quot;,&quot;value&quot;:1030}" width="441" height="34" x="160" y="312.67605633802816" rx="4" ry="4" fill="#3e9dd7"></rect>
+        <rect id="sat-score-bar-5" class="scene chart sat-score mark bar-5 bar" ac-data="{&quot;name&quot;:&quot;$140,000&quot;,&quot;value&quot;:1090}" width="483" height="34" x="160" y="358.45070422535207" rx="4" ry="4" fill="#3e9dd7"></rect>
+        <rect id="sat-score-bar-6" class="scene chart sat-score mark bar-6 bar" ac-data="{&quot;name&quot;:&quot;More than $200,000&quot;,&quot;value&quot;:1150}" width="525" height="34" x="160" y="404.22535211267603" rx="4" ry="4" fill="#3e9dd7"></rect>
+        <text id="sat-score-bar-label-0" class="scene chart sat-score mark label bar-label-0 bar-label" x="331.5" y="129.5774647887324" ac-data="{&quot;name&quot;:&quot;Less than $20,000&quot;,&quot;value&quot;:890}" dy="28" font-size="30" fill="#ffffff" font-weight="bold" text-anchor="middle">890</text>
+        <text id="sat-score-bar-label-6" class="scene chart sat-score mark label bar-label-6 bar-label" x="422.5" y="404.22535211267603" ac-data="{&quot;name&quot;:&quot;More than $200,000&quot;,&quot;value&quot;:1150}" dy="28" font-size="30" fill="#ffffff" font-weight="bold" text-anchor="middle">1150</text>
+        <g id="sat-score-x-axis" transform="translate(160,125)" fill="none" font-size="10" font-family="sans-serif" text-anchor="end">
+            <path class="domain scene chart sat-score axis x-axis x-domain" stroke="#55524e" d="M0.5,0.5V325.5" id="sat-score-x-domain" stroke-width="2"></path>
+            <g class="tick" opacity="1" transform="translate(0,25.176056338028186)">
+                <line stroke="currentColor" x2="0"></line>
+                <text fill="currentColor" x="-10" dy="0.32em" id="sat-score-x-label-0" class="scene chart sat-score axis x-axis label x-label-0 x-label" ac-data="&quot;Less than $20,000&quot;" font-weight="bold" font-size="14" style="fill: rgb(85, 82, 78);">Less than $20,000</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,70.95070422535213)">
+                <line stroke="currentColor" x2="0"></line>
+                <text fill="currentColor" x="-10" dy="0.32em" id="sat-score-x-label-1" class="scene chart sat-score axis x-axis label x-label-1 x-label" ac-data="&quot;$40,000&quot;" font-weight="bold" font-size="14" style="fill: rgb(85, 82, 78);">$40,000</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,116.72535211267606)">
+                <line stroke="currentColor" x2="0"></line>
+                <text fill="currentColor" x="-10" dy="0.32em" id="sat-score-x-label-2" class="scene chart sat-score axis x-axis label x-label-2 x-label" ac-data="&quot;$60,000&quot;" font-weight="bold" font-size="14" style="fill: rgb(85, 82, 78);">$60,000</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,162.5)">
+                <line stroke="currentColor" x2="0"></line>
+                <text fill="currentColor" x="-10" dy="0.32em" id="sat-score-x-label-3" class="scene chart sat-score axis x-axis label x-label-3 x-label" ac-data="&quot;$80,000&quot;" font-weight="bold" font-size="14" style="fill: rgb(85, 82, 78);">$80,000</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,208.27464788732394)">
+                <line stroke="currentColor" x2="0"></line>
+                <text fill="currentColor" x="-10" dy="0.32em" id="sat-score-x-label-4" class="scene chart sat-score axis x-axis label x-label-4 x-label" ac-data="&quot;$100,000&quot;" font-weight="bold" font-size="14" style="fill: rgb(85, 82, 78);">$100,000</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,254.04929577464787)">
+                <line stroke="currentColor" x2="0"></line>
+                <text fill="currentColor" x="-10" dy="0.32em" id="sat-score-x-label-5" class="scene chart sat-score axis x-axis label x-label-5 x-label" ac-data="&quot;$140,000&quot;" font-weight="bold" font-size="14" style="fill: rgb(85, 82, 78);">$140,000</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,299.8239436619718)">
+                <line stroke="currentColor" x2="0"></line>
+                <text fill="currentColor" x="-10" dy="0.32em" id="sat-score-x-label-6" class="scene chart sat-score axis x-axis label x-label-6 x-label" ac-data="&quot;More than $200,000&quot;" font-weight="bold" font-size="14" style="fill: rgb(85, 82, 78);">More than $200,000</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <line id="sat-score-anno-0-line" class="scene chart sat-score foreground annotation annotation-0 line anno-line" x1="580" y1="450" x2="580" y2="125" stroke="#545253" stroke-width="2" stroke-dasharray="6"></line>
+                <text id="sat-score-anno-0-label" class="scene chart sat-score foreground annotation annotation-0 label anno-label" transform="translate(590,165)" font-weight="bold" font-style="italic" font-size="30" style="fill: rgb(85, 82, 78);">Average</text>
+            </g>
+            <ellipse transform="translate(90,150)" id="sat-score-annotation-1" class="scene chart sat-score foreground annotation annotation-1 circle anno-circle" ac-data="{&quot;name&quot;:&quot;Less than $20,000&quot;,&quot;value&quot;:890}" rx="80" ry="20" fill="none" stroke="yellow" stroke-width="3"></ellipse>
+            <ellipse transform="translate(82,423)" id="sat-score-annotation-2" class="scene chart sat-score foreground annotation annotation-2 circle anno-circle" ac-data="{&quot;name&quot;:&quot;More than $200,000&quot;,&quot;value&quot;:1150}" rx="90" ry="20" fill="none" stroke="yellow" stroke-width="3"></ellipse>
+        </g>
+    </g>
+</svg>

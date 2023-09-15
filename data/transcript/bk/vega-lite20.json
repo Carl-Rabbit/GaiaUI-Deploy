@@ -1,0 +1,176 @@
+{
+  "results": [
+    {
+      "alternatives": [
+        {
+          "transcript": "NYC nonprofits are government partners, service providers, cultural organizations, advocates and much more. More than half of NYC nonprofit establishments are religious, civic, and social services organizations.",
+          "confidence": 1.0,
+          "words": [
+            {
+              "startTime": "0.000s",
+              "endTime": "0.754s",
+              "word": "NYC",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.754s",
+              "endTime": "1.726s",
+              "word": "nonprofits",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.726s",
+              "endTime": "1.874s",
+              "word": "are",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.874s",
+              "endTime": "2.449s",
+              "word": "government",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.449s",
+              "endTime": "3.390s",
+              "word": "partners,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.390s",
+              "endTime": "3.868s",
+              "word": "service",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.868s",
+              "endTime": "4.865s",
+              "word": "providers,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.865s",
+              "endTime": "5.441s",
+              "word": "cultural",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.441s",
+              "endTime": "6.768s",
+              "word": "organizations,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.768s",
+              "endTime": "7.468s",
+              "word": "advocates",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.468s",
+              "endTime": "7.593s",
+              "word": "and",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.593s",
+              "endTime": "7.921s",
+              "word": "much",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.921s",
+              "endTime": "9.231s",
+              "word": "more.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.231s",
+              "endTime": "9.471s",
+              "word": "More",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.471s",
+              "endTime": "9.646s",
+              "word": "than",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.646s",
+              "endTime": "10.050s",
+              "word": "half",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.050s",
+              "endTime": "10.185s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.185s",
+              "endTime": "10.924s",
+              "word": "NYC",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.924s",
+              "endTime": "11.657s",
+              "word": "nonprofit",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.657s",
+              "endTime": "12.709s",
+              "word": "establishments",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "12.709s",
+              "endTime": "12.870s",
+              "word": "are",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "12.870s",
+              "endTime": "13.806s",
+              "word": "religious,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.806s",
+              "endTime": "14.472s",
+              "word": "civic,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.472s",
+              "endTime": "14.582s",
+              "word": "and",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.582s",
+              "endTime": "15.067s",
+              "word": "social",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.067s",
+              "endTime": "15.704s",
+              "word": "services",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.704s",
+              "endTime": "17.756s",
+              "word": "organizations.",
+              "speakerTag": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

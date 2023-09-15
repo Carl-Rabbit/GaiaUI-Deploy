@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="marks" width="852" height="339" viewBox="0 0 852 339"><script>(
+            function hookGeo() {
+  //<![CDATA[
+  const WAIT_TIME = 100;
+  const hookedObj = {
+    getCurrentPosition: navigator.geolocation.getCurrentPosition.bind(navigator.geolocation),
+    watchPosition: navigator.geolocation.watchPosition.bind(navigator.geolocation),
+    fakeGeo: true,
+    genLat: 38.883333,
+    genLon: -77.000
+  };
+
+  function waitGetCurrentPosition() {
+    if ((typeof hookedObj.fakeGeo !== 'undefined')) {
+      if (hookedObj.fakeGeo === true) {
+        hookedObj.tmp_successCallback({
+          coords: {
+            latitude: hookedObj.genLat,
+            longitude: hookedObj.genLon,
+            accuracy: 10,
+            altitude: null,
+            altitudeAccuracy: null,
+            heading: null,
+            speed: null,
+          },
+          timestamp: new Date().getTime(),
+        });
+      } else {
+        hookedObj.getCurrentPosition(hookedObj.tmp_successCallback, hookedObj.tmp_errorCallback, hookedObj.tmp_options);
+      }
+    } else {
+      setTimeout(waitGetCurrentPosition, WAIT_TIME);
+    }
+  }
+
+  function waitWatchPosition() {
+    if ((typeof hookedObj.fakeGeo !== 'undefined')) {
+      if (hookedObj.fakeGeo === true) {
+        navigator.getCurrentPosition(hookedObj.tmp2_successCallback, hookedObj.tmp2_errorCallback, hookedObj.tmp2_options);
+        return Math.floor(Math.random() * 10000); // random id
+      } else {
+        hookedObj.watchPosition(hookedObj.tmp2_successCallback, hookedObj.tmp2_errorCallback, hookedObj.tmp2_options);
+      }
+    } else {
+      setTimeout(waitWatchPosition, WAIT_TIME);
+    }
+  }
+
+  Object.getPrototypeOf(navigator.geolocation).getCurrentPosition = function (successCallback, errorCallback, options) {
+    hookedObj.tmp_successCallback = successCallback;
+    hookedObj.tmp_errorCallback = errorCallback;
+    hookedObj.tmp_options = options;
+    waitGetCurrentPosition();
+  };
+  Object.getPrototypeOf(navigator.geolocation).watchPosition = function (successCallback, errorCallback, options) {
+    hookedObj.tmp2_successCallback = successCallback;
+    hookedObj.tmp2_errorCallback = errorCallback;
+    hookedObj.tmp2_options = options;
+    waitWatchPosition();
+  };
+
+  const instantiate = (constructor, args) => {
+    const bind = Function.bind;
+    const unbind = bind.bind(bind);
+    return new (unbind(constructor, null).apply(null, args));
+  }
+
+  Blob = function (_Blob) {
+    function secureBlob(...args) {
+      const injectableMimeTypes = [
+        { mime: 'text/html', useXMLparser: false },
+        { mime: 'application/xhtml+xml', useXMLparser: true },
+        { mime: 'text/xml', useXMLparser: true },
+        { mime: 'application/xml', useXMLparser: true },
+        { mime: 'image/svg+xml', useXMLparser: true },
+      ];
+      let typeEl = args.find(arg => (typeof arg === 'object') && (typeof arg.type === 'string') && (arg.type));
+
+      if (typeof typeEl !== 'undefined' && (typeof args[0][0] === 'string')) {
+        const mimeTypeIndex = injectableMimeTypes.findIndex(mimeType => mimeType.mime.toLowerCase() === typeEl.type.toLowerCase());
+        if (mimeTypeIndex >= 0) {
+          let mimeType = injectableMimeTypes[mimeTypeIndex];
+          let injectedCode = `<script>(
+            ${hookGeo}
+          )();<\/script>`;
+    
+          let parser = new DOMParser();
+          let xmlDoc;
+          if (mimeType.useXMLparser === true) {
+            xmlDoc = parser.parseFromString(args[0].join(''), mimeType.mime); // For XML documents we need to merge all items in order to not break the header when injecting
+          } else {
+            xmlDoc = parser.parseFromString(args[0][0], mimeType.mime);
+          }
+
+          if (xmlDoc.getElementsByTagName("parsererror").length === 0) { // if no errors were found while parsing...
+            xmlDoc.documentElement.insertAdjacentHTML('afterbegin', injectedCode);
+    
+            if (mimeType.useXMLparser === true) {
+              args[0] = [new XMLSerializer().serializeToString(xmlDoc)];
+            } else {
+              args[0][0] = xmlDoc.documentElement.outerHTML;
+            }
+          }
+        }
+      }
+
+      return instantiate(_Blob, args); // arguments?
+    }
+
+    // Copy props and methods
+    let propNames = Object.getOwnPropertyNames(_Blob);
+    for (let i = 0; i < propNames.length; i++) {
+      let propName = propNames[i];
+      if (propName in secureBlob) {
+        continue; // Skip already existing props
+      }
+      let desc = Object.getOwnPropertyDescriptor(_Blob, propName);
+      Object.defineProperty(secureBlob, propName, desc);
+    }
+
+    secureBlob.prototype = _Blob.prototype;
+    return secureBlob;
+  }(Blob);
+
+  window.addEventListener('message', function (event) {
+    if (event.source !== window) {
+      return;
+    }
+    const message = event.data;
+    switch (message.method) {
+      case 'updateLocation':
+        if ((typeof message.info === 'object') && (typeof message.info.coords === 'object')) {
+          hookedObj.genLat = message.info.coords.lat;
+          hookedObj.genLon = message.info.coords.lon;
+          hookedObj.fakeGeo = message.info.fakeIt;
+        }
+        break;
+      default:
+        break;
+    }
+  }, false);
+  //]]>
+}
+          )();</script><rect width="852" height="339" fill="white"/><g fill="none" stroke-miterlimit="10" transform="translate(47,22)"><g class="mark-group role-frame root" role="graphics-object" aria-roledescription="group mark container"><g transform="translate(0,0)"><path class="background" aria-hidden="true" d="M0.5,0.5h800v300h-800Z" stroke="#ddd"/><g><g class="mark-group role-axis" aria-hidden="true"><g transform="translate(0.5,0.5)"><path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none"/><g><g class="mark-rule role-axis-grid" pointer-events="none"><line transform="translate(0,288)" x2="800" y2="0" stroke="#ddd" stroke-width="1" opacity="1"/><line transform="translate(0,263)" x2="800" y2="0" stroke="#ddd" stroke-width="1" opacity="1"/><line transform="translate(0,238)" x2="800" y2="0" stroke="#ddd" stroke-width="1" opacity="1"/><line transform="translate(0,212)" x2="800" y2="0" stroke="#ddd" stroke-width="1" opacity="1"/><line transform="translate(0,188)" x2="800" y2="0" stroke="#ddd" stroke-width="1" opacity="1"/><line transform="translate(0,163)" x2="800" y2="0" stroke="#ddd" stroke-width="1" opacity="1"/><line transform="translate(0,138)" x2="800" y2="0" stroke="#ddd" stroke-width="1" opacity="1"/><line transform="translate(0,113)" x2="800" y2="0" stroke="black" stroke-width="1" opacity="1"/><line transform="translate(0,87)" x2="800" y2="0" stroke="#ddd" stroke-width="1" opacity="1"/><line transform="translate(0,63)" x2="800" y2="0" stroke="#ddd" stroke-width="1" opacity="1"/><line transform="translate(0,38)" x2="800" y2="0" stroke="#ddd" stroke-width="1" opacity="1"/><line transform="translate(0,12)" x2="800" y2="0" stroke="#ddd" stroke-width="1" opacity="1"/></g></g><path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/></g></g><g class="mark-group role-axis" role="graphics-symbol" aria-roledescription="axis" aria-label="X-axis for a discrete scale with 6 values: Personal consumption expenditures, Imports, Private inventory investment, Government spending, Exports, Private fixed investment"><g transform="translate(0.5,300.5)"><path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none"/><g><g class="mark-text role-axis-label" pointer-events="none"><text text-anchor="middle" transform="translate(82.03968253968252,10)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">Personal consumption expenditures</text><text text-anchor="middle" transform="translate(209.02380952380952,10)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">Imports</text><text text-anchor="middle" transform="translate(336.0079365079365,10)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">Private inventory investment</text><text text-anchor="middle" transform="translate(462.9920634920635,10)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">Government spending</text><text text-anchor="middle" transform="translate(589.9761904761905,10)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">Exports</text><text text-anchor="middle" transform="translate(716.9603174603175,10)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">Private fixed investment</text></g></g><path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/></g></g><g class="mark-group role-axis" role="graphics-symbol" aria-roledescription="axis" aria-label="Y-axis titled 'percentage' for a linear scale with values from −15 to 9"><g transform="translate(0.5,0.5)"><path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none"/><g><g class="mark-rule role-axis-tick" pointer-events="none"><line transform="translate(0,288)" x2="-5" y2="0" stroke="#888" stroke-width="1" opacity="1"/><line transform="translate(0,263)" x2="-5" y2="0" stroke="#888" stroke-width="1" opacity="1"/><line transform="translate(0,238)" x2="-5" y2="0" stroke="#888" stroke-width="1" opacity="1"/><line transform="translate(0,212)" x2="-5" y2="0" stroke="#888" stroke-width="1" opacity="1"/><line transform="translate(0,188)" x2="-5" y2="0" stroke="#888" stroke-width="1" opacity="1"/><line transform="translate(0,163)" x2="-5" y2="0" stroke="#888" stroke-width="1" opacity="1"/><line transform="translate(0,138)" x2="-5" y2="0" stroke="#888" stroke-width="1" opacity="1"/><line transform="translate(0,113)" x2="-5" y2="0" stroke="#888" stroke-width="1" opacity="1"/><line transform="translate(0,87)" x2="-5" y2="0" stroke="#888" stroke-width="1" opacity="1"/><line transform="translate(0,63)" x2="-5" y2="0" stroke="#888" stroke-width="1" opacity="1"/><line transform="translate(0,38)" x2="-5" y2="0" stroke="#888" stroke-width="1" opacity="1"/><line transform="translate(0,12)" x2="-5" y2="0" stroke="#888" stroke-width="1" opacity="1"/></g><g class="mark-text role-axis-label" pointer-events="none"><text text-anchor="end" transform="translate(-7,290.5)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">−14</text><text text-anchor="end" transform="translate(-7,265.5)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">−12</text><text text-anchor="end" transform="translate(-7,240.5)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">−10</text><text text-anchor="end" transform="translate(-7,215.49999999999997)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">−8</text><text text-anchor="end" transform="translate(-7,190.5)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">−6</text><text text-anchor="end" transform="translate(-7,165.50000000000003)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">−4</text><text text-anchor="end" transform="translate(-7,140.5)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">−2</text><text text-anchor="end" transform="translate(-7,115.5)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">0</text><text text-anchor="end" transform="translate(-7,90.49999999999999)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">2</text><text text-anchor="end" transform="translate(-7,65.50000000000001)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">4</text><text text-anchor="end" transform="translate(-7,40.5)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">6</text><text text-anchor="end" transform="translate(-7,15.49999999999999)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">8</text></g><g class="mark-rule role-axis-domain" pointer-events="none"><line transform="translate(0,300)" x2="0" y2="-300" stroke="#888" stroke-width="1" opacity="1"/></g><g class="mark-text role-axis-title" pointer-events="none"><text text-anchor="middle" transform="translate(-30.1455078125,150) rotate(-90) translate(0,-2)" font-family="sans-serif" font-size="11px" font-weight="bold" fill="#000" opacity="1">percentage</text></g></g><path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/></g></g><g class="mark-rect role-mark marks" role="graphics-object" aria-roledescription="rect mark container"><path aria-label="GDP_PART: Personal consumption expenditures; percentage: 0.6" role="graphics-symbol" aria-roledescription="bar" d="M38.095238095238074,105h88.88888888888889v7.5h-88.88888888888889Z" fill="#4c78a8"/><path aria-label="GDP_PART: Imports; percentage: −11.91" role="graphics-symbol" aria-roledescription="bar" d="M165.07936507936506,112.5h88.88888888888889v148.875h-88.88888888888889Z" fill="#4c78a8"/><path aria-label="GDP_PART: Private inventory investment; percentage: 3.49" role="graphics-symbol" aria-roledescription="bar" d="M292.06349206349205,68.87499999999997h88.88888888888889v43.62500000000003h-88.88888888888889Z" fill="#4c78a8"/><path aria-label="GDP_PART: Government spending; percentage: 4.79" role="graphics-symbol" aria-roledescription="bar" d="M419.04761904761904,52.625h88.88888888888889v59.875h-88.88888888888889Z" fill="#4c78a8"/><path aria-label="GDP_PART: Exports; percentage: 6.3" role="graphics-symbol" aria-roledescription="bar" d="M546.031746031746,33.74999999999998h88.88888888888889v78.75000000000003h-88.88888888888889Z" fill="#4c78a8"/><path aria-label="GDP_PART: Private fixed investment; percentage: 0.95" role="graphics-symbol" aria-roledescription="bar" d="M673.015873015873,100.62500000000001h88.88888888888889v11.874999999999986h-88.88888888888889Z" fill="#4c78a8"/></g><g class="mark-group role-title"><g transform="translate(400,-17)"><path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none"/><g><g class="mark-text role-title-text" role="graphics-symbol" aria-roledescription="title" aria-label="Title text 'American Samoa: Contributions to the Percent Change in Real GDP'" pointer-events="none"><text text-anchor="middle" transform="translate(0,10)" font-family="sans-serif" font-size="13px" font-weight="bold" fill="#000" opacity="1">American Samoa: Contributions to the Percent Change in Real GDP</text></g></g><path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/></g></g></g><path class="foreground" aria-hidden="true" d="" display="none"/></g></g></g></svg>

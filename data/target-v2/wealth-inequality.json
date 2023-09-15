@@ -1,0 +1,2514 @@
+{
+  "chartType": "line-chart",
+  "elements": [
+    {
+      "type": "x-label",
+      "id": "wealth-inequality-x-label-0",
+      "clazz": "scene chart wealth-inequality axis x-axis label x-label-0 x-label",
+      "data": null,
+      "tag": "text",
+      "text": "0%"
+    },
+    {
+      "type": "x-label",
+      "id": "wealth-inequality-x-label-1",
+      "clazz": "scene chart wealth-inequality axis x-axis label x-label-1 x-label",
+      "data": null,
+      "tag": "text",
+      "text": "10%"
+    },
+    {
+      "type": "x-label",
+      "id": "wealth-inequality-x-label-2",
+      "clazz": "scene chart wealth-inequality axis x-axis label x-label-2 x-label",
+      "data": null,
+      "tag": "text",
+      "text": "20%"
+    },
+    {
+      "type": "x-label",
+      "id": "wealth-inequality-x-label-3",
+      "clazz": "scene chart wealth-inequality axis x-axis label x-label-3 x-label",
+      "data": null,
+      "tag": "text",
+      "text": "30%"
+    },
+    {
+      "type": "x-label",
+      "id": "wealth-inequality-x-label-4",
+      "clazz": "scene chart wealth-inequality axis x-axis label x-label-4 x-label",
+      "data": null,
+      "tag": "text",
+      "text": "40%"
+    },
+    {
+      "type": "x-label",
+      "id": "wealth-inequality-x-label-5",
+      "clazz": "scene chart wealth-inequality axis x-axis label x-label-5 x-label",
+      "data": null,
+      "tag": "text",
+      "text": "50%"
+    },
+    {
+      "type": "x-label",
+      "id": "wealth-inequality-x-label-6",
+      "clazz": "scene chart wealth-inequality axis x-axis label x-label-6 x-label",
+      "data": null,
+      "tag": "text",
+      "text": "60%"
+    },
+    {
+      "type": "x-label",
+      "id": "wealth-inequality-x-label-7",
+      "clazz": "scene chart wealth-inequality axis x-axis label x-label-7 x-label",
+      "data": null,
+      "tag": "text",
+      "text": "70%"
+    },
+    {
+      "type": "x-label",
+      "id": "wealth-inequality-x-label-8",
+      "clazz": "scene chart wealth-inequality axis x-axis label x-label-8 x-label",
+      "data": null,
+      "tag": "text",
+      "text": "80%"
+    },
+    {
+      "type": "x-label",
+      "id": "wealth-inequality-x-label-9",
+      "clazz": "scene chart wealth-inequality axis x-axis label x-label-9 x-label",
+      "data": null,
+      "tag": "text",
+      "text": "90%"
+    },
+    {
+      "type": "x-label",
+      "id": "wealth-inequality-x-label-10",
+      "clazz": "scene chart wealth-inequality axis x-axis label x-label-10 x-label",
+      "data": null,
+      "tag": "text",
+      "text": "100%"
+    },
+    {
+      "type": "x-tick",
+      "id": "wealth-inequality-x-tick-0",
+      "clazz": "scene chart wealth-inequality axis x-axis tick x-tick-0 x-tick",
+      "data": null,
+      "tag": "line",
+      "text": null
+    },
+    {
+      "type": "x-tick",
+      "id": "wealth-inequality-x-tick-1",
+      "clazz": "scene chart wealth-inequality axis x-axis tick x-tick-1 x-tick",
+      "data": null,
+      "tag": "line",
+      "text": null
+    },
+    {
+      "type": "x-tick",
+      "id": "wealth-inequality-x-tick-2",
+      "clazz": "scene chart wealth-inequality axis x-axis tick x-tick-2 x-tick",
+      "data": null,
+      "tag": "line",
+      "text": null
+    },
+    {
+      "type": "x-tick",
+      "id": "wealth-inequality-x-tick-3",
+      "clazz": "scene chart wealth-inequality axis x-axis tick x-tick-3 x-tick",
+      "data": null,
+      "tag": "line",
+      "text": null
+    },
+    {
+      "type": "x-tick",
+      "id": "wealth-inequality-x-tick-4",
+      "clazz": "scene chart wealth-inequality axis x-axis tick x-tick-4 x-tick",
+      "data": null,
+      "tag": "line",
+      "text": null
+    },
+    {
+      "type": "x-tick",
+      "id": "wealth-inequality-x-tick-5",
+      "clazz": "scene chart wealth-inequality axis x-axis tick x-tick-5 x-tick",
+      "data": null,
+      "tag": "line",
+      "text": null
+    },
+    {
+      "type": "x-tick",
+      "id": "wealth-inequality-x-tick-6",
+      "clazz": "scene chart wealth-inequality axis x-axis tick x-tick-6 x-tick",
+      "data": null,
+      "tag": "line",
+      "text": null
+    },
+    {
+      "type": "x-tick",
+      "id": "wealth-inequality-x-tick-7",
+      "clazz": "scene chart wealth-inequality axis x-axis tick x-tick-7 x-tick",
+      "data": null,
+      "tag": "line",
+      "text": null
+    },
+    {
+      "type": "x-tick",
+      "id": "wealth-inequality-x-tick-8",
+      "clazz": "scene chart wealth-inequality axis x-axis tick x-tick-8 x-tick",
+      "data": null,
+      "tag": "line",
+      "text": null
+    },
+    {
+      "type": "x-tick",
+      "id": "wealth-inequality-x-tick-9",
+      "clazz": "scene chart wealth-inequality axis x-axis tick x-tick-9 x-tick",
+      "data": null,
+      "tag": "line",
+      "text": null
+    },
+    {
+      "type": "x-tick",
+      "id": "wealth-inequality-x-tick-10",
+      "clazz": "scene chart wealth-inequality axis x-axis tick x-tick-10 x-tick",
+      "data": null,
+      "tag": "line",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-0",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-0 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-1",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-1 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-2",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-2 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-3",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-3 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-4",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-4 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-5",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-5 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-6",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-6 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-7",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-7 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-8",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-8 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-9",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-9 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-10",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-10 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-11",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-11 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-12",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-12 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-13",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-13 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-14",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-14 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-15",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-15 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-16",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-16 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-17",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-17 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-18",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-18 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-19",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-19 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-20",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-20 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-21",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-21 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-22",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-22 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-23",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-23 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-24",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-24 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-25",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-25 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-26",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-26 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-27",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-27 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-28",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-28 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-29",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-29 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-30",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-30 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-31",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-31 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-32",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-32 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-33",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-33 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-34",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-34 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-35",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-35 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-36",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-36 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-37",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-37 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-38",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-38 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-39",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-39 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-40",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-40 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-41",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-41 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-42",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-42 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-43",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-43 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-44",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-44 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-45",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-45 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-46",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-46 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-47",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-47 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-48",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-48 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-49",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-49 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-50",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-50 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-51",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-51 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-52",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-52 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-53",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-53 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-54",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-54 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-55",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-55 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-56",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-56 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-57",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-57 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-58",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-58 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-59",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-59 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-60",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-60 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-61",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-61 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-62",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-62 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-63",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-63 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-64",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-64 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-65",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-65 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-66",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-66 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-67",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-67 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-68",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-68 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-69",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-69 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-70",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-70 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-71",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-71 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-72",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-72 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-73",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-73 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-74",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-74 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-75",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-75 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-76",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-76 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-77",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-77 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-78",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-78 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-79",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-79 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-80",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-80 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-81",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-81 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-82",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-82 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-83",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-83 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-84",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-84 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-85",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-85 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-86",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-86 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-87",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-87 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-88",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-88 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-89",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-89 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-90",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-90 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-91",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-91 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-92",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-92 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-93",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-93 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-94",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-94 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-95",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-95 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-96",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-96 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-97",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-97 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-98",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-98 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-symbol",
+      "id": "wealth-inequality-x-symbol-99",
+      "clazz": "scene chart wealth-inequality axis x-axis symbol x-symbol-99 x-symbol",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-0",
+      "clazz": "scene chart wealth-inequality mark bar-0 range-0 the-poor bar",
+      "data": {
+        "percentage": 0.01,
+        "value": 8
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-1",
+      "clazz": "scene chart wealth-inequality mark bar-1 range-0 the-poor bar",
+      "data": {
+        "percentage": 0.02,
+        "value": 12
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-2",
+      "clazz": "scene chart wealth-inequality mark bar-2 range-0 the-poor bar",
+      "data": {
+        "percentage": 0.03,
+        "value": 14
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-3",
+      "clazz": "scene chart wealth-inequality mark bar-3 range-0 the-poor bar",
+      "data": {
+        "percentage": 0.04,
+        "value": 14
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-4",
+      "clazz": "scene chart wealth-inequality mark bar-4 range-0 the-poor bar",
+      "data": {
+        "percentage": 0.05,
+        "value": 16
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-5",
+      "clazz": "scene chart wealth-inequality mark bar-5 range-0 the-poor bar",
+      "data": {
+        "percentage": 0.06,
+        "value": 16
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-6",
+      "clazz": "scene chart wealth-inequality mark bar-6 range-0 the-poor bar",
+      "data": {
+        "percentage": 0.07,
+        "value": 16
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-7",
+      "clazz": "scene chart wealth-inequality mark bar-7 range-0 the-poor bar",
+      "data": {
+        "percentage": 0.08,
+        "value": 17
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-8",
+      "clazz": "scene chart wealth-inequality mark bar-8 range-0 the-poor bar",
+      "data": {
+        "percentage": 0.09,
+        "value": 17
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-9",
+      "clazz": "scene chart wealth-inequality mark bar-9 range-0 the-poor bar",
+      "data": {
+        "percentage": 0.1,
+        "value": 17
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-10",
+      "clazz": "scene chart wealth-inequality mark bar-10 range-1 the-poor bar",
+      "data": {
+        "percentage": 0.11,
+        "value": 17
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-11",
+      "clazz": "scene chart wealth-inequality mark bar-11 range-1 the-poor bar",
+      "data": {
+        "percentage": 0.12,
+        "value": 17
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-12",
+      "clazz": "scene chart wealth-inequality mark bar-12 range-1 the-poor bar",
+      "data": {
+        "percentage": 0.13,
+        "value": 17
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-13",
+      "clazz": "scene chart wealth-inequality mark bar-13 range-1 the-poor bar",
+      "data": {
+        "percentage": 0.14,
+        "value": 19
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-14",
+      "clazz": "scene chart wealth-inequality mark bar-14 range-1 the-poor bar",
+      "data": {
+        "percentage": 0.15,
+        "value": 19
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-15",
+      "clazz": "scene chart wealth-inequality mark bar-15 range-1 the-poor bar",
+      "data": {
+        "percentage": 0.16,
+        "value": 19
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-16",
+      "clazz": "scene chart wealth-inequality mark bar-16 range-1 the-poor bar",
+      "data": {
+        "percentage": 0.17,
+        "value": 19
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-17",
+      "clazz": "scene chart wealth-inequality mark bar-17 range-1 the-poor bar",
+      "data": {
+        "percentage": 0.18,
+        "value": 19
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-18",
+      "clazz": "scene chart wealth-inequality mark bar-18 range-1 the-poor bar",
+      "data": {
+        "percentage": 0.19,
+        "value": 19
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-19",
+      "clazz": "scene chart wealth-inequality mark bar-19 range-1 the-poor bar",
+      "data": {
+        "percentage": 0.2,
+        "value": 20
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-20",
+      "clazz": "scene chart wealth-inequality mark bar-20 range-2 the-middle-class bar",
+      "data": {
+        "percentage": 0.21,
+        "value": 20
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-21",
+      "clazz": "scene chart wealth-inequality mark bar-21 range-2 the-middle-class bar",
+      "data": {
+        "percentage": 0.22,
+        "value": 20
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-22",
+      "clazz": "scene chart wealth-inequality mark bar-22 range-2 the-middle-class bar",
+      "data": {
+        "percentage": 0.23,
+        "value": 21
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-23",
+      "clazz": "scene chart wealth-inequality mark bar-23 range-2 the-middle-class bar",
+      "data": {
+        "percentage": 0.24,
+        "value": 22
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-24",
+      "clazz": "scene chart wealth-inequality mark bar-24 range-2 the-middle-class bar",
+      "data": {
+        "percentage": 0.25,
+        "value": 22
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-25",
+      "clazz": "scene chart wealth-inequality mark bar-25 range-2 the-middle-class bar",
+      "data": {
+        "percentage": 0.26,
+        "value": 22
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-26",
+      "clazz": "scene chart wealth-inequality mark bar-26 range-2 the-middle-class bar",
+      "data": {
+        "percentage": 0.27,
+        "value": 22
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-27",
+      "clazz": "scene chart wealth-inequality mark bar-27 range-2 the-middle-class bar",
+      "data": {
+        "percentage": 0.28,
+        "value": 23
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-28",
+      "clazz": "scene chart wealth-inequality mark bar-28 range-2 the-middle-class bar",
+      "data": {
+        "percentage": 0.29,
+        "value": 24
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-29",
+      "clazz": "scene chart wealth-inequality mark bar-29 range-2 the-middle-class bar",
+      "data": {
+        "percentage": 0.3,
+        "value": 24
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-30",
+      "clazz": "scene chart wealth-inequality mark bar-30 range-3 the-middle-class bar",
+      "data": {
+        "percentage": 0.31,
+        "value": 24
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-31",
+      "clazz": "scene chart wealth-inequality mark bar-31 range-3 the-middle-class bar",
+      "data": {
+        "percentage": 0.32,
+        "value": 25
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-32",
+      "clazz": "scene chart wealth-inequality mark bar-32 range-3 the-middle-class bar",
+      "data": {
+        "percentage": 0.33,
+        "value": 25
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-33",
+      "clazz": "scene chart wealth-inequality mark bar-33 range-3 the-middle-class bar",
+      "data": {
+        "percentage": 0.34,
+        "value": 25
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-34",
+      "clazz": "scene chart wealth-inequality mark bar-34 range-3 the-middle-class bar",
+      "data": {
+        "percentage": 0.35,
+        "value": 26
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-35",
+      "clazz": "scene chart wealth-inequality mark bar-35 range-3 the-middle-class bar",
+      "data": {
+        "percentage": 0.36,
+        "value": 26
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-36",
+      "clazz": "scene chart wealth-inequality mark bar-36 range-3 the-middle-class bar",
+      "data": {
+        "percentage": 0.37,
+        "value": 26
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-37",
+      "clazz": "scene chart wealth-inequality mark bar-37 range-3 the-middle-class bar",
+      "data": {
+        "percentage": 0.38,
+        "value": 27
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-38",
+      "clazz": "scene chart wealth-inequality mark bar-38 range-3 the-middle-class bar",
+      "data": {
+        "percentage": 0.39,
+        "value": 28
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-39",
+      "clazz": "scene chart wealth-inequality mark bar-39 range-3 the-middle-class bar",
+      "data": {
+        "percentage": 0.4,
+        "value": 28
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-40",
+      "clazz": "scene chart wealth-inequality mark bar-40 range-4 the-middle-class bar",
+      "data": {
+        "percentage": 0.41,
+        "value": 30
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-41",
+      "clazz": "scene chart wealth-inequality mark bar-41 range-4 the-middle-class bar",
+      "data": {
+        "percentage": 0.42,
+        "value": 30
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-42",
+      "clazz": "scene chart wealth-inequality mark bar-42 range-4 the-middle-class bar",
+      "data": {
+        "percentage": 0.43,
+        "value": 32
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-43",
+      "clazz": "scene chart wealth-inequality mark bar-43 range-4 the-middle-class bar",
+      "data": {
+        "percentage": 0.44,
+        "value": 32
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-44",
+      "clazz": "scene chart wealth-inequality mark bar-44 range-4 the-middle-class bar",
+      "data": {
+        "percentage": 0.45,
+        "value": 32
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-45",
+      "clazz": "scene chart wealth-inequality mark bar-45 range-4 the-middle-class bar",
+      "data": {
+        "percentage": 0.46,
+        "value": 34
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-46",
+      "clazz": "scene chart wealth-inequality mark bar-46 range-4 the-middle-class bar",
+      "data": {
+        "percentage": 0.47,
+        "value": 34
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-47",
+      "clazz": "scene chart wealth-inequality mark bar-47 range-4 the-middle-class bar",
+      "data": {
+        "percentage": 0.48,
+        "value": 34
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-48",
+      "clazz": "scene chart wealth-inequality mark bar-48 range-4 the-middle-class bar",
+      "data": {
+        "percentage": 0.49,
+        "value": 34
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-49",
+      "clazz": "scene chart wealth-inequality mark bar-49 range-4 the-middle-class bar",
+      "data": {
+        "percentage": 0.5,
+        "value": 35
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-50",
+      "clazz": "scene chart wealth-inequality mark bar-50 range-5 the-middle-class bar",
+      "data": {
+        "percentage": 0.51,
+        "value": 35
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-51",
+      "clazz": "scene chart wealth-inequality mark bar-51 range-5 the-middle-class bar",
+      "data": {
+        "percentage": 0.52,
+        "value": 35
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-52",
+      "clazz": "scene chart wealth-inequality mark bar-52 range-5 the-middle-class bar",
+      "data": {
+        "percentage": 0.53,
+        "value": 35
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-53",
+      "clazz": "scene chart wealth-inequality mark bar-53 range-5 the-middle-class bar",
+      "data": {
+        "percentage": 0.54,
+        "value": 35
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-54",
+      "clazz": "scene chart wealth-inequality mark bar-54 range-5 the-middle-class bar",
+      "data": {
+        "percentage": 0.55,
+        "value": 37
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-55",
+      "clazz": "scene chart wealth-inequality mark bar-55 range-5 the-middle-class bar",
+      "data": {
+        "percentage": 0.56,
+        "value": 37
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-56",
+      "clazz": "scene chart wealth-inequality mark bar-56 range-5 the-middle-class bar",
+      "data": {
+        "percentage": 0.57,
+        "value": 37
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-57",
+      "clazz": "scene chart wealth-inequality mark bar-57 range-5 the-middle-class bar",
+      "data": {
+        "percentage": 0.58,
+        "value": 37
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-58",
+      "clazz": "scene chart wealth-inequality mark bar-58 range-5 the-middle-class bar",
+      "data": {
+        "percentage": 0.59,
+        "value": 37
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-59",
+      "clazz": "scene chart wealth-inequality mark bar-59 range-5 the-middle-class bar",
+      "data": {
+        "percentage": 0.6,
+        "value": 38
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-60",
+      "clazz": "scene chart wealth-inequality mark bar-60 range-6 the-middle-class bar",
+      "data": {
+        "percentage": 0.61,
+        "value": 38
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-61",
+      "clazz": "scene chart wealth-inequality mark bar-61 range-6 the-middle-class bar",
+      "data": {
+        "percentage": 0.62,
+        "value": 38
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-62",
+      "clazz": "scene chart wealth-inequality mark bar-62 range-6 the-middle-class bar",
+      "data": {
+        "percentage": 0.63,
+        "value": 38
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-63",
+      "clazz": "scene chart wealth-inequality mark bar-63 range-6 the-middle-class bar",
+      "data": {
+        "percentage": 0.64,
+        "value": 38
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-64",
+      "clazz": "scene chart wealth-inequality mark bar-64 range-6 the-middle-class bar",
+      "data": {
+        "percentage": 0.65,
+        "value": 38
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-65",
+      "clazz": "scene chart wealth-inequality mark bar-65 range-6 the-middle-class bar",
+      "data": {
+        "percentage": 0.66,
+        "value": 40
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-66",
+      "clazz": "scene chart wealth-inequality mark bar-66 range-6 the-middle-class bar",
+      "data": {
+        "percentage": 0.67,
+        "value": 40
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-67",
+      "clazz": "scene chart wealth-inequality mark bar-67 range-6 the-middle-class bar",
+      "data": {
+        "percentage": 0.68,
+        "value": 40
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-68",
+      "clazz": "scene chart wealth-inequality mark bar-68 range-6 the-middle-class bar",
+      "data": {
+        "percentage": 0.69,
+        "value": 40
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-69",
+      "clazz": "scene chart wealth-inequality mark bar-69 range-6 the-middle-class bar",
+      "data": {
+        "percentage": 0.7,
+        "value": 40
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-70",
+      "clazz": "scene chart wealth-inequality mark bar-70 range-7 the-rich bar",
+      "data": {
+        "percentage": 0.71,
+        "value": 40
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-71",
+      "clazz": "scene chart wealth-inequality mark bar-71 range-7 the-rich bar",
+      "data": {
+        "percentage": 0.72,
+        "value": 40
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-72",
+      "clazz": "scene chart wealth-inequality mark bar-72 range-7 the-rich bar",
+      "data": {
+        "percentage": 0.73,
+        "value": 40
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-73",
+      "clazz": "scene chart wealth-inequality mark bar-73 range-7 the-rich bar",
+      "data": {
+        "percentage": 0.74,
+        "value": 40
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-74",
+      "clazz": "scene chart wealth-inequality mark bar-74 range-7 the-rich bar",
+      "data": {
+        "percentage": 0.75,
+        "value": 40
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-75",
+      "clazz": "scene chart wealth-inequality mark bar-75 range-7 the-rich bar",
+      "data": {
+        "percentage": 0.76,
+        "value": 41
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-76",
+      "clazz": "scene chart wealth-inequality mark bar-76 range-7 the-rich bar",
+      "data": {
+        "percentage": 0.77,
+        "value": 41
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-77",
+      "clazz": "scene chart wealth-inequality mark bar-77 range-7 the-rich bar",
+      "data": {
+        "percentage": 0.78,
+        "value": 41
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-78",
+      "clazz": "scene chart wealth-inequality mark bar-78 range-7 the-rich bar",
+      "data": {
+        "percentage": 0.79,
+        "value": 41
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-79",
+      "clazz": "scene chart wealth-inequality mark bar-79 range-7 the-rich bar",
+      "data": {
+        "percentage": 0.8,
+        "value": 41
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-80",
+      "clazz": "scene chart wealth-inequality mark bar-80 range-8 the-rich bar",
+      "data": {
+        "percentage": 0.81,
+        "value": 43
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-81",
+      "clazz": "scene chart wealth-inequality mark bar-81 range-8 the-rich bar",
+      "data": {
+        "percentage": 0.82,
+        "value": 43
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-82",
+      "clazz": "scene chart wealth-inequality mark bar-82 range-8 the-rich bar",
+      "data": {
+        "percentage": 0.83,
+        "value": 45
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-83",
+      "clazz": "scene chart wealth-inequality mark bar-83 range-8 the-rich bar",
+      "data": {
+        "percentage": 0.84,
+        "value": 45
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-84",
+      "clazz": "scene chart wealth-inequality mark bar-84 range-8 the-rich bar",
+      "data": {
+        "percentage": 0.85,
+        "value": 47
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-85",
+      "clazz": "scene chart wealth-inequality mark bar-85 range-8 the-rich bar",
+      "data": {
+        "percentage": 0.86,
+        "value": 47
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-86",
+      "clazz": "scene chart wealth-inequality mark bar-86 range-8 the-rich bar",
+      "data": {
+        "percentage": 0.87,
+        "value": 48
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-87",
+      "clazz": "scene chart wealth-inequality mark bar-87 range-8 the-rich bar",
+      "data": {
+        "percentage": 0.88,
+        "value": 50
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-88",
+      "clazz": "scene chart wealth-inequality mark bar-88 range-8 the-rich bar",
+      "data": {
+        "percentage": 0.89,
+        "value": 52
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-89",
+      "clazz": "scene chart wealth-inequality mark bar-89 range-8 the-rich bar",
+      "data": {
+        "percentage": 0.9,
+        "value": 54
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-90",
+      "clazz": "scene chart wealth-inequality mark bar-90 range-9 the-wealthy bar",
+      "data": {
+        "percentage": 0.91,
+        "value": 56
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-91",
+      "clazz": "scene chart wealth-inequality mark bar-91 range-9 the-wealthy bar",
+      "data": {
+        "percentage": 0.92,
+        "value": 58
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-92",
+      "clazz": "scene chart wealth-inequality mark bar-92 range-9 the-wealthy bar",
+      "data": {
+        "percentage": 0.93,
+        "value": 59
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-93",
+      "clazz": "scene chart wealth-inequality mark bar-93 range-9 the-wealthy bar",
+      "data": {
+        "percentage": 0.94,
+        "value": 61
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-94",
+      "clazz": "scene chart wealth-inequality mark bar-94 range-9 the-wealthy bar",
+      "data": {
+        "percentage": 0.95,
+        "value": 65
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-95",
+      "clazz": "scene chart wealth-inequality mark bar-95 range-9 the-wealthy bar",
+      "data": {
+        "percentage": 0.96,
+        "value": 68
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-96",
+      "clazz": "scene chart wealth-inequality mark bar-96 range-9 the-wealthy bar",
+      "data": {
+        "percentage": 0.97,
+        "value": 71
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-97",
+      "clazz": "scene chart wealth-inequality mark bar-97 range-9 the-wealthy bar",
+      "data": {
+        "percentage": 0.98,
+        "value": 78
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-98",
+      "clazz": "scene chart wealth-inequality mark bar-98 range-9 the-wealthy bar",
+      "data": {
+        "percentage": 0.99,
+        "value": 86
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "wealth-inequality-bar-99",
+      "clazz": "scene chart wealth-inequality mark bar-99 range-9 the-wealthy bar",
+      "data": {
+        "percentage": 1,
+        "value": 97
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar-label",
+      "id": "wealth-inequality-bar-label-0",
+      "clazz": "scene chart wealth-inequality mark label bar-label-0 bar-label",
+      "data": [
+        {
+          "percentage": 0.01,
+          "value": 8
+        },
+        {
+          "percentage": 0.02,
+          "value": 12
+        },
+        {
+          "percentage": 0.03,
+          "value": 14
+        },
+        {
+          "percentage": 0.04,
+          "value": 14
+        },
+        {
+          "percentage": 0.05,
+          "value": 16
+        },
+        {
+          "percentage": 0.06,
+          "value": 16
+        },
+        {
+          "percentage": 0.07,
+          "value": 16
+        },
+        {
+          "percentage": 0.08,
+          "value": 17
+        },
+        {
+          "percentage": 0.09,
+          "value": 17
+        },
+        {
+          "percentage": 0.1,
+          "value": 17
+        },
+        {
+          "percentage": 0.11,
+          "value": 17
+        },
+        {
+          "percentage": 0.12,
+          "value": 17
+        },
+        {
+          "percentage": 0.13,
+          "value": 17
+        },
+        {
+          "percentage": 0.14,
+          "value": 19
+        },
+        {
+          "percentage": 0.15,
+          "value": 19
+        },
+        {
+          "percentage": 0.16,
+          "value": 19
+        },
+        {
+          "percentage": 0.17,
+          "value": 19
+        },
+        {
+          "percentage": 0.18,
+          "value": 19
+        },
+        {
+          "percentage": 0.19,
+          "value": 19
+        },
+        {
+          "percentage": 0.2,
+          "value": 20
+        }
+      ],
+      "tag": "text",
+      "text": "\"THE POOR\""
+    },
+    {
+      "type": "bar-label",
+      "id": "wealth-inequality-bar-label-1",
+      "clazz": "scene chart wealth-inequality mark label bar-label-1 bar-label",
+      "data": [
+        {
+          "percentage": 0.31,
+          "value": 24
+        },
+        {
+          "percentage": 0.32,
+          "value": 25
+        },
+        {
+          "percentage": 0.33,
+          "value": 25
+        },
+        {
+          "percentage": 0.34,
+          "value": 25
+        },
+        {
+          "percentage": 0.35,
+          "value": 26
+        },
+        {
+          "percentage": 0.36,
+          "value": 26
+        },
+        {
+          "percentage": 0.37,
+          "value": 26
+        },
+        {
+          "percentage": 0.38,
+          "value": 27
+        },
+        {
+          "percentage": 0.39,
+          "value": 28
+        },
+        {
+          "percentage": 0.4,
+          "value": 28
+        },
+        {
+          "percentage": 0.41,
+          "value": 30
+        },
+        {
+          "percentage": 0.42,
+          "value": 30
+        },
+        {
+          "percentage": 0.43,
+          "value": 32
+        },
+        {
+          "percentage": 0.44,
+          "value": 32
+        },
+        {
+          "percentage": 0.45,
+          "value": 32
+        },
+        {
+          "percentage": 0.46,
+          "value": 34
+        },
+        {
+          "percentage": 0.47,
+          "value": 34
+        },
+        {
+          "percentage": 0.48,
+          "value": 34
+        },
+        {
+          "percentage": 0.49,
+          "value": 34
+        },
+        {
+          "percentage": 0.5,
+          "value": 35
+        },
+        {
+          "percentage": 0.51,
+          "value": 35
+        },
+        {
+          "percentage": 0.52,
+          "value": 35
+        },
+        {
+          "percentage": 0.53,
+          "value": 35
+        },
+        {
+          "percentage": 0.54,
+          "value": 35
+        },
+        {
+          "percentage": 0.55,
+          "value": 37
+        },
+        {
+          "percentage": 0.56,
+          "value": 37
+        },
+        {
+          "percentage": 0.57,
+          "value": 37
+        },
+        {
+          "percentage": 0.58,
+          "value": 37
+        },
+        {
+          "percentage": 0.59,
+          "value": 37
+        },
+        {
+          "percentage": 0.6,
+          "value": 38
+        },
+        {
+          "percentage": 0.61,
+          "value": 38
+        },
+        {
+          "percentage": 0.62,
+          "value": 38
+        },
+        {
+          "percentage": 0.63,
+          "value": 38
+        },
+        {
+          "percentage": 0.64,
+          "value": 38
+        },
+        {
+          "percentage": 0.65,
+          "value": 38
+        },
+        {
+          "percentage": 0.66,
+          "value": 40
+        },
+        {
+          "percentage": 0.67,
+          "value": 40
+        },
+        {
+          "percentage": 0.68,
+          "value": 40
+        },
+        {
+          "percentage": 0.69,
+          "value": 40
+        },
+        {
+          "percentage": 0.7,
+          "value": 40
+        }
+      ],
+      "tag": "text",
+      "text": "\"THE MIDDLE CLASS\""
+    },
+    {
+      "type": "bar-label",
+      "id": "wealth-inequality-bar-label-2",
+      "clazz": "scene chart wealth-inequality mark label bar-label-2 bar-label",
+      "data": [
+        {
+          "percentage": 0.71,
+          "value": 40
+        },
+        {
+          "percentage": 0.72,
+          "value": 40
+        },
+        {
+          "percentage": 0.73,
+          "value": 40
+        },
+        {
+          "percentage": 0.74,
+          "value": 40
+        },
+        {
+          "percentage": 0.75,
+          "value": 40
+        },
+        {
+          "percentage": 0.76,
+          "value": 41
+        },
+        {
+          "percentage": 0.77,
+          "value": 41
+        },
+        {
+          "percentage": 0.78,
+          "value": 41
+        },
+        {
+          "percentage": 0.79,
+          "value": 41
+        },
+        {
+          "percentage": 0.8,
+          "value": 41
+        },
+        {
+          "percentage": 0.81,
+          "value": 43
+        },
+        {
+          "percentage": 0.82,
+          "value": 43
+        },
+        {
+          "percentage": 0.83,
+          "value": 45
+        },
+        {
+          "percentage": 0.84,
+          "value": 45
+        },
+        {
+          "percentage": 0.85,
+          "value": 47
+        },
+        {
+          "percentage": 0.86,
+          "value": 47
+        },
+        {
+          "percentage": 0.87,
+          "value": 48
+        },
+        {
+          "percentage": 0.88,
+          "value": 50
+        },
+        {
+          "percentage": 0.89,
+          "value": 52
+        },
+        {
+          "percentage": 0.9,
+          "value": 54
+        }
+      ],
+      "tag": "text",
+      "text": "\"THE RICH\""
+    },
+    {
+      "type": "bar-label",
+      "id": "wealth-inequality-bar-label-3",
+      "clazz": "scene chart wealth-inequality mark label bar-label-3 bar-label",
+      "data": [
+        {
+          "percentage": 0.91,
+          "value": 56
+        },
+        {
+          "percentage": 0.92,
+          "value": 58
+        },
+        {
+          "percentage": 0.93,
+          "value": 59
+        },
+        {
+          "percentage": 0.94,
+          "value": 61
+        },
+        {
+          "percentage": 0.95,
+          "value": 65
+        },
+        {
+          "percentage": 0.96,
+          "value": 68
+        },
+        {
+          "percentage": 0.97,
+          "value": 71
+        },
+        {
+          "percentage": 0.98,
+          "value": 78
+        },
+        {
+          "percentage": 0.99,
+          "value": 86
+        },
+        {
+          "percentage": 1,
+          "value": 97
+        }
+      ],
+      "tag": "text",
+      "text": "\"THE WEALTHY\""
+    },
+    {
+      "type": "main-title",
+      "id": "wealth-inequality-title-0",
+      "clazz": "scene chart wealth-inequality title main-title-0 main-title",
+      "data": null,
+      "tag": "text",
+      "text": "Distribution that"
+    },
+    {
+      "type": "main-title",
+      "id": "wealth-inequality-title-1",
+      "clazz": "scene chart wealth-inequality title main-title-1 main-title",
+      "data": null,
+      "tag": "text",
+      "text": "92%"
+    },
+    {
+      "type": "main-title",
+      "id": "wealth-inequality-title-2",
+      "clazz": "scene chart wealth-inequality title main-title-2 main-title",
+      "data": null,
+      "tag": "text",
+      "text": "of Americans Choose as"
+    },
+    {
+      "type": "main-title",
+      "id": "wealth-inequality-title-3",
+      "clazz": "scene chart wealth-inequality title main-title-3 main-title",
+      "data": null,
+      "tag": "text",
+      "text": "IDEAL"
+    }
+  ],
+  "layout": {
+    "xAxis": "bottom",
+    "yAxis": "unknown",
+    "title": "left"
+  }
+}

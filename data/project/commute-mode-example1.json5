@@ -1,0 +1,134 @@
+{
+  projectId: 'commute-mode-example1',
+  scenes: [
+    {
+      charts: [
+        {source: './commute-mode.svg'},
+      ],
+      templates: [
+        {
+          templateName: 'highlight-one-sector',
+          parameters: [
+            {paramName: 'dataName', paramType: 'string'},
+            {paramName: 'displayTime', paramType: 'number'},
+          ],
+          animation: {
+            target: '.commute-mode',
+            sequence: {
+              sync: [
+                {
+                  use: 'custom-effect',
+                  target: {
+                    selector: '.mark',
+                    transform: {type: 'filter', expr: '@datum.name !== "$dataName"'},
+                  },
+                  settings: {
+                    attr: 'opacity',
+                    to: 0.2,
+                  },
+                  timing: {yoyo: {delay: '$displayTime'}},
+                },
+                {
+                  use: 'show-dynamic-number',
+                  target: {
+                    selector: '.annotation.label',
+                    transform: {type: 'filter', expr: '@datum.name === "$dataName"'},
+                  },
+                  settings: {
+                    start: 0,
+                    end: '(\\d*)%',
+                    formatter: '@num%',
+                    displayTime: '$displayTime',
+                  },
+                }
+              ]
+            }
+          }
+        }
+      ],
+      animation: {
+    "sequence": {
+    "sync": [
+        {
+            "use": "Title",
+            "timing": {
+                "start": 0,
+                "duration": 0.9,
+                "offset": 0
+            },
+            "target": "#transportation_pie1-main_title, #transportation_pie1-sub_title",
+            "ani_type": "Enter",
+            "settings": {}
+        },
+        {
+            "use": "Pie-wheel",
+            "timing": {
+                "start": 0,
+                "duration": 0.9,
+                "offset": 0
+            },
+            "target": "#transportation_pie1-sector-0, #transportation_pie1-sector-1, #transportation_pie1-sector-2, #transportation_pie1-sector-3, #transportation_pie1-sector-4, #transportation_pie1-sector-5, #transportation_pie1-sector-6, #transportation_pie1-sector-label-0, #transportation_pie1-sector-label-1, #transportation_pie1-sector-label-2, #transportation_pie1-sector-label-3, #transportation_pie1-sector-label-4, #transportation_pie1-sector-label-5, #transportation_pie1-sector-label-6, #transportation_pie1-sector-line-0, #transportation_pie1-sector-line-1, #transportation_pie1-sector-line-2, #transportation_pie1-sector-line-3, #transportation_pie1-sector-line-4, #transportation_pie1-sector-line-5, #transportation_pie1-sector-line-6",
+            "ani_type": "Enter",
+            "settings": {}
+        },
+        {
+            "use": "Highlight-sector",
+            "timing": {
+                "start": 10.626,
+                "duration": 5.04,
+                "offset": 0
+            },
+            "target": "#transportation_pie1-sector-1, #commute-mode-annotation-0-label",
+            "ani_type": "Emphasis",
+            "settings": {}
+        },
+        {
+            "use": "Highlight",
+            "timing": {
+                "start": 10.626,
+                "duration": 5.04,
+                "offset": 0
+            },
+            "target": "#transportation_pie1-sector-1",
+            "ani_type": "Emphasis",
+            "settings": {}
+        },
+        {
+            "use": "Show-path",
+            "timing": {
+                "start": 15.661,
+                "duration": 3.43,
+                "offset": 0
+            },
+            "target": "#transportation_pie1-annotation-contour",
+            "ani_type": "Emphasis",
+            "settings": {}
+        },
+        {
+            "use": "Highlight-sector",
+            "timing": {
+                "start": 23.581,
+                "duration": 5.36,
+                "offset": 0
+            },
+            "target": "#transportation_pie1-sector-0, #commute-mode-annotation-2-label",
+            "ani_type": "Emphasis",
+            "settings": {}
+        },
+        {
+            "use": "Highlight",
+            "timing": {
+                "start": 23.581,
+                "duration": 5.36,
+                "offset": 0
+            },
+            "target": "#transportation_pie1-sector-0",
+            "ani_type": "Emphasis",
+            "settings": {}
+        }
+    ]
+}
+      }
+    }
+  ]
+}

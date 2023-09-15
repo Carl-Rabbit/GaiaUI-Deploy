@@ -1,0 +1,82 @@
+{
+  projectId: 'sat-score-0',
+  chart: './sat-score.svg',
+  audio: './sat-score.txt',
+  comment: 'start of task 3',
+  binder: {
+    from: "svg",
+    to: "gaia.chart.BarChart",
+    rules: [
+      // chart title
+      {
+        from: ".title",
+        to: ".BarChart > .Title",
+      },
+      // bars
+      {
+        from: ".bar",
+        to: ".Bar",
+        dataList: [
+          { xVal: 'Less than $20,000', yVal: 890 },
+          { xVal: '$40,000', yVal: 930 },
+          { xVal: '$60,000', yVal: 980 },
+          { xVal: '$80,000', yVal: 1010 },
+          { xVal: '$100,000', yVal: 1030 },
+          { xVal: '$140,000', yVal: 1090 },
+          { xVal: 'More than $200,000', yVal: 1150 },
+        ]
+      },
+      // bar label
+      {
+        from: '.bar-label',
+        to: '.BarLabel',
+        dataList: [
+          { xVal: 'Less than $20,000', yVal: 890 },
+          { xVal: 'More than $200,000', yVal: 1150 },
+        ]
+      },
+      // x axis
+      {
+        from: '.x-domain',
+        to: '.XAxis .Domain',
+      },
+      {
+        from: '.x-label',
+        to: '.XAxis .Label',
+        dataList: [
+          { xVal: 'Less than $20,000', yVal: 890 },
+          { xVal: '$40,000', yVal: 930 },
+          { xVal: '$60,000', yVal: 980 },
+          { xVal: '$80,000', yVal: 1010 },
+          { xVal: '$100,000', yVal: 1030 },
+          { xVal: '$140,000', yVal: 1090 },
+          { xVal: 'More than $200,000', yVal: 1150 },
+        ]
+      },
+      // y axis
+      {
+        from: '.y-tick',
+        to: '.YAxis .Tick',
+      },
+      {
+        from: '.y-label',
+        to: '.YAxis .Label',
+      },
+      // annotation
+      {
+        from: '.annotation.line',
+        to: '.Annotation .Line',
+      },
+      {
+        from: '.annotation.label',
+        to: '.Annotation .Label',
+      }
+    ]
+  },
+  animation: {
+    main: {
+      sync: []
+    },
+  },
+  templates: []
+}

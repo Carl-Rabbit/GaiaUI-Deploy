@@ -1,0 +1,416 @@
+{
+  "results": [
+    {
+      "alternatives": [
+        {
+          "transcript": "According to the survey results, nonprofit organizations have a more optimistic outlook for the next 12 months. More than 80% of non-profit organizations were very or somewhat optimistic about the future, while only 70% of private sector businesses have the same opinion. Meanwhile, more than 10% of private sector businesses were uncertain of their future outlook, but less than 5 percent of non-profit organizations were the same.",
+          "confidence": 1.0,
+          "words": [
+            {
+              "startTime": "0.000s",
+              "endTime": "0.525s",
+              "word": "According",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.525s",
+              "endTime": "0.673s",
+              "word": "to",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.673s",
+              "endTime": "0.768s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.768s",
+              "endTime": "1.239s",
+              "word": "survey",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.239s",
+              "endTime": "2.267s",
+              "word": "results,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.267s",
+              "endTime": "3.046s",
+              "word": "nonprofit",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.046s",
+              "endTime": "4.155s",
+              "word": "organizations",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.155s",
+              "endTime": "4.340s",
+              "word": "have",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.340s",
+              "endTime": "4.395s",
+              "word": "a",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.395s",
+              "endTime": "4.690s",
+              "word": "more",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.690s",
+              "endTime": "5.581s",
+              "word": "optimistic",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.581s",
+              "endTime": "6.130s",
+              "word": "outlook",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.130s",
+              "endTime": "6.275s",
+              "word": "for",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.275s",
+              "endTime": "6.375s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.375s",
+              "endTime": "6.772s",
+              "word": "next",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.772s",
+              "endTime": "7.102s",
+              "word": "12",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.102s",
+              "endTime": "8.508s",
+              "word": "months.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.508s",
+              "endTime": "8.738s",
+              "word": "More",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.738s",
+              "endTime": "8.928s",
+              "word": "than",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.928s",
+              "endTime": "9.839s",
+              "word": "80%",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.839s",
+              "endTime": "9.984s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.984s",
+              "endTime": "10.755s",
+              "word": "non-profit",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.755s",
+              "endTime": "11.866s",
+              "word": "organizations",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.866s",
+              "endTime": "12.001s",
+              "word": "were",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "12.001s",
+              "endTime": "12.451s",
+              "word": "very",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "12.451s",
+              "endTime": "12.576s",
+              "word": "or",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "12.576s",
+              "endTime": "13.063s",
+              "word": "somewhat",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.063s",
+              "endTime": "13.932s",
+              "word": "optimistic",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.932s",
+              "endTime": "14.247s",
+              "word": "about",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.247s",
+              "endTime": "14.312s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.312s",
+              "endTime": "15.397s",
+              "word": "future,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.397s",
+              "endTime": "15.582s",
+              "word": "while",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.582s",
+              "endTime": "15.843s",
+              "word": "only",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.843s",
+              "endTime": "16.989s",
+              "word": "70%",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.989s",
+              "endTime": "17.094s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.094s",
+              "endTime": "17.634s",
+              "word": "private",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.634s",
+              "endTime": "18.062s",
+              "word": "sector",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.062s",
+              "endTime": "18.812s",
+              "word": "businesses",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.812s",
+              "endTime": "18.977s",
+              "word": "have",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.977s",
+              "endTime": "19.067s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.067s",
+              "endTime": "19.391s",
+              "word": "same",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.391s",
+              "endTime": "20.868s",
+              "word": "opinion.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "20.868s",
+              "endTime": "21.867s",
+              "word": "Meanwhile,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "21.867s",
+              "endTime": "22.054s",
+              "word": "more",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "22.054s",
+              "endTime": "22.254s",
+              "word": "than",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "22.254s",
+              "endTime": "23.109s",
+              "word": "10%",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "23.109s",
+              "endTime": "23.214s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "23.214s",
+              "endTime": "23.755s",
+              "word": "private",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "23.755s",
+              "endTime": "24.188s",
+              "word": "sector",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "24.188s",
+              "endTime": "24.952s",
+              "word": "businesses",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "24.952s",
+              "endTime": "25.147s",
+              "word": "were",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "25.147s",
+              "endTime": "25.801s",
+              "word": "uncertain",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "25.801s",
+              "endTime": "25.946s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "25.946s",
+              "endTime": "26.096s",
+              "word": "their",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "26.096s",
+              "endTime": "26.632s",
+              "word": "future",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "26.632s",
+              "endTime": "27.590s",
+              "word": "outlook,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "27.590s",
+              "endTime": "27.740s",
+              "word": "but",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "27.740s",
+              "endTime": "28.049s",
+              "word": "less",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "28.049s",
+              "endTime": "28.199s",
+              "word": "than",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "28.199s",
+              "endTime": "28.539s",
+              "word": "5",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "28.539s",
+              "endTime": "29.115s",
+              "word": "percent",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "29.115s",
+              "endTime": "29.249s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "29.249s",
+              "endTime": "30.024s",
+              "word": "non-profit",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "30.024s",
+              "endTime": "31.059s",
+              "word": "organizations",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "31.059s",
+              "endTime": "31.184s",
+              "word": "were",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "31.184s",
+              "endTime": "31.279s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "31.279s",
+              "endTime": "32.675s",
+              "word": "same.",
+              "speakerTag": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

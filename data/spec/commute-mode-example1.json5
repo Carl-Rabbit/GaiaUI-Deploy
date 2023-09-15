@@ -1,0 +1,78 @@
+{
+  charts: [
+    {source: './commute-mode.svg'},
+  ],
+  templates: [
+    {
+      templateName: 'highlight-one-sector',
+      parameters: [
+        {paramName: 'dataName', paramType: 'string'},
+        {paramName: 'displayTime', paramType: 'number'},
+      ],
+      animation: {
+        sequence: {
+          sync: [
+            {
+              use: 'custom-effect',
+              target: {
+                selector: '.mark',
+                transform: {type: 'filter', expr: '@datum.name !== "$dataName"'},
+              },
+              settings: {
+                attr: 'opacity',
+                to: 0.2,
+              },
+              timing: {yoyo: {delay: '$displayTime'}},
+            },
+            {
+              use: 'show-dynamic-number',
+              target: {
+                selector: '.annotation.label',
+                transform: {type: 'filter', expr: '@datum.name === "$dataName"'},
+              },
+              settings: {
+                start: 0,
+                end: '(\\d*)%',
+                formatter: '@num%',
+                displayTime: '$displayTime',
+              },
+            }
+          ]
+        }
+      }
+    }
+  ],
+  animation: {
+    sequence: {
+      sync: [
+        {
+          use: 'pie-chart-enter',
+        },
+
+        {
+          use: 'highlight-one-sector',
+          settings: {
+            dataName: 'Drive alone',
+            displayTime: 3,
+          },
+          timing: {start: 10.5},
+        },
+
+        {
+          use: 'Show-path',
+          target: '.annotation-1.contour',
+          timing: {start: 16},
+        },
+
+        {
+          use: 'highlight-one-sector',
+          settings: {
+            dataName: 'Public transportation',
+            displayTime: 3,
+          },
+          timing: {start: 24},
+        }
+      ]
+    }
+  }
+}

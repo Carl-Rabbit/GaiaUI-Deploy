@@ -1,0 +1,53 @@
+{
+  projectId: 'dc-courts-0',
+  chart: './dc-courts.svg',
+  audio: './dc-courts.txt',
+  comment: 'start of task 1',
+  binder: {
+    from: "svg",
+    to: "gaia.chart.BarChart",
+    rules: [
+      // chart title
+      {
+        from: ".title, .sub-title",
+        to: ".BarChart > .Title",
+      },
+      // bars
+      {
+        from: ".bar",
+        to: ".Bar",
+        dataList: [
+          {xVal: 'RELEASED PRETRIAL', yVal: 0.94},
+          {xVal: 'RETURNED FOR EVERY COURT DATE', yVal: 0.88},
+          {xVal: 'NOT ARRESTED PRETRIAL', yVal: 0.86}
+        ]
+      },
+      // bar label
+      {
+        from: '.bar-label',
+        to: '.BarLabel',
+        dataList: [
+          {xVal: 'RELEASED PRETRIAL', yVal: 0.94},
+          {xVal: 'RETURNED FOR EVERY COURT DATE', yVal: 0.88},
+          {xVal: 'NOT ARRESTED PRETRIAL', yVal: 0.86}
+        ]
+      },
+      // x axis
+      {
+        from: '.x-label',
+        to: '.XAxis .Label',
+        dataList: [
+          {xVal: 'RELEASED PRETRIAL', yVal: 0.94},
+          {xVal: 'RETURNED FOR EVERY COURT DATE', yVal: 0.88},
+          {xVal: 'NOT ARRESTED PRETRIAL', yVal: 0.86}
+        ]
+      },
+    ]
+  },
+  animation: {
+    main: {
+      sync: [],
+    },
+  },
+  templates: []
+}

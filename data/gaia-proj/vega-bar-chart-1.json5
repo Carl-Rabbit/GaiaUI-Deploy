@@ -1,0 +1,151 @@
+{
+  projectId: 'vega-bar-chart-1',
+  chart: './vega-bar-chart0.svg',
+  audio: './empty.txt',
+  comments: "Test type Any on Vega chart.",
+  binder: {
+    from: "svg",
+    to: "Any",
+    rules: []
+  },
+  animation: {
+    main: {
+      sync: [
+        {
+          ref: 'VegaChartFrameworkEnter',
+        },
+        {
+          target: {
+            selectAll: '.mark-rect path, .role-scope > g',   // .Mark, .Legend
+          },
+          groupBy: '@index % 3',
+          foreach: {
+            sync: [
+              {
+                ref: 'CutIn',
+                target: {
+                  selectAll: '.role-legend-label text'   // .Legend.Label
+                }
+              },
+              {
+                ref: 'Wheel',
+                target: {
+                  selectAll: '.role-legend-symbol path'   // .Legend.Symbol
+                }
+              },
+              {
+                ref: 'WipeIn',
+                target: 'path',   // .Bar
+                stagger: 0.2,
+              }
+            ]
+          },
+          start: 'after prev',
+          offset: 4
+        }
+      ],
+    },
+  },
+  templates: [
+    {
+      name: 'VegaChartFrameworkEnter',
+      params: {
+        xDomainFrom: 'left',
+        yDomainFrom: 'bottom',
+        axisLabelStagger: 0.2,
+        categoryStagger: 0.2,
+        categoryStart: 'after prev',
+        barWipeFrom: 'bottom',
+      },
+      main: {
+        concat: [
+          {
+            sync: [
+              {
+                ref: 'Fade',
+                target: {
+                  selectAll: '.background',
+                },
+              },
+              {
+                ref: 'WipeIn',
+                target: {
+                  'selectAll': '.role-axis-grid line',    // .Grid
+                }
+              },
+            ]
+          },
+          // legend title, axis
+          {
+            sync: [
+              {
+                ref: 'VegaAxisEnter',
+                xDomainFrom: '$xDomainFrom',
+                yDomainFrom: '$yDomainFrom',
+                axisLabelStagger: '$axisLabelStagger',
+              },
+              {
+                ref: 'ZoomIn',
+                target: {
+                  selectAll: '.role-legend-title text',   // .LegendTitle
+                }
+              },
+            ]
+          },
+        ]
+      }
+    },
+    {
+      name: 'VegaAxisEnter',
+      params: {
+        xDomainFrom: 'left',
+        yDomainFrom: 'bottom',
+        axisLabelStagger: 0.2,
+      },
+      main: {
+        sync: [
+          {
+            ref: 'WipeIn',
+            target: {
+              selectAll: '.role-axis[aria-label~="X-axis"] .role-axis-domain line',   // .XAxis.Domain
+            },
+            from: '$xDomainFrom',
+          },
+          {
+            ref: 'WipeIn',
+            target: {
+              selectAll: '.role-axis[aria-label~="Y-axis"] .role-axis-domain line',   // .YAxis.Domain
+            },
+            from: '$yDomainFrom',
+          },
+          {
+            ref: 'ZoomIn',
+            target: {
+              selectAll: '.role-axis-title text'    // .Axis.Title
+            }
+          },
+          {
+            ref: 'Fade',
+            target: {
+              selectAll: '.role-axis-tick line',   // .Axis.Tick
+            }
+          },
+          {
+            ref: 'ZoomIn',
+            target: {
+              selectAll: '.role-axis[aria-label~="X-axis"] .role-axis-label text',   // .XAxis.Label
+            },
+            stagger: '$axisLabelStagger',
+          },
+          {
+            ref: 'ZoomIn',
+            target: {
+              selectAll: '.role-axis[aria-label~="Y-axis"] .role-axis-label text',   // .YAxis.Label
+            },
+            stagger: '$axisLabelStagger',
+          }
+        ]
+      }
+    },
+  ]
+}

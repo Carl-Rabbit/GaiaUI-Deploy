@@ -1,0 +1,368 @@
+{
+  "results": [
+    {
+      "alternatives": [
+        {
+          "transcript": "General Motor, Volkswagen and Toyota are three of the biggest motor corporations in the world. In this chart, you can see how much of their profits three companies spend on buybacks. GM has the highest buyback during this period, except 2016. Volkswagen hasn\u2019t done any since 2012, and Toyota\u2019s biggest buyback years are roughly the size of GM\u2019s smallest.",
+          "confidence": 1.0,
+          "words": [
+            {
+              "startTime": "0.000s",
+              "endTime": "0.555s",
+              "word": "General",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.555s",
+              "endTime": "1.334s",
+              "word": "Motor,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.334s",
+              "endTime": "2.153s",
+              "word": "Volkswagen",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.153s",
+              "endTime": "2.308s",
+              "word": "and",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.308s",
+              "endTime": "2.961s",
+              "word": "Toyota",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.961s",
+              "endTime": "3.108s",
+              "word": "are",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.108s",
+              "endTime": "3.518s",
+              "word": "three",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.518s",
+              "endTime": "3.622s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.622s",
+              "endTime": "3.747s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.747s",
+              "endTime": "4.263s",
+              "word": "biggest",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.263s",
+              "endTime": "4.648s",
+              "word": "motor",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.648s",
+              "endTime": "5.566s",
+              "word": "corporations",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.566s",
+              "endTime": "5.716s",
+              "word": "in",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.716s",
+              "endTime": "5.761s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.761s",
+              "endTime": "7.194s",
+              "word": "world.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.194s",
+              "endTime": "7.359s",
+              "word": "In",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.359s",
+              "endTime": "7.579s",
+              "word": "this",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.579s",
+              "endTime": "8.213s",
+              "word": "chart,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.213s",
+              "endTime": "8.338s",
+              "word": "you",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.338s",
+              "endTime": "8.497s",
+              "word": "can",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.497s",
+              "endTime": "8.737s",
+              "word": "see",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.737s",
+              "endTime": "8.937s",
+              "word": "how",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.937s",
+              "endTime": "9.272s",
+              "word": "much",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.272s",
+              "endTime": "9.362s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.362s",
+              "endTime": "9.522s",
+              "word": "their",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.522s",
+              "endTime": "10.169s",
+              "word": "profits",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.169s",
+              "endTime": "10.474s",
+              "word": "three",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.474s",
+              "endTime": "11.030s",
+              "word": "companies",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.030s",
+              "endTime": "11.418s",
+              "word": "spend",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.418s",
+              "endTime": "11.598s",
+              "word": "on",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.598s",
+              "endTime": "13.339s",
+              "word": "buybacks.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.339s",
+              "endTime": "14.008s",
+              "word": "GM",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.008s",
+              "endTime": "14.263s",
+              "word": "has",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.263s",
+              "endTime": "14.378s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.378s",
+              "endTime": "14.937s",
+              "word": "highest",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.937s",
+              "endTime": "15.595s",
+              "word": "buyback",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.595s",
+              "endTime": "15.913s",
+              "word": "during",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.913s",
+              "endTime": "16.113s",
+              "word": "this",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.113s",
+              "endTime": "16.809s",
+              "word": "period,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.809s",
+              "endTime": "17.256s",
+              "word": "except",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.256s",
+              "endTime": "19.184s",
+              "word": "2016.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.184s",
+              "endTime": "20.019s",
+              "word": "Volkswagen",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "20.019s",
+              "endTime": "20.509s",
+              "word": "hasn\u2019t",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "20.509s",
+              "endTime": "20.734s",
+              "word": "done",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "20.734s",
+              "endTime": "20.982s",
+              "word": "any",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "20.982s",
+              "endTime": "21.332s",
+              "word": "since",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "21.332s",
+              "endTime": "22.524s",
+              "word": "2012,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "22.524s",
+              "endTime": "22.629s",
+              "word": "and",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "22.629s",
+              "endTime": "23.206s",
+              "word": "Toyota\u2019s",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "23.206s",
+              "endTime": "23.730s",
+              "word": "biggest",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "23.730s",
+              "endTime": "24.363s",
+              "word": "buyback",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "24.363s",
+              "endTime": "24.721s",
+              "word": "years",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "24.721s",
+              "endTime": "24.881s",
+              "word": "are",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "24.881s",
+              "endTime": "25.314s",
+              "word": "roughly",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "25.314s",
+              "endTime": "25.424s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "25.424s",
+              "endTime": "25.886s",
+              "word": "size",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "25.886s",
+              "endTime": "26.001s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "26.001s",
+              "endTime": "26.520s",
+              "word": "GM\u2019s",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "26.520s",
+              "endTime": "28.159s",
+              "word": "smallest.",
+              "speakerTag": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

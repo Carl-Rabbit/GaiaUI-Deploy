@@ -1,0 +1,274 @@
+{
+  projectId: 'australia-fire-0',
+  chart: './australia-fire.svg',
+  audio: './australia-fire.txt',
+  binder: {
+    from: "svg",
+    to: "gaia.chart.BarChart",
+    rules: [
+      {
+        from: '.anno-label',
+        to: '.Annotation .Label',
+        dataList: [
+          { xVal: 1995, yVal: 2700000, increace: '95%' },
+          { xVal: 1998, yVal: 1662692.3076923077, increace: '31%' },
+          { xVal: 2019, yVal: 976200, increace: '30%' }
+        ]
+      },
+      {
+        from: '.anno-path',
+        to: '.Annotation .Line',
+        dataList: [
+          { xVal: 1995, yVal: 2700000, increace: '95%' },
+          { xVal: 1998, yVal: 1662692.3076923077, increace: '31%' },
+          { xVal: 2019, yVal: 976200, increace: '30%' }
+        ]
+      },
+      {
+        from: '.bar',
+        to: '.Bar',
+        dataList: [
+          { xVal: 1988, yVal: 2030769.230769231 },
+          { xVal: 1989, yVal: 1730769.2307692308 },
+          { xVal: 1990, yVal: 1280769.2307692308 },
+          { xVal: 1991, yVal: 1026923.076923077 },
+          { xVal: 1992, yVal: 1292307.6923076925 },
+          { xVal: 1993, yVal: 1396153.8461538462 },
+          { xVal: 1994, yVal: 1384615.3846153847 },
+          { xVal: 1995, yVal: 2700000 },
+          { xVal: 1996, yVal: 1742307.6923076925 },
+          { xVal: 1997, yVal: 1269230.7692307692 },
+          { xVal: 1998, yVal: 1662692.3076923077 },
+          { xVal: 1999, yVal: 1638461.5384615385 },
+          { xVal: 2000, yVal: 1742307.6923076925 },
+          { xVal: 2001, yVal: 1730769.2307692308 },
+          { xVal: 2002, yVal: 2042307.6923076925 },
+          { xVal: 2003, yVal: 2446153.8461538465 },
+          { xVal: 2004, yVal: 2676923.076923077 },
+          { xVal: 2005, yVal: 1788461.5384615385 },
+          { xVal: 2006, yVal: 1361538.4615384615 },
+          { xVal: 2007, yVal: 1096153.8461538462 },
+          { xVal: 2008, yVal: 1200000 },
+          { xVal: 2009, yVal: 1269230.7692307692 },
+          { xVal: 2010, yVal: 634615.3846153846 },
+          { xVal: 2011, yVal: 565384.6153846154 },
+          { xVal: 2012, yVal: 403846.1538461539 },
+          { xVal: 2013, yVal: 530769.2307692308 },
+          { xVal: 2014, yVal: 426923.07692307694 },
+          { xVal: 2015, yVal: 565384.6153846154 },
+          { xVal: 2016, yVal: 726923.076923077 },
+          { xVal: 2017, yVal: 623076.9230769231 },
+          { xVal: 2018, yVal: 750923.076923077 },
+          { xVal: 2019, yVal: 976200 },
+        ]
+      },
+      {
+        from: '.bar-label',
+        to: '.BarLabel',
+        dataList: [
+          { xVal: 2019, yVal: 976200 }
+        ]
+      },
+      // title
+      {
+        from: '.title',
+        to: '.ChartTitle',
+      },
+      {
+        from: '.x-domain',
+        to: '.XAxis .Domain',
+      },
+      {
+        from: '.x-label',
+        to: '.XAxis .Label',
+        dataList: [
+          { xVal: 1988, yVal: 2030769.230769231 },
+          { xVal: 1995, yVal: 2700000 },
+          { xVal: 2004, yVal: 2676923.076923077 },
+          { xVal: 2012, yVal: 403846.1538461539 },
+          { xVal: 2019, yVal: 976200 },
+        ]
+      },
+      {
+        from: '.y-domain',
+        to: '.YAxis .Domain',
+      },
+      {
+        from: '.y-label',
+        to: '.YAxis .Label',
+      }
+    ]
+  },
+  animation: {
+    main: {
+      sync: [
+        {
+          ref: 'Set',
+          target: '.Bar[xVal="2019"]',
+          attr: 'opacity',
+          value: 1,
+        },
+        {
+          ref: 'BarChartEnter',
+        },
+        {
+          ref: 'DisplayTextByTyping',
+          target: '.BarLabel',
+          effect: 'fade',
+          aniTime: 2,
+          displaytime: 1,
+          offset: 5,
+        },
+        {
+          ref: 'DisplayDiffPercent',
+          target: '.Annotation[xVal="2019"], .Bar[xVal="2019"]',
+          displayTime: 7,
+          offset: 11.5,
+        },
+        {
+          ref: 'DisplayDiffPercent',
+          target: '.Annotation[xVal="1995"], .Bar[xVal="1995"]',
+          offset: 21,
+        },
+        {
+          ref: 'DisplayDiffPercent',
+          target: '.Annotation[xVal="1998"], .Bar[xVal="1998"]',
+          displayTime: 1,
+          offset: 25.5,
+        }
+      ],
+    },
+  },
+  templates: [
+    {
+      name: 'BarChartEnter',
+      params: {
+        titleStagger: 0.02,
+        titleDuration: 2,
+        componentDuration: 2,
+        axisLabelStagger: 0.04,
+      },
+      main: {
+        sync: [
+          {
+            ref: 'Type',
+            target: '.Title',
+            typeStagger: '$titleStagger',
+            effect: 'fade',
+            duration: '$titleDuration'
+          },
+          {
+            concat: [
+              {
+                ref: 'PathDraw',
+                target: '.XAxis.Domain',
+                ease: 'circ.inOut',
+                duration: '$componentDuration',
+              },
+              {
+                sync: [
+                  {
+                    ref: 'PathDraw',
+                    target: '.YAxis.Domain',
+                    ease: 'circ.inOut',
+                  },
+                  {
+                    ref: 'Wipe',
+                    target: '.Bar',
+                    ease: 'circ.inOut',
+                  }
+                ],
+                duration: '$componentDuration'
+              },
+              {
+                ref: 'Type',
+                target: '.Axis.Label',
+                typeStagger: '$axisLabelStagger',
+                effect: 'fade',
+                duration: '$componentDuration'
+              }
+            ]
+          },
+        ]
+      }
+    },
+    {
+      name: 'DisplayTextByTyping',
+      params: {
+        typeStagger: 0.2,
+        effect: 'show',
+        aniTime: 1,
+        displayTime: 3,
+      },
+      main: {
+        concat: [
+          {
+            ref: 'Type',
+            effect: '$effect',
+            typeStagger: '$typeStagger',
+            duration: '$aniTime',
+          },
+          {
+            ref: 'Type',
+            type: 'out',
+            effect: '$effect',
+            typeStagger: '$typeStagger',
+            duration: '$aniTime',
+            offset: '$displayTime',
+          }
+        ]
+      }
+    },
+    {
+      name: 'DisplayDiffPercent',
+      params: {
+        aniTime: 1.5,
+        displayTime: 3,
+      },
+      main: {
+        concat: [
+          {
+            sync: [
+              {
+                ref: 'DynamicNumber',
+                target: '.Label'
+              },
+              {
+                ref: 'Fade',
+                target: '.Label'
+              },
+              {
+                ref: 'PathDraw',
+                target: '.Line',
+              },
+              {
+                ref: 'Custom',
+                target: '.Bar',
+                attr: 'opacity',
+                to: 1,
+              }
+            ],
+            duration: '$aniTime',
+          },
+          {
+            sync: [
+              {
+                ref: 'Fade',
+                type: 'out',
+                target: '.Label, .Line',
+              },
+              {
+                ref: 'Custom',
+                target: '.Bar',
+                attr: 'opacity',
+                to: 0.4,
+              }
+            ],
+            offset: '$displayTime',
+            duration: '$aniTime',
+          },
+        ]
+      }
+    }
+  ]
+}
