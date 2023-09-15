@@ -1,0 +1,422 @@
+{
+  "results": [
+    {
+      "alternatives": [
+        {
+          "transcript": "BIA fillings rose 11.3% from the third quarter of 2008 to 721 in the fourth quarter and reached a record high of 816 in the first quarter of 2009. The 2014 oil crash was reflected in the number of BIA fillings, which increased by one-quarter from the third quarter to reach 779 in the fourth quarter of 2014. The numbers of CCAA filings also increased over this period. ",
+          "confidence": 1.0,
+          "words": [
+            {
+              "startTime": "0.000s",
+              "endTime": "0.415s",
+              "word": "BIA",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.415s",
+              "endTime": "1.023s",
+              "word": "fillings",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.023s",
+              "endTime": "1.323s",
+              "word": "rose",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.323s",
+              "endTime": "3.079s",
+              "word": "11.3%",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.079s",
+              "endTime": "3.279s",
+              "word": "from",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.279s",
+              "endTime": "3.369s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.369s",
+              "endTime": "3.714s",
+              "word": "third",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.714s",
+              "endTime": "4.210s",
+              "word": "quarter",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.210s",
+              "endTime": "4.290s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.290s",
+              "endTime": "5.330s",
+              "word": "2008",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.330s",
+              "endTime": "5.450s",
+              "word": "to",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.450s",
+              "endTime": "7.022s",
+              "word": "721",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.022s",
+              "endTime": "7.147s",
+              "word": "in",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.147s",
+              "endTime": "7.212s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.212s",
+              "endTime": "7.582s",
+              "word": "fourth",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.582s",
+              "endTime": "8.209s",
+              "word": "quarter",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.209s",
+              "endTime": "8.324s",
+              "word": "and",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.324s",
+              "endTime": "8.654s",
+              "word": "reached",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.654s",
+              "endTime": "8.689s",
+              "word": "a",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.689s",
+              "endTime": "9.209s",
+              "word": "record",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.209s",
+              "endTime": "9.539s",
+              "word": "high",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.539s",
+              "endTime": "9.674s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.674s",
+              "endTime": "11.006s",
+              "word": "816",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.006s",
+              "endTime": "11.136s",
+              "word": "in",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.136s",
+              "endTime": "11.196s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.196s",
+              "endTime": "11.626s",
+              "word": "first",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.626s",
+              "endTime": "12.085s",
+              "word": "quarter",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "12.085s",
+              "endTime": "12.150s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "12.150s",
+              "endTime": "14.114s",
+              "word": "2009.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.114s",
+              "endTime": "14.259s",
+              "word": "The",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.259s",
+              "endTime": "15.312s",
+              "word": "2014",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.312s",
+              "endTime": "15.672s",
+              "word": "oil",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.672s",
+              "endTime": "16.195s",
+              "word": "crash",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.195s",
+              "endTime": "16.395s",
+              "word": "was",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.395s",
+              "endTime": "17.066s",
+              "word": "reflected",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.066s",
+              "endTime": "17.226s",
+              "word": "in",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.226s",
+              "endTime": "17.291s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.291s",
+              "endTime": "17.730s",
+              "word": "number",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.730s",
+              "endTime": "17.815s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.815s",
+              "endTime": "18.200s",
+              "word": "BIA",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.200s",
+              "endTime": "19.156s",
+              "word": "fillings,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.156s",
+              "endTime": "19.341s",
+              "word": "which",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.341s",
+              "endTime": "19.883s",
+              "word": "increased",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.883s",
+              "endTime": "20.076s",
+              "word": "by",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "20.076s",
+              "endTime": "20.975s",
+              "word": "one-quarter",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "20.975s",
+              "endTime": "21.200s",
+              "word": "from",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "21.200s",
+              "endTime": "21.294s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "21.294s",
+              "endTime": "21.669s",
+              "word": "third",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "21.669s",
+              "endTime": "22.193s",
+              "word": "quarter",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "22.193s",
+              "endTime": "22.343s",
+              "word": "to",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "22.343s",
+              "endTime": "22.672s",
+              "word": "reach",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "22.672s",
+              "endTime": "24.397s",
+              "word": "779",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "24.397s",
+              "endTime": "24.547s",
+              "word": "in",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "24.547s",
+              "endTime": "24.607s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "24.607s",
+              "endTime": "24.987s",
+              "word": "fourth",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "24.987s",
+              "endTime": "25.499s",
+              "word": "quarter",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "25.499s",
+              "endTime": "25.559s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "25.559s",
+              "endTime": "27.565s",
+              "word": "2014.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "27.565s",
+              "endTime": "27.665s",
+              "word": "The",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "27.665s",
+              "endTime": "28.200s",
+              "word": "numbers",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "28.200s",
+              "endTime": "28.310s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "28.310s",
+              "endTime": "29.366s",
+              "word": "CCAA",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "29.366s",
+              "endTime": "30.040s",
+              "word": "filings",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "30.040s",
+              "endTime": "30.560s",
+              "word": "also",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "30.560s",
+              "endTime": "31.152s",
+              "word": "increased",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "31.152s",
+              "endTime": "31.402s",
+              "word": "over",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "31.402s",
+              "endTime": "31.637s",
+              "word": "this",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "31.637s",
+              "endTime": "33.128s",
+              "word": "period.",
+              "speakerTag": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

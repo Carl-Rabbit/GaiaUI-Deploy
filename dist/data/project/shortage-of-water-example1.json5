@@ -1,0 +1,158 @@
+{
+  projectId: 'shortage-of-water-example1',
+  scenes: [
+    {
+      charts: [
+        {source: './shortage-of-water.svg'},
+      ],
+      templates: [
+        {
+          templateName: 'show-river-number',
+          parameters: [
+            {paramName: 'dataName', paramType: 'string'},
+          ],
+          animation: {
+            target: {
+              selector: '.annotation',
+              transform: {type: 'filter', expr: '@datum.name === "$dataName"'}
+            },
+            sequence: {
+              sync: [
+                {
+                  use: 'Dynamic-number',
+                  target: '.label',
+                },
+                {
+                  use: 'Float',
+                  target: '.label',
+                  settings: {
+                    distance: 10,
+                  },
+                },
+                {
+                  use: 'Wipe',
+                  target: '.anno-path-0',
+                  settings: {
+                    direction: 'left',
+                  },
+                },
+                {
+                  use: 'Wipe',
+                  target: '.anno-path-1',
+                  settings: {
+                    direction: 'right',
+                  },
+                },
+              ]
+            }
+          }
+        },
+        {
+          templateName: 'change-area-color',
+          parameters: [
+            {paramName: 'dataName', paramType: 'string'},
+          ],
+          animation: {
+            use: 'custom-effect',
+            target: {
+              selector: '.mark.area',
+              transform: {type: 'filter', expr: '@datum.name === "$dataName"'}
+            },
+            settings: {
+              attr: 'fill',
+              from: '#f0f0f0',
+              duration: 1,
+            }
+          }
+        }
+      ],
+      animation: {
+        target: '.shortage-of-water',
+    "sequence": {
+    "sync": [
+        {
+            "use": "Fade-in",
+            "timing": {
+                "start": 0,
+                "duration": 1.96,
+                "offset": 0
+            },
+            "target": "#OM, #SA, #YE, #AE",
+            "ani_type": "Enter",
+            "settings": {}
+        },
+        {
+            "use": "Camera-zoom",
+            "timing": {
+                "duration": 1.96
+            },
+            "target": "#SA",
+            "ani_type": "Emphasis",
+            "settings": {
+                "scaleFactor": "5",
+                "transformOrigin": "62% 55%"
+            }
+        },
+        {
+            "use": "Zoom-enter",
+            "timing": {
+                "start": 5.406,
+                "duration": 0.45,
+                "offset": 0
+            },
+            "target": "#BH, #shortage-of-water-annotation-0-label, #shortage-of-water-annotation-0-path-0, #shortage-of-water-annotation-0-path-1",
+            "ani_type": "Enter",
+            "settings": {}
+        },
+        {
+            "use": "Camera-move",
+            "timing": {
+                "start": 6.966,
+                "duration": 1.39
+            },
+            "target": "#US",
+            "ani_type": "Emphasis",
+            "settings": {
+                "x": "-=1510",
+                "y": "-=180"
+            }
+        },
+        {
+            "use": "Fade-in",
+            "timing": {
+                "start": 8.354,
+                "duration": 1.32,
+                "offset": 0
+            },
+            "target": "#US",
+            "ani_type": "Enter",
+            "settings": {}
+        },
+        {
+            "use": "Zoom-enter",
+            "timing": {
+                "start": 10.847,
+                "duration": 2.75,
+                "offset": 0
+            },
+            "target": "#shortage-of-water-annotation-1-label, #shortage-of-water-annotation-1-path-0, #shortage-of-water-annotation-1-path-1",
+            "ani_type": "Enter",
+            "settings": {}
+        },
+        {
+            "use": "Dynamic-number",
+            "timing": {
+                "start": 10.847,
+                "duration": 2.75,
+                "offset": 0
+            },
+            "target": "#shortage-of-water-annotation-1-label",
+            "ani_type": "Emphasis",
+            "settings": {}
+        }
+    ]
+}
+      }
+    }
+  ]
+}

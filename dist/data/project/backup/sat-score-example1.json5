@@ -1,0 +1,105 @@
+{
+  projectId: 'sat-score-example1',
+  scenes: [
+    {
+      charts: [
+        {source: './sat-score.svg'},
+      ],
+      templates: [
+        {
+          templateName: 'my-bar-enter',
+          parameters: [
+            {paramName: 'incomeLabel', paramType: 'string'},
+          ],
+          animation: {
+            target: {
+              transform: {type: 'filter', expr: '@datum.name === "$incomeLabel"'}
+            },
+            sequence: {
+              sync: [
+                {
+                  use: 'Show-path',
+                  target: '.annotation.circle',
+                  settings: {displayTime: 2},
+                },
+                {
+                  use: 'Grow',
+                  target: '.mark.bar',
+                  settings: {
+                    direction: 'left',
+                  },
+                  timing: {start: 1}
+                },
+                {
+                  use: 'Float',
+                  target: '.mark.label',
+                  settings: {
+                    distance: 10,
+                  },
+                  timing: {start: 2},
+                }
+              ]
+            }
+          }
+        },
+        {
+          templateName: 'reference-annotation-enter',
+          animation: {
+            sequence: {
+              sync: [
+                {
+                  use: 'Fade-in',
+                  target: '.annotation-0.line',
+                },
+                {
+                  use: 'Float',
+                  target: '.annotation-0.label',
+                  settings: {
+                    distance: 10,
+                  },
+                  timing: {start: 1},
+                }
+              ]
+            }
+          }
+        }
+      ],
+      animation: {
+        target: '.sat-score',
+        sequence: {
+          sync: [
+            {
+              use: 'Axes float in',
+            },
+            {
+              use: 'my-bar-enter',
+              settings: {incomeLabel: 'Less than $20,000'},
+              timing: {start: 4.5},
+            },
+            {
+              use: 'reference-annotation-enter',
+              timing: {start: 10}
+            },
+            {
+              use: 'Grow',
+              target: {
+                selector: '.mark.bar',
+                transform: {type: 'filter', expr: '@datum.name !== "Less than $20,000" && @datum.name !== "More than $200,000"'}
+              },
+              settings: {
+                direction: 'left',
+                stagger: 0.7
+              },
+              timing: {start: 12}
+            },
+            {
+              use: 'my-bar-enter',
+              settings: {incomeLabel: 'More than $200,000'},
+              timing: {start: 17.5}
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

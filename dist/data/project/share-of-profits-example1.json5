@@ -1,0 +1,110 @@
+{
+  projectId: 'share-of-profits-example1',
+  scenes: [
+    {
+      charts: [
+        {source: './share-of-profits.svg'},
+      ],
+      templates: [
+        {
+          templateName: 'Wipe-enter-then-Wipe-exit',
+          parameters: [
+            {paramName: 'stagger', paramType: 'number', required: false, defaultValue: 0},
+            {paramName: 'displayTime', paramType: 'number', required: false, defaultValue: 1},
+          ],
+          animation: {
+            target: '*',
+            sequence: {
+              sync: [
+                {
+                  use: 'Wipe',
+                  settings: {
+                    direction: 'left',
+                    stagger: '$stagger',
+                  },
+                },
+                {
+                  use: 'Wipe',
+                  settings: {
+                    direction: 'right',
+                    stagger: '$stagger',
+                    enterOrExit: 'exit',
+                  },
+                  timing: {start: '$displayTime'},
+                },
+              ]
+            }
+          }
+        },
+      ],
+      animation: {
+        target: '.share-of-profits',
+    "sequence": {
+        "sync": [
+            {
+                "use": "Axes fade in",
+                "timing": {
+                    "start": 0,
+                    "duration": 1.33
+                },
+                "target": "#share-of-profits-x-label-0, #share-of-profits-x-label-1, #share-of-profits-x-label-2, #share-of-profits-x-label-3, #share-of-profits-x-label-4, #share-of-profits-x-label-5, #share-of-profits-y-label-0, #share-of-profits-y-label-1, #share-of-profits-y-label-2, #share-of-profits-y-label-3, #share-of-profits-y-label-4, #share-of-profits-y-label-5, #share-of-profits-y-tick-0, #share-of-profits-y-tick-1, #share-of-profits-y-tick-2, #share-of-profits-y-tick-3, #share-of-profits-y-tick-4, #share-of-profits-y-tick-5",
+                "ani_type": "Enter",
+                "settings": {}
+            },
+            {
+                "use": "Lines by legend",
+                "timing": {
+                    "start": 0,
+                    "duration": 3
+                },
+                "target": "#share-of-profits-line-0, #share-of-profits-line-1, #share-of-profits-line-2, #share-of-profits-legend-0, #share-of-profits-legend-group-1, #share-of-profits-legend-group-2",
+                "ani_type": "Enter",
+                "settings": {}
+            },
+            {
+                "use": "Show-path",
+                "timing": {
+                    "start": 13.339,
+                    "duration": 5.85
+                },
+                "target": "#share-of-profits-annotation-path0",
+                "ani_type": "Emphasis",
+                "settings": {}
+            },
+            {
+                "use": "Show-path",
+                "timing": {
+                    "start": 19.184,
+                    "duration": 3.34
+                },
+                "target": "#share-of-profits-annotation-path2",
+                "ani_type": "Emphasis",
+                "settings": {}
+            },
+            {
+                "use": "Show-path",
+                "timing": {
+                    "start": 22.629,
+                    "duration": 5.53
+                },
+                "target": "#share-of-profits-annotation-path1",
+                "ani_type": "Emphasis",
+                "settings": {}
+            },
+            {
+                "use": "Show-path",
+                "timing": {
+                    "start": 22.629,
+                    "duration": 5.53
+                },
+                "target": "#share-of-profits-annotation-circle",
+                "ani_type": "Emphasis",
+                "settings": {}
+            }
+        ]
+    }
+      }
+    },
+  ]
+}
+

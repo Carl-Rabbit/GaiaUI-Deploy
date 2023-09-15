@@ -1,0 +1,252 @@
+{
+    "results": [
+        {
+            "alternatives": [
+                {
+                    "transcript": "Here is a line chart.",
+                    "confidence": 0.99010324,
+                    "words": [
+                        {
+                            "startTime": "0s",
+                            "endTime": "1.100s",
+                            "word": "Here",
+                            "speakerTag": 0
+                        },
+                        {
+                            "startTime": "1.100s",
+                            "endTime": "1.300s",
+                            "word": "is",
+                            "speakerTag": 0
+                        },
+                        {
+                            "startTime": "1.300s",
+                            "endTime": "1.400s",
+                            "word": "a",
+                            "speakerTag": 0
+                        },
+                        {
+                            "startTime": "1.400s",
+                            "endTime": "1.700s",
+                            "word": "line",
+                            "speakerTag": 0
+                        },
+                        {
+                            "startTime": "1.700s",
+                            "endTime": "2s",
+                            "word": "chart.",
+                            "speakerTag": 0
+                        }
+                    ]
+                }
+            ],
+            "channelTag": 0
+        },
+        {
+            "alternatives": [
+                {
+                    "transcript": " What does this show?",
+                    "confidence": 0.96165574,
+                    "words": [
+                        {
+                            "startTime": "3.200s",
+                            "endTime": "3.600s",
+                            "word": "What",
+                            "speakerTag": 0
+                        },
+                        {
+                            "startTime": "3.600s",
+                            "endTime": "3.800s",
+                            "word": "does",
+                            "speakerTag": 0
+                        },
+                        {
+                            "startTime": "3.800s",
+                            "endTime": "3.900s",
+                            "word": "this",
+                            "speakerTag": 0
+                        },
+                        {
+                            "startTime": "3.900s",
+                            "endTime": "4.200s",
+                            "word": "show?",
+                            "speakerTag": 0
+                        }
+                    ]
+                }
+            ],
+            "channelTag": 0
+        },
+        {
+            "alternatives": [
+                {
+                    "transcript": " It dedicates the ultra-low interest rates.",
+                    "confidence": 0.96377915,
+                    "words": [
+                        {
+                            "startTime": "6.100s",
+                            "endTime": "6.500s",
+                            "word": "It",
+                            "speakerTag": 0
+                        },
+                        {
+                            "startTime": "6.500s",
+                            "endTime": "7.200s",
+                            "word": "dedicates",
+                            "speakerTag": 0
+                        },
+                        {
+                            "startTime": "7.200s",
+                            "endTime": "7.300s",
+                            "word": "the",
+                            "speakerTag": 0
+                        },
+                        {
+                            "startTime": "7.300s",
+                            "endTime": "8s",
+                            "word": "ultra-low",
+                            "speakerTag": 0
+                        },
+                        {
+                            "startTime": "8s",
+                            "endTime": "8.200s",
+                            "word": "interest",
+                            "speakerTag": 0
+                        },
+                        {
+                            "startTime": "8.200s",
+                            "endTime": "8.700s",
+                            "word": "rates.",
+                            "speakerTag": 0
+                        }
+                    ]
+                }
+            ],
+            "channelTag": 0
+        },
+        {
+            "alternatives": [
+                {
+                    "transcript": " That's the bank England base rate and that's an average mortgage rate.",
+                    "confidence": 0.98107785,
+                    "words": [
+                        {
+                            "startTime": "11.300s",
+                            "endTime": "11.800s",
+                            "word": "That's",
+                            "speakerTag": 0
+                        },
+                        {
+                            "startTime": "11.800s",
+                            "endTime": "12s",
+                            "word": "the",
+                            "speakerTag": 0
+                        },
+                        {
+                            "startTime": "12s",
+                            "endTime": "12.200s",
+                            "word": "bank",
+                            "speakerTag": 0
+                        },
+                        {
+                            "startTime": "12.200s",
+                            "endTime": "12.800s",
+                            "word": "England",
+                            "speakerTag": 0
+                        },
+                        {
+                            "startTime": "12.800s",
+                            "endTime": "13.100s",
+                            "word": "base",
+                            "speakerTag": 0
+                        },
+                        {
+                            "startTime": "13.100s",
+                            "endTime": "13.300s",
+                            "word": "rate",
+                            "speakerTag": 0
+                        },
+                        {
+                            "startTime": "13.300s",
+                            "endTime": "14.700s",
+                            "word": "and",
+                            "speakerTag": 0
+                        },
+                        {
+                            "startTime": "14.700s",
+                            "endTime": "14.900s",
+                            "word": "that's",
+                            "speakerTag": 0
+                        },
+                        {
+                            "startTime": "14.900s",
+                            "endTime": "15s",
+                            "word": "an",
+                            "speakerTag": 0
+                        },
+                        {
+                            "startTime": "15s",
+                            "endTime": "15.200s",
+                            "word": "average",
+                            "speakerTag": 0
+                        },
+                        {
+                            "startTime": "15.200s",
+                            "endTime": "15.800s",
+                            "word": "mortgage",
+                            "speakerTag": 0
+                        },
+                        {
+                            "startTime": "15.800s",
+                            "endTime": "16.100s",
+                            "word": "rate.",
+                            "speakerTag": 0
+                        }
+                    ]
+                }
+            ],
+            "channelTag": 0
+        },
+        {
+            "alternatives": [
+                {
+                    "transcript": " Those are historically, low levels.",
+                    "confidence": 0.98762906,
+                    "words": [
+                        {
+                            "startTime": "17.400s",
+                            "endTime": "17.800s",
+                            "word": "Those",
+                            "speakerTag": 0
+                        },
+                        {
+                            "startTime": "17.800s",
+                            "endTime": "18s",
+                            "word": "are",
+                            "speakerTag": 0
+                        },
+                        {
+                            "startTime": "18s",
+                            "endTime": "18.700s",
+                            "word": "historically,",
+                            "speakerTag": 0
+                        },
+                        {
+                            "startTime": "18.700s",
+                            "endTime": "19s",
+                            "word": "low",
+                            "speakerTag": 0
+                        },
+                        {
+                            "startTime": "19s",
+                            "endTime": "19.100s",
+                            "word": "levels.",
+                            "speakerTag": 0
+                        }
+                    ]
+                }
+            ],
+            "channelTag": 0
+        }
+    ],
+    "totalBilledTime": "30s"
+}

@@ -1,0 +1,302 @@
+{
+  "results": [
+    {
+      "alternatives": [
+        {
+          "transcript": "Coinciding with the pandemic\u2019s second wave in Canada, CEWS subsidies rose from $2.6 billion in CEWS period 8 to $3.7 billion in period 9, marking the first period-over-period increase since period 3. The CEWS program recorded the highest number of supported employees, 4.78 million employees, in period 9.",
+          "confidence": 1.0,
+          "words": [
+            {
+              "startTime": "0.000s",
+              "endTime": "0.936s",
+              "word": "Coinciding",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.936s",
+              "endTime": "1.091s",
+              "word": "with",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.091s",
+              "endTime": "1.211s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.211s",
+              "endTime": "1.940s",
+              "word": "pandemic\u2019s",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.940s",
+              "endTime": "2.426s",
+              "word": "second",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.426s",
+              "endTime": "2.756s",
+              "word": "wave",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.756s",
+              "endTime": "2.931s",
+              "word": "in",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.931s",
+              "endTime": "3.940s",
+              "word": "Canada,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.940s",
+              "endTime": "5.069s",
+              "word": "CEWS",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.069s",
+              "endTime": "5.869s",
+              "word": "subsidies",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.869s",
+              "endTime": "6.149s",
+              "word": "rose",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.149s",
+              "endTime": "6.369s",
+              "word": "from",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.369s",
+              "endTime": "8.158s",
+              "word": "$2.6",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.158s",
+              "endTime": "8.656s",
+              "word": "billion",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.656s",
+              "endTime": "8.826s",
+              "word": "in",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.826s",
+              "endTime": "10.063s",
+              "word": "CEWS",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.063s",
+              "endTime": "10.585s",
+              "word": "period",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.585s",
+              "endTime": "10.844s",
+              "word": "8",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.844s",
+              "endTime": "10.989s",
+              "word": "to",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.989s",
+              "endTime": "12.832s",
+              "word": "$3.7",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "12.832s",
+              "endTime": "13.309s",
+              "word": "billion",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.309s",
+              "endTime": "13.464s",
+              "word": "in",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.464s",
+              "endTime": "13.955s",
+              "word": "period",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.955s",
+              "endTime": "14.818s",
+              "word": "9,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.818s",
+              "endTime": "15.239s",
+              "word": "marking",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.239s",
+              "endTime": "15.314s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.314s",
+              "endTime": "15.775s",
+              "word": "first",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.775s",
+              "endTime": "17.113s",
+              "word": "period-over-period",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.113s",
+              "endTime": "17.686s",
+              "word": "increase",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.686s",
+              "endTime": "17.966s",
+              "word": "since",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.966s",
+              "endTime": "18.421s",
+              "word": "period",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.421s",
+              "endTime": "19.787s",
+              "word": "3.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.787s",
+              "endTime": "19.887s",
+              "word": "The",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.887s",
+              "endTime": "21.192s",
+              "word": "CEWS",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "21.192s",
+              "endTime": "21.885s",
+              "word": "program",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "21.885s",
+              "endTime": "22.473s",
+              "word": "recorded",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "22.473s",
+              "endTime": "22.568s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "22.568s",
+              "endTime": "23.164s",
+              "word": "highest",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "23.164s",
+              "endTime": "23.520s",
+              "word": "number",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "23.520s",
+              "endTime": "23.580s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "23.580s",
+              "endTime": "24.217s",
+              "word": "supported",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "24.217s",
+              "endTime": "25.292s",
+              "word": "employees,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "25.292s",
+              "endTime": "26.596s",
+              "word": "4.78",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "26.596s",
+              "endTime": "27.034s",
+              "word": "million",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "27.034s",
+              "endTime": "27.952s",
+              "word": "employees,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "27.952s",
+              "endTime": "28.092s",
+              "word": "in",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "28.092s",
+              "endTime": "28.585s",
+              "word": "period",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "28.585s",
+              "endTime": "29.916s",
+              "word": "9.",
+              "speakerTag": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

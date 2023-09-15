@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="300" width="300"
+     g-target-type="Any">
+    <line id="x-domain" x1="40" y1="260" x2="270" y2="260" stroke="#757171" stroke-width="20" stroke-linecap="round"/>
+    <line id="y-domain" x1="40" y1="260" x2="40" y2="30" stroke="#757171" stroke-width="20" stroke-linecap="round"/>
+    <g>
+        <rect class="bar" x="80" y="130" height="120" width="70" fill="#6a99d0" rx="15" ry="15"/>
+        <rect class="bar" x="180" y="100" height="150" width="70" fill="#6a99d0" rx="15" ry="15"/>
+        <text id="label-0" x="80" y="110" font-size="60" font-weight="bold">40</text>
+        <text id="label-1" x="180" y="80" font-size="60" font-weight="bold">50</text>
+    </g>
+</svg>

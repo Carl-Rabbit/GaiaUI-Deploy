@@ -1,0 +1,67 @@
+{
+  projectId: 'army-military-comparison-example1',
+  scenes: [
+    {
+      charts: [
+        {source: './army-military-comparison.svg'},
+      ],
+      animation: {
+        variable: {
+          dataItem: '.bar,.bar-label,.axis.symbol',
+        },
+        target: '.army-military-comparison',
+        sequence: {
+          sync: [
+            {
+              use: 'Fade-in',
+              target: '.axis.title'
+            },
+            // USA
+            {
+              use: 'Bar with axis label',
+              target: {
+                // selector will use the default value
+                transform: {type: 'filter', expr: '@datum.name === "USA"'},
+              },
+              timing: {start: 3.7},
+            },
+            // China
+            {
+              use: 'Bar with axis label',
+              target: {
+                transform: {type: 'filter', expr: '@datum.name === "China"'},
+              },
+              timing: {start: 7.5},
+            },
+            // Japan
+            {
+              use: 'Bar with axis label',
+              target: {
+                transform: {type: 'filter', expr: '@datum.name === "Japan"'},
+              },
+              timing: {start: 13},
+            },
+            // move
+            {
+              use: 'Move-from',
+              target: {
+                selector: '$dataItem',
+                transform: {type: 'filter', expr: '@datum.name === "China" || @datum.name === "Japan"'},
+              },
+              settings: {x: '-=128px'},
+              timing: {start: 16.5},
+            },
+            // EU
+            {
+              use: 'Bar with axis label',
+              target: {
+                transform: {type: 'filter', expr: '@datum.name === "EU"'},
+              },
+              timing: {start: 18},
+            },
+          ]
+        }
+      }
+    },
+  ]
+}

@@ -1,0 +1,645 @@
+{
+  "chartType": "bar-chart",
+  "elements": [
+    {
+      "type": "bg-rect",
+      "id": "australia-fire-background-rect",
+      "clazz": "scene chart australia-fire background rect bg-rect",
+      "data": null,
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "main-title",
+      "id": "australia-fire-main-title",
+      "clazz": "scene chart australia-fire title main-title",
+      "data": null,
+      "tag": "text",
+      "text": "Annual Deforestation in Brazilian Amazon (Hectares)"
+    },
+    {
+      "type": "x-domain",
+      "id": "australia-fire-x-domain",
+      "clazz": "domain scene chart australia-fire axis x-axis x-domain",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-label",
+      "id": "australia-fire-x-label-0",
+      "clazz": "scene chart australia-fire axis x-axis label x-label-0 data-item data-item-0 x-label",
+      "data": {
+        "name": 1988,
+        "value": 2030769.230769231
+      },
+      "tag": "text",
+      "text": "1988"
+    },
+    {
+      "type": "x-label",
+      "id": "australia-fire-x-label-1",
+      "clazz": "scene chart australia-fire axis x-axis label x-label-1 data-item data-item-7 x-label",
+      "data": {
+        "name": 1995,
+        "value": 2700000
+      },
+      "tag": "text",
+      "text": "1995"
+    },
+    {
+      "type": "x-label",
+      "id": "australia-fire-x-label-2",
+      "clazz": "scene chart australia-fire axis x-axis label x-label-2 data-item data-item-16 x-label",
+      "data": {
+        "name": 2004,
+        "value": 2676923.076923077
+      },
+      "tag": "text",
+      "text": "2004"
+    },
+    {
+      "type": "x-label",
+      "id": "australia-fire-x-label-3",
+      "clazz": "scene chart australia-fire axis x-axis label x-label-3 data-item data-item-24 x-label",
+      "data": {
+        "name": 2012,
+        "value": 403846.1538461539
+      },
+      "tag": "text",
+      "text": "2012"
+    },
+    {
+      "type": "x-label",
+      "id": "australia-fire-x-label-4",
+      "clazz": "scene chart australia-fire axis x-axis label x-label-4 data-item data-item-31 x-label",
+      "data": {
+        "name": 2019,
+        "value": 976200
+      },
+      "tag": "text",
+      "text": "2019"
+    },
+    {
+      "type": "y-domain",
+      "id": "australia-fire-y-domain",
+      "clazz": "domain scene chart australia-fire axis y-axis y-domain",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "y-label",
+      "id": "australia-fire-y-label-0",
+      "clazz": "scene chart australia-fire axis y-axis label y-label-0 y-label",
+      "data": null,
+      "tag": "text",
+      "text": "3,000,000"
+    },
+    {
+      "type": "y-label",
+      "id": "australia-fire-y-label-1",
+      "clazz": "scene chart australia-fire axis y-axis label y-label-1 y-label",
+      "data": null,
+      "tag": "text",
+      "text": "2,000,000"
+    },
+    {
+      "type": "y-label",
+      "id": "australia-fire-y-label-2",
+      "clazz": "scene chart australia-fire axis y-axis label y-label-2 y-label",
+      "data": null,
+      "tag": "text",
+      "text": "1,000,000"
+    },
+    {
+      "type": "y-label",
+      "id": "australia-fire-y-label-3",
+      "clazz": "scene chart australia-fire axis y-axis label y-label-3 y-label",
+      "data": null,
+      "tag": "text",
+      "text": "0"
+    },
+    {
+      "type": "bar",
+      "id": "australia-fire-bar-0",
+      "clazz": "scene chart australia-fire mark bar-0 data-item data-item-0 bar",
+      "data": {
+        "name": 1988,
+        "value": 2030769.230769231
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "australia-fire-bar-1",
+      "clazz": "scene chart australia-fire mark bar-1 data-item data-item-1 bar",
+      "data": {
+        "name": 1989,
+        "value": 1730769.2307692308
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "australia-fire-bar-2",
+      "clazz": "scene chart australia-fire mark bar-2 data-item data-item-2 bar",
+      "data": {
+        "name": 1990,
+        "value": 1280769.2307692308
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "australia-fire-bar-3",
+      "clazz": "scene chart australia-fire mark bar-3 data-item data-item-3 bar",
+      "data": {
+        "name": 1991,
+        "value": 1026923.076923077
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "australia-fire-bar-4",
+      "clazz": "scene chart australia-fire mark bar-4 data-item data-item-4 bar",
+      "data": {
+        "name": 1992,
+        "value": 1292307.6923076925
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "australia-fire-bar-5",
+      "clazz": "scene chart australia-fire mark bar-5 data-item data-item-5 bar",
+      "data": {
+        "name": 1993,
+        "value": 1396153.8461538462
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "australia-fire-bar-6",
+      "clazz": "scene chart australia-fire mark bar-6 data-item data-item-6 bar",
+      "data": {
+        "name": 1994,
+        "value": 1384615.3846153847
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "australia-fire-bar-7",
+      "clazz": "scene chart australia-fire mark bar-7 data-item data-item-7 bar",
+      "data": {
+        "name": 1995,
+        "value": 2700000
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "australia-fire-bar-8",
+      "clazz": "scene chart australia-fire mark bar-8 data-item data-item-8 bar",
+      "data": {
+        "name": 1996,
+        "value": 1742307.6923076925
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "australia-fire-bar-9",
+      "clazz": "scene chart australia-fire mark bar-9 data-item data-item-9 bar",
+      "data": {
+        "name": 1997,
+        "value": 1269230.7692307692
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "australia-fire-bar-10",
+      "clazz": "scene chart australia-fire mark bar-10 data-item data-item-10 bar",
+      "data": {
+        "name": 1998,
+        "value": 1662692.3076923077
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "australia-fire-bar-11",
+      "clazz": "scene chart australia-fire mark bar-11 data-item data-item-11 bar",
+      "data": {
+        "name": 1999,
+        "value": 1638461.5384615385
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "australia-fire-bar-12",
+      "clazz": "scene chart australia-fire mark bar-12 data-item data-item-12 bar",
+      "data": {
+        "name": 2000,
+        "value": 1742307.6923076925
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "australia-fire-bar-13",
+      "clazz": "scene chart australia-fire mark bar-13 data-item data-item-13 bar",
+      "data": {
+        "name": 2001,
+        "value": 1730769.2307692308
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "australia-fire-bar-14",
+      "clazz": "scene chart australia-fire mark bar-14 data-item data-item-14 bar",
+      "data": {
+        "name": 2002,
+        "value": 2042307.6923076925
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "australia-fire-bar-15",
+      "clazz": "scene chart australia-fire mark bar-15 data-item data-item-15 bar",
+      "data": {
+        "name": 2003,
+        "value": 2446153.8461538465
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "australia-fire-bar-16",
+      "clazz": "scene chart australia-fire mark bar-16 data-item data-item-16 bar",
+      "data": {
+        "name": 2004,
+        "value": 2676923.076923077
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "australia-fire-bar-17",
+      "clazz": "scene chart australia-fire mark bar-17 data-item data-item-17 bar",
+      "data": {
+        "name": 2005,
+        "value": 1788461.5384615385
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "australia-fire-bar-18",
+      "clazz": "scene chart australia-fire mark bar-18 data-item data-item-18 bar",
+      "data": {
+        "name": 2006,
+        "value": 1361538.4615384615
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "australia-fire-bar-19",
+      "clazz": "scene chart australia-fire mark bar-19 data-item data-item-19 bar",
+      "data": {
+        "name": 2007,
+        "value": 1096153.8461538462
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "australia-fire-bar-20",
+      "clazz": "scene chart australia-fire mark bar-20 data-item data-item-20 bar",
+      "data": {
+        "name": 2008,
+        "value": 1200000
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "australia-fire-bar-21",
+      "clazz": "scene chart australia-fire mark bar-21 data-item data-item-21 bar",
+      "data": {
+        "name": 2009,
+        "value": 1269230.7692307692
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "australia-fire-bar-22",
+      "clazz": "scene chart australia-fire mark bar-22 data-item data-item-22 bar",
+      "data": {
+        "name": 2010,
+        "value": 634615.3846153846
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "australia-fire-bar-23",
+      "clazz": "scene chart australia-fire mark bar-23 data-item data-item-23 bar",
+      "data": {
+        "name": 2011,
+        "value": 565384.6153846154
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "australia-fire-bar-24",
+      "clazz": "scene chart australia-fire mark bar-24 data-item data-item-24 bar",
+      "data": {
+        "name": 2012,
+        "value": 403846.1538461539
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "australia-fire-bar-25",
+      "clazz": "scene chart australia-fire mark bar-25 data-item data-item-25 bar",
+      "data": {
+        "name": 2013,
+        "value": 530769.2307692308
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "australia-fire-bar-26",
+      "clazz": "scene chart australia-fire mark bar-26 data-item data-item-26 bar",
+      "data": {
+        "name": 2014,
+        "value": 426923.07692307694
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "australia-fire-bar-27",
+      "clazz": "scene chart australia-fire mark bar-27 data-item data-item-27 bar",
+      "data": {
+        "name": 2015,
+        "value": 565384.6153846154
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "australia-fire-bar-28",
+      "clazz": "scene chart australia-fire mark bar-28 data-item data-item-28 bar",
+      "data": {
+        "name": 2016,
+        "value": 726923.076923077
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "australia-fire-bar-29",
+      "clazz": "scene chart australia-fire mark bar-29 data-item data-item-29 bar",
+      "data": {
+        "name": 2017,
+        "value": 623076.9230769231
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "australia-fire-bar-30",
+      "clazz": "scene chart australia-fire mark bar-30 data-item data-item-30 bar",
+      "data": {
+        "name": 2018,
+        "value": 750923.076923077
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "australia-fire-bar-31",
+      "clazz": "scene chart australia-fire mark bar-31 data-item data-item-31 bar",
+      "data": {
+        "name": 2019,
+        "value": 976200
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar-label",
+      "id": "australia-fire-bar-label-0",
+      "clazz": "scene chart australia-fire mark label bar-label-0 data-item data-item-31 bar-label",
+      "data": {
+        "name": 2019,
+        "value": 976200
+      },
+      "tag": "text",
+      "text": "976200"
+    },
+    {
+      "type": "anno-label",
+      "id": "australia-fire-annotation-0-label",
+      "clazz": "scene chart australia-fire foreground annotation annotation-0 label anno-label",
+      "data": [
+        {
+          "name": 1994,
+          "value": 1384615.3846153847
+        },
+        {
+          "name": 1995,
+          "value": 2700000
+        }
+      ],
+      "tag": "text",
+      "text": "95%"
+    },
+    {
+      "type": "anno-path",
+      "id": "australia-fire-annotation-0-path",
+      "clazz": "scene chart australia-fire foreground annotation annotation-0 path anno-path",
+      "data": [
+        {
+          "name": 1994,
+          "value": 1384615.3846153847
+        },
+        {
+          "name": 1995,
+          "value": 2700000
+        }
+      ],
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "anno-rect",
+      "id": "australia-fire-annotation-0-rect",
+      "clazz": "scene chart australia-fire foreground annotation annotation-0 rect anno-rect",
+      "data": [
+        {
+          "name": 1994,
+          "value": 1384615.3846153847
+        },
+        {
+          "name": 1995,
+          "value": 2700000
+        }
+      ],
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "anno-label",
+      "id": "australia-fire-annotation-1-label",
+      "clazz": "scene chart australia-fire foreground annotation annotation-1 label anno-label",
+      "data": [
+        {
+          "name": 1997,
+          "value": 1269230.7692307692
+        },
+        {
+          "name": 1998,
+          "value": 1662692.3076923077
+        }
+      ],
+      "tag": "text",
+      "text": "31%"
+    },
+    {
+      "type": "anno-path",
+      "id": "australia-fire-annotation-1-path",
+      "clazz": "scene chart australia-fire foreground annotation annotation-1 path anno-path",
+      "data": [
+        {
+          "name": 1997,
+          "value": 1269230.7692307692
+        },
+        {
+          "name": 1998,
+          "value": 1662692.3076923077
+        }
+      ],
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "anno-rect",
+      "id": "australia-fire-annotation-1-rect",
+      "clazz": "scene chart australia-fire foreground annotation annotation-1 rect anno-rect",
+      "data": [
+        {
+          "name": 1997,
+          "value": 1269230.7692307692
+        },
+        {
+          "name": 1998,
+          "value": 1662692.3076923077
+        }
+      ],
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "anno-label",
+      "id": "australia-fire-annotation-2-label",
+      "clazz": "scene chart australia-fire foreground annotation annotation-2 label anno-label",
+      "data": [
+        {
+          "name": 2018,
+          "value": 750923.076923077
+        },
+        {
+          "name": 2019,
+          "value": 976200
+        }
+      ],
+      "tag": "text",
+      "text": "30%"
+    },
+    {
+      "type": "anno-path",
+      "id": "australia-fire-annotation-2-path",
+      "clazz": "scene chart australia-fire foreground annotation annotation-2 path anno-path",
+      "data": [
+        {
+          "name": 2018,
+          "value": 750923.076923077
+        },
+        {
+          "name": 2019,
+          "value": 976200
+        }
+      ],
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "anno-rect",
+      "id": "australia-fire-annotation-2-rect",
+      "clazz": "scene chart australia-fire foreground annotation annotation-2 rect anno-rect",
+      "data": [
+        {
+          "name": 2018,
+          "value": 750923.076923077
+        },
+        {
+          "name": 2019,
+          "value": 976200
+        }
+      ],
+      "tag": "rect",
+      "text": null
+    }
+  ],
+  "layout": {
+    "xAxis": "bottom",
+    "yAxis": "left",
+    "title": "top"
+  }
+}

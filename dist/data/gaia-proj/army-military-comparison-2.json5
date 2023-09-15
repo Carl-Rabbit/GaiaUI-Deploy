@@ -1,0 +1,86 @@
+{
+  projectId: 'army-military-comparison-2',
+  chart: './army-military-comparison.svg',
+  audio: './army-military-comparison.txt',
+  comment: 'start of task 2',
+  binder: {
+    from: "svg",
+    to: "gaia.chart.BarChart",
+    rules: [
+      // bars
+      {
+        from: ".bar",
+        to: ".Bar",
+        dataList: [
+          { xVal: "USA", yVal: 18.5 },
+          { xVal: "EU", yVal: 15.4 },
+          { xVal: "China", yVal: 11.8 },
+          { xVal: "Japan", yVal: 4.8 },
+        ]
+      },
+      // bar labels
+      {
+        from: ".bar-label",
+        to: ".BarLabel",
+        dataList: [
+          { xVal: "USA", yVal: 18.5 },
+          { xVal: "EU", yVal: 15.4 },
+          { xVal: "China", yVal: 11.8 },
+          { xVal: "Japan", yVal: 4.8 },
+        ]
+      },
+      // axis
+      {
+        from: "#y-axis-title",
+        to: ".YAxis .Title",
+      },
+      // x axis symbol
+      {
+        from: ".x-axis.symbol",
+        to: ".XAxis .Symbol",
+        dataList: [
+          { xVal: "USA", yVal: 18.5 },
+          { xVal: "EU", yVal: 15.4 },
+          { xVal: "China", yVal: 11.8 },
+          { xVal: "Japan", yVal: 4.8 },
+        ]
+      },
+    ]
+  },
+  animation: {
+    main: {
+      sync: [],
+    },
+  },
+  templates: [
+    {
+      "name": "ShowCategory",
+      "params": {
+        "category": { "type": "string" },
+        "barLabelOffset": 1,
+      },
+      "main": {
+        "sync": [
+          {
+            "ref": "Wipe",
+            "target": ".Bar[xVal='$category']",
+            "from": "bottom",
+          },
+          {
+            "ref": "Cut",
+            "target": ".AxisLabel[xVal='$category']"
+          },
+          {
+            "ref": "Zoom",
+            "target": ".AxisSymbol[xVal='$category']",
+          },
+          {
+            "ref": "Cut",
+            "target": ".BarLabel[xVal='$category']",
+            "offset": "$barLabelOffset"
+          },
+        ]
+      }
+    }
+  ]
+}

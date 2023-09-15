@@ -1,0 +1,10 @@
+{
+  charts: [
+    {source: './army-military-comparison.svg'},
+  ],
+  animation: {
+    sequence: {
+      sync: [],
+    }
+  }
+}

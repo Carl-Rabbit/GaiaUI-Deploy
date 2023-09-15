@@ -1,0 +1,113 @@
+{
+  charts: [
+    {source: './shortage-of-water.svg'},
+  ],
+  templates: [
+    {
+      templateName: 'show-river-number',
+      parameters: [
+        {paramName: 'dataName', paramType: 'string'},
+      ],
+      animation: {
+        target: {
+          selector: '.annotation',
+          transform: {type: 'filter', expr: '@datum.name === "$dataName"'}
+        },
+        sequence: {
+          sync: [
+            {
+              use: 'Dynamic-number',
+              target: '.label',
+            },
+            {
+              use: 'float',
+              target: '.label',
+              settings: {
+                distance: 10,
+              },
+            },
+            {
+              use: 'wipe',
+              target: '.anno-path-0',
+              settings: {
+                direction: 'left',
+              },
+            },
+            {
+              use: 'wipe',
+              target: '.anno-path-1',
+              settings: {
+                direction: 'right',
+              },
+            },
+          ]
+        }
+      }
+    },
+    {
+      templateName: 'change-area-color',
+      parameters: [
+        {paramName: 'dataName', paramType: 'string'},
+      ],
+      animation: {
+        use: 'custom-effect',
+        target: {
+          selector: '.mark.area',
+          transform: {type: 'filter', expr: '@datum.name === "$dataName"'}
+        },
+        settings: {
+          attr: 'fill',
+          from: '#f0f0f0',
+          duration: 1,
+        }
+      }
+    }
+  ],
+  animation: {
+    sequence: {
+      sync: [
+        {
+          use: 'Camera-zoom',
+          timing: {
+            duration: 2,
+          },
+          settings: {
+            scaleFactor: 5,
+            transformOrigin: '62% 55%',
+          },
+        },
+        {
+          use: 'change-area-color',
+          settings: {dataName: 'Middle East'},
+          timing: {start: 2},
+        },
+        {
+          use: 'show-river-number',
+          settings: {dataName: 'Middle East'},
+          timing: {start: 4.8},
+        },
+        {
+          use: 'Camera-move',
+          timing: {
+            start: 7.25,
+            duration: 2,
+          },
+          settings: {
+            x: '-=1510',
+            y: '-=180'
+          }
+        },
+        {
+          use: 'change-area-color',
+          settings: {dataName: 'The United States'},
+          timing: {start: 9.2},
+        },
+        {
+          use: 'show-river-number',
+          settings: {dataName: 'The United States'},
+          timing: {start: 10.8},
+        },
+      ],
+    },
+  }
+}

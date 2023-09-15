@@ -1,0 +1,123 @@
+{
+  projectId: 'wealth-inequality-example1',
+  scenes: [
+    {
+      charts: [
+        {source: './wealth-inequality.svg'},
+      ],
+      target: '.wealth-inequality',
+      templates: [
+        {
+          templateName: 'Bar-bounce',
+          parameters: [
+            {paramName: 'startPercentage', paramType: 'number'},
+            {paramName: 'endPercentage', paramType: 'number'},
+          ],
+          animation: {
+            target: {
+              selector: '.bar',
+              transform: {
+                type: 'filter',
+                expr: '@datum.percentage >= $startPercentage && @datum.percentage <= $endPercentage'
+              }
+            },
+            sequence: {
+              sync: [
+                {
+                  use: 'Move-to',
+                  settings: {y: '-=30', yoyo: true},
+                },
+              ]
+            }
+          },
+        },
+        {
+          templateName: 'Bar-and-label-bounce',
+          parameters: [
+            {paramName: 'labelIndex', paramType: 'number'},
+            {paramName: 'startPercentage', paramType: 'number'},
+            {paramName: 'endPercentage', paramType: 'number'},
+          ],
+          animation: {
+            sequence: {
+              sync: [
+                {
+                  use: 'Bar-bounce',
+                  settings: {
+                    startPercentage: '$startPercentage',
+                    endPercentage: '$endPercentage',
+                  },
+                },
+                // label bounce
+                {
+                  use: 'Move-to',
+                  target: {
+                    selector: '.bar-label',
+                    transform: {type: 'filter', expr: '@index === $labelIndex'},
+                  },
+                  settings: {y: '-=15', yoyo: true},
+                  timing: {start: 0.4},
+                }
+              ]
+            }
+          },
+        },
+        {
+          templateName: 'highlight-bar',
+          parameters: [
+            {paramName: 'startPercentage', paramType: 'number'},
+            {paramName: 'endPercentage', paramType: 'number'},
+          ],
+          animation: {
+            target: {
+              selector: '.bar',
+              transform: {
+                type: 'filter',
+                expr: '@datum.percentage >= $startPercentage && @datum.percentage <= $endPercentage'
+              }
+            },
+            sequence: {
+              sync: [
+                {
+                  use: 'Change-color',
+                  settings: {fill: '#ffffff', yoyo: true, stagger: 0.03}
+                },
+              ]
+            }
+          },
+        }
+      ],
+      animation: {
+        sequence: {
+          sync: [
+            {use: 'Bar chart', settings: {axisElementStagger: 0.02}},
+
+            {
+              use: 'Bar-and-label-bounce',
+              settings: {startPercentage: 0.90, endPercentage: 1, labelIndex: 3},
+              timing: {start: 7},
+            },
+
+            {
+              use: 'Bar-and-label-bounce',
+              settings: {startPercentage: 0, endPercentage: 0.2, labelIndex: 0},
+              timing: {start: 11.5},
+            },
+
+            {
+              use: 'highlight-bar',
+              settings: {startPercentage: 0, endPercentage: 0.2, labelIndex: 0},
+              timing: {start: 14.5},
+            },
+
+            {
+              use: 'Bar-and-label-bounce',
+              settings: {startPercentage: 0.3, endPercentage: 0.7, labelIndex: 1},
+              timing: {start: 21},
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

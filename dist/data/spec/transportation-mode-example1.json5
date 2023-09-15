@@ -1,0 +1,53 @@
+{
+  charts: [
+    {source: './transportation-mode.svg'},
+  ],
+  animation: {
+    sequence: {
+      sync: [
+        {
+          use: 'Axes fade in',
+          target: ':not(.legend)',
+        },
+        {
+          use: 'grow',
+          target: '.bar.series-0',
+          timing: {start: 2, duration: 2},
+        },
+        {
+          use: 'float',
+          target: '.legend-0',
+          settings: {direction: 'left'},
+          timing: {start: 2},
+        },
+
+        {
+          use: 'grow',
+          target: '.bar.series-1.data-group-0',
+          timing: {start: 4.5},
+        },
+        {
+          use: 'float',
+          target: '.legend-1',
+          settings: {direction: 'left'},
+          timing: {start: 4.5},
+        },
+        {
+          use: 'grow',
+          target: '.bar.series-1.data-group-3',
+          timing: {start: 6.5},
+        },
+        {
+          use: 'grow',
+          target: '.bar.series-1.data-group-2',
+          timing: {start: 7.1},
+        },
+        {
+          use: 'grow',
+          target: '.bar.series-1.data-group-1',
+          timing: {start: 7.7},
+        }
+      ]
+    }
+  }
+}

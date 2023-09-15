@@ -1,0 +1,68 @@
+{
+  charts: [
+    {source: './tax-payment.svg'},
+  ],
+  templates: [
+    {
+      templateName: 'my-bar-grow',
+      parameters: [
+        {paramName: 'direction', paramType: 'string', require: false, defaultValue: 'top'},
+        {paramName: 'stagger', paramType: 'number', require: false, defaultValue: 0.4},
+      ],
+      animation: {
+        use: 'grow',
+        target: '.bar',
+        settings: {direction: '$direction', stagger: '$stagger'},
+      }
+    },
+    {
+      templateName: 'my-bar-grow-class-filter',
+      parameters: [
+        {paramName: 'className', paramType: 'string', require: false, defaultValue: 'mark'},
+      ],
+      animation: {
+        use: 'grow',
+        target: {
+          selector: '.bar',
+          transform: {type: 'filter', expr: '@classList.contains("$className")'},
+        },
+      }
+    }
+  ],
+  animation: {
+    sequence: {
+      concat: [
+        // {
+        //   use: 'my-bar-grow',
+        //   target: {
+        //     selector: '.bar',
+        //     transform: [
+        //       {type: 'filter', expr: '@classList.contains("series-4")'},
+        //       {type: 'filter', expr: '@index >= 7'},
+        //       {type: 'sort', expr: '@datum', order: 'asc'},
+        //     ],
+        //   },
+        //   settings: {direction: 'left', stagger: 1},
+        // },
+        //
+        // {
+        //   use: 'my-bar-grow',
+        //   target: {
+        //     selector: '.bar',
+        //     transform: [
+        //       {type: 'filter', expr: '@index <= 10'},
+        //       {type: 'filter', expr: '@datum < 0.1'},
+        //       {type: 'sort', attr: 'height', order: 'asc'},
+        //     ],
+        //   },
+        //   settings: {direction: 'right', stagger: 0},
+        // },
+
+        {
+          use: 'my-bar-grow-class-filter',
+          settings: {className: 'series-1'},
+        }
+      ],
+    }
+  }
+}

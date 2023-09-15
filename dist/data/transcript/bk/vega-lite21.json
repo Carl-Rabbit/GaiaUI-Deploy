@@ -1,0 +1,500 @@
+{
+  "results": [
+    {
+      "alternatives": [
+        {
+          "transcript": "For example, one-in-five chaplains answering this question (20%) say that the number of practicing Catholics behind bars is shrinking due to switching, while 14% say the ranks of Catholics are growing. Similarly, 17% say that the number of inmates with no religious preference is shrinking, while 12% say the ranks of the unaffiliated are growing. And about one-in-ten chaplains report a decline in Mormons and Orthodox Christians due to switching, while only 3% say those religious minorities are growing behind bars.",
+          "confidence": 1.0,
+          "words": [
+            {
+              "startTime": "0.000s",
+              "endTime": "0.200s",
+              "word": "For",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.200s",
+              "endTime": "1.242s",
+              "word": "example,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.242s",
+              "endTime": "1.976s",
+              "word": "one-in-five",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.976s",
+              "endTime": "2.703s",
+              "word": "chaplains",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.703s",
+              "endTime": "3.255s",
+              "word": "answering",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.255s",
+              "endTime": "3.450s",
+              "word": "this",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.450s",
+              "endTime": "4.109s",
+              "word": "question",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.109s",
+              "endTime": "5.747s",
+              "word": "(20%)",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.747s",
+              "endTime": "5.964s",
+              "word": "say",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.964s",
+              "endTime": "6.164s",
+              "word": "that",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.164s",
+              "endTime": "6.229s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.229s",
+              "endTime": "6.629s",
+              "word": "number",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.629s",
+              "endTime": "6.699s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.699s",
+              "endTime": "7.445s",
+              "word": "practicing",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.445s",
+              "endTime": "8.144s",
+              "word": "Catholics",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.144s",
+              "endTime": "8.588s",
+              "word": "behind",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.588s",
+              "endTime": "9.053s",
+              "word": "bars",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.053s",
+              "endTime": "9.158s",
+              "word": "is",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.158s",
+              "endTime": "9.775s",
+              "word": "shrinking",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.775s",
+              "endTime": "9.940s",
+              "word": "due",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.940s",
+              "endTime": "10.040s",
+              "word": "to",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.040s",
+              "endTime": "11.056s",
+              "word": "switching,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.056s",
+              "endTime": "11.221s",
+              "word": "while",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.221s",
+              "endTime": "12.428s",
+              "word": "14%",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "12.428s",
+              "endTime": "12.650s",
+              "word": "say",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "12.650s",
+              "endTime": "12.750s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "12.750s",
+              "endTime": "13.179s",
+              "word": "ranks",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.179s",
+              "endTime": "13.269s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.269s",
+              "endTime": "13.998s",
+              "word": "Catholics",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.998s",
+              "endTime": "14.118s",
+              "word": "are",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.118s",
+              "endTime": "15.538s",
+              "word": "growing.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.538s",
+              "endTime": "16.510s",
+              "word": "Similarly,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.510s",
+              "endTime": "17.815s",
+              "word": "17%",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.815s",
+              "endTime": "18.096s",
+              "word": "say",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.096s",
+              "endTime": "18.301s",
+              "word": "that",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.301s",
+              "endTime": "18.366s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.366s",
+              "endTime": "18.791s",
+              "word": "number",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.791s",
+              "endTime": "18.871s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.871s",
+              "endTime": "19.471s",
+              "word": "inmates",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.471s",
+              "endTime": "19.661s",
+              "word": "with",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.661s",
+              "endTime": "19.953s",
+              "word": "no",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.953s",
+              "endTime": "20.546s",
+              "word": "religious",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "20.546s",
+              "endTime": "21.174s",
+              "word": "preference",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "21.174s",
+              "endTime": "21.278s",
+              "word": "is",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "21.278s",
+              "endTime": "22.341s",
+              "word": "shrinking,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "22.341s",
+              "endTime": "22.506s",
+              "word": "while",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "22.506s",
+              "endTime": "23.522s",
+              "word": "12%",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "23.522s",
+              "endTime": "23.752s",
+              "word": "say",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "23.752s",
+              "endTime": "23.854s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "23.854s",
+              "endTime": "24.324s",
+              "word": "ranks",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "24.324s",
+              "endTime": "24.429s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "24.429s",
+              "endTime": "24.592s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "24.592s",
+              "endTime": "25.519s",
+              "word": "unaffiliated",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "25.519s",
+              "endTime": "25.667s",
+              "word": "are",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "25.667s",
+              "endTime": "27.104s",
+              "word": "growing.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "27.104s",
+              "endTime": "27.194s",
+              "word": "And",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "27.194s",
+              "endTime": "27.539s",
+              "word": "about",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "27.539s",
+              "endTime": "28.341s",
+              "word": "one-in-ten",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "28.341s",
+              "endTime": "29.114s",
+              "word": "chaplains",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "29.114s",
+              "endTime": "29.537s",
+              "word": "report",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "29.537s",
+              "endTime": "29.667s",
+              "word": "a",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "29.667s",
+              "endTime": "30.301s",
+              "word": "decline",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "30.301s",
+              "endTime": "30.451s",
+              "word": "in",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "30.451s",
+              "endTime": "31.015s",
+              "word": "Mormons",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "31.015s",
+              "endTime": "31.145s",
+              "word": "and",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "31.145s",
+              "endTime": "31.905s",
+              "word": "Orthodox",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "31.905s",
+              "endTime": "32.644s",
+              "word": "Christians",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "32.644s",
+              "endTime": "32.809s",
+              "word": "due",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "32.809s",
+              "endTime": "32.909s",
+              "word": "to",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "32.909s",
+              "endTime": "33.973s",
+              "word": "switching,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "33.973s",
+              "endTime": "34.173s",
+              "word": "while",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "34.173s",
+              "endTime": "34.470s",
+              "word": "only",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "34.470s",
+              "endTime": "35.463s",
+              "word": "3%",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "35.463s",
+              "endTime": "35.703s",
+              "word": "say",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "35.703s",
+              "endTime": "35.978s",
+              "word": "those",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "35.978s",
+              "endTime": "36.571s",
+              "word": "religious",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "36.571s",
+              "endTime": "37.359s",
+              "word": "minorities",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "37.359s",
+              "endTime": "37.489s",
+              "word": "are",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "37.489s",
+              "endTime": "37.874s",
+              "word": "growing",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "37.874s",
+              "endTime": "38.324s",
+              "word": "behind",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "38.324s",
+              "endTime": "39.828s",
+              "word": "bars.",
+              "speakerTag": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

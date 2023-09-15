@@ -1,0 +1,11 @@
+{
+  charts: [
+    {source: './wealth-inequality.svg'},
+  ],
+  templates: [],
+  animation: {
+    sequence: {
+      sync: []
+    }
+  }
+}

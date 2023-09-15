@@ -1,0 +1,10 @@
+{
+  charts: [
+    {source: './accounting-of-pirates.svg'},
+  ],
+  animation: {
+    sequence: {
+      sync: []
+    }
+  }
+}

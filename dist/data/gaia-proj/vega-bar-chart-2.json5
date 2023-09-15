@@ -1,0 +1,139 @@
+{
+  projectId: 'vega-bar-chart-2',
+  chart: './vega-bar-chart1.svg',
+  audio: './empty.txt',
+  binder: {"from":"svg","to":"BarChart","rules":[{"from":".mark-rect path","to":".Bar","dataList":[{"category":"Manchuria","value":53.9,"series":"University Farm"},{"category":"Manchuria","value":82.33334,"series":"Waseca"},{"category":"Manchuria","value":61.8,"series":"Morris"},{"category":"Manchuria","value":72.9,"series":"Crookston"},{"category":"Manchuria","value":55.1,"series":"Grand Rapids"},{"category":"Manchuria","value":51.53334,"series":"Duluth"},{"category":"Glabron","value":79.86666,"series":"University Farm"},{"category":"Glabron","value":92.93333,"series":"Waseca"},{"category":"Glabron","value":63.9,"series":"Morris"},{"category":"Glabron","value":64.3,"series":"Crookston"},{"category":"Glabron","value":43.56666,"series":"Grand Rapids"},{"category":"Glabron","value":55.53334,"series":"Duluth"},{"category":"Svansota","value":62.56667,"series":"University Farm"},{"category":"Svansota","value":85.83333,"series":"Waseca"},{"category":"Svansota","value":60.8,"series":"Morris"},{"category":"Svansota","value":61.1,"series":"Crookston"},{"category":"Svansota","value":46.3,"series":"Grand Rapids"},{"category":"Svansota","value":47.93333,"series":"Duluth"},{"category":"Velvet","value":66.7,"series":"University Farm"},{"category":"Velvet","value":87.63333,"series":"Waseca"},{"category":"Velvet","value":64.96666,"series":"Morris"},{"category":"Velvet","value":73.39999,"series":"Crookston"},{"category":"Velvet","value":55.26666,"series":"Grand Rapids"},{"category":"Velvet","value":48.76667,"series":"Duluth"},{"category":"Trebi","value":65.63333,"series":"University Farm"},{"category":"Trebi","value":113.0666,"series":"Waseca"},{"category":"Trebi","value":90.4,"series":"Morris"},{"category":"Trebi","value":88.76666,"series":"Crookston"},{"category":"Trebi","value":50.4,"series":"Grand Rapids"},{"category":"Trebi","value":64.53333,"series":"Duluth"},{"category":"No. 457","value":69.70001,"series":"University Farm"},{"category":"No. 457","value":100.3,"series":"Waseca"},{"category":"No. 457","value":72.23334,"series":"Morris"},{"category":"No. 457","value":80,"series":"Crookston"},{"category":"No. 457","value":51.63334,"series":"Grand Rapids"},{"category":"No. 457","value":56.3,"series":"Duluth"},{"category":"No. 462","value":62.16667,"series":"University Farm"},{"category":"No. 462","value":110.4667,"series":"Waseca"},{"category":"No. 462","value":77.36667,"series":"Morris"},{"category":"No. 462","value":79.09999,"series":"Crookston"},{"category":"No. 462","value":44.83334,"series":"Grand Rapids"},{"category":"No. 462","value":50.6,"series":"Duluth"},{"category":"Peatland","value":60.83334,"series":"University Farm"},{"category":"Peatland","value":84.59999,"series":"Waseca"},{"category":"Peatland","value":73.06667,"series":"Morris"},{"category":"Peatland","value":66.83333,"series":"Crookston"},{"category":"Peatland","value":61.46667,"series":"Grand Rapids"},{"category":"Peatland","value":63.36667,"series":"Duluth"},{"category":"No. 475","value":54.66667,"series":"University Farm"},{"category":"No. 475","value":88.03334,"series":"Waseca"},{"category":"No. 475","value":66.83333,"series":"Morris"},{"category":"No. 475","value":76.23333,"series":"Crookston"},{"category":"No. 475","value":34.93333,"series":"Grand Rapids"},{"category":"No. 475","value":60.43333,"series":"Duluth"},{"category":"Wisconsin No. 38","value":77.3,"series":"University Farm"},{"category":"Wisconsin No. 38","value":116.96667,"series":"Waseca"},{"category":"Wisconsin No. 38","value":76.63334,"series":"Morris"},{"category":"Wisconsin No. 38","value":85.76667,"series":"Crookston"},{"category":"Wisconsin No. 38","value":55.13334,"series":"Grand Rapids"},{"category":"Wisconsin No. 38","value":60.93333,"series":"Duluth"}]},{"from":".role-legend-title text","to":".LegendTitle"},{"from":".role-legend-symbol path","to":".LegendSymbol","dataList":[{"series":"Crookston"},{"series":"Duluth"},{"series":"Grand Rapids"},{"series":"Morris"},{"series":"University Farm"},{"series":"Waseca"}]},{"from":".role-legend-label text","to":".LegendLabel","dataList":[{"series":"Crookston"},{"series":"Duluth"},{"series":"Grand Rapids"},{"series":"Morris"},{"series":"University Farm"},{"series":"Waseca"}]},{"from":".role-axis-grid line","to":".Grid"},{"from":".role-axis[aria-label~=\"Y-axis\"] .role-axis-tick line","to":".XAxis .Tick","dataList":[{"category":"Glabron"},{"category":"Manchuria"},{"category":"No. 457"},{"category":"No. 462"},{"category":"No. 475"},{"category":"Peatland"},{"category":"Svansota"},{"category":"Trebi"},{"category":"Velvet"},{"category":"Wisconsin No. 38"}]},{"from":".role-axis[aria-label~=\"Y-axis\"] .role-axis-label text","to":".XAxis .Label","dataList":[{"category":"Glabron"},{"category":"Manchuria"},{"category":"No. 457"},{"category":"No. 462"},{"category":"No. 475"},{"category":"Peatland"},{"category":"Svansota"},{"category":"Trebi"},{"category":"Velvet"},{"category":"Wisconsin No. 38"}]},{"from":".role-axis[aria-label~=\"Y-axis\"] .role-axis-domain line","to":".XAxis .Domain"},{"from":".role-axis[aria-label~=\"Y-axis\"] .role-axis-title text","to":".XAxis .Title"},{"from":".role-axis[aria-label~=\"X-axis\"] .role-axis-tick line","to":".YAxis .Tick"},{"from":".role-axis[aria-label~=\"X-axis\"] .role-axis-label text","to":".YAxis .Label"},{"from":".role-axis[aria-label~=\"X-axis\"] .role-axis-domain line","to":".YAxis .Domain"},{"from":".role-axis[aria-label~=\"X-axis\"] .role-axis-title text","to":".YAxis .Title"},{"from":".background","to":".Background"},{"from":".role-title text","to":".Title"}]},
+  animation: {
+    main: {
+      sync: [
+        {
+          ref: 'ChartFrameworkEnter',
+        },
+        {
+          ref: 'StaggeredBarSeriesEnter',
+          target: [
+            { sortBy: '@data.category', order: ['Glabron', 'Manchuria', 'No. 457', 'No. 462', 'No. 475', 'Peatland', 'Svansota', 'Trebi', 'Velvet', 'Wisconsin No. 38'] },
+            { sortBy: '@data.series', order: ['Crookston', 'Duluth', 'Grand Rapids', 'Morris', 'University Farm', 'Waseca'] },
+          ],
+          barWipeFrom: 'left',
+          categoryStagger: 0,
+          offset: 4,
+        }
+      ],
+    },
+  },
+  templates: [
+    {
+      name: 'ChartFrameworkEnter',
+      params: {
+        xDomainFrom: 'left',
+        yDomainFrom: 'bottom',
+        axisLabelStagger: 0.2,
+      },
+      main: {
+        concat: [
+          {
+            sync: [
+              {
+                ref: 'Fade',
+                target: '.Background',
+              },
+              {
+                ref: 'PathDraw',
+                target: '.Grid',
+              },
+            ]
+          },
+          // legend title, axis
+          {
+            sync: [
+              {
+                ref: 'AxisEnter',
+                xDomainFrom: '$xDomainFrom',
+                yDomainFrom: '$yDomainFrom',
+                axisLabelStagger: '$axisLabelStagger',
+              },
+              {
+                ref: 'ZoomIn',
+                target: '.LegendTitle',
+              },
+            ]
+          },
+        ]
+      }
+    },
+    {
+      name: 'AxisEnter',
+      params: {
+        xDomainFrom: 'left',
+        yDomainFrom: 'bottom',
+        axisLabelStagger: 0.2,
+      },
+      main: {
+        sync: [
+          {
+            ref: 'WipeIn',
+            target: '.XAxis.Domain',
+            from: '$xDomainFrom',
+          },
+          {
+            ref: 'WipeIn',
+            target: '.YAxis.Domain',
+            from: '$yDomainFrom',
+          },
+          {
+            ref: 'ZoomIn',
+            target: '.Axis.Title'
+          },
+          {
+            ref: 'Fade',
+            target: '.Axis.Tick'
+          },
+          {
+            ref: 'ZoomIn',
+            target: '.XAxis.Label',
+            stagger: '$axisLabelStagger',
+          },
+          {
+            ref: 'ZoomIn',
+            target: '.YAxis.Label',
+            stagger: '$axisLabelStagger',
+          }
+        ]
+      }
+    },
+    {
+      name: "StaggeredBarSeriesEnter",
+      params: {
+        barWipeFrom: 'bottom',
+        categoryStagger: 0.2,
+        seriesStagger: 0,
+        seriesStart: 'after prev',
+      },
+      main: {
+        target: '.Mark, .Legend:not(.Title)',
+        groupBy: '@data.series',
+        foreach: {
+          sync: [
+            {
+              ref: 'CutIn',
+              target: '.Legend.Text',
+            },
+            {
+              ref: 'Wheel',
+              target: '.Legend.Symbol',
+            },
+            {
+              ref: 'WipeIn',
+              target: '.Bar',
+              from: '$barWipeFrom',
+              stagger: '$categoryStagger',
+            }
+          ]
+        },
+        stagger: '$seriesStagger',
+        start: '$seriesStart',
+      }
+    }
+  ]
+}

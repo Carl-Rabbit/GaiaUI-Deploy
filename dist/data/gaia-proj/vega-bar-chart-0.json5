@@ -1,0 +1,230 @@
+{
+  projectId: 'vega-bar-chart-0',
+  chart: './vega-bar-chart0.svg',
+  audio: './empty.txt',
+  binder: {
+    from: "svg",
+    to: "gaia.chart.BarChart",
+    rules: [
+      {
+        from: '.mark-rect path',
+        to: '.Bar',
+        dataList: [
+          {category: 'A', value: 0.1, series: 'x'},
+          {category: 'A', value: 0.6, series: 'y'},
+          {category: 'A', value: 0.9, series: 'z'},
+          {category: 'B', value: 0.7, series: 'x'},
+          {category: 'B', value: 0.2, series: 'y'},
+          {category: 'B', value: 1.1, series: 'z'},
+          {category: 'C', value: 0.6, series: 'x'},
+          {category: 'C', value: 0.1, series: 'y'},
+          {category: 'C', value: 0.2, series: 'z'},
+        ]
+      },
+      // legend
+      {
+        from: '.role-legend-title text',
+        to: '.LegendTitle',
+      },
+      {
+        from: '.role-legend-symbol path',
+        to: '.LegendSymbol',
+        dataList: [
+          {series: 'x'},
+          {series: 'y'},
+          {series: 'z'},
+        ]
+      },
+      {
+        from: '.role-legend-label text',
+        to: '.LegendLabel',
+        dataList: [
+          {series: 'x'},
+          {series: 'y'},
+          {series: 'z'},
+        ]
+      },
+      // grid
+      {
+        from: '.role-axis-grid line',
+        to: '.Grid .Horizontal',
+      },
+      // x axis
+      {
+        from: '.role-axis[aria-label~="X-axis"] .role-axis-tick line',
+        to: '.XAxis .Tick',
+        dataList: [
+          {category: 'A'},
+          {category: 'B'},
+          {category: 'C'},
+        ]
+      },
+      {
+        from: '.role-axis[aria-label~="X-axis"] .role-axis-label text',
+        to: '.XAxis .Label',
+        dataList: [
+          {category: 'A'},
+          {category: 'B'},
+          {category: 'C'},
+        ]
+      },
+      {
+        from: '.role-axis[aria-label~="X-axis"] .role-axis-domain line',
+        to: '.XAxis .Domain',
+      },
+      {
+        from: '.role-axis[aria-label~="X-axis"] .role-axis-title text',
+        to: '.XAxis .Title',
+      },
+      // y axis
+      {
+        from: '.role-axis[aria-label~="Y-axis"] .role-axis-tick line',
+        to: '.YAxis .Tick',
+      },
+      {
+        from: '.role-axis[aria-label~="Y-axis"] .role-axis-label text',
+        to: '.YAxis .Label',
+      },
+      {
+        from: '.role-axis[aria-label~="Y-axis"] .role-axis-domain line',
+        to: '.YAxis .Domain',
+      },
+      {
+        from: '.role-axis[aria-label~="Y-axis"] .role-axis-title text',
+        to: '.YAxis .Title',
+      },
+      // background
+      {
+        from: '.background',
+        to: '.Background',
+      }
+    ]
+  },
+  animation: {
+    main: {
+      sync: [
+        {
+          ref: 'ChartFrameworkEnter',
+        },
+        {
+          ref: 'StaggeredBarSeriesEnter',
+          offset: 4,
+        }
+      ],
+    },
+  },
+  templates: [
+    {
+      name: 'ChartFrameworkEnter',
+      params: {
+        xDomainFrom: 'left',
+        yDomainFrom: 'bottom',
+        axisLabelStagger: 0.2,
+      },
+      main: {
+        concat: [
+          {
+            sync: [
+              {
+                ref: 'Fade',
+                target: '.Background',
+              },
+              {
+                ref: 'PathDraw',
+                target: '.Grid',
+              },
+            ]
+          },
+          // legend title, axis
+          {
+            sync: [
+              {
+                ref: 'AxisEnter',
+                xDomainFrom: '$xDomainFrom',
+                yDomainFrom: '$yDomainFrom',
+                axisLabelStagger: '$axisLabelStagger',
+              },
+              {
+                ref: 'ZoomIn',
+                target: '.LegendTitle',
+              },
+            ]
+          },
+        ]
+      }
+    },
+    {
+      name: 'AxisEnter',
+      params: {
+        xDomainFrom: 'left',
+        yDomainFrom: 'bottom',
+        axisLabelStagger: 0.2,
+      },
+      main: {
+        sync: [
+          {
+            ref: 'WipeIn',
+            target: '.XAxis.Domain',
+            from: '$xDomainFrom',
+          },
+          {
+            ref: 'WipeIn',
+            target: '.YAxis.Domain',
+            from: '$yDomainFrom',
+          },
+          {
+            ref: 'ZoomIn',
+            target: '.Axis.Title'
+          },
+          {
+            ref: 'Fade',
+            target: '.Axis.Tick'
+          },
+          {
+            ref: 'ZoomIn',
+            target: '.XAxis.Label',
+            stagger: '$axisLabelStagger',
+          },
+          {
+            ref: 'ZoomIn',
+            target: '.YAxis.Label',
+            stagger: '$axisLabelStagger',
+          }
+        ]
+      }
+    },
+    {
+      name: "StaggeredBarSeriesEnter",
+      params: {
+        barWipeFrom: 'bottom',
+        categoryStagger: 0.2,
+        seriesStagger: 0,
+        seriesStart: 'after prev',
+      },
+      main: {
+        target: '.Mark, .Legend:not(.Title)',
+        groupBy: '@data.series',
+        foreach: {
+          sync: [
+            {
+              ref: 'CutIn',
+              target: '.Legend.Text',
+            },
+            {
+              ref: 'Wheel',
+              target: '.Legend.Symbol',
+            },
+            {
+              ref: 'WipeIn',
+              target: '.Bar',
+              from: '$barWipeFrom',
+              stagger: '$categoryStagger',
+            }
+          ]
+        },
+        stagger: '$seriesStagger',
+        start: '$seriesStart',
+      }
+    }
+  ]
+}

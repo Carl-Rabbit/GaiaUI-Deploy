@@ -1,0 +1,27 @@
+{
+  projectId: 'bar-chart-4',
+  chart: './BarChartSSVG2.svg',
+  audio: './empty.txt',
+  comment: 'A test for using SSVG declaring as Any type',
+  animation: {
+    main: {
+      sync: [
+        {
+          ref: 'Fade',
+          target: { selectAll: 'line' }
+        },
+        {
+          ref: 'Fade',
+          target:  { selectAll: 'g > rect[x="80"], #label-0' },
+          offset: 2,
+        },
+        {
+          ref: 'Fade',
+          target:  { selectAll: 'g > rect[x="180"], #label-1' },
+          offset: 4,
+        }
+      ],
+    }
+  },
+  templates: []
+}

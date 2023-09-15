@@ -1,0 +1,295 @@
+{
+  "chartType": "pie-chart",
+  "elements": [
+    {
+      "type": "bg-rect",
+      "id": "transportation_pie1-background-rect",
+      "clazz": "scene chart commute-mode background rect bg-rect",
+      "data": null,
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "main-title",
+      "id": "transportation_pie1-main_title",
+      "clazz": "scene chart commute-mode title main-title",
+      "data": null,
+      "tag": "text",
+      "text": "Commute mode, by percentage"
+    },
+    {
+      "type": "sub-title",
+      "id": "transportation_pie1-sub_title",
+      "clazz": "scene chart commute-mode title sub-title",
+      "data": null,
+      "tag": "text",
+      "text": "Bureau of Transportation Statistics"
+    },
+    {
+      "type": "sector",
+      "id": "transportation_pie1-sector-0",
+      "clazz": "scene chart commute-mode mark data-item data-item-0 sector-0 sector",
+      "data": {
+        "name": "Public transportation",
+        "value": 0.05
+      },
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "sector",
+      "id": "transportation_pie1-sector-1",
+      "clazz": "scene chart commute-mode mark data-item data-item-0 sector-0 sector",
+      "data": {
+        "name": "Drive alone",
+        "value": 0.76
+      },
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "sector",
+      "id": "transportation_pie1-sector-2",
+      "clazz": "scene chart commute-mode mark data-item data-item-0 sector-0 sector",
+      "data": {
+        "name": "Taxi, motorcycle, or other",
+        "value": 0.02
+      },
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "sector",
+      "id": "transportation_pie1-sector-3",
+      "clazz": "scene chart commute-mode mark data-item data-item-0 sector-0 sector",
+      "data": {
+        "name": "Work at home",
+        "value": 0.05
+      },
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "sector",
+      "id": "transportation_pie1-sector-4",
+      "clazz": "scene chart commute-mode mark data-item data-item-0 sector-0 sector",
+      "data": {
+        "name": "Walk",
+        "value": 0.03
+      },
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "sector",
+      "id": "transportation_pie1-sector-5",
+      "clazz": "scene chart commute-mode mark data-item data-item-0 sector-0 sector",
+      "data": {
+        "name": "Carpool",
+        "value": 0.08
+      },
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "sector",
+      "id": "transportation_pie1-sector-6",
+      "clazz": "scene chart commute-mode mark data-item data-item-0 sector-0 sector",
+      "data": {
+        "name": "Bicycle",
+        "value": 0.01
+      },
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "sector-label",
+      "id": "transportation_pie1-sector-label-0",
+      "clazz": "scene chart commute-mode mark data-item data-item-0 sector-label-0 sector-label",
+      "data": {
+        "name": "Public transportation",
+        "value": 0.05
+      },
+      "tag": "text",
+      "text": "Public transportation"
+    },
+    {
+      "type": "sector-label",
+      "id": "transportation_pie1-sector-label-1",
+      "clazz": "scene chart commute-mode mark data-item data-item-0 sector-label-0 sector-label",
+      "data": {
+        "name": "Drive alone",
+        "value": 0.76
+      },
+      "tag": "text",
+      "text": "Drive alone"
+    },
+    {
+      "type": "sector-label",
+      "id": "transportation_pie1-sector-label-2",
+      "clazz": "scene chart commute-mode mark data-item data-item-0 sector-label-0 sector-label",
+      "data": {
+        "name": "Taxi, motorcycle, or other",
+        "value": 0.02
+      },
+      "tag": "text",
+      "text": "Taxi, motorcycle, or other"
+    },
+    {
+      "type": "sector-label",
+      "id": "transportation_pie1-sector-label-3",
+      "clazz": "scene chart commute-mode mark data-item data-item-0 sector-label-0 sector-label",
+      "data": {
+        "name": "Work at home",
+        "value": 0.05
+      },
+      "tag": "text",
+      "text": "Work at home"
+    },
+    {
+      "type": "sector-label",
+      "id": "transportation_pie1-sector-label-4",
+      "clazz": "scene chart commute-mode mark data-item data-item-0 sector-label-0 sector-label",
+      "data": {
+        "name": "Walk",
+        "value": 0.03
+      },
+      "tag": "text",
+      "text": "Walk"
+    },
+    {
+      "type": "sector-label",
+      "id": "transportation_pie1-sector-label-5",
+      "clazz": "scene chart commute-mode mark data-item data-item-0 sector-label-0 sector-label",
+      "data": {
+        "name": "Carpool",
+        "value": 0.08
+      },
+      "tag": "text",
+      "text": "Carpool"
+    },
+    {
+      "type": "sector-label",
+      "id": "transportation_pie1-sector-label-6",
+      "clazz": "scene chart commute-mode mark data-item data-item-0 sector-label-0 sector-label",
+      "data": {
+        "name": "Bicycle",
+        "value": 0.01
+      },
+      "tag": "text",
+      "text": "Bicycle"
+    },
+    {
+      "type": "sector-line",
+      "id": "transportation_pie1-sector-line-0",
+      "clazz": "scene chart commute-mode mark data-item data-item-0 sector-line-0 sector-line",
+      "data": {
+        "name": "Public transportation",
+        "value": 0.05
+      },
+      "tag": "polyline",
+      "text": null
+    },
+    {
+      "type": "sector-line",
+      "id": "transportation_pie1-sector-line-1",
+      "clazz": "scene chart commute-mode mark data-item data-item-0 sector-line-0 sector-line",
+      "data": {
+        "name": "Drive alone",
+        "value": 0.76
+      },
+      "tag": "polyline",
+      "text": null
+    },
+    {
+      "type": "sector-line",
+      "id": "transportation_pie1-sector-line-2",
+      "clazz": "scene chart commute-mode mark data-item data-item-0 sector-line-0 sector-line",
+      "data": {
+        "name": "Taxi, motorcycle, or other",
+        "value": 0.02
+      },
+      "tag": "polyline",
+      "text": null
+    },
+    {
+      "type": "sector-line",
+      "id": "transportation_pie1-sector-line-3",
+      "clazz": "scene chart commute-mode mark data-item data-item-0 sector-line-0 sector-line",
+      "data": {
+        "name": "Work at home",
+        "value": 0.05
+      },
+      "tag": "polyline",
+      "text": null
+    },
+    {
+      "type": "sector-line",
+      "id": "transportation_pie1-sector-line-4",
+      "clazz": "scene chart commute-mode mark data-item data-item-0 sector-line-0 sector-line",
+      "data": {
+        "name": "Walk",
+        "value": 0.03
+      },
+      "tag": "polyline",
+      "text": null
+    },
+    {
+      "type": "sector-line",
+      "id": "transportation_pie1-sector-line-5",
+      "clazz": "scene chart commute-mode mark data-item data-item-0 sector-line-0 sector-line",
+      "data": {
+        "name": "Carpool",
+        "value": 0.08
+      },
+      "tag": "polyline",
+      "text": null
+    },
+    {
+      "type": "sector-line",
+      "id": "transportation_pie1-sector-line-6",
+      "clazz": "scene chart commute-mode mark data-item data-item-0 sector-line-0 sector-line",
+      "data": {
+        "name": "Bicycle",
+        "value": 0.01
+      },
+      "tag": "polyline",
+      "text": null
+    },
+    {
+      "type": "contour",
+      "id": "transportation_pie1-annotation-contour",
+      "clazz": "scene chart commute-mode foreground annotation-1 annotation path contour",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "anno-label",
+      "id": "commute-mode-annotation-0-label",
+      "clazz": "scene chart commute-mode foreground annotation annotation-0 label anno-label",
+      "data": {
+        "name": "Drive alone",
+        "value": 0.76
+      },
+      "tag": "text",
+      "text": "76%"
+    },
+    {
+      "type": "anno-label",
+      "id": "commute-mode-annotation-2-label",
+      "clazz": "scene chart commute-mode foreground annotation annotation-2 label anno-label",
+      "data": {
+        "name": "Public transportation",
+        "value": 0.05
+      },
+      "tag": "text",
+      "text": "5%"
+    }
+  ],
+  "layout": {
+    "xAxis": "unknown",
+    "yAxis": "unknown",
+    "title": "top"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  charts: [
+    {source: './house-prices.svg'},
+  ],
+  animation: {
+    sequence: {
+      sync: []
+    }
+  }
+}

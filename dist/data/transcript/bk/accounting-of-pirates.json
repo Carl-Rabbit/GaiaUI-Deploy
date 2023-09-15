@@ -1,0 +1,284 @@
+{
+  "results": [
+    {
+      "alternatives": [
+        {
+          "transcript": "First, investors get their guaranteed cut of at least 30%. The port, who looked the other way while they parked the ship, gets 5-10%. And the rest is split between the attackers, with a bonus of around $10,000 for being first to board the ship.",
+          "confidence": 1.0,
+          "words": [
+            {
+              "startTime": "0.000s",
+              "endTime": "0.721s",
+              "word": "First,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.721s",
+              "endTime": "1.446s",
+              "word": "investors",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.446s",
+              "endTime": "1.666s",
+              "word": "get",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.666s",
+              "endTime": "1.798s",
+              "word": "their",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.798s",
+              "endTime": "2.508s",
+              "word": "guaranteed",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.508s",
+              "endTime": "2.863s",
+              "word": "cut",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.863s",
+              "endTime": "2.992s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.992s",
+              "endTime": "3.162s",
+              "word": "at",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.162s",
+              "endTime": "3.462s",
+              "word": "least",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.462s",
+              "endTime": "5.358s",
+              "word": "30%.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.358s",
+              "endTime": "5.493s",
+              "word": "The",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.493s",
+              "endTime": "6.228s",
+              "word": "port,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.228s",
+              "endTime": "6.358s",
+              "word": "who",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.358s",
+              "endTime": "6.706s",
+              "word": "looked",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.706s",
+              "endTime": "6.856s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.856s",
+              "endTime": "7.126s",
+              "word": "other",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.126s",
+              "endTime": "7.405s",
+              "word": "way",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.405s",
+              "endTime": "7.650s",
+              "word": "while",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.650s",
+              "endTime": "7.786s",
+              "word": "they",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.786s",
+              "endTime": "8.276s",
+              "word": "parked",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.276s",
+              "endTime": "8.348s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.348s",
+              "endTime": "8.953s",
+              "word": "ship,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.953s",
+              "endTime": "9.223s",
+              "word": "gets",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.223s",
+              "endTime": "11.507s",
+              "word": "5-10%.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.507s",
+              "endTime": "11.637s",
+              "word": "And",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.637s",
+              "endTime": "11.702s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.702s",
+              "endTime": "12.176s",
+              "word": "rest",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "12.176s",
+              "endTime": "12.276s",
+              "word": "is",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "12.276s",
+              "endTime": "12.626s",
+              "word": "split",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "12.626s",
+              "endTime": "13.067s",
+              "word": "between",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.067s",
+              "endTime": "13.197s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.197s",
+              "endTime": "14.183s",
+              "word": "attackers,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.183s",
+              "endTime": "14.328s",
+              "word": "with",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.328s",
+              "endTime": "14.388s",
+              "word": "a",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.388s",
+              "endTime": "14.884s",
+              "word": "bonus",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.884s",
+              "endTime": "14.999s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.999s",
+              "endTime": "15.425s",
+              "word": "around",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.425s",
+              "endTime": "16.749s",
+              "word": "$10,000",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.749s",
+              "endTime": "16.903s",
+              "word": "for",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.903s",
+              "endTime": "17.203s",
+              "word": "being",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.203s",
+              "endTime": "17.635s",
+              "word": "first",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.635s",
+              "endTime": "17.735s",
+              "word": "to",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.735s",
+              "endTime": "18.084s",
+              "word": "board",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.084s",
+              "endTime": "18.159s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.159s",
+              "endTime": "19.534s",
+              "word": "ship.",
+              "speakerTag": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

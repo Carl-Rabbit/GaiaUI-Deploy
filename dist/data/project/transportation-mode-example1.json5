@@ -1,0 +1,70 @@
+{
+  projectId: 'transportation-mode-example1',
+  scenes: [
+    {
+      charts: [
+        {source: './transportation-mode.svg'},
+      ],
+      animation: {
+        target: '.transportation-mode',
+        sequence: {
+    "sync": [
+        {
+            "use": "Bar chart with legend",
+            "timing": {
+                "duration": 1.98
+            },
+            "target": "#transportation-mode-main-title, #transportation-mode-sub-title, #transportation-mode-y-tick-0, #transportation-mode-y-tick-1, #transportation-mode-y-tick-2, #transportation-mode-y-tick-3, #transportation-mode-y-label-0, #transportation-mode-y-label-1, #transportation-mode-y-label-2, #transportation-mode-y-label-3, #transportation-mode-legend-label-0, #transportation-mode-legend-symbol-0, #transportation-mode-legend-label-1, #transportation-mode-legend-symbol-1, #transportation-mode-bar-0, #transportation-mode-bar-4, #transportation-mode-x-label-0, #transportation-mode-bar-1, #transportation-mode-bar-5, #transportation-mode-x-label-1, #transportation-mode-bar-2, #transportation-mode-bar-6, #transportation-mode-x-label-2, #transportation-mode-bar-3, #transportation-mode-bar-7, #transportation-mode-x-label-3",
+            "ani_type": "Enter",
+            "settings": {}
+        },
+        {
+            "use": "Bar-bounce",
+            "timing": {
+                "start": 4.432,
+                "duration": 1.03,
+                "offset": 0
+            },
+            "target": "#transportation-mode-bar-4",
+            "ani_type": "Emphasis",
+            "settings": {}
+        },
+        {
+            "use": "Bar-bounce",
+            "timing": {
+                "start": 6.247,
+                "duration": 0.81,
+                "offset": 0
+            },
+            "target": "#transportation-mode-bar-7",
+            "ani_type": "Emphasis",
+            "settings": {}
+        },
+        {
+            "use": "Bar-bounce",
+            "timing": {
+                "start": 7.055,
+                "duration": 0.54,
+                "offset": 0
+            },
+            "target": "#transportation-mode-bar-6",
+            "ani_type": "Emphasis",
+            "settings": {}
+        },
+        {
+            "use": "Bar-bounce",
+            "timing": {
+                "start": 7.717,
+                "duration": 0.57
+            },
+            "target": "#transportation-mode-bar-5",
+            "ani_type": "Emphasis",
+            "settings": {}
+        }
+    ]
+}
+      }
+    }
+  ]
+}
+

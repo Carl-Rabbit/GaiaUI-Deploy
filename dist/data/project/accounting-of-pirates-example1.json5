@@ -1,0 +1,117 @@
+{
+  projectId: 'accounting-of-pirates-example1',
+  scenes: [
+    {
+      charts: [
+        {source: './accounting-of-pirates.svg'},
+      ],
+      templates: [
+        {
+          templateName: 'background-shape-enter',
+          animation: {
+            use: 'Basic-zoom-enter',
+            target: '.background.shape',
+            settings: {
+              ease: 'back',
+              stagger: 0.04,
+            }
+          }
+        },
+        {
+          templateName: 'data-item-enter',
+          parameters: [
+            {paramName: 'dataName', paramType: 'string'},
+            {paramName: 'startAngle', paramType: 'number'},
+            {paramName: 'endAngle', paramType: 'number'},
+          ],
+          animation: {
+            sequence: {
+              sync: [
+                {
+                  use: 'simple-sector-wheel',
+                  target: {
+                    selector: '.arc',
+                    transform: {type: 'filter', expr: '@datum.name === "$dataName"'}
+                  },
+                  settings: {
+                    centerSelector: '.arc',
+                    startAngle: '$startAngle',
+                    endAngle: '$endAngle',
+                  },
+                  timing: {duration: 2},
+                },
+                {
+                  use: 'Fly-in',
+                  target: {
+                    selector: '.legend',
+                    transform: {type: 'filter', expr: '@datum.name === "$dataName"'},
+                  },
+                  settings: {
+                    direction: 'right',
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ],
+      animation: {
+        target: '.accounting-of-pirates',
+    "sequence": {
+        "sync": [
+            {
+                "use": "Fade-in",
+                "timing": {
+                    "start": 0,
+                    "duration": 0.72
+                },
+                "target": "#accounting-of-pirates-chart-bg-donut",
+                "ani_type": "Enter",
+                "settings": {}
+            },
+            {
+                "use": "Pie with legend",
+                "timing": {
+                    "start": 0.721,
+                    "duration": 4.64
+                },
+                "target": "#accounting-of-pirates-arc-0, #accounting-of-pirates-legend-label-0, #accounting-of-pirates-legend-shape-0, #accounting-of-pirates-legend-symbol-label-0",
+                "ani_type": "Enter",
+                "settings": {}
+            },
+            {
+                "use": "Pie with legend",
+                "timing": {
+                    "start": 5.358,
+                    "duration": 3.6
+                },
+                "target": "#accounting-of-pirates-arc-1, #accounting-of-pirates-legend-label-1, #accounting-of-pirates-legend-shape-1, #accounting-of-pirates-legend-symbol-label-1",
+                "ani_type": "Enter",
+                "settings": {}
+            },
+            {
+                "use": "Pie with legend",
+                "timing": {
+                    "start": 11.507,
+                    "duration": 2.68
+                },
+                "target": "#accounting-of-pirates-arc-2, #accounting-of-pirates-legend-label-2, #accounting-of-pirates-legend-shape-2, #accounting-of-pirates-legend-symbol-label-2",
+                "ani_type": "Enter",
+                "settings": {}
+            },
+            {
+                "use": "Float",
+                "timing": {
+                    "start": 15.425,
+                    "duration": 1.32
+                },
+                "target": "#accounting-of-pirates-annotation-0-description",
+                "ani_type": "Enter",
+                "settings": {}
+            }
+        ]
+    }
+      }
+    },
+  ]
+}

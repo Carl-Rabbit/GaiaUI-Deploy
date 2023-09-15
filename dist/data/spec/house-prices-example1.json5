@@ -1,0 +1,81 @@
+{
+  charts: [
+    {source: './house-prices.svg'},
+  ],
+  animation: {
+    sequence: {
+      sync: [
+        // my line chart enter
+        {
+          sequence: {
+            concat: [
+              {
+                use: 'Axes fade in',
+                target: ':not(.title)'
+              },
+              {
+                use: 'wipe',
+                target: '.line',
+                settings: {direction: 'left', stagger: 2, duration: 2}
+              },
+            ]
+          }
+        },
+
+        // show title
+        {
+          sequence: {
+            concat: [
+              {
+                use: 'float',
+                target: '.title',
+                settings: {stagger: 0.2},
+              },
+              {
+                use: 'float',
+                target: '.title',
+                settings: {stagger: 0.2, enterOrExit: 'exit'},
+                timing: {offset: 2},
+              }
+            ]
+          },
+          timing: {start: 6.5}
+        },
+
+        // show arrow annotation
+        {
+          sequence: {
+            sync: [
+              {
+                use: 'Show-arrow-label',
+                target: {
+                  selector: '.annotation',
+                  transform: {type: 'filter', expr: '@datum.name === "Base Rate"'}
+                },
+                settings: {displayTime: 6},
+              },
+              {
+                use: 'Show-arrow-label',
+                target: {
+                  selector: '.annotation',
+                  transform: {type: 'filter', expr: '@datum.name === "Mortgage Rate"'}
+                },
+                settings: {displayTime: 2.5},
+                timing: {start: 3.5},
+              }
+            ]
+          },
+          timing: {start: 11},
+        },
+
+        // show circle annotation
+        {
+          use: 'show-annotation-zoom',
+          target: '.annotation.circle',
+          settings: {displayTime: 1},
+          timing: {start: 17},
+        }
+      ]
+    }
+  }
+}

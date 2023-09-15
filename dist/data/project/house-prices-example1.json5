@@ -1,0 +1,88 @@
+{
+  projectId: 'house-prices-example1',
+  scenes: [
+    {
+      charts: [
+        {source: './house-prices.svg'},
+      ],
+      animation: {
+        target: '.house-prices',
+    "sequence": {
+    "sync": [
+        {
+            "use": "Line chart by order",
+            "timing": {
+                "start": 0,
+                "duration": 2,
+                "offset": 0
+            },
+            "target": "#house-prices-x-domain, #house-prices-x-label-0, #house-prices-x-label-1, #house-prices-x-label-2, #house-prices-x-label-3, #house-prices-x-label-4, #house-prices-x-label-5, #house-prices-x-label-6, #house-prices-y-domain, #house-prices-y-label-0, #house-prices-y-label-1, #house-prices-y-label-2, #house-prices-y-label-3, #house-prices-y-label-4, #house-prices-y-label-5, #house-prices-y-label-6, #house-prices-y-label-7, #house-prices-y-label-8, #house-prices-y-label-9, #house-prices-y-tick-0, #house-prices-y-tick-1, #house-prices-y-tick-2, #house-prices-y-tick-3, #house-prices-y-tick-4, #house-prices-y-tick-5, #house-prices-y-tick-6, #house-prices-y-tick-7, #house-prices-y-tick-8, #house-prices-y-tick-9, #house-prices-line-0, #house-prices-line-1",
+            "ani_type": "Enter",
+            "settings": {}
+        },
+        {
+            "use": "Zoom-in-then-zoom-out",
+            "timing": {
+                "start": 6.1,
+                "duration": 5.6
+            },
+            "target": "#house-prices-title-0",
+            "ani_type": "Emphasis",
+            "settings": {}
+        },
+        {
+            "use": "Show-arrow-label",
+            "timing": {
+                "start": 11.3,
+                "duration": 3.4
+            },
+            "target": "#house-prices-annotation-group-0-text-0, #house-prices-annotation-group-0-text-1, #house-prices-annotation-group-0-arrow",
+            "ani_type": "Emphasis",
+            "settings": {}
+        },
+        {
+            "use": "Highlight",
+            "timing": {
+                "start": 11.3,
+                "duration": 3.42
+            },
+            "target": "#house-prices-line-0",
+            "ani_type": "Emphasis",
+            "settings": {}
+        },
+        {
+            "use": "Show-arrow-label",
+            "timing": {
+                "start": 14.7,
+                "duration": 2.7
+            },
+            "target": "#house-prices-annotation-group-1-text-0, #house-prices-annotation-group-1-text-1, #house-prices-annotation-group-1-arrow",
+            "ani_type": "Emphasis",
+            "settings": {}
+        },
+        {
+            "use": "Highlight",
+            "timing": {
+                "start": 14.7,
+                "duration": 2.77
+            },
+            "target": "#house-prices-line-1",
+            "ani_type": "Emphasis",
+            "settings": {}
+        },
+        {
+            "use": "Show-path",
+            "timing": {
+                "start": 17.4,
+                "duration": 2.65
+            },
+            "target": "#house-prices-annotation-circle",
+            "ani_type": "Emphasis",
+            "settings": {}
+        }
+    ]
+}
+      }
+    }
+  ]
+}

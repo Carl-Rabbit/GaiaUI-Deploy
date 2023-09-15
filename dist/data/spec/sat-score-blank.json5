@@ -1,0 +1,10 @@
+{
+  charts: [
+    {source: './sat-score.svg'},
+  ],
+  animation: {
+    sequence: {
+      sync: []
+    }
+  }
+}

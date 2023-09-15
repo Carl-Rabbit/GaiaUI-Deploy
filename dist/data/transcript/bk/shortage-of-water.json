@@ -1,0 +1,236 @@
+{
+  "results": [
+    {
+      "alternatives": [
+        {
+          "transcript": "In the Middle East, the entire 3.2 million square kilometer peninsula lacks a single natural river. The United States, in comparison, has 250,000. 98.8% of Dubai\u2019s water has to be pumped from the Persian Gulf and desalinated.",
+          "confidence": 1.0,
+          "words": [
+            {
+              "startTime": "0.000s",
+              "endTime": "0.145s",
+              "word": "In",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.145s",
+              "endTime": "0.205s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.205s",
+              "endTime": "0.662s",
+              "word": "Middle",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.662s",
+              "endTime": "1.303s",
+              "word": "East,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.303s",
+              "endTime": "1.428s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.428s",
+              "endTime": "1.964s",
+              "word": "entire",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.964s",
+              "endTime": "3.011s",
+              "word": "3.2",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.011s",
+              "endTime": "3.531s",
+              "word": "million",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.531s",
+              "endTime": "3.972s",
+              "word": "square",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.972s",
+              "endTime": "4.660s",
+              "word": "kilometer",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.660s",
+              "endTime": "5.406s",
+              "word": "peninsula",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.406s",
+              "endTime": "5.856s",
+              "word": "lacks",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.856s",
+              "endTime": "5.906s",
+              "word": "a",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.906s",
+              "endTime": "6.415s",
+              "word": "single",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.415s",
+              "endTime": "6.966s",
+              "word": "natural",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.966s",
+              "endTime": "8.354s",
+              "word": "river.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.354s",
+              "endTime": "8.454s",
+              "word": "The",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.454s",
+              "endTime": "8.963s",
+              "word": "United",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.963s",
+              "endTime": "9.669s",
+              "word": "States,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.669s",
+              "endTime": "9.804s",
+              "word": "in",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.804s",
+              "endTime": "10.847s",
+              "word": "comparison,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.847s",
+              "endTime": "11.087s",
+              "word": "has",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.087s",
+              "endTime": "13.594s",
+              "word": "250,000.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.594s",
+              "endTime": "15.422s",
+              "word": "98.8%",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.422s",
+              "endTime": "15.542s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.542s",
+              "endTime": "16.097s",
+              "word": "Dubai\u2019s",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.097s",
+              "endTime": "16.599s",
+              "word": "water",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.599s",
+              "endTime": "16.854s",
+              "word": "has",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.854s",
+              "endTime": "16.994s",
+              "word": "to",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.994s",
+              "endTime": "17.149s",
+              "word": "be",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.149s",
+              "endTime": "17.611s",
+              "word": "pumped",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.611s",
+              "endTime": "17.822s",
+              "word": "from",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.822s",
+              "endTime": "17.937s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.937s",
+              "endTime": "18.495s",
+              "word": "Persian",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.495s",
+              "endTime": "18.930s",
+              "word": "Gulf",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.930s",
+              "endTime": "19.081s",
+              "word": "and",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.081s",
+              "endTime": "20.963s",
+              "word": "desalinated.",
+              "speakerTag": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

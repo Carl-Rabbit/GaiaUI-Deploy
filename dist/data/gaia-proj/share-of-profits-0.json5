@@ -1,0 +1,216 @@
+{
+  projectId: 'share-of-profits-0',
+  chart: './share-of-profits.svg',
+  audio: './share-of-profits.txt',
+  binder: {
+    from: "svg",
+    to: "gaia.chart.LineChart",
+    rules: [
+      {
+        from: '.mark.line',
+        to: '.LineMark .Line',
+        dataList: [
+          { series: "General Motors", yValues: [0.82,0.47,0.82,0.36,0.28,1.15]},
+          { series: "Toyota", yValues: [0.08,0,0.18,0.31,0.39,0.19]},
+          { series: "Volkswagen", yValues: [0,0,0,0,0,0]}
+        ],
+      },
+      {
+        from: '.legend.symbol',
+        to: '.Legend .Symbol',
+        dataList: [
+          { series: "General Motors", yValues: [0.82,0.47,0.82,0.36,0.28,1.15]},
+          { series: "Toyota", yValues: [0.08,0,0.18,0.31,0.39,0.19]},
+          { series: "Volkswagen", yValues: [0,0,0,0,0,0]}
+        ],
+      },
+      {
+        from: '.annotation.path',
+        to: '.Annotation .Path',
+        dataList: [
+          { series: "General Motors", yValues: [0.82,0.47,0.82,0.36,0.28,1.15]},
+          { series: "Toyota", yValues: [0.08,0,0.18,0.31,0.39,0.19]},
+          { series: "Volkswagen", yValues: [0,0,0,0,0,0]}
+        ],
+      },
+      {
+        from: '.annotation.circle',
+        to: '.Annotation .Circle',
+      },
+      // title
+      {
+        from: '.title',
+        to: '.ChartTitle'
+      },
+      // axis
+      {
+        from: 'text.x-label',
+        to: '.XAxis .Label',
+        dataList: [
+          { xVal: 2012 },
+          { xVal: 2013 },
+          { xVal: 2014 },
+          { xVal: 2015 },
+          { xVal: 2016 },
+          { xVal: 2017 },
+        ]
+      },
+      {
+        from: 'text.y-label',
+        to: '.YAxis .Label',
+      },
+      {
+        from: 'path.y-tick',
+        to: '.YAxis .Tick',
+      }
+    ]
+  },
+  animation: {
+    main: {
+      sync: [
+        {
+          ref: 'ChartFrameworkEnter',
+        },
+        {
+          ref: 'SeriesEnterWithLegend',
+          seriesStagger: 1,
+          offset: 3,
+        },
+        {
+          ref: 'DisplayPath',
+          target: '.Annotation.Path[series="General Motors"]',
+          offset: 7,
+        },
+        {
+          ref: 'DisplayPath',
+          target: '.Annotation.Path[series="Volkswagen"]',
+          aniTime: 1,
+          displayTime: 0.5,
+          offset: 12.5,
+        },
+        {
+          ref: 'DisplayPath',
+          target: '.Annotation.Path[series="Toyota"]',
+          offset: 15,
+        },
+        {
+          concat: [
+            {
+              ref: 'Camera',
+              origin: '70% 80%',
+              to: {
+                scale: 1.5
+              }
+            },
+            {
+              ref: 'DisplayPath',
+              target: '.Annotation.Circle',
+              displayTime: 0,
+            },
+            {
+              ref: 'Camera',
+              reset: true,
+            }
+          ],
+          offset: 15,
+        },
+      ],
+    },
+  },
+  templates: [
+    {
+      name: 'ChartFrameworkEnter',
+      params: {
+        titleAnimation: {
+          type: 'aniUnit',
+          value: {
+            ref: 'CutIn',
+            duration: 1,
+          }
+        },
+        axisLabelAnimation: {
+          type: 'aniUnit',
+          value: {
+            ref: 'CutIn',
+            stagger: 0.2,
+          }
+        },
+        lineDuration: 1,
+        lineEase: 'circ.inOut',
+        xDomainReverse: false,
+        yDomainReverse: false,
+        xTickReverse: false,
+        yTickReverse: false,
+      },
+      main: {
+        concat: [
+          {
+            target: '.Title',
+            child: '$titleAnimation',
+          },
+          {
+            sync: [
+              {
+                sync: [
+                  {
+                    ref: 'PathDraw',
+                    target: '.XAxis.Domain',
+                    ease: '$lineEase',
+                  },
+                  {
+                    ref: 'PathDraw',
+                    target: '.YAxis.Domain',
+                    ease: '$lineEase',
+                  },
+                  {
+                    ref: 'PathDraw',
+                    target: '.XAxis.Tick',
+                    ease: '$lineEase',
+                  },
+                  {
+                    ref: 'PathDraw',
+                    target: '.YAxis.Tick',
+                    ease: '$lineEase',
+                  }
+                ],
+                duration: '$lineDuration'
+              },
+              {
+                target: '.XAxis.Label',
+                child: '$axisLabelAnimation',
+              },
+              {
+                target: '.YAxis.Label',
+                child: '$axisLabelAnimation',
+              }
+            ],
+          },
+        ]
+      }
+    },
+    {
+      name: 'SeriesEnterWithLegend',
+      params: {
+        attrSel: '',
+        seriesStagger: 0.5,
+        lineEase: 'circ.out',
+      },
+      main: {
+        sync: [
+          {
+            ref: 'ZoomIn',
+            target: '.Legend$attrSel',
+            stagger: '$seriesStagger',
+            ease: 'elastic',
+          },
+          {
+            ref: 'PathDraw',
+            target: '.LineMark.Line$attrSel',
+            stagger: '$seriesStagger',
+            ease: '$lineEase',
+          }
+        ],
+      },
+    },
+  ]
+}

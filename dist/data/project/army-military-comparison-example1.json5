@@ -1,0 +1,74 @@
+{
+  projectId: 'army-military-comparison-example1',
+  scenes: [
+    {
+      charts: [
+        {source: './army-military-comparison.svg'},
+      ],
+      animation: {
+        variable: {
+          dataItem: '.bar,.bar-label,.axis.symbol',
+        },
+        target: '.army-military-comparison',
+    "sequence": {
+    "sync": [
+        {
+            "use": "Bar with axis label",
+            "timing": {
+                "start": 0,
+                "duration": 1.21,
+                "offset": 0
+            },
+            "target": "#army-military-comparison-x-axis-symbol-0, #army-military-comparison-bar-0, #army-military-comparison-bar-label-0",
+            "ani_type": "Enter",
+            "settings": {}
+        },
+        {
+            "use": "Bar with axis label",
+            "timing": {
+                "start": 6.94,
+                "duration": 1.41,
+                "offset": 0
+            },
+            "target": "#army-military-comparison-x-axis-symbol-2, #army-military-comparison-bar-2, #army-military-comparison-bar-label-2",
+            "ani_type": "Enter",
+            "settings": {}
+        },
+        {
+            "use": "Bar with axis label",
+            "timing": {
+                "start": 12.915,
+                "duration": 1.16
+            },
+            "target": "#army-military-comparison-x-axis-symbol-3, #army-military-comparison-bar-3, #army-military-comparison-bar-label-3",
+            "ani_type": "Enter",
+            "settings": {}
+        },
+        {
+            "use": "Move-from",
+            "timing": {
+                "start": 16.916,
+                "duration": 1.54
+            },
+            "target": "#army-military-comparison-x-axis-symbol-2, #army-military-comparison-x-axis-symbol-3, #army-military-comparison-bar-2, #army-military-comparison-bar-label-2, #army-military-comparison-bar-3, #army-military-comparison-bar-label-3",
+            "ani_type": "Enter",
+            "settings": {
+                "x": "-=128"
+            }
+        },
+        {
+            "use": "Bar with axis label",
+            "timing": {
+                "start": 18.459,
+                "duration": 1.34
+            },
+            "target": "#army-military-comparison-x-axis-symbol-1, #army-military-comparison-bar-1, #army-military-comparison-bar-label-1",
+            "ani_type": "Enter",
+            "settings": {}
+        }
+    ]
+}
+      }
+    },
+  ]
+}

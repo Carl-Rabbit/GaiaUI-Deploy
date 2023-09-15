@@ -1,0 +1,307 @@
+{
+  "chartType": "bar-chart",
+  "elements": [
+    {
+      "type": "bg-rect",
+      "id": "sat-score-background-rect",
+      "clazz": "scene chart sat-score background rect bg-rect",
+      "data": null,
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "main-title",
+      "id": "sat-score-main-title",
+      "clazz": "scene chart sat-score title main-title",
+      "data": null,
+      "tag": "text",
+      "text": "Median SAT score by family income"
+    },
+    {
+      "type": "sub-title",
+      "id": "sat-score-sub-title",
+      "clazz": "scene chart sat-score title sub-title",
+      "data": null,
+      "tag": "text",
+      "text": "Data from the College Board"
+    },
+    {
+      "type": "y-label",
+      "id": "sat-score-y-label-0",
+      "clazz": "scene chart sat-score axis y-axis label y-label-0 y-label",
+      "data": null,
+      "tag": "text",
+      "text": "400"
+    },
+    {
+      "type": "y-label",
+      "id": "sat-score-y-label-1",
+      "clazz": "scene chart sat-score axis y-axis label y-label-1 y-label",
+      "data": null,
+      "tag": "text",
+      "text": "600"
+    },
+    {
+      "type": "y-label",
+      "id": "sat-score-y-label-2",
+      "clazz": "scene chart sat-score axis y-axis label y-label-2 y-label",
+      "data": null,
+      "tag": "text",
+      "text": "800"
+    },
+    {
+      "type": "y-label",
+      "id": "sat-score-y-label-3",
+      "clazz": "scene chart sat-score axis y-axis label y-label-3 y-label",
+      "data": null,
+      "tag": "text",
+      "text": "1,000"
+    },
+    {
+      "type": "y-label",
+      "id": "sat-score-y-label-4",
+      "clazz": "scene chart sat-score axis y-axis label y-label-4 y-label",
+      "data": null,
+      "tag": "text",
+      "text": "1,200"
+    },
+    {
+      "type": "y-tick",
+      "id": "sat-score-y-tick-line-0",
+      "clazz": "scene chart sat-score axis y-axis tick y-tick-0 y-tick",
+      "data": null,
+      "tag": "line",
+      "text": null
+    },
+    {
+      "type": "y-tick",
+      "id": "sat-score-y-tick-line-1",
+      "clazz": "scene chart sat-score axis y-axis tick y-tick-1 y-tick",
+      "data": null,
+      "tag": "line",
+      "text": null
+    },
+    {
+      "type": "y-tick",
+      "id": "sat-score-y-tick-line-2",
+      "clazz": "scene chart sat-score axis y-axis tick y-tick-2 y-tick",
+      "data": null,
+      "tag": "line",
+      "text": null
+    },
+    {
+      "type": "y-tick",
+      "id": "sat-score-y-tick-line-3",
+      "clazz": "scene chart sat-score axis y-axis tick y-tick-3 y-tick",
+      "data": null,
+      "tag": "line",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "sat-score-bar-0",
+      "clazz": "scene chart sat-score mark bar-0 bar",
+      "data": {
+        "name": "Less than $20,000",
+        "value": 890
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "sat-score-bar-1",
+      "clazz": "scene chart sat-score mark bar-1 bar",
+      "data": {
+        "name": "$40,000",
+        "value": 930
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "sat-score-bar-2",
+      "clazz": "scene chart sat-score mark bar-2 bar",
+      "data": {
+        "name": "$60,000",
+        "value": 980
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "sat-score-bar-3",
+      "clazz": "scene chart sat-score mark bar-3 bar",
+      "data": {
+        "name": "$80,000",
+        "value": 1010
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "sat-score-bar-4",
+      "clazz": "scene chart sat-score mark bar-4 bar",
+      "data": {
+        "name": "$100,000",
+        "value": 1030
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "sat-score-bar-5",
+      "clazz": "scene chart sat-score mark bar-5 bar",
+      "data": {
+        "name": "$140,000",
+        "value": 1090
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar",
+      "id": "sat-score-bar-6",
+      "clazz": "scene chart sat-score mark bar-6 bar",
+      "data": {
+        "name": "More than $200,000",
+        "value": 1150
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "bar-label",
+      "id": "sat-score-bar-label-0",
+      "clazz": "scene chart sat-score mark label bar-label-0 bar-label",
+      "data": {
+        "name": "Less than $20,000",
+        "value": 890
+      },
+      "tag": "text",
+      "text": "890"
+    },
+    {
+      "type": "bar-label",
+      "id": "sat-score-bar-label-6",
+      "clazz": "scene chart sat-score mark label bar-label-6 bar-label",
+      "data": {
+        "name": "More than $200,000",
+        "value": 1150
+      },
+      "tag": "text",
+      "text": "1150"
+    },
+    {
+      "type": "x-domain",
+      "id": "sat-score-x-domain",
+      "clazz": "domain scene chart sat-score axis x-axis x-domain",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "x-label",
+      "id": "sat-score-x-label-0",
+      "clazz": "scene chart sat-score axis x-axis label x-label-0 x-label",
+      "data": "Less than $20,000",
+      "tag": "text",
+      "text": "Less than $20,000"
+    },
+    {
+      "type": "x-label",
+      "id": "sat-score-x-label-1",
+      "clazz": "scene chart sat-score axis x-axis label x-label-1 x-label",
+      "data": "$40,000",
+      "tag": "text",
+      "text": "$40,000"
+    },
+    {
+      "type": "x-label",
+      "id": "sat-score-x-label-2",
+      "clazz": "scene chart sat-score axis x-axis label x-label-2 x-label",
+      "data": "$60,000",
+      "tag": "text",
+      "text": "$60,000"
+    },
+    {
+      "type": "x-label",
+      "id": "sat-score-x-label-3",
+      "clazz": "scene chart sat-score axis x-axis label x-label-3 x-label",
+      "data": "$80,000",
+      "tag": "text",
+      "text": "$80,000"
+    },
+    {
+      "type": "x-label",
+      "id": "sat-score-x-label-4",
+      "clazz": "scene chart sat-score axis x-axis label x-label-4 x-label",
+      "data": "$100,000",
+      "tag": "text",
+      "text": "$100,000"
+    },
+    {
+      "type": "x-label",
+      "id": "sat-score-x-label-5",
+      "clazz": "scene chart sat-score axis x-axis label x-label-5 x-label",
+      "data": "$140,000",
+      "tag": "text",
+      "text": "$140,000"
+    },
+    {
+      "type": "x-label",
+      "id": "sat-score-x-label-6",
+      "clazz": "scene chart sat-score axis x-axis label x-label-6 x-label",
+      "data": "More than $200,000",
+      "tag": "text",
+      "text": "More than $200,000"
+    },
+    {
+      "type": "anno-line",
+      "id": "sat-score-anno-0-line",
+      "clazz": "scene chart sat-score foreground annotation annotation-0 line anno-line",
+      "data": null,
+      "tag": "line",
+      "text": null
+    },
+    {
+      "type": "anno-label",
+      "id": "sat-score-anno-0-label",
+      "clazz": "scene chart sat-score foreground annotation annotation-0 label anno-label",
+      "data": null,
+      "tag": "text",
+      "text": "Average"
+    },
+    {
+      "type": "anno-circle",
+      "id": "sat-score-annotation-1",
+      "clazz": "scene chart sat-score foreground annotation annotation-1 circle anno-circle",
+      "data": {
+        "name": "Less than $20,000",
+        "value": 890
+      },
+      "tag": "ellipse",
+      "text": null
+    },
+    {
+      "type": "anno-circle",
+      "id": "sat-score-annotation-2",
+      "clazz": "scene chart sat-score foreground annotation annotation-2 circle anno-circle",
+      "data": {
+        "name": "More than $200,000",
+        "value": 1150
+      },
+      "tag": "ellipse",
+      "text": null
+    }
+  ],
+  "layout": {
+    "xAxis": "left",
+    "yAxis": "bottom",
+    "title": "top"
+  }
+}

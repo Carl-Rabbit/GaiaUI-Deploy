@@ -1,0 +1,554 @@
+{
+  "results": [
+    {
+      "alternatives": [
+        {
+          "transcript": "Almost one-quarter of the businesses that needed at least one type of PPE to operate in accordance with the public health guidelines had concerns about PPE shortages within the next three months. Concerns about potential shortages of required PPE vary by sector and type of PPE. Businesses in educational services were more likely to expect a shortage in PPE that they require than businesses in retail trade. Among the different types of PPE that businesses require, shortage concerns were more pronounced in COVID-19 rapid test kits, respirators and disposable gowns.",
+          "confidence": 1.0,
+          "words": [
+            {
+              "startTime": "0.000s",
+              "endTime": "0.495s",
+              "word": "Almost",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.495s",
+              "endTime": "1.334s",
+              "word": "one-quarter",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.334s",
+              "endTime": "1.424s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.424s",
+              "endTime": "1.544s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.544s",
+              "endTime": "2.296s",
+              "word": "businesses",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.296s",
+              "endTime": "2.479s",
+              "word": "that",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.479s",
+              "endTime": "2.859s",
+              "word": "needed",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.859s",
+              "endTime": "3.006s",
+              "word": "at",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.006s",
+              "endTime": "3.346s",
+              "word": "least",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.346s",
+              "endTime": "3.715s",
+              "word": "one",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.715s",
+              "endTime": "4.065s",
+              "word": "type",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.065s",
+              "endTime": "4.193s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.193s",
+              "endTime": "5.090s",
+              "word": "PPE",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.090s",
+              "endTime": "5.255s",
+              "word": "to",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.255s",
+              "endTime": "5.835s",
+              "word": "operate",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.835s",
+              "endTime": "5.937s",
+              "word": "in",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.937s",
+              "endTime": "6.567s",
+              "word": "accordance",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.567s",
+              "endTime": "6.707s",
+              "word": "with",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.707s",
+              "endTime": "6.822s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.822s",
+              "endTime": "7.334s",
+              "word": "public",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.334s",
+              "endTime": "7.674s",
+              "word": "health",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.674s",
+              "endTime": "8.417s",
+              "word": "guidelines",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.417s",
+              "endTime": "8.607s",
+              "word": "had",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.607s",
+              "endTime": "9.279s",
+              "word": "concerns",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.279s",
+              "endTime": "9.590s",
+              "word": "about",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.590s",
+              "endTime": "10.362s",
+              "word": "PPE",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.362s",
+              "endTime": "11.131s",
+              "word": "shortages",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.131s",
+              "endTime": "11.401s",
+              "word": "within",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.401s",
+              "endTime": "11.461s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.461s",
+              "endTime": "11.841s",
+              "word": "next",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.841s",
+              "endTime": "12.054s",
+              "word": "three",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "12.054s",
+              "endTime": "13.487s",
+              "word": "months.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.487s",
+              "endTime": "14.136s",
+              "word": "Concerns",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.136s",
+              "endTime": "14.421s",
+              "word": "about",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.421s",
+              "endTime": "15.133s",
+              "word": "potential",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.133s",
+              "endTime": "15.887s",
+              "word": "shortages",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.887s",
+              "endTime": "16.052s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.052s",
+              "endTime": "16.683s",
+              "word": "required",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.683s",
+              "endTime": "17.623s",
+              "word": "PPE",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.623s",
+              "endTime": "18.085s",
+              "word": "vary",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.085s",
+              "endTime": "18.277s",
+              "word": "by",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.277s",
+              "endTime": "18.955s",
+              "word": "sector",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.955s",
+              "endTime": "19.075s",
+              "word": "and",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.075s",
+              "endTime": "19.410s",
+              "word": "type",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.410s",
+              "endTime": "19.530s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.530s",
+              "endTime": "21.312s",
+              "word": "PPE.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "21.312s",
+              "endTime": "22.042s",
+              "word": "Businesses",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "22.042s",
+              "endTime": "22.167s",
+              "word": "in",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "22.167s",
+              "endTime": "23.048s",
+              "word": "educational",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "23.048s",
+              "endTime": "23.846s",
+              "word": "services",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "23.846s",
+              "endTime": "23.981s",
+              "word": "were",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "23.981s",
+              "endTime": "24.251s",
+              "word": "more",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "24.251s",
+              "endTime": "24.783s",
+              "word": "likely",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "24.783s",
+              "endTime": "24.972s",
+              "word": "to",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "24.972s",
+              "endTime": "25.472s",
+              "word": "expect",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "25.472s",
+              "endTime": "25.529s",
+              "word": "a",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "25.529s",
+              "endTime": "26.186s",
+              "word": "shortage",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "26.186s",
+              "endTime": "26.356s",
+              "word": "in",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "26.356s",
+              "endTime": "27.279s",
+              "word": "PPE",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "27.279s",
+              "endTime": "27.519s",
+              "word": "that",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "27.519s",
+              "endTime": "27.599s",
+              "word": "they",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "27.599s",
+              "endTime": "28.243s",
+              "word": "require",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "28.243s",
+              "endTime": "28.443s",
+              "word": "than",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "28.443s",
+              "endTime": "29.172s",
+              "word": "businesses",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "29.172s",
+              "endTime": "29.317s",
+              "word": "in",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "29.317s",
+              "endTime": "29.827s",
+              "word": "retail",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "29.827s",
+              "endTime": "31.184s",
+              "word": "trade.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "31.184s",
+              "endTime": "31.549s",
+              "word": "Among",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "31.549s",
+              "endTime": "31.679s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "31.679s",
+              "endTime": "32.185s",
+              "word": "different",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "32.185s",
+              "endTime": "32.555s",
+              "word": "types",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "32.555s",
+              "endTime": "32.660s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "32.660s",
+              "endTime": "33.544s",
+              "word": "PPE",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "33.544s",
+              "endTime": "33.750s",
+              "word": "that",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "33.750s",
+              "endTime": "34.426s",
+              "word": "businesses",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "34.426s",
+              "endTime": "35.552s",
+              "word": "require,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "35.552s",
+              "endTime": "36.084s",
+              "word": "shortage",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "36.084s",
+              "endTime": "36.745s",
+              "word": "concerns",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "36.745s",
+              "endTime": "36.865s",
+              "word": "were",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "36.865s",
+              "endTime": "37.136s",
+              "word": "more",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "37.136s",
+              "endTime": "37.834s",
+              "word": "pronounced",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "37.834s",
+              "endTime": "38.004s",
+              "word": "in",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "38.004s",
+              "endTime": "39.185s",
+              "word": "COVID-19",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "39.185s",
+              "endTime": "39.689s",
+              "word": "rapid",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "39.689s",
+              "endTime": "40.079s",
+              "word": "test",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "40.079s",
+              "endTime": "40.753s",
+              "word": "kits,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "40.753s",
+              "endTime": "41.631s",
+              "word": "respirators",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "41.631s",
+              "endTime": "41.786s",
+              "word": "and",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "41.786s",
+              "endTime": "42.595s",
+              "word": "disposable",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "42.595s",
+              "endTime": "44.173s",
+              "word": "gowns.",
+              "speakerTag": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

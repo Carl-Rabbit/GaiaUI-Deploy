@@ -1,0 +1,332 @@
+{
+  "results": [
+    {
+      "alternatives": [
+        {
+          "transcript": "Most Canadian provinces have more workers in the urban area. And Yukon even had more than twice as many urban employees as rural ones. However, there are two provinces that have more rural employees, such as Prince Edward Island, which has a proportion of 20.2% rural employees, 2.1% more than the urban workers.",
+          "confidence": 1.0,
+          "words": [
+            {
+              "startTime": "0.000s",
+              "endTime": "0.400s",
+              "word": "Most",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.400s",
+              "endTime": "1.087s",
+              "word": "Canadian",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.087s",
+              "endTime": "1.908s",
+              "word": "provinces",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.908s",
+              "endTime": "2.123s",
+              "word": "have",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.123s",
+              "endTime": "2.394s",
+              "word": "more",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.394s",
+              "endTime": "2.984s",
+              "word": "workers",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.984s",
+              "endTime": "3.112s",
+              "word": "in",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.112s",
+              "endTime": "3.242s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.242s",
+              "endTime": "3.572s",
+              "word": "urban",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.572s",
+              "endTime": "4.565s",
+              "word": "area.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.565s",
+              "endTime": "4.700s",
+              "word": "And",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.700s",
+              "endTime": "5.340s",
+              "word": "Yukon",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.340s",
+              "endTime": "5.685s",
+              "word": "even",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.685s",
+              "endTime": "5.939s",
+              "word": "had",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.939s",
+              "endTime": "6.179s",
+              "word": "more",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.179s",
+              "endTime": "6.382s",
+              "word": "than",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.382s",
+              "endTime": "6.922s",
+              "word": "twice",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.922s",
+              "endTime": "7.102s",
+              "word": "as",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.102s",
+              "endTime": "7.452s",
+              "word": "many",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.452s",
+              "endTime": "7.807s",
+              "word": "urban",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.807s",
+              "endTime": "8.561s",
+              "word": "employees",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.561s",
+              "endTime": "8.751s",
+              "word": "as",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.751s",
+              "endTime": "9.111s",
+              "word": "rural",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.111s",
+              "endTime": "10.504s",
+              "word": "ones.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.504s",
+              "endTime": "11.310s",
+              "word": "However,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.310s",
+              "endTime": "11.465s",
+              "word": "there",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.465s",
+              "endTime": "11.595s",
+              "word": "are",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.595s",
+              "endTime": "11.891s",
+              "word": "two",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.891s",
+              "endTime": "12.693s",
+              "word": "provinces",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "12.693s",
+              "endTime": "12.838s",
+              "word": "that",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "12.838s",
+              "endTime": "13.022s",
+              "word": "have",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.022s",
+              "endTime": "13.292s",
+              "word": "more",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.292s",
+              "endTime": "13.741s",
+              "word": "rural",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.741s",
+              "endTime": "14.817s",
+              "word": "employees,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.817s",
+              "endTime": "15.077s",
+              "word": "such",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.077s",
+              "endTime": "15.227s",
+              "word": "as",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.227s",
+              "endTime": "15.643s",
+              "word": "Prince",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.643s",
+              "endTime": "16.004s",
+              "word": "Edward",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.004s",
+              "endTime": "16.862s",
+              "word": "Island,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.862s",
+              "endTime": "17.042s",
+              "word": "which",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.042s",
+              "endTime": "17.227s",
+              "word": "has",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.227s",
+              "endTime": "17.327s",
+              "word": "a",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.327s",
+              "endTime": "18.028s",
+              "word": "proportion",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.028s",
+              "endTime": "18.158s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.158s",
+              "endTime": "19.779s",
+              "word": "20.2%",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.779s",
+              "endTime": "20.174s",
+              "word": "rural",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "20.174s",
+              "endTime": "21.187s",
+              "word": "employees,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "21.187s",
+              "endTime": "22.533s",
+              "word": "2.1%",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "22.533s",
+              "endTime": "22.813s",
+              "word": "more",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "22.813s",
+              "endTime": "23.004s",
+              "word": "than",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "23.004s",
+              "endTime": "23.124s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "23.124s",
+              "endTime": "23.469s",
+              "word": "urban",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "23.469s",
+              "endTime": "24.978s",
+              "word": "workers.",
+              "speakerTag": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  charts: [
+    {source: './australia-fire.svg'},
+  ],
+  animation: {
+    sequence: {
+      sync: [
+        // use a timeline template from lib
+        // default: start=0
+        {
+          use: 'bar chart',
+          settings: {ease: "circ.inOut"},
+          timing: {duration: 5.5},   // change the timeScale
+        },
+
+        // use a template from lib
+        // meaning: target fade-in then fade-out
+        {
+          use: 'fade-in-then-fade-out',
+          target: '.annotation-2',
+          settings: {displayTime: 8},
+          timing: {start: 10.8},
+        },
+        {
+          use: 'fade-in-then-fade-out',
+          target: '.annotation-0',
+          settings: {displayTime: 4},
+          timing: {start: 20},
+        },
+        {
+          use: 'fade-in-then-fade-out',
+          target: '.annotation-1',
+          settings: {displayTime: 3},
+          timing: {start: 24.5},
+        }
+      ]
+    }
+  }
+}

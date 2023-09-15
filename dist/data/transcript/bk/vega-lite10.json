@@ -1,0 +1,326 @@
+{
+  "results": [
+    {
+      "alternatives": [
+        {
+          "transcript": "As the pandemic hit, the rate jumped for all three groups, but much more so among recent immigrants, peaking in April at 17.3% for recent immigrants and 13.5% for the Canadian born and long-term immigrants. From April to July, as the economy began to recover, the rate declined for all three groups.",
+          "confidence": 1.0,
+          "words": [
+            {
+              "startTime": "0.000s",
+              "endTime": "0.195s",
+              "word": "As",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.195s",
+              "endTime": "0.345s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.345s",
+              "endTime": "1.047s",
+              "word": "pandemic",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.047s",
+              "endTime": "1.624s",
+              "word": "hit,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.624s",
+              "endTime": "1.719s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.719s",
+              "endTime": "2.095s",
+              "word": "rate",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.095s",
+              "endTime": "2.448s",
+              "word": "jumped",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.448s",
+              "endTime": "2.663s",
+              "word": "for",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.663s",
+              "endTime": "2.878s",
+              "word": "all",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.878s",
+              "endTime": "3.245s",
+              "word": "three",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.245s",
+              "endTime": "4.178s",
+              "word": "groups,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.178s",
+              "endTime": "4.324s",
+              "word": "but",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.324s",
+              "endTime": "4.704s",
+              "word": "much",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.704s",
+              "endTime": "4.919s",
+              "word": "more",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.919s",
+              "endTime": "5.209s",
+              "word": "so",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.209s",
+              "endTime": "5.500s",
+              "word": "among",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.500s",
+              "endTime": "5.950s",
+              "word": "recent",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.950s",
+              "endTime": "6.964s",
+              "word": "immigrants,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.964s",
+              "endTime": "7.358s",
+              "word": "peaking",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.358s",
+              "endTime": "7.498s",
+              "word": "in",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.498s",
+              "endTime": "8.041s",
+              "word": "April",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.041s",
+              "endTime": "8.171s",
+              "word": "at",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.171s",
+              "endTime": "10.067s",
+              "word": "17.3%",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.067s",
+              "endTime": "10.269s",
+              "word": "for",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.269s",
+              "endTime": "10.689s",
+              "word": "recent",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.689s",
+              "endTime": "11.355s",
+              "word": "immigrants",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.355s",
+              "endTime": "11.495s",
+              "word": "and",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.495s",
+              "endTime": "13.284s",
+              "word": "13.5%",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.284s",
+              "endTime": "13.434s",
+              "word": "for",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.434s",
+              "endTime": "13.564s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.564s",
+              "endTime": "14.243s",
+              "word": "Canadian",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.243s",
+              "endTime": "14.700s",
+              "word": "born",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.700s",
+              "endTime": "14.855s",
+              "word": "and",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.855s",
+              "endTime": "15.427s",
+              "word": "long-term",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.427s",
+              "endTime": "17.071s",
+              "word": "immigrants.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.071s",
+              "endTime": "17.291s",
+              "word": "From",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.291s",
+              "endTime": "17.763s",
+              "word": "April",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.763s",
+              "endTime": "17.963s",
+              "word": "to",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.963s",
+              "endTime": "18.831s",
+              "word": "July,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.831s",
+              "endTime": "18.985s",
+              "word": "as",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.985s",
+              "endTime": "19.145s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.145s",
+              "endTime": "19.756s",
+              "word": "economy",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.756s",
+              "endTime": "20.209s",
+              "word": "began",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "20.209s",
+              "endTime": "20.299s",
+              "word": "to",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "20.299s",
+              "endTime": "21.258s",
+              "word": "recover,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "21.258s",
+              "endTime": "21.333s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "21.333s",
+              "endTime": "21.663s",
+              "word": "rate",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "21.663s",
+              "endTime": "22.279s",
+              "word": "declined",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "22.279s",
+              "endTime": "22.490s",
+              "word": "for",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "22.490s",
+              "endTime": "22.700s",
+              "word": "all",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "22.700s",
+              "endTime": "23.049s",
+              "word": "three",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "23.049s",
+              "endTime": "24.550s",
+              "word": "groups.",
+              "speakerTag": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

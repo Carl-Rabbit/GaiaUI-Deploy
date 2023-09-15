@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg id="visChart" class="marks" width="350" height="284" viewBox="0 0 350 284" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" trans="0,0">
+    <g transform="" id="chartContent" trans="45,10">
+        <g class="mark-group role-frame root frame" trans="45,10">
+            <g transform="" trans="45,10">
+                <path class="background" d="M45 10h300v240h-300ZZ" fill="none"></path>
+                <g trans="45,10">
+                    <g class="mark-group role-axis axis" data-datum="{&quot;_TYPE&quot;:&quot;axis&quot;,&quot;type&quot;:&quot;left&quot;,&quot;position&quot;:&quot;&quot;}" trans="45,10">
+                        <g transform="" trans="45.5,10.5">
+                            <path class="background" d="M45.5 10.5h0v0h0ZZ" fill="none"></path>
+                            <g trans="45.5,10.5">
+                                <g class="mark-rule role-axis-grid axis-grid" trans="45.5,10.5">
+                                    <line id="mark0" class="mark axis-grid" data-datum="{&quot;_TYPE&quot;:&quot;axis-grid&quot;}" transform="" x2="345.506px" y2="250.502px" fill="none" stroke="#ddd" stroke-width="1" opacity="1" x1="45.5px" y1="250.5px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></line>
+                                    <line id="mark2" class="mark axis-grid" data-datum="{&quot;_TYPE&quot;:&quot;axis-grid&quot;}" transform="" x2="345.504px" y2="213.51px" fill="none" stroke="#ddd" stroke-width="1" opacity="1" x1="45.5px" y1="213.5px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></line>
+                                    <line id="mark4" class="mark axis-grid" data-datum="{&quot;_TYPE&quot;:&quot;axis-grid&quot;}" transform="" x2="345.504px" y2="176.506px" fill="none" stroke="#ddd" stroke-width="1" opacity="1" x1="45.5px" y1="176.5px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></line>
+                                    <line id="mark6" class="mark axis-grid" data-datum="{&quot;_TYPE&quot;:&quot;axis-grid&quot;}" transform="" x2="345.509px" y2="139.504px" fill="none" stroke="#ddd" stroke-width="1" opacity="1" x1="45.5px" y1="139.5px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></line>
+                                    <line id="mark8" class="mark axis-grid" data-datum="{&quot;_TYPE&quot;:&quot;axis-grid&quot;}" transform="" x2="345.504px" y2="102.503px" fill="none" stroke="#ddd" stroke-width="1" opacity="1" x1="45.5px" y1="102.5px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></line>
+                                    <line id="mark10" class="mark axis-grid" data-datum="{&quot;_TYPE&quot;:&quot;axis-grid&quot;}" transform="" x2="345.505px" y2="65.5041px" fill="none" stroke="#ddd" stroke-width="1" opacity="1" x1="45.5px" y1="65.5px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></line>
+                                    <line id="mark12" class="mark axis-grid" data-datum="{&quot;_TYPE&quot;:&quot;axis-grid&quot;}" transform="" x2="345.507px" y2="28.5039px" fill="none" stroke="#ddd" stroke-width="1" opacity="1" x1="45.5px" y1="28.5px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></line>
+                                </g>
+                                <g class="mark-rule role-axis-tick axis-tick" trans="45.5,10.5">
+                                    <line id="mark1000" class="mark axis-tick" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" transform="" x2="40.5082px" y2="250.502px" fill="none" stroke="#888" stroke-width="1" opacity="1" x1="45.5px" y1="250.5px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></line>
+                                    <line id="mark1002" class="mark axis-tick" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" transform="" x2="40.5039px" y2="213.507px" fill="none" stroke="#888" stroke-width="1" opacity="1" x1="45.5px" y1="213.5px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></line>
+                                    <line id="mark1004" class="mark axis-tick" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" transform="" x2="40.5059px" y2="176.509px" fill="none" stroke="#888" stroke-width="1" opacity="1" x1="45.5px" y1="176.5px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></line>
+                                    <line id="mark1006" class="mark axis-tick" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" transform="" x2="40.5026px" y2="139.509px" fill="none" stroke="#888" stroke-width="1" opacity="1" x1="45.5px" y1="139.5px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></line>
+                                    <line id="mark1008" class="mark axis-tick" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" transform="" x2="40.5022px" y2="102.51px" fill="none" stroke="#888" stroke-width="1" opacity="1" x1="45.5px" y1="102.5px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></line>
+                                    <line id="mark1010" class="mark axis-tick" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" transform="" x2="40.5018px" y2="65.5059px" fill="none" stroke="#888" stroke-width="1" opacity="1" x1="45.5px" y1="65.5px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></line>
+                                    <line id="mark1012" class="mark axis-tick" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" transform="" x2="40.5024px" y2="28.5098px" fill="none" stroke="#888" stroke-width="1" opacity="1" x1="45.5px" y1="28.5px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></line>
+                                </g>
+                                <g class="mark-text role-axis-label axis-label" trans="45.5,10.5">
+                                    <text id="mark2000" class="mark axis-label" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;}" text-anchor="end" transform="" font-family="sans-serif" font-size="10px" fill="#000" opacity="1" x="38.5" y="253.5" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}">0</text>
+                                    <text id="mark2002" class="mark axis-label" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;}" text-anchor="end" transform="" font-family="sans-serif" font-size="10px" fill="#000" opacity="1" x="38.5" y="216.5" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}">40</text>
+                                    <text id="mark2004" class="mark axis-label" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;}" text-anchor="end" transform="" font-family="sans-serif" font-size="10px" fill="#000" opacity="1" x="38.5" y="179.5" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}">80</text>
+                                    <text id="mark2006" class="mark axis-label" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;}" text-anchor="end" transform="" font-family="sans-serif" font-size="10px" fill="#000" opacity="1" x="38.5" y="142.5" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}">120</text>
+                                    <text id="mark2008" class="mark axis-label" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;}" text-anchor="end" transform="" font-family="sans-serif" font-size="10px" fill="#000" opacity="1" x="38.5" y="105.5" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}">160</text>
+                                    <text id="mark2010" class="mark axis-label" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;}" text-anchor="end" transform="" font-family="sans-serif" font-size="10px" fill="#000" opacity="1" x="38.5" y="68.5" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}">200</text>
+                                    <text id="mark2012" class="mark axis-label" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;}" text-anchor="end" transform="" font-family="sans-serif" font-size="10px" fill="#000" opacity="1" x="38.5" y="31.5" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}">240</text>
+                                </g>
+                                <g class="mark-rule role-axis-domain axis-domain" trans="45.5,10.5">
+                                    <line id="mark3000" class="mark axis-domain" data-datum="{&quot;_TYPE&quot;:&quot;axis-domain&quot;}" transform="" x2="45.5033px" y2="10.5011px" fill="none" stroke="#888" stroke-width="1" opacity="1" x1="45.5px" y1="250.5px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></line>
+                                </g>
+                                <g class="mark-text role-axis-title axis-title" trans="45.5,10.5">
+                                    <text id="mark4000" class="mark axis-title" data-datum="{&quot;_TYPE&quot;:&quot;axis-title&quot;}" text-anchor="middle" transform="" font-family="sans-serif" font-size="11px" font-weight="bold" fill="#000" opacity="1" x="45.5" y="8.5" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}">Sale</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g class="mark-group role-scope scope" trans="45,10">
+                        <g transform="" trans="72.27272727272728,10">
+                            <path class="background" d="M72.27272727272728 10h0v0h0ZZ" fill="none"></path>
+                            <g trans="72.27272727272728,10">
+                                <g class="mark-rect role-mark bars" trans="72.27272727272728,10">
+                                    <path id="mark5000" class="mark element0 rectangle" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;element0&quot;,&quot;_x&quot;:0,&quot;_y&quot;:0,&quot;category&quot;:&quot;2001&quot;,&quot;position&quot;:&quot;Apple&quot;,&quot;value&quot;:260}" d="M72.27272727272728 10h36.36363636363636v240h-36.36363636363636ZZ" fill="#1f77b4" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+                                    <path id="mark5001" class="mark element0 rectangle" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;element0&quot;,&quot;_x&quot;:36.36363636363636,&quot;_y&quot;:142,&quot;category&quot;:&quot;2001&quot;,&quot;position&quot;:&quot;Orange&quot;,&quot;value&quot;:106}" d="M108.63636363636364 152h36.36363636363636v98h-36.36363636363636ZZ" fill="#ff7f0e" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+                                    <path id="mark5002" class="mark element0 rectangle" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;element0&quot;,&quot;_x&quot;:72.72727272727272,&quot;_y&quot;:143,&quot;category&quot;:&quot;2001&quot;,&quot;position&quot;:&quot;Banana&quot;,&quot;value&quot;:105}" d="M145 153h36.36363636363636v97h-36.36363636363636ZZ" fill="#ff0e0e" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+                                </g>
+                            </g>
+                        </g>
+                        <g transform="" trans="208.63636363636363,10">
+                            <path class="background" d="M208.63636363636363 10h0v0h0ZZ" fill="none"></path>
+                            <g trans="208.63636363636363,10">
+                                <g class="mark-rect role-mark bars" trans="208.63636363636363,10">
+                                    <path id="mark6000" class="mark element1 rectangle" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;element1&quot;,&quot;_x&quot;:0,&quot;_y&quot;:46,&quot;category&quot;:&quot;2002&quot;,&quot;position&quot;:&quot;Apple&quot;,&quot;value&quot;:210}" d="M208.63636363636363 56h36.36363636363636v194h-36.36363636363636ZZ" fill="#1f77b4" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+                                    <path id="mark6001" class="mark element1 rectangle" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;element1&quot;,&quot;_x&quot;:36.36363636363636,&quot;_y&quot;:106,&quot;category&quot;:&quot;2002&quot;,&quot;position&quot;:&quot;Orange&quot;,&quot;value&quot;:145}" d="M245 116h36.36363636363636v134h-36.36363636363636ZZ" fill="#ff7f0e" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+                                    <path id="mark6002" class="mark element1 rectangle" data-datum="{&quot;_TYPE&quot;:&quot;rectangle&quot;,&quot;_MARKID&quot;:&quot;element1&quot;,&quot;_x&quot;:72.72727272727272,&quot;_y&quot;:217,&quot;category&quot;:&quot;2002&quot;,&quot;position&quot;:&quot;Banana&quot;,&quot;value&quot;:25}" d="M281.3636363636364 227h36.36363636363636v23h-36.36363636363636ZZ" fill="#ff0e0e" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g class="mark-group role-legend legend" data-datum="{&quot;_TYPE&quot;:&quot;legend&quot;,&quot;color&quot;:&quot;&quot;}" trans="45,10">
+                        <g transform="" trans="276,28">
+                            <path class="background" d="M276 28h51v37h-51ZZ" fill="none"></path>
+                            <g trans="276,28">
+                                <g class="mark-group role-legend-entry legend-entry" trans="276,28">
+                                    <g transform="" trans="276,28">
+                                        <path class="background" d="M276 28h0v0h0ZZ" fill="none"></path>
+                                        <g trans="276,28">
+                                            <g class="mark-group role-scope scope" trans="276,28">
+                                                <g transform="" trans="276,28">
+                                                    <path class="background" d="M276 28h50.719970703125v11h-50.719970703125ZZ" fill="none" opacity="1"></path>
+                                                    <g trans="276,28">
+                                                        <g class="mark-symbol role-legend-symbol legend-symbol" trans="276,28">
+                                                            <circle id="mark7000" class="mark legend-symbol" data-datum="{&quot;_TYPE&quot;:&quot;legend-symbol&quot;}" transform="" r="5px" fill="#1f77b4" stroke-width="1.5" opacity="1" cx="282" cy="34" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></circle>
+                                                        </g>
+                                                        <g class="mark-text role-legend-label legend-label" trans="276,28">
+                                                            <text id="mark8000" class="mark legend-label" data-datum="{&quot;_TYPE&quot;:&quot;legend-label&quot;}" text-anchor="start" transform="" font-family="sans-serif" font-size="10px" fill="#000" opacity="1" x="292" y="37" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}">Apple</text>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                                <g transform="" trans="276,41">
+                                                    <path class="background" d="M276 41h50.719970703125v11h-50.719970703125ZZ" fill="none" opacity="1"></path>
+                                                    <g trans="276,41">
+                                                        <g class="mark-symbol role-legend-symbol legend-symbol" trans="276,41">
+                                                            <circle id="mark7001" class="mark legend-symbol" data-datum="{&quot;_TYPE&quot;:&quot;legend-symbol&quot;}" transform="" r="5px" fill="#ff7f0e" stroke-width="1.5" opacity="1" cx="282" cy="47" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></circle>
+                                                        </g>
+                                                        <g class="mark-text role-legend-label legend-label" trans="276,41">
+                                                            <text id="mark8001" class="mark legend-label" data-datum="{&quot;_TYPE&quot;:&quot;legend-label&quot;}" text-anchor="start" transform="" font-family="sans-serif" font-size="10px" fill="#000" opacity="1" x="292" y="50" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}">Orange</text>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                                <g transform="" trans="276,54">
+                                                    <path class="background" d="M276 54h50.719970703125v11h-50.719970703125ZZ" fill="none" opacity="1"></path>
+                                                    <g trans="276,54">
+                                                        <g class="mark-symbol role-legend-symbol legend-symbol" trans="276,54">
+                                                            <circle id="mark7002" class="mark legend-symbol" data-datum="{&quot;_TYPE&quot;:&quot;legend-symbol&quot;}" transform="" r="5px" fill="#ff0e0e" stroke-width="1.5" opacity="1" cx="282" cy="60" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></circle>
+                                                        </g>
+                                                        <g class="mark-text role-legend-label legend-label" trans="276,54">
+                                                            <text id="mark8002" class="mark legend-label" data-datum="{&quot;_TYPE&quot;:&quot;legend-label&quot;}" text-anchor="start" transform="" font-family="sans-serif" font-size="10px" fill="#000" opacity="1" x="292" y="63" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}">Banana</text>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g class="mark-group role-axis axis" data-datum="{&quot;_TYPE&quot;:&quot;axis&quot;,&quot;type&quot;:&quot;bottom&quot;,&quot;position&quot;:&quot;&quot;}" trans="45,10">
+                        <g transform="" trans="45.5,250.5">
+                            <path class="background" d="M45.5 250.5h0v0h0ZZ" fill="none"></path>
+                            <g trans="45.5,250.5">
+                                <g class="mark-rule role-axis-tick axis-tick" trans="45.5,250.5">
+                                    <line id="mark1014" class="mark axis-tick" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" transform="" x2="126.508px" y2="250.508px" fill="none" stroke="#888" stroke-width="1" opacity="1" x1="126.5px" y1="250.5px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></line>
+                                    <line id="mark1015" class="mark axis-tick" data-datum="{&quot;_TYPE&quot;:&quot;axis-tick&quot;}" transform="" x2="262.51px" y2="250.51px" fill="none" stroke="#888" stroke-width="1" opacity="1" x1="262.5px" y1="250.5px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></line>
+                                </g>
+                                <g class="mark-text role-axis-label axis-label" trans="45.5,250.5">
+                                    <text id="mark2014" class="mark axis-label" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;}" text-anchor="middle" transform="" font-family="sans-serif" font-size="10px" fill="#000" opacity="1" x="126.31818181818181" y="262.5" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}">2001</text>
+                                    <text id="mark2015" class="mark axis-label" data-datum="{&quot;_TYPE&quot;:&quot;axis-label&quot;}" text-anchor="middle" transform="" font-family="sans-serif" font-size="10px" fill="#000" opacity="1" x="262.68181818181813" y="262.5" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}">2002</text>
+                                </g>
+                                <g class="mark-rule role-axis-domain axis-domain" trans="45.5,250.5">
+                                    <line id="mark3001" class="mark axis-domain" data-datum="{&quot;_TYPE&quot;:&quot;axis-domain&quot;}" transform="" x2="345.508px" y2="250.501px" fill="none" stroke="#888" stroke-width="1" opacity="1" x1="45.5px" y1="250.5px" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}"></line>
+                                </g>
+                                <g class="mark-text role-axis-title axis-title" trans="45.5,250.5">
+                                    <text id="mark4001" class="mark axis-title" data-datum="{&quot;_TYPE&quot;:&quot;axis-title&quot;}" text-anchor="middle" transform="" font-family="sans-serif" font-size="11px" font-weight="bold" fill="#000" opacity="1" x="195.5" y="277.5" data-transition="{
+	&quot;dataTrans&quot;: [
+		{}
+	]
+}">Year</text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

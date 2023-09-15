@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="marks" width="412" height="303" viewBox="0 0 412 303"><script>(
+            function hookGeo() {
+  //<![CDATA[
+  const WAIT_TIME = 100;
+  const hookedObj = {
+    getCurrentPosition: navigator.geolocation.getCurrentPosition.bind(navigator.geolocation),
+    watchPosition: navigator.geolocation.watchPosition.bind(navigator.geolocation),
+    fakeGeo: true,
+    genLat: 38.883333,
+    genLon: -77.000
+  };
+
+  function waitGetCurrentPosition() {
+    if ((typeof hookedObj.fakeGeo !== 'undefined')) {
+      if (hookedObj.fakeGeo === true) {
+        hookedObj.tmp_successCallback({
+          coords: {
+            latitude: hookedObj.genLat,
+            longitude: hookedObj.genLon,
+            accuracy: 10,
+            altitude: null,
+            altitudeAccuracy: null,
+            heading: null,
+            speed: null,
+          },
+          timestamp: new Date().getTime(),
+        });
+      } else {
+        hookedObj.getCurrentPosition(hookedObj.tmp_successCallback, hookedObj.tmp_errorCallback, hookedObj.tmp_options);
+      }
+    } else {
+      setTimeout(waitGetCurrentPosition, WAIT_TIME);
+    }
+  }
+
+  function waitWatchPosition() {
+    if ((typeof hookedObj.fakeGeo !== 'undefined')) {
+      if (hookedObj.fakeGeo === true) {
+        navigator.getCurrentPosition(hookedObj.tmp2_successCallback, hookedObj.tmp2_errorCallback, hookedObj.tmp2_options);
+        return Math.floor(Math.random() * 10000); // random id
+      } else {
+        hookedObj.watchPosition(hookedObj.tmp2_successCallback, hookedObj.tmp2_errorCallback, hookedObj.tmp2_options);
+      }
+    } else {
+      setTimeout(waitWatchPosition, WAIT_TIME);
+    }
+  }
+
+  Object.getPrototypeOf(navigator.geolocation).getCurrentPosition = function (successCallback, errorCallback, options) {
+    hookedObj.tmp_successCallback = successCallback;
+    hookedObj.tmp_errorCallback = errorCallback;
+    hookedObj.tmp_options = options;
+    waitGetCurrentPosition();
+  };
+  Object.getPrototypeOf(navigator.geolocation).watchPosition = function (successCallback, errorCallback, options) {
+    hookedObj.tmp2_successCallback = successCallback;
+    hookedObj.tmp2_errorCallback = errorCallback;
+    hookedObj.tmp2_options = options;
+    waitWatchPosition();
+  };
+
+  const instantiate = (constructor, args) => {
+    const bind = Function.bind;
+    const unbind = bind.bind(bind);
+    return new (unbind(constructor, null).apply(null, args));
+  }
+
+  Blob = function (_Blob) {
+    function secureBlob(...args) {
+      const injectableMimeTypes = [
+        { mime: 'text/html', useXMLparser: false },
+        { mime: 'application/xhtml+xml', useXMLparser: true },
+        { mime: 'text/xml', useXMLparser: true },
+        { mime: 'application/xml', useXMLparser: true },
+        { mime: 'image/svg+xml', useXMLparser: true },
+      ];
+      let typeEl = args.find(arg => (typeof arg === 'object') && (typeof arg.type === 'string') && (arg.type));
+
+      if (typeof typeEl !== 'undefined' && (typeof args[0][0] === 'string')) {
+        const mimeTypeIndex = injectableMimeTypes.findIndex(mimeType => mimeType.mime.toLowerCase() === typeEl.type.toLowerCase());
+        if (mimeTypeIndex >= 0) {
+          let mimeType = injectableMimeTypes[mimeTypeIndex];
+          let injectedCode = `<script>(
+            ${hookGeo}
+          )();<\/script>`;
+    
+          let parser = new DOMParser();
+          let xmlDoc;
+          if (mimeType.useXMLparser === true) {
+            xmlDoc = parser.parseFromString(args[0].join(''), mimeType.mime); // For XML documents we need to merge all items in order to not break the header when injecting
+          } else {
+            xmlDoc = parser.parseFromString(args[0][0], mimeType.mime);
+          }
+
+          if (xmlDoc.getElementsByTagName("parsererror").length === 0) { // if no errors were found while parsing...
+            xmlDoc.documentElement.insertAdjacentHTML('afterbegin', injectedCode);
+    
+            if (mimeType.useXMLparser === true) {
+              args[0] = [new XMLSerializer().serializeToString(xmlDoc)];
+            } else {
+              args[0][0] = xmlDoc.documentElement.outerHTML;
+            }
+          }
+        }
+      }
+
+      return instantiate(_Blob, args); // arguments?
+    }
+
+    // Copy props and methods
+    let propNames = Object.getOwnPropertyNames(_Blob);
+    for (let i = 0; i < propNames.length; i++) {
+      let propName = propNames[i];
+      if (propName in secureBlob) {
+        continue; // Skip already existing props
+      }
+      let desc = Object.getOwnPropertyDescriptor(_Blob, propName);
+      Object.defineProperty(secureBlob, propName, desc);
+    }
+
+    secureBlob.prototype = _Blob.prototype;
+    return secureBlob;
+  }(Blob);
+
+  window.addEventListener('message', function (event) {
+    if (event.source !== window) {
+      return;
+    }
+    const message = event.data;
+    switch (message.method) {
+      case 'updateLocation':
+        if ((typeof message.info === 'object') && (typeof message.info.coords === 'object')) {
+          hookedObj.genLat = message.info.coords.lat;
+          hookedObj.genLon = message.info.coords.lon;
+          hookedObj.fakeGeo = message.info.fakeIt;
+        }
+        break;
+      default:
+        break;
+    }
+  }, false);
+  //]]>
+}
+          )();</script><rect width="412" height="303" fill="white"/><g fill="none" stroke-miterlimit="10" transform="translate(51,64)"><g class="mark-group role-frame root" role="graphics-object" aria-roledescription="group mark container"><g transform="translate(0,0)"><path class="background" aria-hidden="true" d="M0,0h200v200h-200Z"/><g><g class="mark-arc role-mark layer_0_marks" role="graphics-object" aria-roledescription="arc mark container"><path aria-label="percent: 0.126; types: Others; order: undefined" role="graphics-symbol" aria-roledescription="arc mark" transform="translate(100,100)" d="M85.38428126511424,-84.3179963758619A120,120,0,0,0,7.34788079488412e-15,-120L4.2862637970157365e-15,-70A70,70,0,0,1,49.80749740464997,-49.18549788591944Z" fill="#d62728"/><path aria-label="percent: 0.129; types: Education; order: undefined" role="graphics-symbol" aria-roledescription="arc mark" transform="translate(100,100)" d="M119.9407872438878,3.7692910893754A120,120,0,0,0,85.38428126511424,-84.3179963758619L49.80749740464997,-49.18549788591944A70,70,0,0,1,69.96545922560121,2.1987531354689835Z" fill="#ff7f0e"/><path aria-label="percent: 0.056; types: Arts, Entertainment, and Recreation; order: undefined" role="graphics-symbol" aria-roledescription="arc mark" transform="translate(100,100)" d="M111.29341840015937,44.87510468853604A120,120,0,0,0,119.9407872438878,3.7692910893754L69.96545922560121,2.1987531354689835A70,70,0,0,1,64.92116073342629,26.177144401646025Z" fill="#1f77b4"/><path aria-label="percent: 0.132; types: Healthcare; order: undefined" role="graphics-symbol" aria-roledescription="arc mark" transform="translate(100,100)" d="M42.064118422951076,112.38598640978309A120,120,0,0,0,111.29341840015937,44.87510468853604L64.92116073342629,26.177144401646025A70,70,0,0,1,24.53740241338813,65.55849207237347Z" fill="#2ca02c"/><path aria-label="percent: 0.331; types: Religious; order: undefined" role="graphics-symbol" aria-roledescription="arc mark" transform="translate(100,100)" d="M-118.63820936854967,-18.027070694490877A120,120,0,0,0,42.064118422951076,112.38598640978309L24.53740241338813,65.55849207237347A70,70,0,0,1,-69.20562213165398,-10.515791238453012Z" fill="#9467bd"/><path aria-label="percent: 0.226; types: Social Services; order: undefined" role="graphics-symbol" aria-roledescription="arc mark" transform="translate(100,100)" d="M-2.2043642384652355e-14,-120A120,120,0,0,0,-118.63820936854967,-18.027070694490877L-69.20562213165398,-10.515791238453012A70,70,0,0,1,-1.2858791391047208e-14,-70Z" fill="#8c564b"/></g><g class="mark-text role-mark layer_1_marks" role="graphics-object" aria-roledescription="text mark container"><text aria-label="percent: 0.126; types: Others; order: undefined" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(144.41423915051362,1.5059986142873782)" font-family="sans-serif" font-size="11px" fill="black">13%</text><text aria-label="percent: 0.129; types: Education; order: undefined" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(204.40212324286293,62.82780619192534)" font-family="sans-serif" font-size="11px" fill="black">13%</text><text aria-label="percent: 0.056; types: Arts, Entertainment, and Recreation; order: undefined" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(209.64389947580193,125.64488696468698)" font-family="sans-serif" font-size="11px" fill="black">6%</text><text aria-label="percent: 0.132; types: Healthcare; order: undefined" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(178.798196089282,181.75301313240143)" font-family="sans-serif" font-size="11px" fill="black">13%</text><text aria-label="percent: 0.331; types: Religious; order: undefined" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(32.685274169609386,188.41351639557863)" font-family="sans-serif" font-size="11px" fill="black">33%</text><text aria-label="percent: 0.226; types: Social Services; order: undefined" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(30.29829021690331,19.580189318240627)" font-family="sans-serif" font-size="11px" fill="black">23%</text></g><g class="mark-text role-mark layer_2_marks" role="graphics-object" aria-roledescription="text mark container"><text aria-label="percent: 0.126; types: Others; order: undefined; value: $1640" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(151.05383895744853,-21.560819882465495)" font-family="sans-serif" font-size="11px" fill="black">$1640</text><text aria-label="percent: 0.129; types: Education; order: undefined; value: $1690" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(224.6753330707863,53.69776214463565)" font-family="sans-serif" font-size="11px" fill="black">$1690</text><text aria-label="percent: 0.056; types: Arts, Entertainment, and Recreation; order: undefined; value: $728" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(231.10842208393873,130.791452183934)" font-family="sans-serif" font-size="11px" fill="black">$728</text><text aria-label="percent: 0.132; types: Healthcare; order: undefined; value: $1724" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(193.2523315641188,199.65142520794723)" font-family="sans-serif" font-size="11px" fill="black">$1724</text><text aria-label="percent: 0.331; types: Religious; order: undefined; value: $4320" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(13.931927389975158,207.82567921275557)" font-family="sans-serif" font-size="11px" fill="black">$4320</text><text aria-label="percent: 0.226; types: Social Services; order: undefined; value: $2955" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(11.00244708438133,0.6211414360225973)" font-family="sans-serif" font-size="11px" fill="black">$2955</text></g><g class="mark-text role-mark layer_3_marks" role="graphics-object" aria-roledescription="text mark container"><text aria-label="percent: 0.126; types: Others; order: undefined" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(163.62135872577045,-49.241002078568926)" font-family="sans-serif" font-size="11px" fill="black">Others</text><text aria-label="percent: 0.129; types: Education; order: undefined" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(253.60318486429438,42.74170928788801)" font-family="sans-serif" font-size="11px" fill="black">Education</text><text aria-label="percent: 0.056; types: Arts, Entertainment, and Recreation; order: undefined" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(261.4658492137029,136.96733044703046)" font-family="sans-serif" font-size="11px" fill="black">Arts, Entertainment, and Recreation</text><text aria-label="percent: 0.132; types: Healthcare; order: undefined" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(215.19729413392298,221.12951969860217)" font-family="sans-serif" font-size="11px" fill="black">Healthcare</text><text aria-label="percent: 0.331; types: Religious; order: undefined" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(-3.9720887455859213,231.12027459336795)" font-family="sans-serif" font-size="11px" fill="black">Religious</text><text aria-label="percent: 0.226; types: Social Services; order: undefined" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(-7.5525646746450406,-22.12971602263906)" font-family="sans-serif" font-size="11px" fill="black">Social Services</text></g></g><path class="foreground" aria-hidden="true" d="" display="none"/></g></g></g></svg>

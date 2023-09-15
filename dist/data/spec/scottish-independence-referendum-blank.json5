@@ -1,0 +1,10 @@
+{
+  charts: [
+    {source: './scottish-independence-referendum.svg'},
+  ],
+  animation: {
+    sequence: {
+      sync: []
+    }
+  }
+}

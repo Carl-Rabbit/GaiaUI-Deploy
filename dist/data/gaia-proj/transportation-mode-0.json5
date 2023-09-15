@@ -1,0 +1,218 @@
+{
+  projectId: 'transportation-mode-0',
+  chart: './transportation-mode.svg',
+  audio: './transportation-mode.txt',
+  binder: {
+    from: "svg",
+    to: "gaia.chart.BarChart",
+    rules: [
+      {
+        from: '.mark.bar',
+        to: '.Bar',
+        dataList: [
+          { category: "Auto", value: 0.8, series: "National average" },
+          { category: "Auto", value: 0.45, series: "Transit-oriented developments" },
+          { category: "Public transit", value: 0.05, series: "National average" },
+          { category: "Public transit", value: 0.35, series: "Transit-oriented developments" },
+          { category: "Bike", value: 0.01, series: "National average" },
+          { category: "Bike", value: 0.03, series: "Transit-oriented developments" },
+          { category: "Walk", value: 0.04, series: "National average" },
+          { category: "Walk", value: 0.23, series: "Transit-oriented developments" },
+        ],
+      },
+      {
+        from: '.legend.symbol',
+        to: '.Legend .Symbol',
+        dataList: [
+          { series: "National average" },
+          { series: "Transit-oriented developments" },
+        ]
+      },
+      {
+        from: '.legend.label',
+        to: '.Legend .Label',
+        dataList: [
+          { series: "National average" },
+          { series: "Transit-oriented developments" },
+        ]
+      },
+      // title
+      {
+        from: '.title',
+        to: '.ChartTitle'
+      },
+      // axis
+      {
+        from: 'text.x-label',
+        to: '.XAxis .Label',
+        dataList: [
+          { category: "Auto" },
+          { category: "Public transit" },
+          { category: "Bike" },
+          { category: "Walk" },
+        ]
+      },
+      {
+        from: '.x-domain',
+        to: '.XAxis .Domain',
+      },
+      {
+        from: 'text.y-label',
+        to: '.YAxis .Label',
+      },
+      {
+        from: '.y-tick',
+        to: '.YAxis .Tick',
+      }
+    ]
+  },
+  animation: {
+    main: {
+      sync: [
+        {
+          ref: 'BarChartEnter',
+          axisTickAnimation: {
+            ref: 'Grow',
+            from: 'left',
+            ease: 'circ.inOut',
+          }
+        },
+        {
+          target: '[series="National average"]',
+          sync: [
+            {
+              ref: 'Grow',
+              target: '.Bar',
+            },
+            {
+              ref: 'Float',
+              target: '.Legend',
+              from: 'left',
+            },
+          ],
+          offset: 2
+        },
+        {
+          target: '[series="Transit-oriented developments"]',
+          sync: [
+            {
+              ref: 'Grow',
+              target: '.Bar[category="Auto"]',
+              offset: 4.5
+            },
+            {
+              ref: 'Float',
+              target: '.Legend',
+              from: 'left',
+              offset: 4.5
+            },
+            {
+              ref: 'Grow',
+              target: '.Bar[category="Walk"]',
+              offset: 6.5
+            },
+            {
+              ref: 'Grow',
+              target: '.Bar[category="Bike"]',
+              offset: 7.5
+            },
+            {
+              ref: 'Grow',
+              target: '.Bar[category="Public transit"]',
+              offset: 8.5
+            }
+          ],
+        },
+      ],
+    },
+  },
+  templates: [
+    {
+      name: 'BarChartEnter',
+      params: {
+        titleStagger: 0.02,
+        titleDuration: 2,
+        componentDuration: 2,
+        axisLabelStagger: 0.04,
+        axisTickAnimation: {
+          type: 'aniUnit',
+          value: { ref: 'Empty' }
+        }
+      },
+      main: {
+        sync: [
+          {
+            ref: 'Type',
+            target: '.Title',
+            typeStagger: '$titleStagger',
+            effect: 'fade',
+            duration: '$titleDuration'
+          },
+          {
+            concat: [
+              {
+                ref: 'PathDraw',
+                target: '.XAxis.Domain',
+                ease: 'circ.inOut',
+                duration: '$componentDuration',
+              },
+              {
+                sync: [
+                  {
+                    ref: 'PathDraw',
+                    target: '.YAxis.Domain',
+                    ease: 'circ.inOut',
+                  },
+                  {
+                    target: '.Axis.Tick',
+                    child: '$axisTickAnimation',
+                  },
+                  {
+                    ref: 'Wipe',
+                    target: '.Bar',
+                    ease: 'circ.inOut',
+                  }
+                ],
+                duration: '$componentDuration'
+              },
+              {
+                ref: 'Type',
+                target: '.Axis.Label',
+                typeStagger: '$axisLabelStagger',
+                effect: 'fade',
+                duration: '$componentDuration'
+              }
+            ]
+          },
+        ]
+      }
+    },
+    {
+      name: 'DisplayTextByTyping',
+      params: {
+        typeStagger: 0.2,
+        effect: 'show',
+        aniTime: 1,
+        displayTime: 3,
+      },
+      main: {
+        concat: [
+          {
+            ref: 'Type',
+            effect: '$effect',
+            typeStagger: '$typeStagger',
+            duration: '$aniTime',
+          },
+          {
+            ref: 'Type',
+            type: 'out',
+            effect: '$effect',
+            typeStagger: '$typeStagger',
+            duration: '$aniTime',
+            offset: '$displayTime',
+          }
+        ]
+      }
+    },
+  ]
+}

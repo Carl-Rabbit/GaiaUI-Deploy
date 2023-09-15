@@ -1,0 +1,290 @@
+{
+  "results": [
+    {
+      "alternatives": [
+        {
+          "transcript": "In 2019, human-caused and out-of-control fires burned 976200 hectares of the Amazon rainforest. That's the third-highest increase in the rate of deforestation in the Amazon's history. At a 30% jump from the prior year, second only to 1995, which was 95% and 1998 which was 31%.",
+          "confidence": 1.0,
+          "words": [
+            {
+              "startTime": "0.000s",
+              "endTime": "0.175s",
+              "word": "In",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.175s",
+              "endTime": "1.584s",
+              "word": "2019,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.584s",
+              "endTime": "2.562s",
+              "word": "human-caused",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.562s",
+              "endTime": "2.682s",
+              "word": "and",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.682s",
+              "endTime": "3.567s",
+              "word": "out-of-control",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.567s",
+              "endTime": "4.142s",
+              "word": "fires",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.142s",
+              "endTime": "4.524s",
+              "word": "burned",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.524s",
+              "endTime": "6.501s",
+              "word": "976200",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.501s",
+              "endTime": "7.230s",
+              "word": "hectares",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.230s",
+              "endTime": "7.345s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.345s",
+              "endTime": "7.490s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.490s",
+              "endTime": "8.041s",
+              "word": "Amazon",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.041s",
+              "endTime": "9.861s",
+              "word": "rainforest.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.861s",
+              "endTime": "10.161s",
+              "word": "That's",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.161s",
+              "endTime": "10.276s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.276s",
+              "endTime": "11.251s",
+              "word": "third-highest",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.251s",
+              "endTime": "11.857s",
+              "word": "increase",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.857s",
+              "endTime": "11.982s",
+              "word": "in",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.982s",
+              "endTime": "12.037s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "12.037s",
+              "endTime": "12.344s",
+              "word": "rate",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "12.344s",
+              "endTime": "12.454s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "12.454s",
+              "endTime": "13.693s",
+              "word": "deforestation",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.693s",
+              "endTime": "13.843s",
+              "word": "in",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.843s",
+              "endTime": "13.963s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.963s",
+              "endTime": "14.586s",
+              "word": "Amazon's",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.586s",
+              "endTime": "16.177s",
+              "word": "history.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.177s",
+              "endTime": "16.297s",
+              "word": "At",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.297s",
+              "endTime": "16.392s",
+              "word": "a",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.392s",
+              "endTime": "17.319s",
+              "word": "30%",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.319s",
+              "endTime": "17.664s",
+              "word": "jump",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.664s",
+              "endTime": "17.864s",
+              "word": "from",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.864s",
+              "endTime": "17.973s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.973s",
+              "endTime": "18.393s",
+              "word": "prior",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.393s",
+              "endTime": "19.105s",
+              "word": "year,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.105s",
+              "endTime": "19.570s",
+              "word": "second",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.570s",
+              "endTime": "19.914s",
+              "word": "only",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.914s",
+              "endTime": "20.044s",
+              "word": "to",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "20.044s",
+              "endTime": "21.920s",
+              "word": "1995,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "21.920s",
+              "endTime": "22.122s",
+              "word": "which",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "22.122s",
+              "endTime": "22.327s",
+              "word": "was",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "22.327s",
+              "endTime": "23.620s",
+              "word": "95%",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "23.620s",
+              "endTime": "23.735s",
+              "word": "and",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "23.735s",
+              "endTime": "24.928s",
+              "word": "1998",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "24.928s",
+              "endTime": "25.163s",
+              "word": "which",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "25.163s",
+              "endTime": "25.343s",
+              "word": "was",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "25.343s",
+              "endTime": "27.426s",
+              "word": "31%.",
+              "speakerTag": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

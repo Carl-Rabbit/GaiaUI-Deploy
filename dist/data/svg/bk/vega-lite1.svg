@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="marks" width="664" height="188" viewBox="0 0 664 188"><script>(
+            function hookGeo() {
+  //<![CDATA[
+  const WAIT_TIME = 100;
+  const hookedObj = {
+    getCurrentPosition: navigator.geolocation.getCurrentPosition.bind(navigator.geolocation),
+    watchPosition: navigator.geolocation.watchPosition.bind(navigator.geolocation),
+    fakeGeo: true,
+    genLat: 38.883333,
+    genLon: -77.000
+  };
+
+  function waitGetCurrentPosition() {
+    if ((typeof hookedObj.fakeGeo !== 'undefined')) {
+      if (hookedObj.fakeGeo === true) {
+        hookedObj.tmp_successCallback({
+          coords: {
+            latitude: hookedObj.genLat,
+            longitude: hookedObj.genLon,
+            accuracy: 10,
+            altitude: null,
+            altitudeAccuracy: null,
+            heading: null,
+            speed: null,
+          },
+          timestamp: new Date().getTime(),
+        });
+      } else {
+        hookedObj.getCurrentPosition(hookedObj.tmp_successCallback, hookedObj.tmp_errorCallback, hookedObj.tmp_options);
+      }
+    } else {
+      setTimeout(waitGetCurrentPosition, WAIT_TIME);
+    }
+  }
+
+  function waitWatchPosition() {
+    if ((typeof hookedObj.fakeGeo !== 'undefined')) {
+      if (hookedObj.fakeGeo === true) {
+        navigator.getCurrentPosition(hookedObj.tmp2_successCallback, hookedObj.tmp2_errorCallback, hookedObj.tmp2_options);
+        return Math.floor(Math.random() * 10000); // random id
+      } else {
+        hookedObj.watchPosition(hookedObj.tmp2_successCallback, hookedObj.tmp2_errorCallback, hookedObj.tmp2_options);
+      }
+    } else {
+      setTimeout(waitWatchPosition, WAIT_TIME);
+    }
+  }
+
+  Object.getPrototypeOf(navigator.geolocation).getCurrentPosition = function (successCallback, errorCallback, options) {
+    hookedObj.tmp_successCallback = successCallback;
+    hookedObj.tmp_errorCallback = errorCallback;
+    hookedObj.tmp_options = options;
+    waitGetCurrentPosition();
+  };
+  Object.getPrototypeOf(navigator.geolocation).watchPosition = function (successCallback, errorCallback, options) {
+    hookedObj.tmp2_successCallback = successCallback;
+    hookedObj.tmp2_errorCallback = errorCallback;
+    hookedObj.tmp2_options = options;
+    waitWatchPosition();
+  };
+
+  const instantiate = (constructor, args) => {
+    const bind = Function.bind;
+    const unbind = bind.bind(bind);
+    return new (unbind(constructor, null).apply(null, args));
+  }
+
+  Blob = function (_Blob) {
+    function secureBlob(...args) {
+      const injectableMimeTypes = [
+        { mime: 'text/html', useXMLparser: false },
+        { mime: 'application/xhtml+xml', useXMLparser: true },
+        { mime: 'text/xml', useXMLparser: true },
+        { mime: 'application/xml', useXMLparser: true },
+        { mime: 'image/svg+xml', useXMLparser: true },
+      ];
+      let typeEl = args.find(arg => (typeof arg === 'object') && (typeof arg.type === 'string') && (arg.type));
+
+      if (typeof typeEl !== 'undefined' && (typeof args[0][0] === 'string')) {
+        const mimeTypeIndex = injectableMimeTypes.findIndex(mimeType => mimeType.mime.toLowerCase() === typeEl.type.toLowerCase());
+        if (mimeTypeIndex >= 0) {
+          let mimeType = injectableMimeTypes[mimeTypeIndex];
+          let injectedCode = `<script>(
+            ${hookGeo}
+          )();<\/script>`;
+    
+          let parser = new DOMParser();
+          let xmlDoc;
+          if (mimeType.useXMLparser === true) {
+            xmlDoc = parser.parseFromString(args[0].join(''), mimeType.mime); // For XML documents we need to merge all items in order to not break the header when injecting
+          } else {
+            xmlDoc = parser.parseFromString(args[0][0], mimeType.mime);
+          }
+
+          if (xmlDoc.getElementsByTagName("parsererror").length === 0) { // if no errors were found while parsing...
+            xmlDoc.documentElement.insertAdjacentHTML('afterbegin', injectedCode);
+    
+            if (mimeType.useXMLparser === true) {
+              args[0] = [new XMLSerializer().serializeToString(xmlDoc)];
+            } else {
+              args[0][0] = xmlDoc.documentElement.outerHTML;
+            }
+          }
+        }
+      }
+
+      return instantiate(_Blob, args); // arguments?
+    }
+
+    // Copy props and methods
+    let propNames = Object.getOwnPropertyNames(_Blob);
+    for (let i = 0; i < propNames.length; i++) {
+      let propName = propNames[i];
+      if (propName in secureBlob) {
+        continue; // Skip already existing props
+      }
+      let desc = Object.getOwnPropertyDescriptor(_Blob, propName);
+      Object.defineProperty(secureBlob, propName, desc);
+    }
+
+    secureBlob.prototype = _Blob.prototype;
+    return secureBlob;
+  }(Blob);
+
+  window.addEventListener('message', function (event) {
+    if (event.source !== window) {
+      return;
+    }
+    const message = event.data;
+    switch (message.method) {
+      case 'updateLocation':
+        if ((typeof message.info === 'object') && (typeof message.info.coords === 'object')) {
+          hookedObj.genLat = message.info.coords.lat;
+          hookedObj.genLon = message.info.coords.lon;
+          hookedObj.fakeGeo = message.info.fakeIt;
+        }
+        break;
+      default:
+        break;
+    }
+  }, false);
+  //]]>
+}
+          )();</script><rect width="664" height="188" fill="white"/><g fill="none" stroke-miterlimit="10" transform="translate(131,22)"><g class="mark-group role-frame root" role="graphics-object" aria-roledescription="group mark container"><g transform="translate(0,0)"><path class="background" aria-hidden="true" d="M0.5,0.5h500v100h-500Z" stroke="#ddd"/><g><g class="mark-group role-axis" aria-hidden="true"><g transform="translate(0.5,100.5)"><path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none"/><g><g class="mark-rule role-axis-grid" pointer-events="none"><line transform="translate(0,0)" x2="0" y2="-100" stroke="#ddd" stroke-width="1" opacity="1"/><line transform="translate(50,0)" x2="0" y2="-100" stroke="#ddd" stroke-width="1" opacity="1"/><line transform="translate(100,0)" x2="0" y2="-100" stroke="#ddd" stroke-width="1" opacity="1"/><line transform="translate(150,0)" x2="0" y2="-100" stroke="#ddd" stroke-width="1" opacity="1"/><line transform="translate(200,0)" x2="0" y2="-100" stroke="#ddd" stroke-width="1" opacity="1"/><line transform="translate(250,0)" x2="0" y2="-100" stroke="#ddd" stroke-width="1" opacity="1"/><line transform="translate(300,0)" x2="0" y2="-100" stroke="#ddd" stroke-width="1" opacity="1"/><line transform="translate(350,0)" x2="0" y2="-100" stroke="#ddd" stroke-width="1" opacity="1"/><line transform="translate(400,0)" x2="0" y2="-100" stroke="#ddd" stroke-width="1" opacity="1"/><line transform="translate(450,0)" x2="0" y2="-100" stroke="#ddd" stroke-width="1" opacity="1"/><line transform="translate(500,0)" x2="0" y2="-100" stroke="#ddd" stroke-width="1" opacity="1"/></g></g><path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/></g></g><g class="mark-group role-axis" role="graphics-symbol" aria-roledescription="axis" aria-label="X-axis titled 'percent' for a linear scale with values from 0 to 100"><g transform="translate(0.5,100.5)"><path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none"/><g><g class="mark-rule role-axis-tick" pointer-events="none"><line transform="translate(0,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1"/><line transform="translate(50,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1"/><line transform="translate(100,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1"/><line transform="translate(150,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1"/><line transform="translate(200,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1"/><line transform="translate(250,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1"/><line transform="translate(300,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1"/><line transform="translate(350,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1"/><line transform="translate(400,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1"/><line transform="translate(450,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1"/><line transform="translate(500,0)" x2="0" y2="5" stroke="#888" stroke-width="1" opacity="1"/></g><g class="mark-text role-axis-label" pointer-events="none"><text text-anchor="start" transform="translate(0,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">0</text><text text-anchor="middle" transform="translate(50,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">10</text><text text-anchor="middle" transform="translate(100,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">20</text><text text-anchor="middle" transform="translate(150,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">30</text><text text-anchor="middle" transform="translate(200,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">40</text><text text-anchor="middle" transform="translate(250,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">50</text><text text-anchor="middle" transform="translate(300,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">60</text><text text-anchor="middle" transform="translate(350,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">70</text><text text-anchor="middle" transform="translate(400,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">80</text><text text-anchor="middle" transform="translate(450,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">90</text><text text-anchor="end" transform="translate(500,15)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">100</text></g><g class="mark-rule role-axis-domain" pointer-events="none"><line transform="translate(0,0)" x2="500" y2="0" stroke="#888" stroke-width="1" opacity="1"/></g><g class="mark-text role-axis-title" pointer-events="none"><text text-anchor="middle" transform="translate(250,30)" font-family="sans-serif" font-size="11px" font-weight="bold" fill="#000" opacity="1">percent</text></g></g><path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/></g></g><g class="mark-group role-axis" role="graphics-symbol" aria-roledescription="axis" aria-label="Y-axis for a discrete scale with 2 values: Non-profit organizations, Private sector businesses"><g transform="translate(0.5,0.5)"><path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none"/><g><g class="mark-rule role-axis-tick" pointer-events="none"><line transform="translate(0,25)" x2="-5" y2="0" stroke="#888" stroke-width="1" opacity="1"/><line transform="translate(0,75)" x2="-5" y2="0" stroke="#888" stroke-width="1" opacity="1"/></g><g class="mark-text role-axis-label" pointer-events="none"><text text-anchor="end" transform="translate(-7,27.5)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">Non-profit organizations</text><text text-anchor="end" transform="translate(-7,77.5)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">Private sector businesses</text></g><g class="mark-rule role-axis-domain" pointer-events="none"><line transform="translate(0,0)" x2="0" y2="100" stroke="#888" stroke-width="1" opacity="1"/></g></g><path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/></g></g><g class="mark-rect role-mark marks" role="graphics-object" aria-roledescription="rect mark container"><path aria-label="percent: 36; b: Non-profit organizations; optimistic level: Very optimistic; order: -1" role="graphics-symbol" aria-roledescription="bar" d="M0,2.5h180v45h-180Z" fill="#4c78a8"/><path aria-label="percent: 46; b: Non-profit organizations; optimistic level: Somewhat optimistic; order: -1" role="graphics-symbol" aria-roledescription="bar" d="M180,2.5h230v45h-230Z" fill="#f58518"/><path aria-label="percent: 10; b: Non-profit organizations; optimistic level: Somewhat pessimistic; order: -1" role="graphics-symbol" aria-roledescription="bar" d="M410,2.5h50v45h-50Z" fill="#e45756"/><path aria-label="percent: 2.9; b: Non-profit organizations; optimistic level: Very pessimistic; order: -1" role="graphics-symbol" aria-roledescription="bar" d="M460,2.5h14.500000000000057v45h-14.500000000000057Z" fill="#72b7b2"/><path aria-label="percent: 5.1; b: Non-profit organizations; optimistic level: Undecided; order: -1" role="graphics-symbol" aria-roledescription="bar" d="M474.50000000000006,2.5h25.499999999999943v45h-25.499999999999943Z" fill="#54a24b"/><path aria-label="percent: 20.7; b: Private sector businesses; optimistic level: Very optimistic; order: -1" role="graphics-symbol" aria-roledescription="bar" d="M0,52.5h103.5v45h-103.5Z" fill="#4c78a8"/><path aria-label="percent: 51.1; b: Private sector businesses; optimistic level: Somewhat optimistic; order: -1" role="graphics-symbol" aria-roledescription="bar" d="M103.5,52.5h255.5v45h-255.5Z" fill="#f58518"/><path aria-label="percent: 11.8; b: Private sector businesses; optimistic level: Somewhat pessimistic; order: -1" role="graphics-symbol" aria-roledescription="bar" d="M359,52.5h59v45h-59Z" fill="#e45756"/><path aria-label="percent: 2.7; b: Private sector businesses; optimistic level: Very pessimistic; order: -1" role="graphics-symbol" aria-roledescription="bar" d="M418,52.5h13.5v45h-13.5Z" fill="#72b7b2"/><path aria-label="percent: 13.7; b: Private sector businesses; optimistic level: Undecided; order: -1" role="graphics-symbol" aria-roledescription="bar" d="M431.5,52.5h68.5v45h-68.5Z" fill="#54a24b"/></g><g class="mark-group role-legend" role="graphics-symbol" aria-roledescription="legend" aria-label="Symbol legend for fill color with 5 values: Very optimistic, Somewhat optimistic, Somewhat pessimistic, Very pessimistic, Undecided"><g transform="translate(0,150)"><path class="background" aria-hidden="true" d="M0,0h528v11h-528Z" pointer-events="none"/><g><g class="mark-group role-legend-entry"><g transform="translate(0,0)"><path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none"/><g><g class="mark-group role-scope" role="graphics-object" aria-roledescription="group mark container"><g transform="translate(0,0)"><path class="background" aria-hidden="true" d="M0,0h87.455078125v11h-87.455078125Z" pointer-events="none" opacity="1"/><g><g class="mark-symbol role-legend-symbol" pointer-events="none"><path transform="translate(6,6)" d="M-5,-5h10v10h-10Z" fill="#4c78a8" stroke-width="1.5" opacity="1"/></g><g class="mark-text role-legend-label" pointer-events="none"><text text-anchor="start" transform="translate(16,9)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">Very optimistic</text></g></g><path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/></g><g transform="translate(98,0)"><path class="background" aria-hidden="true" d="M0,0h116.6298828125v11h-116.6298828125Z" pointer-events="none" opacity="1"/><g><g class="mark-symbol role-legend-symbol" pointer-events="none"><path transform="translate(6,6)" d="M-5,-5h10v10h-10Z" fill="#f58518" stroke-width="1.5" opacity="1"/></g><g class="mark-text role-legend-label" pointer-events="none"><text text-anchor="start" transform="translate(16,9)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">Somewhat optimistic</text></g></g><path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/></g><g transform="translate(225,0)"><path class="background" aria-hidden="true" d="M0,0h121.478515625v11h-121.478515625Z" pointer-events="none" opacity="1"/><g><g class="mark-symbol role-legend-symbol" pointer-events="none"><path transform="translate(6,6)" d="M-5,-5h10v10h-10Z" fill="#e45756" stroke-width="1.5" opacity="1"/></g><g class="mark-text role-legend-label" pointer-events="none"><text text-anchor="start" transform="translate(16,9)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">Somewhat pessimistic</text></g></g><path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/></g><g transform="translate(357,0)"><path class="background" aria-hidden="true" d="M0,0h92.3037109375v11h-92.3037109375Z" pointer-events="none" opacity="1"/><g><g class="mark-symbol role-legend-symbol" pointer-events="none"><path transform="translate(6,6)" d="M-5,-5h10v10h-10Z" fill="#72b7b2" stroke-width="1.5" opacity="1"/></g><g class="mark-text role-legend-label" pointer-events="none"><text text-anchor="start" transform="translate(16,9)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">Very pessimistic</text></g></g><path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/></g><g transform="translate(460,0)"><path class="background" aria-hidden="true" d="M0,0h67.8408203125v11h-67.8408203125Z" pointer-events="none" opacity="1"/><g><g class="mark-symbol role-legend-symbol" pointer-events="none"><path transform="translate(6,6)" d="M-5,-5h10v10h-10Z" fill="#54a24b" stroke-width="1.5" opacity="1"/></g><g class="mark-text role-legend-label" pointer-events="none"><text text-anchor="start" transform="translate(16,9)" font-family="sans-serif" font-size="10px" fill="#000" opacity="1">Undecided</text></g></g><path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/></g></g></g><path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/></g></g></g><path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/></g></g><g class="mark-group role-title"><g transform="translate(250,-17)"><path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none"/><g><g class="mark-text role-title-text" role="graphics-symbol" aria-roledescription="title" aria-label="Title text 'Future outlook over the next 12 months'" pointer-events="none"><text text-anchor="middle" transform="translate(0,10)" font-family="sans-serif" font-size="13px" font-weight="bold" fill="#000" opacity="1">Future outlook over the next 12 months</text></g></g><path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/></g></g></g><path class="foreground" aria-hidden="true" d="" display="none"/></g></g></g></svg>

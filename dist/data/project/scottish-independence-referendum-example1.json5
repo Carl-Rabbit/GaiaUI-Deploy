@@ -1,0 +1,162 @@
+{
+  projectId: 'scottish-independence-referendum-example1',
+  scenes: [
+    {
+      charts: [
+        {source: './scottish-independence-referendum.svg'},
+      ],
+      templates: [
+        {
+          templateName: 'show-country-annotation',
+          parameters: [
+            {paramName: 'country', paramType: 'string'},
+            {paramName: 'enterDirection', paramType: 'string', required: false, defaultValue: 'right'},
+            {paramName: 'displayTime', paramType: 'number', required: false, defaultValue: 3},
+          ],
+          animation: {
+            target: {
+              selector: '.annotation',
+              transform: {type: 'filter', expr: '@datum.name === "$country"'}
+            },
+            sequence: {
+              sync: [
+                {
+                  use: 'Wipe',
+                  target: ':not(.circle)',
+                  settings: {direction: '$enterDirection'},
+                  timing: {yoyo: {repeat: 1, delay: '$displayTime'}}
+                },
+                {
+                  use: 'wheel',
+                  target: '.circle',
+                  timing: {yoyo: {repeat: 1, delay: '$displayTime'}}
+                }
+              ]
+            }
+          }
+        }
+      ],
+      animation: {
+        varibles: {
+
+        },
+        target: '.scottish-independence-referendum',
+    "sequence": {
+    "sync": [
+        {
+            "use": "Fade-in",
+            "timing": {
+                "start": 0,
+                "duration": 2.72,
+                "offset": 0
+            },
+            "target": "#scottish-independence-referendum-annotation-0-label, #scottish-independence-referendum-annotation-0-path, #scottish-independence-referendum-annotation-0-circle",
+            "ani_type": "Enter",
+            "settings": {}
+        },
+        {
+            "use": "Fade-in-then-fade-out",
+            "timing": {
+                "start": 2.717,
+                "duration": 6.71,
+                "offset": 0
+            },
+            "target": "#scottish-independence-referendum-annotation-5-label",
+            "ani_type": "Emphasis",
+            "settings": {}
+        },
+        {
+            "use": "Highlight",
+            "timing": {
+                "start": 0,
+                "duration": 9.43,
+                "offset": 0
+            },
+            "target": "#scottish-independence-referendum-mark-area-0",
+            "ani_type": "Emphasis",
+            "settings": {}
+        },
+        {
+            "use": "Show-path",
+            "timing": {
+                "start": 9.429,
+                "duration": 5.78,
+                "offset": 0
+            },
+            "target": "#scottish-independence-referendum-annotation-4-circle",
+            "ani_type": "Emphasis",
+            "settings": {}
+        },
+        {
+            "use": "Fade-in-then-fade-out",
+            "timing": {
+                "start": 9.429,
+                "duration": 5.78,
+                "offset": 0
+            },
+            "target": "#scottish-independence-referendum-annotation-4-label, #scottish-independence-referendum-annotation-4-path",
+            "ani_type": "Emphasis",
+            "settings": {}
+        },
+        {
+            "use": "Highlight",
+            "timing": {
+                "start": 15.21,
+                "duration": 9.03,
+                "offset": 0
+            },
+            "target": "#scottish-independence-referendum-mark-area-0",
+            "ani_type": "Emphasis",
+            "settings": {}
+        },
+        {
+            "use": "Show-path",
+            "timing": {
+                "start": 24.239,
+                "duration": 2.22,
+                "offset": 0
+            },
+            "target": "#scottish-independence-referendum-annotation-4-circle",
+            "ani_type": "Emphasis",
+            "settings": {}
+        },
+        {
+            "use": "Fade-in",
+            "timing": {
+                "start": 28.438,
+                "duration": 0.74,
+                "offset": 0
+            },
+            "target": "#scottish-independence-referendum-annotation-2-label, #scottish-independence-referendum-annotation-2-path, #scottish-independence-referendum-annotation-2-circle",
+            "ani_type": "Enter",
+            "settings": {}
+        },
+        {
+            "use": "Fade-in",
+            "timing": {
+                "start": 29.174,
+                "duration": 0.49,
+                "offset": 0
+            },
+            "target": "#scottish-independence-referendum-annotation-3-label, #scottish-independence-referendum-annotation-3-path, #scottish-independence-referendum-annotation-3-circle",
+            "ani_type": "Enter",
+            "settings": {}
+        },
+        {
+            "use": "Fade-in",
+            "timing": {
+                "start": 29.793,
+                "duration": 0.43,
+                "offset": 0
+            },
+            "target": "#scottish-independence-referendum-annotation-1-label, #scottish-independence-referendum-annotation-1-path, #scottish-independence-referendum-annotation-1-circle",
+            "ani_type": "Enter",
+            "settings": {}
+        }
+    ]
+}
+      }
+    }
+  ]
+}
+

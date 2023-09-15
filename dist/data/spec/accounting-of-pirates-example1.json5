@@ -1,0 +1,103 @@
+{
+  charts: [
+    {source: './accounting-of-pirates.svg'},
+  ],
+  templates: [
+    {
+      templateName: 'background-shape-enter',
+      animation: {
+        use: 'Basic-zoom-enter',
+        target: '.background.shape',
+        settings: {
+          ease: 'back',
+          stagger: 0.04,
+        }
+      }
+    },
+    {
+      templateName: 'data-item-enter',
+      parameters: [
+        {paramName: 'dataName', paramType: 'string'},
+        {paramName: 'startAngle', paramType: 'number'},
+        {paramName: 'endAngle', paramType: 'number'},
+      ],
+      animation: {
+        sequence: {
+          sync: [
+            {
+              use: 'simple-sector-wheel',
+              target: {
+                selector: '.arc',
+                transform: {type: 'filter', expr: '@datum.name === "$dataName"'}
+              },
+              settings: {
+                centerSelector: '.arc',
+                startAngle: '$startAngle',
+                endAngle: '$endAngle',
+              },
+              timing: {duration: 2},
+            },
+            {
+              use: 'Fly-in',
+              target: {
+                selector: '.legend',
+                transform: {type: 'filter', expr: '@datum.name === "$dataName"'},
+              },
+              settings: {
+                direction: 'right',
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  animation: {
+    sequence: {
+      sync: [
+        {
+          use: 'background-shape-enter',
+        },
+        {
+          use: 'fade-in',
+          target: '.chart-background',
+          timing: {start: 1},
+        },
+
+        {
+          use: 'data-item-enter',
+          settings: {
+            dataName: 'INVESTORS',
+            startAngle: 0,
+            endAngle: 120,
+          },
+          timing: {start: 3.5},
+        },
+        {
+          use: 'data-item-enter',
+          settings: {
+            dataName: 'PORT FEES',
+            startAngle: 90,
+            endAngle: 150
+          },
+          timing: {start: 7},
+        },
+        {
+          use: 'data-item-enter',
+          settings: {
+            dataName: 'BOUNTIES',
+            startAngle: 130,
+            endAngle: 320,
+          },
+          timing: {start: 11.5},
+        },
+        {
+          use: 'Fly-in',
+          target: '.annotation',
+          timing: {start: 15},
+          settings: {direction: 'right'},
+        }
+      ]
+    }
+  }
+}

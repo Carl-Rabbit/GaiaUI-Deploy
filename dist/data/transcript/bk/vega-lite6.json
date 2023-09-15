@@ -1,0 +1,206 @@
+{
+  "results": [
+    {
+      "alternatives": [
+        {
+          "transcript": "The increase in the real GDP of America is 4% in 2020. Where exports, government spending, and private inventory investment provide the main growth in GDP, offsetting the GDP decrease from imports.",
+          "confidence": 1.0,
+          "words": [
+            {
+              "startTime": "0.000s",
+              "endTime": "0.210s",
+              "word": "The",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.210s",
+              "endTime": "0.790s",
+              "word": "increase",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.790s",
+              "endTime": "0.920s",
+              "word": "in",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.920s",
+              "endTime": "0.975s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.975s",
+              "endTime": "1.371s",
+              "word": "real",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.371s",
+              "endTime": "2.218s",
+              "word": "GDP",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.218s",
+              "endTime": "2.318s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.318s",
+              "endTime": "2.998s",
+              "word": "America",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.998s",
+              "endTime": "3.193s",
+              "word": "is",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.193s",
+              "endTime": "4.091s",
+              "word": "4%",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.091s",
+              "endTime": "4.221s",
+              "word": "in",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.221s",
+              "endTime": "6.015s",
+              "word": "2020.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.015s",
+              "endTime": "6.290s",
+              "word": "Where",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.290s",
+              "endTime": "7.319s",
+              "word": "exports,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.319s",
+              "endTime": "7.861s",
+              "word": "government",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.861s",
+              "endTime": "8.635s",
+              "word": "spending,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.635s",
+              "endTime": "8.770s",
+              "word": "and",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.770s",
+              "endTime": "9.282s",
+              "word": "private",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.282s",
+              "endTime": "10.010s",
+              "word": "inventory",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.010s",
+              "endTime": "10.747s",
+              "word": "investment",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.747s",
+              "endTime": "11.213s",
+              "word": "provide",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.213s",
+              "endTime": "11.293s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.293s",
+              "endTime": "11.672s",
+              "word": "main",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.672s",
+              "endTime": "12.114s",
+              "word": "growth",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "12.114s",
+              "endTime": "12.294s",
+              "word": "in",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "12.294s",
+              "endTime": "13.564s",
+              "word": "GDP,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.564s",
+              "endTime": "14.193s",
+              "word": "offsetting",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.193s",
+              "endTime": "14.313s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.313s",
+              "endTime": "15.141s",
+              "word": "GDP",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.141s",
+              "endTime": "15.776s",
+              "word": "decrease",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.776s",
+              "endTime": "15.971s",
+              "word": "from",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.971s",
+              "endTime": "17.631s",
+              "word": "imports.",
+              "speakerTag": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

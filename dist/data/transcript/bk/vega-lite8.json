@@ -1,0 +1,218 @@
+{
+  "results": [
+    {
+      "alternatives": [
+        {
+          "transcript": "Payroll employment increased in seven provinces in October, led by New Brunswick, Prince Edward Island, and Saskatchewan. The three provinces that remained below their February 2020 level were Newfoundland and Labrador, Ontario and Alberta.",
+          "confidence": 1.0,
+          "words": [
+            {
+              "startTime": "0.000s",
+              "endTime": "0.565s",
+              "word": "Payroll",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.565s",
+              "endTime": "1.261s",
+              "word": "employment",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.261s",
+              "endTime": "1.889s",
+              "word": "increased",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.889s",
+              "endTime": "2.039s",
+              "word": "in",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.039s",
+              "endTime": "2.519s",
+              "word": "seven",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.519s",
+              "endTime": "3.229s",
+              "word": "provinces",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.229s",
+              "endTime": "3.349s",
+              "word": "in",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.349s",
+              "endTime": "4.383s",
+              "word": "October,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.383s",
+              "endTime": "4.568s",
+              "word": "led",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.568s",
+              "endTime": "4.778s",
+              "word": "by",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.778s",
+              "endTime": "4.998s",
+              "word": "New",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.998s",
+              "endTime": "5.880s",
+              "word": "Brunswick,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.880s",
+              "endTime": "6.236s",
+              "word": "Prince",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.236s",
+              "endTime": "6.624s",
+              "word": "Edward",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.624s",
+              "endTime": "7.251s",
+              "word": "Island,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.251s",
+              "endTime": "7.361s",
+              "word": "and",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.361s",
+              "endTime": "9.284s",
+              "word": "Saskatchewan.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.284s",
+              "endTime": "9.404s",
+              "word": "The",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.404s",
+              "endTime": "9.774s",
+              "word": "three",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.774s",
+              "endTime": "10.597s",
+              "word": "provinces",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.597s",
+              "endTime": "10.767s",
+              "word": "that",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.767s",
+              "endTime": "11.197s",
+              "word": "remained",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.197s",
+              "endTime": "11.582s",
+              "word": "below",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.582s",
+              "endTime": "11.739s",
+              "word": "their",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.739s",
+              "endTime": "12.480s",
+              "word": "February",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "12.480s",
+              "endTime": "13.304s",
+              "word": "2020",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.304s",
+              "endTime": "13.806s",
+              "word": "level",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.806s",
+              "endTime": "13.986s",
+              "word": "were",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.986s",
+              "endTime": "14.769s",
+              "word": "Newfoundland",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.769s",
+              "endTime": "14.919s",
+              "word": "and",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.919s",
+              "endTime": "15.866s",
+              "word": "Labrador,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.866s",
+              "endTime": "16.687s",
+              "word": "Ontario",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.687s",
+              "endTime": "16.772s",
+              "word": "and",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.772s",
+              "endTime": "18.331s",
+              "word": "Alberta.",
+              "speakerTag": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

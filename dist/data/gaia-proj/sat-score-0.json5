@@ -1,0 +1,185 @@
+{
+  projectId: 'sat-score-0',
+  chart: './sat-score.svg',
+  audio: './sat-score.txt',
+  binder: {
+    from: "svg",
+    to: "gaia.chart.BarChart",
+    rules: [
+      // chart title
+      {
+        from: ".title",
+        to: ".BarChart > .Title",
+      },
+      // bars
+      {
+        from: ".bar",
+        to: ".Bar",
+        dataList: [
+          { xVal: 'Less than $20,000', yVal: 890 },
+          { xVal: '$40,000', yVal: 930 },
+          { xVal: '$60,000', yVal: 980 },
+          { xVal: '$80,000', yVal: 1010 },
+          { xVal: '$100,000', yVal: 1030 },
+          { xVal: '$140,000', yVal: 1090 },
+          { xVal: 'More than $200,000', yVal: 1150 },
+        ]
+      },
+      // bar label
+      {
+        from: '.bar-label',
+        to: '.BarLabel',
+        dataList: [
+          { xVal: 'Less than $20,000', yVal: 890 },
+          { xVal: 'More than $200,000', yVal: 1150 },
+        ]
+      },
+      // x axis
+      {
+        from: '.x-domain',
+        to: '.XAxis .Domain',
+      },
+      {
+        from: '.x-label',
+        to: '.XAxis .Label',
+        dataList: [
+          { xVal: 'Less than $20,000', yVal: 890 },
+          { xVal: '$40,000', yVal: 930 },
+          { xVal: '$60,000', yVal: 980 },
+          { xVal: '$80,000', yVal: 1010 },
+          { xVal: '$100,000', yVal: 1030 },
+          { xVal: '$140,000', yVal: 1090 },
+          { xVal: 'More than $200,000', yVal: 1150 },
+        ]
+      },
+      // y axis
+      {
+        from: '.y-tick',
+        to: '.YAxis .Tick',
+      },
+      {
+        from: '.y-label',
+        to: '.YAxis .Label',
+      },
+      // annotation
+      {
+        from: '.annotation.line',
+        to: '.Annotation .Line',
+      },
+      {
+        from: '.annotation.label',
+        to: '.Annotation .Label',
+      }
+    ]
+  },
+  animation: {
+    targetType: 'BarChart',
+    main: {
+      sync: [
+        {
+          ref: 'FrameworkEnter',
+        },
+        {
+          ref: 'ShowIncomeCategory',
+          incomeLabel: 'Less than \\$20,000',
+          offset: 5,
+        },
+        {
+          ref: 'ShowAvgAnnotation',
+          offset: 11,
+        },
+        {
+          ref: 'Grow',
+          target: [
+            { filter: '.Bar' },
+            { slice: [1, -1] }
+          ],
+          from: 'left',
+          stagger: 0.5,
+          offset: 13,
+        },
+        {
+          ref: 'ShowIncomeCategory',
+          incomeLabel: 'More than \\$200,000',
+          offset: 17.5
+        }
+      ],
+    },
+  },
+  templates: [
+    {
+      name: 'FrameworkEnter',
+      main: {
+        sync: [
+          {
+            ref: 'Cut',
+            target: '.Title',
+            ease: 'power3.out'
+          },
+          {
+            ref: 'Wipe',
+            target: '.Axis.Line',
+            from: 'top',
+            ease: 'power3.inOut',
+            duration: 3,
+          },
+          {
+            ref: 'Cut',
+            target: '.YAxis.Label',
+            offset: 1,
+          },
+          {
+            ref: 'Cut',
+            target: '.XAxis.Label',
+            stagger: 0.15,
+            offset: 2,
+          }
+        ]
+      }
+    },
+    {
+      name: 'ShowIncomeCategory',
+      params: {
+        incomeLabel: { type: "string" },
+      },
+      main: {
+        sync: [
+          {
+            ref: 'Circle',
+            target: '.XAxis.Label[xVal="$incomeLabel"]',
+            displayTime: 2,
+            aniTime: 1.2,
+            stroke: 'yellow',
+          },
+          {
+            ref: 'Wipe',
+            target: '.Bar[xVal="$incomeLabel"]',
+            from: 'left',
+            duration: 2,
+            offset: 3,
+          },
+          {
+            ref: 'Cut',
+            target: '.BarLabel[xVal="$incomeLabel"]',
+            offset: 4
+          },
+        ]
+      }
+    },
+    {
+      name: 'ShowAvgAnnotation',
+      main: {
+        sync: [
+          {
+            ref: 'Fade',
+            target: '.Annotation.Line',
+          },
+          {
+            ref: 'Cut',
+            target: '.Annotation.Label',
+          },
+        ]
+      }
+    },
+  ]
+}

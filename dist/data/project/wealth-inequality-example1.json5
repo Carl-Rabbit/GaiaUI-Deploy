@@ -1,0 +1,151 @@
+{
+  projectId: 'wealth-inequality-example1',
+  scenes: [
+    {
+      charts: [
+        {source: './wealth-inequality.svg'},
+      ],
+      target: '.wealth-inequality',
+      // templates: [
+      //   {
+      //     templateName: 'Bar-bounce',
+      //     parameters: [
+      //       {paramName: 'startPercentage', paramType: 'number'},
+      //       {paramName: 'endPercentage', paramType: 'number'},
+      //     ],
+      //     animation: {
+      //       target: {
+      //         selector: '.bar',
+      //         transform: {
+      //           type: 'filter',
+      //           expr: '@datum.percentage >= $startPercentage && @datum.percentage <= $endPercentage'
+      //         }
+      //       },
+      //       sequence: {
+      //         sync: [
+      //           {
+      //             use: 'Move-to',
+      //             settings: {y: '-=30', yoyo: true},
+      //           },
+      //         ]
+      //       }
+      //     },
+      //   },
+      //   {
+      //     templateName: 'Bar-and-label-bounce',
+      //     parameters: [
+      //       {paramName: 'labelIndex', paramType: 'number'},
+      //       {paramName: 'startPercentage', paramType: 'number'},
+      //       {paramName: 'endPercentage', paramType: 'number'},
+      //     ],
+      //     animation: {
+      //       sequence: {
+      //         sync: [
+      //           {
+      //             use: 'Bar-bounce',
+      //             settings: {
+      //               startPercentage: '$startPercentage',
+      //               endPercentage: '$endPercentage',
+      //             },
+      //           },
+      //           // label bounce
+      //           {
+      //             use: 'Move-to',
+      //             target: {
+      //               selector: '.bar-label',
+      //               transform: {type: 'filter', expr: '@index === $labelIndex'},
+      //             },
+      //             settings: {y: '-=15', yoyo: true},
+      //             timing: {start: 0.4},
+      //           }
+      //         ]
+      //       }
+      //     },
+      //   },
+      //   {
+      //     templateName: 'highlight-bar',
+      //     parameters: [
+      //       {paramName: 'startPercentage', paramType: 'number'},
+      //       {paramName: 'endPercentage', paramType: 'number'},
+      //     ],
+      //     animation: {
+      //       target: {
+      //         selector: '.bar',
+      //         transform: {
+      //           type: 'filter',
+      //           expr: '@datum.percentage >= $startPercentage && @datum.percentage <= $endPercentage'
+      //         }
+      //       },
+      //       sequence: {
+      //         sync: [
+      //           {
+      //             use: 'Change-color',
+      //             settings: {fill: '#ffffff', yoyo: true, stagger: 0.03}
+      //           },
+      //         ]
+      //       }
+      //     },
+      //   }
+      // ],
+      animation: {
+    "sequence": {
+    "sync": [
+        {
+            "use": "Bar chart",
+            "timing": {
+                "start": 0,
+                "duration": 4.15,
+                "offset": 0
+            },
+            "target": "#wealth-inequality-x-label-0, #wealth-inequality-x-label-1, #wealth-inequality-x-label-2, #wealth-inequality-x-label-3, #wealth-inequality-x-label-4, #wealth-inequality-x-label-5, #wealth-inequality-x-label-6, #wealth-inequality-x-label-7, #wealth-inequality-x-label-8, #wealth-inequality-x-label-9, #wealth-inequality-x-label-10, #wealth-inequality-x-tick-0, #wealth-inequality-x-tick-1, #wealth-inequality-x-tick-2, #wealth-inequality-x-tick-3, #wealth-inequality-x-tick-4, #wealth-inequality-x-tick-5, #wealth-inequality-x-tick-6, #wealth-inequality-x-tick-7, #wealth-inequality-x-tick-8, #wealth-inequality-x-tick-9, #wealth-inequality-x-tick-10, #wealth-inequality-x-symbol-0, #wealth-inequality-x-symbol-1, #wealth-inequality-x-symbol-2, #wealth-inequality-x-symbol-3, #wealth-inequality-x-symbol-4, #wealth-inequality-x-symbol-5, #wealth-inequality-x-symbol-6, #wealth-inequality-x-symbol-7, #wealth-inequality-x-symbol-8, #wealth-inequality-x-symbol-9, #wealth-inequality-x-symbol-10, #wealth-inequality-x-symbol-11, #wealth-inequality-x-symbol-12, #wealth-inequality-x-symbol-13, #wealth-inequality-x-symbol-14, #wealth-inequality-x-symbol-15, #wealth-inequality-x-symbol-16, #wealth-inequality-x-symbol-17, #wealth-inequality-x-symbol-18, #wealth-inequality-x-symbol-19, #wealth-inequality-x-symbol-20, #wealth-inequality-x-symbol-21, #wealth-inequality-x-symbol-22, #wealth-inequality-x-symbol-23, #wealth-inequality-x-symbol-24, #wealth-inequality-x-symbol-25, #wealth-inequality-x-symbol-26, #wealth-inequality-x-symbol-27, #wealth-inequality-x-symbol-28, #wealth-inequality-x-symbol-29, #wealth-inequality-x-symbol-30, #wealth-inequality-x-symbol-31, #wealth-inequality-x-symbol-32, #wealth-inequality-x-symbol-33, #wealth-inequality-x-symbol-34, #wealth-inequality-x-symbol-35, #wealth-inequality-x-symbol-36, #wealth-inequality-x-symbol-37, #wealth-inequality-x-symbol-38, #wealth-inequality-x-symbol-39, #wealth-inequality-x-symbol-40, #wealth-inequality-x-symbol-41, #wealth-inequality-x-symbol-42, #wealth-inequality-x-symbol-43, #wealth-inequality-x-symbol-44, #wealth-inequality-x-symbol-45, #wealth-inequality-x-symbol-46, #wealth-inequality-x-symbol-47, #wealth-inequality-x-symbol-48, #wealth-inequality-x-symbol-49, #wealth-inequality-x-symbol-50, #wealth-inequality-x-symbol-51, #wealth-inequality-x-symbol-52, #wealth-inequality-x-symbol-53, #wealth-inequality-x-symbol-54, #wealth-inequality-x-symbol-55, #wealth-inequality-x-symbol-56, #wealth-inequality-x-symbol-57, #wealth-inequality-x-symbol-58, #wealth-inequality-x-symbol-59, #wealth-inequality-x-symbol-60, #wealth-inequality-x-symbol-61, #wealth-inequality-x-symbol-62, #wealth-inequality-x-symbol-63, #wealth-inequality-x-symbol-64, #wealth-inequality-x-symbol-65, #wealth-inequality-x-symbol-66, #wealth-inequality-x-symbol-67, #wealth-inequality-x-symbol-68, #wealth-inequality-x-symbol-69, #wealth-inequality-x-symbol-70, #wealth-inequality-x-symbol-71, #wealth-inequality-x-symbol-72, #wealth-inequality-x-symbol-73, #wealth-inequality-x-symbol-74, #wealth-inequality-x-symbol-75, #wealth-inequality-x-symbol-76, #wealth-inequality-x-symbol-77, #wealth-inequality-x-symbol-78, #wealth-inequality-x-symbol-79, #wealth-inequality-x-symbol-80, #wealth-inequality-x-symbol-81, #wealth-inequality-x-symbol-82, #wealth-inequality-x-symbol-83, #wealth-inequality-x-symbol-84, #wealth-inequality-x-symbol-85, #wealth-inequality-x-symbol-86, #wealth-inequality-x-symbol-87, #wealth-inequality-x-symbol-88, #wealth-inequality-x-symbol-89, #wealth-inequality-x-symbol-90, #wealth-inequality-x-symbol-91, #wealth-inequality-x-symbol-92, #wealth-inequality-x-symbol-93, #wealth-inequality-x-symbol-94, #wealth-inequality-x-symbol-95, #wealth-inequality-x-symbol-96, #wealth-inequality-x-symbol-97, #wealth-inequality-x-symbol-98, #wealth-inequality-x-symbol-99, #wealth-inequality-bar-0, #wealth-inequality-bar-1, #wealth-inequality-bar-2, #wealth-inequality-bar-3, #wealth-inequality-bar-4, #wealth-inequality-bar-5, #wealth-inequality-bar-6, #wealth-inequality-bar-7, #wealth-inequality-bar-8, #wealth-inequality-bar-9, #wealth-inequality-bar-10, #wealth-inequality-bar-11, #wealth-inequality-bar-12, #wealth-inequality-bar-13, #wealth-inequality-bar-14, #wealth-inequality-bar-15, #wealth-inequality-bar-16, #wealth-inequality-bar-17, #wealth-inequality-bar-18, #wealth-inequality-bar-19, #wealth-inequality-bar-20, #wealth-inequality-bar-21, #wealth-inequality-bar-22, #wealth-inequality-bar-23, #wealth-inequality-bar-24, #wealth-inequality-bar-25, #wealth-inequality-bar-26, #wealth-inequality-bar-27, #wealth-inequality-bar-28, #wealth-inequality-bar-29, #wealth-inequality-bar-30, #wealth-inequality-bar-31, #wealth-inequality-bar-32, #wealth-inequality-bar-33, #wealth-inequality-bar-34, #wealth-inequality-bar-35, #wealth-inequality-bar-36, #wealth-inequality-bar-37, #wealth-inequality-bar-38, #wealth-inequality-bar-39, #wealth-inequality-bar-40, #wealth-inequality-bar-41, #wealth-inequality-bar-42, #wealth-inequality-bar-43, #wealth-inequality-bar-44, #wealth-inequality-bar-45, #wealth-inequality-bar-46, #wealth-inequality-bar-47, #wealth-inequality-bar-48, #wealth-inequality-bar-49, #wealth-inequality-bar-50, #wealth-inequality-bar-51, #wealth-inequality-bar-52, #wealth-inequality-bar-53, #wealth-inequality-bar-54, #wealth-inequality-bar-55, #wealth-inequality-bar-56, #wealth-inequality-bar-57, #wealth-inequality-bar-58, #wealth-inequality-bar-59, #wealth-inequality-bar-60, #wealth-inequality-bar-61, #wealth-inequality-bar-62, #wealth-inequality-bar-63, #wealth-inequality-bar-64, #wealth-inequality-bar-65, #wealth-inequality-bar-66, #wealth-inequality-bar-67, #wealth-inequality-bar-68, #wealth-inequality-bar-69, #wealth-inequality-bar-70, #wealth-inequality-bar-71, #wealth-inequality-bar-72, #wealth-inequality-bar-73, #wealth-inequality-bar-74, #wealth-inequality-bar-75, #wealth-inequality-bar-76, #wealth-inequality-bar-77, #wealth-inequality-bar-78, #wealth-inequality-bar-79, #wealth-inequality-bar-80, #wealth-inequality-bar-81, #wealth-inequality-bar-82, #wealth-inequality-bar-83, #wealth-inequality-bar-84, #wealth-inequality-bar-85, #wealth-inequality-bar-86, #wealth-inequality-bar-87, #wealth-inequality-bar-88, #wealth-inequality-bar-89, #wealth-inequality-bar-90, #wealth-inequality-bar-91, #wealth-inequality-bar-92, #wealth-inequality-bar-93, #wealth-inequality-bar-94, #wealth-inequality-bar-95, #wealth-inequality-bar-96, #wealth-inequality-bar-97, #wealth-inequality-bar-98, #wealth-inequality-bar-99, #wealth-inequality-bar-label-0, #wealth-inequality-bar-label-1, #wealth-inequality-bar-label-2, #wealth-inequality-bar-label-3, #wealth-inequality-title-0, #wealth-inequality-title-1, #wealth-inequality-title-2, #wealth-inequality-title-3",
+            "ani_type": "Enter",
+            "settings": {}
+        },
+        {
+            "use": "Bar-bounce",
+            "timing": {
+                "start": 6.905,
+                "duration": 1.35
+            },
+            "target": "#wealth-inequality-bar-90, #wealth-inequality-bar-91, #wealth-inequality-bar-92, #wealth-inequality-bar-93, #wealth-inequality-bar-94, #wealth-inequality-bar-95, #wealth-inequality-bar-96, #wealth-inequality-bar-97, #wealth-inequality-bar-98, #wealth-inequality-bar-99, #wealth-inequality-bar-label-3",
+            "ani_type": "Emphasis",
+            "settings": {}
+        },
+        {
+            "use": "Bar-bounce",
+            "timing": {
+                "start": 11.072,
+                "duration": 1.87
+            },
+            "target": "#wealth-inequality-bar-0, #wealth-inequality-bar-1, #wealth-inequality-bar-2, #wealth-inequality-bar-3, #wealth-inequality-bar-4, #wealth-inequality-bar-5, #wealth-inequality-bar-6, #wealth-inequality-bar-7, #wealth-inequality-bar-8, #wealth-inequality-bar-9, #wealth-inequality-bar-10, #wealth-inequality-bar-11, #wealth-inequality-bar-12, #wealth-inequality-bar-13, #wealth-inequality-bar-14, #wealth-inequality-bar-15, #wealth-inequality-bar-16, #wealth-inequality-bar-17, #wealth-inequality-bar-18, #wealth-inequality-bar-19, #wealth-inequality-bar-label-0",
+            "ani_type": "Emphasis",
+            "settings": {}
+        },
+        {
+            "use": "Highlight",
+            "timing": {
+                "start": 13.468,
+                "duration": 8.1,
+                "offset": 0
+            },
+            "target": "#wealth-inequality-bar-0, #wealth-inequality-bar-1, #wealth-inequality-bar-2, #wealth-inequality-bar-3, #wealth-inequality-bar-4, #wealth-inequality-bar-5, #wealth-inequality-bar-6, #wealth-inequality-bar-7, #wealth-inequality-bar-8, #wealth-inequality-bar-9, #wealth-inequality-bar-10, #wealth-inequality-bar-11, #wealth-inequality-bar-12, #wealth-inequality-bar-13, #wealth-inequality-bar-14, #wealth-inequality-bar-15, #wealth-inequality-bar-16, #wealth-inequality-bar-17, #wealth-inequality-bar-18, #wealth-inequality-bar-19",
+            "ani_type": "Emphasis",
+            "settings": {}
+        },
+        {
+            "use": "Highlight",
+            "timing": {
+                "start": 21.567,
+                "duration": 9.65,
+                "offset": 0
+            },
+            "target": "#wealth-inequality-bar-20, #wealth-inequality-bar-21, #wealth-inequality-bar-22, #wealth-inequality-bar-23, #wealth-inequality-bar-24, #wealth-inequality-bar-25, #wealth-inequality-bar-26, #wealth-inequality-bar-27, #wealth-inequality-bar-28, #wealth-inequality-bar-29, #wealth-inequality-bar-30, #wealth-inequality-bar-31, #wealth-inequality-bar-32, #wealth-inequality-bar-33, #wealth-inequality-bar-34, #wealth-inequality-bar-35, #wealth-inequality-bar-36, #wealth-inequality-bar-37, #wealth-inequality-bar-38, #wealth-inequality-bar-39, #wealth-inequality-bar-40, #wealth-inequality-bar-41, #wealth-inequality-bar-42, #wealth-inequality-bar-43, #wealth-inequality-bar-44, #wealth-inequality-bar-45, #wealth-inequality-bar-46, #wealth-inequality-bar-47, #wealth-inequality-bar-48, #wealth-inequality-bar-49, #wealth-inequality-bar-50, #wealth-inequality-bar-51, #wealth-inequality-bar-52, #wealth-inequality-bar-53, #wealth-inequality-bar-54, #wealth-inequality-bar-55, #wealth-inequality-bar-56, #wealth-inequality-bar-57, #wealth-inequality-bar-58, #wealth-inequality-bar-59, #wealth-inequality-bar-60, #wealth-inequality-bar-61, #wealth-inequality-bar-62, #wealth-inequality-bar-63, #wealth-inequality-bar-64, #wealth-inequality-bar-65, #wealth-inequality-bar-66, #wealth-inequality-bar-67, #wealth-inequality-bar-68, #wealth-inequality-bar-69, #wealth-inequality-bar-70, #wealth-inequality-bar-71, #wealth-inequality-bar-72, #wealth-inequality-bar-73, #wealth-inequality-bar-74, #wealth-inequality-bar-75, #wealth-inequality-bar-76, #wealth-inequality-bar-77, #wealth-inequality-bar-78, #wealth-inequality-bar-79",
+            "ani_type": "Emphasis",
+            "settings": {}
+        }
+    ]
+}
+      }
+    }
+  ]
+}

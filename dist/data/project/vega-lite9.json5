@@ -1,0 +1,26 @@
+{
+  projectId: 'vega-lite9',
+  scenes: [
+    {
+      charts: [
+        {source: './vega-lite9.svg'},
+      ],
+      animation: {
+          target: '.vega-lite9',
+          sequence: {
+              sync: [
+                {
+                  use: 'Bar chart',
+                  settings: {
+                    barDirection: 'left',
+                  },
+                  timing: {
+                    duration: 5.5,
+                  },
+                },
+              ]
+          }
+      }
+    },
+  ]
+}

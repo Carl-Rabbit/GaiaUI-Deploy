@@ -1,0 +1,10 @@
+{
+  charts: [
+    {source: './figma.svg'},
+  ],
+  animation: {
+    sequence: {
+      sync: []
+    }
+  }
+}

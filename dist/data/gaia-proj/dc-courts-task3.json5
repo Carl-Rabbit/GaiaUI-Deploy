@@ -1,0 +1,90 @@
+{
+  projectId: 'dc-courts-0',
+  chart: './dc-courts.svg',
+  audio: './dc-courts.txt',
+  comment: 'start of task 3',
+  binder: {
+    from: "svg",
+    to: "gaia.chart.BarChart",
+    rules: [
+      // chart title
+      {
+        from: ".title, .sub-title",
+        to: ".BarChart > .Title",
+      },
+      // bars
+      {
+        from: ".bar",
+        to: ".Bar",
+        dataList: [
+          {xVal: 'RELEASED PRETRIAL', yVal: 0.94},
+          {xVal: 'RETURNED FOR EVERY COURT DATE', yVal: 0.88},
+          {xVal: 'NOT ARRESTED PRETRIAL', yVal: 0.86}
+        ]
+      },
+      // bar label
+      {
+        from: '.bar-label',
+        to: '.BarLabel',
+        dataList: [
+          {xVal: 'RELEASED PRETRIAL', yVal: 0.94},
+          {xVal: 'RETURNED FOR EVERY COURT DATE', yVal: 0.88},
+          {xVal: 'NOT ARRESTED PRETRIAL', yVal: 0.86}
+        ]
+      },
+      // x axis
+      {
+        from: '.x-label',
+        to: '.XAxis .Label',
+        dataList: [
+          {xVal: 'RELEASED PRETRIAL', yVal: 0.94},
+          {xVal: 'RETURNED FOR EVERY COURT DATE', yVal: 0.88},
+          {xVal: 'NOT ARRESTED PRETRIAL', yVal: 0.86}
+        ]
+      },
+    ]
+  },
+  animation: {
+    comments: [
+      'Task 3: Template Creation and Usage',
+      '0. We have moved the repeated AniUnits to the Template tab and create a template named "CategoryEnter".',
+      '1. Try to use "ref" to use this template in the main animation spec. Tips: you don\'t need to add a target.',
+      '2. Add parameters so that it can select different target elements via passing a parameter. E.g., make the value of "xVal" as a parameter.',
+      '3. Try to use this template to create animations for all elements by passing different parameters.',
+      '4. Place them into the right place using "offset". Tips: key timestamps are 2, 5 and 8.'
+    ],
+    main: {
+      sync: [
+        {
+          ref: 'CutIn',
+          target: '.Title',
+          ease: 'power3.out',
+        },
+      ],
+    },
+  },
+  templates: [
+    {
+      name: 'CategoryEnter',
+      params: {},
+      main: {
+        sync: [
+          {
+            ref: 'WipeIn',
+            target: '.Bar[xVal="RELEASED PRETRIAL"]',
+            from: 'left',
+          },
+          {
+            ref: 'CutIn',
+            target: '.AxisLabel[xVal="RELEASED PRETRIAL"]',
+          },
+          {
+            ref: 'CutIn',
+            target: '.BarLabel[xVal="RELEASED PRETRIAL"]',
+            offset: 1,
+          }
+        ]
+      }
+    }
+  ]
+}

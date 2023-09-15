@@ -1,0 +1,216 @@
+{
+  "chartType": "map-chart",
+  "elements": [
+    {
+      "type": "bg-image",
+      "id": "scottish-independence-referendum-background-img",
+      "clazz": "scene chart scottish-independence-referendum background image bg-image",
+      "data": null,
+      "tag": "svg",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "scottish-independence-referendum-mark-area-0",
+      "clazz": "scene chart scottish-independence-referendum mark area-0 area",
+      "data": {
+        "name": "Scotland"
+      },
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "scottish-independence-referendum-mark-area-1",
+      "clazz": "scene chart scottish-independence-referendum mark area-1 area",
+      "data": {
+        "name": "Northern Ireland"
+      },
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "scottish-independence-referendum-mark-area-2",
+      "clazz": "scene chart scottish-independence-referendum mark area-2 area",
+      "data": {
+        "name": "England"
+      },
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "area",
+      "id": "scottish-independence-referendum-mark-area-3",
+      "clazz": "scene chart scottish-independence-referendum mark area-3 area",
+      "data": {
+        "name": "Wales"
+      },
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "anno-label",
+      "id": "scottish-independence-referendum-annotation-0-label",
+      "clazz": "scene chart scottish-independence-referendum annotation annotation-0 label anno-label",
+      "data": {
+        "name": "Scotland"
+      },
+      "tag": "text",
+      "text": "Scotland"
+    },
+    {
+      "type": "anno-path",
+      "id": "scottish-independence-referendum-annotation-0-path",
+      "clazz": "scene chart scottish-independence-referendum annotation annotation-0 path anno-path",
+      "data": {
+        "name": "Scotland"
+      },
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "anno-circle",
+      "id": "scottish-independence-referendum-annotation-0-circle",
+      "clazz": "scene chart scottish-independence-referendum annotation annotation-0 circle anno-circle",
+      "data": {
+        "name": "Scotland"
+      },
+      "tag": "circle",
+      "text": null
+    },
+    {
+      "type": "anno-label",
+      "id": "scottish-independence-referendum-annotation-1-label",
+      "clazz": "scene chart scottish-independence-referendum annotation annotation-1 label anno-label",
+      "data": {
+        "name": "Northern Ireland"
+      },
+      "tag": "text",
+      "text": "Northern Ireland"
+    },
+    {
+      "type": "anno-path",
+      "id": "scottish-independence-referendum-annotation-1-path",
+      "clazz": "scene chart scottish-independence-referendum annotation annotation-1 path anno-path",
+      "data": {
+        "name": "Northern Ireland"
+      },
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "anno-circle",
+      "id": "scottish-independence-referendum-annotation-1-circle",
+      "clazz": "scene chart scottish-independence-referendum annotation annotation-1 circle anno-circle",
+      "data": {
+        "name": "Northern Ireland"
+      },
+      "tag": "circle",
+      "text": null
+    },
+    {
+      "type": "anno-label",
+      "id": "scottish-independence-referendum-annotation-2-label",
+      "clazz": "scene chart scottish-independence-referendum annotation annotation-2 label anno-label",
+      "data": {
+        "name": "England"
+      },
+      "tag": "text",
+      "text": "England"
+    },
+    {
+      "type": "anno-path",
+      "id": "scottish-independence-referendum-annotation-2-path",
+      "clazz": "scene chart scottish-independence-referendum annotation annotation-2 path anno-path",
+      "data": {
+        "name": "England"
+      },
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "anno-circle",
+      "id": "scottish-independence-referendum-annotation-2-circle",
+      "clazz": "scene chart scottish-independence-referendum annotation annotation-2 circle anno-circle",
+      "data": {
+        "name": "England"
+      },
+      "tag": "circle",
+      "text": null
+    },
+    {
+      "type": "anno-label",
+      "id": "scottish-independence-referendum-annotation-3-label",
+      "clazz": "scene chart scottish-independence-referendum annotation annotation-3 label anno-label",
+      "data": {
+        "name": "Wales"
+      },
+      "tag": "text",
+      "text": "Wales"
+    },
+    {
+      "type": "anno-path",
+      "id": "scottish-independence-referendum-annotation-3-path",
+      "clazz": "scene chart scottish-independence-referendum annotation annotation-3 path anno-path",
+      "data": {
+        "name": "Wales"
+      },
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "anno-circle",
+      "id": "scottish-independence-referendum-annotation-3-circle",
+      "clazz": "scene chart scottish-independence-referendum annotation annotation-3 circle anno-circle",
+      "data": {
+        "name": "Wales"
+      },
+      "tag": "circle",
+      "text": null
+    },
+    {
+      "type": "anno-label",
+      "id": "scottish-independence-referendum-annotation-4-label",
+      "clazz": "scene chart scottish-independence-referendum annotation annotation-4 label anno-label",
+      "data": {
+        "name": "United Kingdom"
+      },
+      "tag": "text",
+      "text": "United Kingdom"
+    },
+    {
+      "type": "anno-path",
+      "id": "scottish-independence-referendum-annotation-4-path",
+      "clazz": "scene chart scottish-independence-referendum annotation annotation-4 path anno-path",
+      "data": {
+        "name": "United Kingdom"
+      },
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "anno-circle",
+      "id": "scottish-independence-referendum-annotation-4-circle",
+      "clazz": "scene chart scottish-independence-referendum annotation annotation-4 circle anno-circle",
+      "data": {
+        "name": "United Kingdom"
+      },
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "anno-label",
+      "id": "scottish-independence-referendum-annotation-5-label",
+      "clazz": "scene chart scottish-independence-referendum annotation annotation-5 label anno-label",
+      "data": null,
+      "tag": "text",
+      "text": "Already a country?"
+    }
+  ],
+  "layout": {
+    "xAxis": "unknown",
+    "yAxis": "unknown",
+    "title": "unknown"
+  }
+}

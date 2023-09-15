@@ -1,0 +1,290 @@
+{
+  "results": [
+    {
+      "alternatives": [
+        {
+          "transcript": "In the long term, the majority of businesses in retail trade were either somewhat or very optimistic about the future outlook of their business over the next 12 months. In comparison, nearly one in ten reported that their future outlook was pessimistic, while 13.1% were undecided.",
+          "confidence": 1.0,
+          "words": [
+            {
+              "startTime": "0.000s",
+              "endTime": "0.150s",
+              "word": "In",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.150s",
+              "endTime": "0.185s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.185s",
+              "endTime": "0.635s",
+              "word": "long",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.635s",
+              "endTime": "1.367s",
+              "word": "term,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.367s",
+              "endTime": "1.442s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.442s",
+              "endTime": "2.131s",
+              "word": "majority",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.131s",
+              "endTime": "2.231s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.231s",
+              "endTime": "2.969s",
+              "word": "businesses",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.969s",
+              "endTime": "3.120s",
+              "word": "in",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.120s",
+              "endTime": "3.645s",
+              "word": "retail",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.645s",
+              "endTime": "4.125s",
+              "word": "trade",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.125s",
+              "endTime": "4.341s",
+              "word": "were",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.341s",
+              "endTime": "4.611s",
+              "word": "either",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.611s",
+              "endTime": "5.276s",
+              "word": "somewhat",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.276s",
+              "endTime": "5.400s",
+              "word": "or",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.400s",
+              "endTime": "5.800s",
+              "word": "very",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.800s",
+              "endTime": "6.768s",
+              "word": "optimistic",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.768s",
+              "endTime": "7.073s",
+              "word": "about",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.073s",
+              "endTime": "7.152s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.152s",
+              "endTime": "7.722s",
+              "word": "future",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.722s",
+              "endTime": "8.195s",
+              "word": "outlook",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.195s",
+              "endTime": "8.290s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.290s",
+              "endTime": "8.460s",
+              "word": "their",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.460s",
+              "endTime": "9.091s",
+              "word": "business",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.091s",
+              "endTime": "9.316s",
+              "word": "over",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.316s",
+              "endTime": "9.421s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.421s",
+              "endTime": "9.819s",
+              "word": "next",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.819s",
+              "endTime": "10.160s",
+              "word": "12",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.160s",
+              "endTime": "11.555s",
+              "word": "months.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.555s",
+              "endTime": "11.705s",
+              "word": "In",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.705s",
+              "endTime": "12.854s",
+              "word": "comparison,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "12.854s",
+              "endTime": "13.204s",
+              "word": "nearly",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.204s",
+              "endTime": "13.546s",
+              "word": "one",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.546s",
+              "endTime": "13.721s",
+              "word": "in",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.721s",
+              "endTime": "14.147s",
+              "word": "ten",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.147s",
+              "endTime": "14.812s",
+              "word": "reported",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "14.812s",
+              "endTime": "15.002s",
+              "word": "that",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.002s",
+              "endTime": "15.117s",
+              "word": "their",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.117s",
+              "endTime": "15.705s",
+              "word": "future",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.705s",
+              "endTime": "16.207s",
+              "word": "outlook",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.207s",
+              "endTime": "16.377s",
+              "word": "was",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.377s",
+              "endTime": "17.673s",
+              "word": "pessimistic,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.673s",
+              "endTime": "17.833s",
+              "word": "while",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.833s",
+              "endTime": "19.633s",
+              "word": "13.1%",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.633s",
+              "endTime": "19.803s",
+              "word": "were",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.803s",
+              "endTime": "21.548s",
+              "word": "undecided.",
+              "speakerTag": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

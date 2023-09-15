@@ -1,0 +1,348 @@
+{
+  "chartType": "line-chart",
+  "elements": [
+    {
+      "type": "bg-rect",
+      "id": "share-of-profits-background-rect",
+      "clazz": "scene chart share-of-profits background rect bg-rect",
+      "data": null,
+      "tag": "rect",
+      "text": null
+    },
+    {
+      "type": "main-title",
+      "id": "share-of-profits-title",
+      "clazz": "scene chart share-of-profits title main-title",
+      "data": null,
+      "tag": "text",
+      "text": "Share of profits spent on stock buybacks"
+    },
+    {
+      "type": "sub-title",
+      "id": "share-of-profits-subtitle",
+      "clazz": "scene chart share-of-profits title sub-title",
+      "data": null,
+      "tag": "text",
+      "text": "ACADEMIC-INDUSTRY RESEARCH NETWORK"
+    },
+    {
+      "type": "x-label",
+      "id": "share-of-profits-x-label-0",
+      "clazz": "scene chart share-of-profits axis x-axis label x-label-0 x-label",
+      "data": null,
+      "tag": "text",
+      "text": "2012"
+    },
+    {
+      "type": "x-label",
+      "id": "share-of-profits-x-label-1",
+      "clazz": "scene chart share-of-profits axis x-axis label x-label-1 x-label",
+      "data": null,
+      "tag": "text",
+      "text": "2013"
+    },
+    {
+      "type": "x-label",
+      "id": "share-of-profits-x-label-2",
+      "clazz": "scene chart share-of-profits axis x-axis label x-label-2 x-label",
+      "data": null,
+      "tag": "text",
+      "text": "2014"
+    },
+    {
+      "type": "x-label",
+      "id": "share-of-profits-x-label-3",
+      "clazz": "scene chart share-of-profits axis x-axis label x-label-3 x-label",
+      "data": null,
+      "tag": "text",
+      "text": "2015"
+    },
+    {
+      "type": "x-label",
+      "id": "share-of-profits-x-label-4",
+      "clazz": "scene chart share-of-profits axis x-axis label x-label-4 x-label",
+      "data": null,
+      "tag": "text",
+      "text": "2016"
+    },
+    {
+      "type": "x-label",
+      "id": "share-of-profits-x-label-5",
+      "clazz": "scene chart share-of-profits axis x-axis label x-label-5 x-label",
+      "data": null,
+      "tag": "text",
+      "text": "2017"
+    },
+    {
+      "type": "y-label",
+      "id": "share-of-profits-y-label-0",
+      "clazz": "scene chart share-of-profits axis y-axis label y-label-0 y-label",
+      "data": null,
+      "tag": "text",
+      "text": "0%"
+    },
+    {
+      "type": "y-label",
+      "id": "share-of-profits-y-label-1",
+      "clazz": "scene chart share-of-profits axis y-axis label y-label-1 y-label",
+      "data": null,
+      "tag": "text",
+      "text": "20%"
+    },
+    {
+      "type": "y-label",
+      "id": "share-of-profits-y-label-2",
+      "clazz": "scene chart share-of-profits axis y-axis label y-label-2 y-label",
+      "data": null,
+      "tag": "text",
+      "text": "40%"
+    },
+    {
+      "type": "y-label",
+      "id": "share-of-profits-y-label-3",
+      "clazz": "scene chart share-of-profits axis y-axis label y-label-3 y-label",
+      "data": null,
+      "tag": "text",
+      "text": "60%"
+    },
+    {
+      "type": "y-label",
+      "id": "share-of-profits-y-label-4",
+      "clazz": "scene chart share-of-profits axis y-axis label y-label-4 y-label",
+      "data": null,
+      "tag": "text",
+      "text": "80%"
+    },
+    {
+      "type": "y-label",
+      "id": "share-of-profits-y-label-5",
+      "clazz": "scene chart share-of-profits axis y-axis label y-label-5 y-label",
+      "data": null,
+      "tag": "text",
+      "text": "100%"
+    },
+    {
+      "type": "y-tick",
+      "id": "share-of-profits-y-tick-0",
+      "clazz": "scene chart share-of-profits axis y-axis tick y-tick-0 y-tick",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "y-tick",
+      "id": "share-of-profits-y-tick-1",
+      "clazz": "scene chart share-of-profits axis y-axis tick y-tick-1 y-tick",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "y-tick",
+      "id": "share-of-profits-y-tick-2",
+      "clazz": "scene chart share-of-profits axis y-axis tick y-tick-2 y-tick",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "y-tick",
+      "id": "share-of-profits-y-tick-3",
+      "clazz": "scene chart share-of-profits axis y-axis tick y-tick-3 y-tick",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "y-tick",
+      "id": "share-of-profits-y-tick-4",
+      "clazz": "scene chart share-of-profits axis y-axis tick y-tick-4 y-tick",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "y-tick",
+      "id": "share-of-profits-y-tick-5",
+      "clazz": "scene chart share-of-profits axis y-axis tick y-tick-5 y-tick",
+      "data": null,
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "line",
+      "id": "share-of-profits-line-0",
+      "clazz": "scene chart share-of-profits mark line-0 series-0 line",
+      "data": {
+        "name": "General Motors",
+        "values": [
+          0.82,
+          0.47,
+          0.82,
+          0.36,
+          0.28,
+          1.15
+        ]
+      },
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "line",
+      "id": "share-of-profits-line-1",
+      "clazz": "scene chart share-of-profits mark line-1 series-1 line",
+      "data": {
+        "name": "Toyota",
+        "values": [
+          0.08,
+          0,
+          0.18,
+          0.31,
+          0.39,
+          0.19
+        ]
+      },
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "line",
+      "id": "share-of-profits-line-2",
+      "clazz": "scene chart share-of-profits mark line-2 series-2 line",
+      "data": {
+        "name": "Volkswagen",
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "legend-symbol",
+      "id": "share-of-profits-legend-0",
+      "clazz": "scene chart share-of-profits series-0 legend-0 legend symbol legend-symbol",
+      "data": {
+        "name": "General Motors",
+        "values": [
+          0.82,
+          0.47,
+          0.82,
+          0.36,
+          0.28,
+          1.15
+        ]
+      },
+      "tag": "g",
+      "text": null
+    },
+    {
+      "type": "legend-symbol",
+      "id": "share-of-profits-legend-group-1",
+      "clazz": "scene chart share-of-profits series-1 legend-1 legend symbol legend-symbol",
+      "data": {
+        "name": "Toyota",
+        "values": [
+          0.08,
+          0,
+          0.18,
+          0.31,
+          0.39,
+          0.19
+        ]
+      },
+      "tag": "g",
+      "text": null
+    },
+    {
+      "type": "legend-symbol",
+      "id": "share-of-profits-legend-group-2",
+      "clazz": "scene chart share-of-profits series-2 legend-2 legend symbol legend-symbol",
+      "data": {
+        "name": "Volkswagen",
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "tag": "g",
+      "text": null
+    },
+    {
+      "type": "anno-path",
+      "id": "share-of-profits-annotation-path0",
+      "clazz": "scene chart share-of-profits annotation annotation-0 path anno-path",
+      "data": {
+        "name": "General Motors",
+        "values": [
+          0.82,
+          0.47,
+          0.82,
+          0.36,
+          0.28,
+          1.15
+        ]
+      },
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "anno-path",
+      "id": "share-of-profits-annotation-path1",
+      "clazz": "scene chart share-of-profits annotation annotation-1 path anno-path",
+      "data": {
+        "name": "Toyota",
+        "values": [
+          0.08,
+          0,
+          0.18,
+          0.31,
+          0.39,
+          0.19
+        ]
+      },
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "anno-path",
+      "id": "share-of-profits-annotation-path2",
+      "clazz": "scene chart share-of-profits annotation annotation-2 path anno-path",
+      "data": {
+        "name": "Volkswagen",
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "tag": "path",
+      "text": null
+    },
+    {
+      "type": "anno-circle",
+      "id": "share-of-profits-annotation-circle",
+      "clazz": "scene chart share-of-profits annotation annotation-3 circle anno-circle",
+      "data": null,
+      "tag": "circle",
+      "text": null
+    }
+  ],
+  "layout": {
+    "xAxis": "bottom",
+    "yAxis": "left",
+    "title": "top"
+  }
+}

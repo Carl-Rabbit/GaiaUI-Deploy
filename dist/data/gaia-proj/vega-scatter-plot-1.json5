@@ -1,0 +1,157 @@
+{
+  projectId: 'vega-scatter-plot-1',
+  chart: './vega-scatter-plot1.svg',
+  audio: './empty.txt',
+  binder: {"from":"svg","to":"ScatterPlot","rules":[{"from":".role-mark *","to":".Mark .Symbol","dataList":[{"xVal":130,"yVal":18,"series":"USA"},{"xVal":165,"yVal":15,"series":"USA"},{"xVal":150,"yVal":18,"series":"USA"},{"xVal":150,"yVal":16,"series":"USA"},{"xVal":140,"yVal":17,"series":"USA"},{"xVal":198,"yVal":15,"series":"USA"},{"xVal":220,"yVal":14,"series":"USA"},{"xVal":215,"yVal":14,"series":"USA"},{"xVal":225,"yVal":14,"series":"USA"},{"xVal":190,"yVal":15,"series":"USA"},{"xVal":170,"yVal":15,"series":"USA"},{"xVal":160,"yVal":14,"series":"USA"},{"xVal":150,"yVal":15,"series":"USA"},{"xVal":225,"yVal":14,"series":"USA"},{"xVal":95,"yVal":24,"series":"Japan"},{"xVal":95,"yVal":22,"series":"USA"},{"xVal":97,"yVal":18,"series":"USA"},{"xVal":85,"yVal":21,"series":"USA"},{"xVal":88,"yVal":27,"series":"Japan"},{"xVal":46,"yVal":26,"series":"Europe"},{"xVal":87,"yVal":25,"series":"Europe"},{"xVal":90,"yVal":24,"series":"Europe"},{"xVal":95,"yVal":25,"series":"Europe"},{"xVal":113,"yVal":26,"series":"Europe"},{"xVal":90,"yVal":21,"series":"USA"},{"xVal":215,"yVal":10,"series":"USA"},{"xVal":200,"yVal":10,"series":"USA"},{"xVal":210,"yVal":11,"series":"USA"},{"xVal":193,"yVal":9,"series":"USA"},{"xVal":88,"yVal":27,"series":"Japan"},{"xVal":90,"yVal":28,"series":"USA"},{"xVal":95,"yVal":25,"series":"Japan"},{"xVal":100,"yVal":19,"series":"USA"},{"xVal":105,"yVal":16,"series":"USA"},{"xVal":100,"yVal":17,"series":"USA"},{"xVal":88,"yVal":19,"series":"USA"},{"xVal":100,"yVal":18,"series":"USA"},{"xVal":165,"yVal":14,"series":"USA"},{"xVal":175,"yVal":14,"series":"USA"},{"xVal":153,"yVal":14,"series":"USA"},{"xVal":150,"yVal":14,"series":"USA"},{"xVal":180,"yVal":12,"series":"USA"},{"xVal":170,"yVal":13,"series":"USA"},{"xVal":175,"yVal":13,"series":"USA"},{"xVal":110,"yVal":18,"series":"USA"},{"xVal":72,"yVal":22,"series":"USA"},{"xVal":100,"yVal":19,"series":"USA"},{"xVal":88,"yVal":18,"series":"USA"},{"xVal":86,"yVal":23,"series":"USA"},{"xVal":90,"yVal":28,"series":"Europe"},{"xVal":70,"yVal":30,"series":"Europe"},{"xVal":76,"yVal":30,"series":"Europe"},{"xVal":65,"yVal":31,"series":"Japan"},{"xVal":69,"yVal":35,"series":"Japan"},{"xVal":60,"yVal":27,"series":"Europe"},{"xVal":70,"yVal":26,"series":"USA"},{"xVal":95,"yVal":24,"series":"Japan"},{"xVal":80,"yVal":25,"series":"USA"},{"xVal":54,"yVal":23,"series":"Europe"},{"xVal":90,"yVal":20,"series":"USA"},{"xVal":86,"yVal":21,"series":"USA"},{"xVal":165,"yVal":13,"series":"USA"},{"xVal":175,"yVal":14,"series":"USA"},{"xVal":150,"yVal":15,"series":"USA"},{"xVal":153,"yVal":14,"series":"USA"},{"xVal":150,"yVal":17,"series":"USA"},{"xVal":208,"yVal":11,"series":"USA"},{"xVal":155,"yVal":13,"series":"USA"},{"xVal":160,"yVal":12,"series":"USA"},{"xVal":190,"yVal":13,"series":"USA"},{"xVal":97,"yVal":19,"series":"Japan"},{"xVal":150,"yVal":15,"series":"USA"},{"xVal":130,"yVal":13,"series":"USA"},{"xVal":140,"yVal":13,"series":"USA"},{"xVal":150,"yVal":14,"series":"USA"},{"xVal":112,"yVal":18,"series":"Europe"},{"xVal":76,"yVal":22,"series":"Europe"},{"xVal":87,"yVal":21,"series":"Europe"},{"xVal":69,"yVal":26,"series":"Europe"},{"xVal":86,"yVal":22,"series":"USA"},{"xVal":92,"yVal":28,"series":"Japan"},{"xVal":97,"yVal":23,"series":"Japan"},{"xVal":80,"yVal":28,"series":"USA"},{"xVal":88,"yVal":27,"series":"Japan"},{"xVal":175,"yVal":13,"series":"USA"},{"xVal":150,"yVal":14,"series":"USA"},{"xVal":145,"yVal":13,"series":"USA"},{"xVal":137,"yVal":14,"series":"USA"},{"xVal":150,"yVal":15,"series":"USA"},{"xVal":198,"yVal":12,"series":"USA"},{"xVal":150,"yVal":13,"series":"USA"},{"xVal":158,"yVal":13,"series":"USA"},{"xVal":150,"yVal":14,"series":"USA"},{"xVal":215,"yVal":13,"series":"USA"},{"xVal":225,"yVal":12,"series":"USA"},{"xVal":175,"yVal":13,"series":"USA"},{"xVal":105,"yVal":18,"series":"USA"},{"xVal":100,"yVal":16,"series":"USA"},{"xVal":100,"yVal":18,"series":"USA"},{"xVal":88,"yVal":18,"series":"USA"},{"xVal":95,"yVal":23,"series":"USA"},{"xVal":46,"yVal":26,"series":"Europe"},{"xVal":150,"yVal":11,"series":"USA"},{"xVal":167,"yVal":12,"series":"USA"},{"xVal":170,"yVal":13,"series":"USA"},{"xVal":180,"yVal":12,"series":"USA"},{"xVal":100,"yVal":18,"series":"USA"},{"xVal":88,"yVal":20,"series":"Japan"},{"xVal":72,"yVal":21,"series":"USA"},{"xVal":94,"yVal":22,"series":"Japan"},{"xVal":90,"yVal":18,"series":"Japan"},{"xVal":85,"yVal":19,"series":"USA"},{"xVal":107,"yVal":21,"series":"USA"},{"xVal":90,"yVal":26,"series":"Europe"},{"xVal":145,"yVal":15,"series":"USA"},{"xVal":230,"yVal":16,"series":"USA"},{"xVal":49,"yVal":29,"series":"Europe"},{"xVal":75,"yVal":24,"series":"Europe"},{"xVal":91,"yVal":20,"series":"Europe"},{"xVal":112,"yVal":19,"series":"Europe"},{"xVal":150,"yVal":15,"series":"USA"},{"xVal":110,"yVal":24,"series":"Europe"},{"xVal":122,"yVal":20,"series":"Japan"},{"xVal":180,"yVal":11,"series":"USA"},{"xVal":95,"yVal":20,"series":"USA"},{"xVal":100,"yVal":19,"series":"USA"},{"xVal":100,"yVal":15,"series":"USA"},{"xVal":67,"yVal":31,"series":"Japan"},{"xVal":80,"yVal":26,"series":"USA"},{"xVal":65,"yVal":32,"series":"Japan"},{"xVal":75,"yVal":25,"series":"USA"},{"xVal":100,"yVal":16,"series":"USA"},{"xVal":110,"yVal":16,"series":"USA"},{"xVal":105,"yVal":18,"series":"USA"},{"xVal":140,"yVal":16,"series":"USA"},{"xVal":150,"yVal":13,"series":"USA"},{"xVal":150,"yVal":14,"series":"USA"},{"xVal":140,"yVal":14,"series":"USA"},{"xVal":150,"yVal":14,"series":"USA"},{"xVal":83,"yVal":29,"series":"Europe"},{"xVal":67,"yVal":26,"series":"Europe"},{"xVal":78,"yVal":26,"series":"Europe"},{"xVal":52,"yVal":31,"series":"Japan"},{"xVal":61,"yVal":32,"series":"Japan"},{"xVal":75,"yVal":28,"series":"USA"},{"xVal":75,"yVal":24,"series":"Europe"},{"xVal":75,"yVal":26,"series":"Europe"},{"xVal":97,"yVal":24,"series":"Japan"},{"xVal":93,"yVal":26,"series":"Japan"},{"xVal":67,"yVal":31,"series":"Europe"},{"xVal":95,"yVal":19,"series":"USA"},{"xVal":105,"yVal":18,"series":"USA"},{"xVal":72,"yVal":15,"series":"USA"},{"xVal":72,"yVal":15,"series":"USA"},{"xVal":170,"yVal":16,"series":"USA"},{"xVal":145,"yVal":15,"series":"USA"},{"xVal":150,"yVal":16,"series":"USA"},{"xVal":148,"yVal":14,"series":"USA"},{"xVal":110,"yVal":17,"series":"USA"},{"xVal":105,"yVal":16,"series":"USA"},{"xVal":110,"yVal":15,"series":"USA"},{"xVal":95,"yVal":18,"series":"USA"},{"xVal":110,"yVal":21,"series":"USA"},{"xVal":110,"yVal":20,"series":"USA"},{"xVal":129,"yVal":13,"series":"USA"},{"xVal":75,"yVal":29,"series":"Japan"},{"xVal":83,"yVal":23,"series":"USA"},{"xVal":100,"yVal":20,"series":"USA"},{"xVal":78,"yVal":23,"series":"USA"},{"xVal":96,"yVal":24,"series":"Japan"},{"xVal":71,"yVal":25,"series":"Europe"},{"xVal":97,"yVal":24,"series":"Japan"},{"xVal":97,"yVal":18,"series":"USA"},{"xVal":70,"yVal":29,"series":"Europe"},{"xVal":90,"yVal":19,"series":"USA"},{"xVal":95,"yVal":23,"series":"Europe"},{"xVal":88,"yVal":23,"series":"Europe"},{"xVal":98,"yVal":22,"series":"Europe"},{"xVal":115,"yVal":25,"series":"Europe"},{"xVal":53,"yVal":33,"series":"Japan"},{"xVal":86,"yVal":28,"series":"Europe"},{"xVal":81,"yVal":25,"series":"Europe"},{"xVal":92,"yVal":25,"series":"USA"},{"xVal":79,"yVal":26,"series":"USA"},{"xVal":83,"yVal":27,"series":"Europe"},{"xVal":140,"yVal":17.5,"series":"USA"},{"xVal":150,"yVal":16,"series":"USA"},{"xVal":120,"yVal":15.5,"series":"USA"},{"xVal":152,"yVal":14.5,"series":"USA"},{"xVal":100,"yVal":22,"series":"USA"},{"xVal":105,"yVal":22,"series":"USA"},{"xVal":81,"yVal":24,"series":"USA"},{"xVal":90,"yVal":22.5,"series":"USA"},{"xVal":52,"yVal":29,"series":"USA"},{"xVal":60,"yVal":24.5,"series":"USA"},{"xVal":70,"yVal":29,"series":"Europe"},{"xVal":53,"yVal":33,"series":"Japan"},{"xVal":100,"yVal":20,"series":"USA"},{"xVal":78,"yVal":18,"series":"USA"},{"xVal":110,"yVal":18.5,"series":"USA"},{"xVal":95,"yVal":17.5,"series":"USA"},{"xVal":71,"yVal":29.5,"series":"Europe"},{"xVal":70,"yVal":32,"series":"Japan"},{"xVal":75,"yVal":28,"series":"Japan"},{"xVal":72,"yVal":26.5,"series":"USA"},{"xVal":102,"yVal":20,"series":"Europe"},{"xVal":150,"yVal":13,"series":"USA"},{"xVal":88,"yVal":19,"series":"Europe"},{"xVal":108,"yVal":19,"series":"Japan"},{"xVal":120,"yVal":16.5,"series":"Europe"},{"xVal":180,"yVal":16.5,"series":"USA"},{"xVal":145,"yVal":13,"series":"USA"},{"xVal":130,"yVal":13,"series":"USA"},{"xVal":150,"yVal":13,"series":"USA"},{"xVal":68,"yVal":31.5,"series":"Japan"},{"xVal":80,"yVal":30,"series":"USA"},{"xVal":58,"yVal":36,"series":"Europe"},{"xVal":96,"yVal":25.5,"series":"USA"},{"xVal":70,"yVal":33.5,"series":"Japan"},{"xVal":145,"yVal":17.5,"series":"USA"},{"xVal":110,"yVal":17,"series":"USA"},{"xVal":145,"yVal":15.5,"series":"USA"},{"xVal":130,"yVal":15,"series":"USA"},{"xVal":110,"yVal":17.5,"series":"USA"},{"xVal":105,"yVal":20.5,"series":"USA"},{"xVal":100,"yVal":19,"series":"USA"},{"xVal":98,"yVal":18.5,"series":"USA"},{"xVal":180,"yVal":16,"series":"USA"},{"xVal":170,"yVal":15.5,"series":"USA"},{"xVal":190,"yVal":15.5,"series":"USA"},{"xVal":149,"yVal":16,"series":"USA"},{"xVal":78,"yVal":29,"series":"Europe"},{"xVal":88,"yVal":24.5,"series":"USA"},{"xVal":75,"yVal":26,"series":"Japan"},{"xVal":89,"yVal":25.5,"series":"USA"},{"xVal":63,"yVal":30.5,"series":"USA"},{"xVal":83,"yVal":33.5,"series":"USA"},{"xVal":67,"yVal":30,"series":"Japan"},{"xVal":78,"yVal":30.5,"series":"Europe"},{"xVal":97,"yVal":22,"series":"Japan"},{"xVal":110,"yVal":21.5,"series":"Europe"},{"xVal":110,"yVal":21.5,"series":"Japan"},{"xVal":48,"yVal":43.1,"series":"Europe"},{"xVal":66,"yVal":36.1,"series":"USA"},{"xVal":52,"yVal":32.8,"series":"Japan"},{"xVal":70,"yVal":39.4,"series":"Japan"},{"xVal":60,"yVal":36.1,"series":"Japan"},{"xVal":110,"yVal":19.9,"series":"USA"},{"xVal":140,"yVal":19.4,"series":"USA"},{"xVal":139,"yVal":20.2,"series":"USA"},{"xVal":105,"yVal":19.2,"series":"USA"},{"xVal":95,"yVal":20.5,"series":"USA"},{"xVal":85,"yVal":20.2,"series":"USA"},{"xVal":88,"yVal":25.1,"series":"USA"},{"xVal":100,"yVal":20.5,"series":"USA"},{"xVal":90,"yVal":19.4,"series":"USA"},{"xVal":105,"yVal":20.6,"series":"USA"},{"xVal":85,"yVal":20.8,"series":"USA"},{"xVal":110,"yVal":18.6,"series":"USA"},{"xVal":120,"yVal":18.1,"series":"USA"},{"xVal":145,"yVal":19.2,"series":"USA"},{"xVal":165,"yVal":17.7,"series":"USA"},{"xVal":139,"yVal":18.1,"series":"USA"},{"xVal":140,"yVal":17.5,"series":"USA"},{"xVal":68,"yVal":30,"series":"USA"},{"xVal":95,"yVal":27.5,"series":"Japan"},{"xVal":97,"yVal":27.2,"series":"Japan"},{"xVal":75,"yVal":30.9,"series":"USA"},{"xVal":95,"yVal":21.1,"series":"Japan"},{"xVal":105,"yVal":23.2,"series":"USA"},{"xVal":85,"yVal":23.8,"series":"USA"},{"xVal":97,"yVal":23.9,"series":"Japan"},{"xVal":103,"yVal":20.3,"series":"Europe"},{"xVal":125,"yVal":17,"series":"Europe"},{"xVal":115,"yVal":21.6,"series":"Europe"},{"xVal":133,"yVal":16.2,"series":"Europe"},{"xVal":71,"yVal":31.5,"series":"Europe"},{"xVal":68,"yVal":29.5,"series":"Japan"},{"xVal":115,"yVal":21.5,"series":"USA"},{"xVal":85,"yVal":19.8,"series":"USA"},{"xVal":88,"yVal":22.3,"series":"USA"},{"xVal":90,"yVal":20.2,"series":"USA"},{"xVal":110,"yVal":20.6,"series":"USA"},{"xVal":130,"yVal":17,"series":"USA"},{"xVal":129,"yVal":17.6,"series":"USA"},{"xVal":138,"yVal":16.5,"series":"USA"},{"xVal":135,"yVal":18.2,"series":"USA"},{"xVal":155,"yVal":16.9,"series":"USA"},{"xVal":142,"yVal":15.5,"series":"USA"},{"xVal":125,"yVal":19.2,"series":"USA"},{"xVal":150,"yVal":18.5,"series":"USA"},{"xVal":71,"yVal":31.9,"series":"Europe"},{"xVal":65,"yVal":34.1,"series":"Japan"},{"xVal":80,"yVal":35.7,"series":"USA"},{"xVal":80,"yVal":27.4,"series":"USA"},{"xVal":77,"yVal":25.4,"series":"Europe"},{"xVal":125,"yVal":23,"series":"USA"},{"xVal":71,"yVal":27.2,"series":"Europe"},{"xVal":90,"yVal":23.9,"series":"USA"},{"xVal":70,"yVal":34.2,"series":"USA"},{"xVal":70,"yVal":34.5,"series":"USA"},{"xVal":65,"yVal":31.8,"series":"Japan"},{"xVal":69,"yVal":37.3,"series":"Europe"},{"xVal":90,"yVal":28.4,"series":"USA"},{"xVal":115,"yVal":28.8,"series":"USA"},{"xVal":115,"yVal":26.8,"series":"USA"},{"xVal":90,"yVal":33.5,"series":"USA"},{"xVal":76,"yVal":41.5,"series":"Europe"},{"xVal":60,"yVal":38.1,"series":"Japan"},{"xVal":70,"yVal":32.1,"series":"USA"},{"xVal":65,"yVal":37.2,"series":"Japan"},{"xVal":90,"yVal":28,"series":"USA"},{"xVal":88,"yVal":26.4,"series":"USA"},{"xVal":90,"yVal":24.3,"series":"USA"},{"xVal":90,"yVal":19.1,"series":"USA"},{"xVal":78,"yVal":34.3,"series":"Europe"},{"xVal":90,"yVal":29.8,"series":"Japan"},{"xVal":75,"yVal":31.3,"series":"Japan"},{"xVal":92,"yVal":37,"series":"Japan"},{"xVal":75,"yVal":32.2,"series":"Japan"},{"xVal":65,"yVal":46.6,"series":"Japan"},{"xVal":105,"yVal":27.9,"series":"USA"},{"xVal":65,"yVal":40.8,"series":"Japan"},{"xVal":48,"yVal":44.3,"series":"Europe"},{"xVal":48,"yVal":43.4,"series":"Europe"},{"xVal":67,"yVal":36.4,"series":"Europe"},{"xVal":67,"yVal":30,"series":"Europe"},{"xVal":67,"yVal":44.6,"series":"Japan"},{"xVal":67,"yVal":33.8,"series":"Japan"},{"xVal":62,"yVal":29.8,"series":"Europe"},{"xVal":132,"yVal":32.7,"series":"Japan"},{"xVal":100,"yVal":23.7,"series":"Japan"},{"xVal":88,"yVal":35,"series":"Europe"},{"xVal":72,"yVal":32.4,"series":"Japan"},{"xVal":84,"yVal":27.2,"series":"USA"},{"xVal":84,"yVal":26.6,"series":"USA"},{"xVal":92,"yVal":25.8,"series":"USA"},{"xVal":110,"yVal":23.5,"series":"USA"},{"xVal":84,"yVal":30,"series":"USA"},{"xVal":58,"yVal":39.1,"series":"Japan"},{"xVal":64,"yVal":39,"series":"USA"},{"xVal":60,"yVal":35.1,"series":"Japan"},{"xVal":67,"yVal":32.3,"series":"Japan"},{"xVal":65,"yVal":37,"series":"Japan"},{"xVal":62,"yVal":37.7,"series":"Japan"},{"xVal":68,"yVal":34.1,"series":"Japan"},{"xVal":63,"yVal":34.7,"series":"USA"},{"xVal":65,"yVal":34.4,"series":"USA"},{"xVal":65,"yVal":29.9,"series":"USA"},{"xVal":74,"yVal":33,"series":"Europe"},{"xVal":75,"yVal":33.7,"series":"Japan"},{"xVal":75,"yVal":32.4,"series":"Japan"},{"xVal":100,"yVal":32.9,"series":"Japan"},{"xVal":74,"yVal":31.6,"series":"Japan"},{"xVal":80,"yVal":28.1,"series":"Europe"},{"xVal":76,"yVal":30.7,"series":"Europe"},{"xVal":116,"yVal":25.4,"series":"Japan"},{"xVal":120,"yVal":24.2,"series":"Japan"},{"xVal":110,"yVal":22.4,"series":"USA"},{"xVal":105,"yVal":26.6,"series":"USA"},{"xVal":88,"yVal":20.2,"series":"USA"},{"xVal":85,"yVal":17.6,"series":"USA"},{"xVal":88,"yVal":28,"series":"USA"},{"xVal":88,"yVal":27,"series":"USA"},{"xVal":88,"yVal":34,"series":"USA"},{"xVal":85,"yVal":31,"series":"USA"},{"xVal":84,"yVal":29,"series":"USA"},{"xVal":90,"yVal":27,"series":"USA"},{"xVal":92,"yVal":24,"series":"USA"},{"xVal":74,"yVal":36,"series":"Europe"},{"xVal":68,"yVal":37,"series":"Japan"},{"xVal":68,"yVal":31,"series":"Japan"},{"xVal":63,"yVal":38,"series":"USA"},{"xVal":70,"yVal":36,"series":"USA"},{"xVal":88,"yVal":36,"series":"Japan"},{"xVal":75,"yVal":36,"series":"Japan"},{"xVal":70,"yVal":34,"series":"Japan"},{"xVal":67,"yVal":38,"series":"Japan"},{"xVal":67,"yVal":32,"series":"Japan"},{"xVal":67,"yVal":38,"series":"Japan"},{"xVal":110,"yVal":25,"series":"USA"},{"xVal":85,"yVal":38,"series":"USA"},{"xVal":92,"yVal":26,"series":"USA"},{"xVal":112,"yVal":22,"series":"USA"},{"xVal":96,"yVal":32,"series":"Japan"},{"xVal":84,"yVal":36,"series":"USA"},{"xVal":90,"yVal":27,"series":"USA"},{"xVal":86,"yVal":27,"series":"USA"},{"xVal":52,"yVal":44,"series":"Europe"},{"xVal":84,"yVal":32,"series":"USA"},{"xVal":79,"yVal":28,"series":"USA"},{"xVal":82,"yVal":31,"series":"USA"}]},{"from":".role-legend-title text","to":".LegendTitle"},{"from":".role-legend-symbol path","to":".LegendSymbol","dataList":[{"series":"Europe"},{"series":"Japan"},{"series":"USA"}]},{"from":".role-legend-label text","to":".LegendLabel","dataList":[{"series":"Europe"},{"series":"Japan"},{"series":"USA"}]},{"from":".role-axis-grid line","to":".Grid"},{"from":".role-axis[aria-label~=\"X-axis\"] .role-axis-tick line","to":".XAxis .Tick"},{"from":".role-axis[aria-label~=\"X-axis\"] .role-axis-label text","to":".XAxis .Label"},{"from":".role-axis[aria-label~=\"X-axis\"] .role-axis-domain line","to":".XAxis .Domain"},{"from":".role-axis[aria-label~=\"X-axis\"] .role-axis-title text","to":".XAxis .Title"},{"from":".role-axis[aria-label~=\"Y-axis\"] .role-axis-tick line","to":".YAxis .Tick"},{"from":".role-axis[aria-label~=\"Y-axis\"] .role-axis-label text","to":".YAxis .Label"},{"from":".role-axis[aria-label~=\"Y-axis\"] .role-axis-domain line","to":".YAxis .Domain"},{"from":".role-axis[aria-label~=\"Y-axis\"] .role-axis-title text","to":".YAxis .Title"},{"from":".background","to":".Background"},{"from":".role-title text","to":".Title"}]},
+  animation: {
+    main: {
+      sync: [
+        {
+          ref: 'ChartFrameworkEnter',
+        },
+        {
+          ref: 'StaggeredPointSeriesEnter',
+          target: {
+            sortBy: '@data.series',
+            order: [
+              'Europe',
+              'Japan',
+              'USA',
+            ]
+          },
+          offset: 3,
+        },
+      ],
+    },
+  },
+  templates: [
+    {
+      name: 'ChartFrameworkEnter',
+      params: {
+        xDomainFrom: 'left',
+        yDomainFrom: 'bottom',
+        axisLabelStagger: 0.2,
+      },
+      main: {
+        concat: [
+          {
+            sync: [
+              {
+                ref: 'Fade',
+                target: '.Background',
+              },
+              {
+                ref: 'PathDraw',
+                target: '.Grid',
+              },
+            ]
+          },
+          // legend title, axis
+          {
+            sync: [
+              {
+                ref: 'AxisEnter',
+                xDomainFrom: '$xDomainFrom',
+                yDomainFrom: '$yDomainFrom',
+                axisLabelStagger: '$axisLabelStagger',
+              },
+              {
+                ref: 'ZoomIn',
+                target: '.LegendTitle',
+              },
+            ]
+          },
+        ]
+      }
+    },
+    {
+      name: 'AxisEnter',
+      params: {
+        xDomainFrom: 'left',
+        yDomainFrom: 'bottom',
+        axisLabelStagger: 0.2,
+      },
+      main: {
+        sync: [
+          {
+            ref: 'WipeIn',
+            target: '.XAxis.Domain',
+            from: '$xDomainFrom',
+          },
+          {
+            ref: 'WipeIn',
+            target: '.YAxis.Domain',
+            from: '$yDomainFrom',
+          },
+          {
+            ref: 'ZoomIn',
+            target: '.Axis.Title'
+          },
+          {
+            ref: 'Fade',
+            target: '.Axis.Tick'
+          },
+          {
+            ref: 'ZoomIn',
+            target: '.XAxis.Label',
+            stagger: '$axisLabelStagger',
+          },
+          {
+            ref: 'ZoomIn',
+            target: '.YAxis.Label',
+            stagger: '$axisLabelStagger',
+          }
+        ]
+      }
+    },
+    {
+      name: "StaggeredPointSeriesEnter",
+      params: {
+        pointStagger: 0,
+        seriesStagger: 0,
+        seriesStart: 'after prev',
+        pointAnimation: {
+          type: 'aniUnit',
+          value: {
+              ref: 'ZoomIn',
+          }
+        },
+        legendSymbolAnimation: {
+          type: 'aniUnit',
+          value: {
+            ref: 'Wheel',
+          }
+        },
+        legendTextAnimation: {
+          type: 'aniUnit',
+          value: {
+            ref: 'CutIn',
+          }
+        },
+      },
+      main: {
+        target: '.Mark, .Legend:not(.Title)',
+        groupBy: '@data.series',
+        foreach: {
+          sync: [
+            {
+              target: '.Legend.Text',
+              child: '$legendTextAnimation'
+            },
+            {
+              target: '.Legend.Symbol',
+              child: '$legendSymbolAnimation'
+            },
+            {
+              target: '.Mark.Symbol',
+              child: '$pointAnimation',
+              stagger: '$pointStagger',
+            }
+          ],
+        },
+        stagger: '$seriesStagger',
+        start: '$seriesStart',
+      }
+    }
+  ]
+}

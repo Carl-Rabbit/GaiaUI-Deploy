@@ -1,0 +1,271 @@
+{
+  projectId: 'house-prices-0',
+  chart: './house-prices.svg',
+  audio: './house-prices.txt',
+  binder: {
+    from: "svg",
+    to: "gaia.chart.LineChart",
+    rules: [
+      {
+        from: '.mark.line',
+        to: '.LineMark .Line',
+        dataList: [
+          { series: "Base Rate" },
+          { series: "Mortgage Rate" }
+        ],
+      },
+      {
+        from: '.arrow.annotation',
+        to: '.Annotation .Symbol',
+        dataList: [
+          { series: "Base Rate" },
+          { series: "Mortgage Rate" }
+        ],
+      },
+      {
+        from: '.annotation.label',
+        to: '.Annotation .Label',
+        dataList: [
+          { series: "Base Rate" },
+          { series: "Base Rate" },
+          { series: "Mortgage Rate" },
+          { series: "Mortgage Rate" },
+        ],
+      },
+      {
+        from: '.annotation.circle',
+        to: '.Annotation .Circle',
+      },
+      // title
+      {
+        from: '.title',
+        to: '.ChartTitle'
+      },
+      // axis
+      {
+        from: 'text.x-label',
+        to: '.XAxis .Label',
+        dataList: [
+          { xVal: 1991 },
+          { xVal: 1995 },
+          { xVal: 1999 },
+          { xVal: 2003 },
+          { xVal: 2007 },
+          { xVal: 2011 },
+          { xVal: 2015 },
+        ]
+      },
+      {
+        from: '.x-domain',
+        to: '.XAxis .Domain',
+      },
+      {
+        from: 'text.y-label',
+        to: '.YAxis .Label',
+      },
+      {
+        from: 'path.y-tick',
+        to: '.YAxis .Tick',
+      }
+    ]
+  },
+  animation: {
+    main: {
+      sync: [
+        {
+          ref: 'ChartFrameworkEnter',
+          titleAnimation: {
+            ref: 'Empty',
+          },
+        },
+        {
+          ref: 'SeriesEnterWithLegend',
+          seriesStagger: 1,
+          offset: 2,
+        },
+        {
+          ref: 'DisplayTextByTyping',
+          target: '.Title',
+          effect: 'fade',
+          offset: 4,
+        },
+        {
+          ref: 'DisplayAnnotation',
+          attrSel: '[series="Base Rate"]',
+          displayTime: 1,
+          offset: 8,
+        },
+        {
+          ref: 'DisplayAnnotation',
+          attrSel: '[series="Mortgage Rate"]',
+          displayTime: 1,
+          offset: 10,
+        },
+        {
+          ref: 'DisplayPath',
+          target: '.Annotation.Circle',
+          displayTime: 1,
+          offset: 13,
+        }
+      ],
+    },
+  },
+  templates: [
+    {
+      name: 'ChartFrameworkEnter',
+      params: {
+        titleAnimation: {
+          type: 'aniUnit',
+          value: {
+            ref: 'CutIn',
+            duration: 1,
+          }
+        },
+        axisLabelAnimation: {
+          type: 'aniUnit',
+          value: {
+            ref: 'CutIn',
+            stagger: 0.2,
+          }
+        },
+        lineDuration: 1,
+        lineEase: 'circ.inOut',
+        xDomainReverse: false,
+        yDomainReverse: false,
+        xTickReverse: false,
+        yTickReverse: false,
+      },
+      main: {
+        concat: [
+          {
+            target: '.Title',
+            child: '$titleAnimation',
+          },
+          {
+            sync: [
+              {
+                sync: [
+                  {
+                    ref: 'PathDraw',
+                    target: '.XAxis.Domain',
+                    ease: '$lineEase',
+                  },
+                  {
+                    ref: 'PathDraw',
+                    target: '.YAxis.Domain',
+                    ease: '$lineEase',
+                  },
+                  {
+                    ref: 'PathDraw',
+                    target: '.XAxis.Tick',
+                    ease: '$lineEase',
+                  },
+                  {
+                    ref: 'PathDraw',
+                    target: '.YAxis.Tick',
+                    ease: '$lineEase',
+                  }
+                ],
+                duration: '$lineDuration'
+              },
+              {
+                target: '.XAxis.Label',
+                child: '$axisLabelAnimation',
+              },
+              {
+                target: '.YAxis.Label',
+                child: '$axisLabelAnimation',
+              }
+            ],
+          },
+        ]
+      }
+    },
+    {
+      name: 'SeriesEnterWithLegend',
+      params: {
+        attrSel: '',
+        seriesStagger: 0.5,
+        lineEase: 'circ.out',
+      },
+      main: {
+        sync: [
+          {
+            ref: 'ZoomIn',
+            target: '.Legend$attrSel',
+            stagger: '$seriesStagger',
+            ease: 'elastic',
+          },
+          {
+            ref: 'PathDraw',
+            target: '.LineMark.Line$attrSel',
+            stagger: '$seriesStagger',
+            ease: '$lineEase',
+          }
+        ],
+      },
+    },
+    {
+      name: 'DisplayAnnotation',
+      params: {
+        attrSel: '',
+        displayTime: 3,
+        linkReverse: false,
+      },
+      main: {
+        target: '.Annotation$attrSel',
+        sync: [
+          {
+            ref: 'DisplayTextByTyping',
+            target: '.Label',
+            effect: 'fade',
+            displayTime: '$displayTime',
+          },
+          {
+            ref: 'PathDraw',
+            target: '.Circle',
+            yoyo: { delay: "$displayTime" }
+          },
+          {
+            ref: "PathDraw",
+            target: '.Path',
+            reverseDirection: '$linkReverse',
+            yoyo: { delay: "$displayTime" }
+          },
+          {
+            ref: 'ZoomIn',
+            target: '.Symbol',
+            yoyo: { delay: "$displayTime" }
+          }
+        ]
+      },
+    },
+    {
+      name: 'DisplayTextByTyping',
+      params: {
+        typeStagger: 0.2,
+        effect: 'show',
+        aniTime: 1,
+        displayTime: 3,
+      },
+      main: {
+        concat: [
+          {
+            ref: 'Type',
+            effect: '$effect',
+            typeStagger: '$typeStagger',
+            duration: '$aniTime',
+          },
+          {
+            ref: 'Type',
+            type: 'out',
+            effect: '$effect',
+            typeStagger: '$typeStagger',
+            duration: '$aniTime',
+            offset: '$displayTime',
+          }
+        ]
+      }
+    }
+  ]
+}

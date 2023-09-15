@@ -1,0 +1,10 @@
+{
+  charts: [
+    {source: './shortage-of-water.svg'},
+  ],
+  animation: {
+    sequence: {
+      sync: []
+    }
+  }
+}

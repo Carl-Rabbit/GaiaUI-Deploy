@@ -1,0 +1,109 @@
+{
+  projectId: 'share-of-profits-example1',
+  scenes: [
+    {
+      charts: [
+        {source: './share-of-profits.svg'},
+      ],
+      templates: [
+        {
+          templateName: 'Wipe-enter-then-Wipe-exit',
+          parameters: [
+            {paramName: 'stagger', paramType: 'number', required: false, defaultValue: 0},
+            {paramName: 'displayTime', paramType: 'number', required: false, defaultValue: 1},
+          ],
+          animation: {
+            target: '*',
+            sequence: {
+              sync: [
+                {
+                  use: 'Wipe',
+                  settings: {
+                    direction: 'left',
+                    stagger: '$stagger',
+                  },
+                },
+                {
+                  use: 'Wipe',
+                  settings: {
+                    direction: 'right',
+                    stagger: '$stagger',
+                    enterOrExit: 'exit',
+                  },
+                  timing: {start: '$displayTime'},
+                },
+              ]
+            }
+          }
+        },
+      ],
+      animation: {
+        target: '.share-of-profits',
+        sequence: {
+          sync: [
+            // custom line chart enter
+            {
+              sequence: {
+                concat: [
+                  {
+                    use: 'Axes fade in',
+                  },
+                  {
+                    use: 'Fade-in',
+                    target: '.legend',
+                    settings: {stagger: 0.6},
+                    timing: {offset: 1},
+                  },
+                  {
+                    use: 'Wipe',
+                    target: '.mark.line',
+                    settings: {direction: 'left', stagger: 2, duration: 2},
+                    timing: {offset: 2.5},
+                  }
+                ]
+              }
+            },
+
+            // highlight each line in order
+            {
+              use: 'Wipe-enter-then-Wipe-exit',
+              target: {
+                selector: '.annotation.path',
+                transform: {
+                  type: 'sort',
+                  data: 'name',   // OR expr: '@datum.name'
+                  order: ["General Motors", "Volkswagen", "Toyota"]
+                }
+              },
+              settings: {stagger: 4, displayTime: 2},
+              timing: {start: 13},
+            },
+
+            // emphasize max point
+            {
+              sequence: {
+                concat: [
+                  {
+                    use: 'Camera-zoom',
+                    settings: {scaleFactor: 1.5, transformOrigin: '80% 90%'},
+                  },
+                  {
+                    use: "show-annotation-zoom",
+                    target: '.annotation.circle',
+                    settings: {displayTime: 2},
+                  },
+                  {
+                    use: 'Camera-zoom',
+                    settings: {scaleFactor: 1, transformOrigin: '80% 90%'}
+                  }
+                ]
+              },
+              timing: {start: 22.5},
+            }
+          ]
+        }
+      }
+    },
+  ]
+}
+

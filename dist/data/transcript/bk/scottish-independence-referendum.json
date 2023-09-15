@@ -1,0 +1,446 @@
+{
+  "results": [
+    {
+      "alternatives": [
+        {
+          "transcript": "Didn't you just call Scotland a country? Isn't Scotland already a country? The definitive answer to that question is: sort of. Technically Scotland is a country within a country known as the United Kingdom. Scotland may have its own church, its own legal system, its own professional soccer league and its own dietary idiosyncrasies, but it\u2019s still part of the UK, which also includes the countries of England, Wales and Northern Ireland.",
+          "confidence": 1.0,
+          "words": [
+            {
+              "startTime": "0.000s",
+              "endTime": "0.310s",
+              "word": "Didn't",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.310s",
+              "endTime": "0.430s",
+              "word": "you",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.430s",
+              "endTime": "0.691s",
+              "word": "just",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.691s",
+              "endTime": "0.936s",
+              "word": "call",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "0.936s",
+              "endTime": "1.583s",
+              "word": "Scotland",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.583s",
+              "endTime": "1.688s",
+              "word": "a",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "1.688s",
+              "endTime": "2.717s",
+              "word": "country?",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "2.717s",
+              "endTime": "3.042s",
+              "word": "Isn't",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.042s",
+              "endTime": "3.693s",
+              "word": "Scotland",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "3.693s",
+              "endTime": "4.191s",
+              "word": "already",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.191s",
+              "endTime": "4.276s",
+              "word": "a",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "4.276s",
+              "endTime": "5.304s",
+              "word": "country?",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.304s",
+              "endTime": "5.454s",
+              "word": "The",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "5.454s",
+              "endTime": "6.129s",
+              "word": "definitive",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.129s",
+              "endTime": "6.618s",
+              "word": "answer",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.618s",
+              "endTime": "6.783s",
+              "word": "to",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.783s",
+              "endTime": "6.978s",
+              "word": "that",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "6.978s",
+              "endTime": "7.582s",
+              "word": "question",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "7.582s",
+              "endTime": "8.345s",
+              "word": "is:",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.345s",
+              "endTime": "8.681s",
+              "word": "sort",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "8.681s",
+              "endTime": "9.429s",
+              "word": "of.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "9.429s",
+              "endTime": "10.167s",
+              "word": "Technically",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.167s",
+              "endTime": "10.918s",
+              "word": "Scotland",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "10.918s",
+              "endTime": "11.088s",
+              "word": "is",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.088s",
+              "endTime": "11.198s",
+              "word": "a",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.198s",
+              "endTime": "11.719s",
+              "word": "country",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "11.719s",
+              "endTime": "12.014s",
+              "word": "within",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "12.014s",
+              "endTime": "12.139s",
+              "word": "a",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "12.139s",
+              "endTime": "12.704s",
+              "word": "country",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "12.704s",
+              "endTime": "13.004s",
+              "word": "known",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.004s",
+              "endTime": "13.179s",
+              "word": "as",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.179s",
+              "endTime": "13.264s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.264s",
+              "endTime": "13.805s",
+              "word": "United",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "13.805s",
+              "endTime": "15.210s",
+              "word": "Kingdom.",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.210s",
+              "endTime": "15.914s",
+              "word": "Scotland",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "15.914s",
+              "endTime": "16.169s",
+              "word": "may",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.169s",
+              "endTime": "16.374s",
+              "word": "have",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.374s",
+              "endTime": "16.583s",
+              "word": "its",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.583s",
+              "endTime": "16.838s",
+              "word": "own",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "16.838s",
+              "endTime": "17.632s",
+              "word": "church,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.632s",
+              "endTime": "17.812s",
+              "word": "its",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "17.812s",
+              "endTime": "18.042s",
+              "word": "own",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.042s",
+              "endTime": "18.465s",
+              "word": "legal",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "18.465s",
+              "endTime": "19.338s",
+              "word": "system,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.338s",
+              "endTime": "19.517s",
+              "word": "its",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.517s",
+              "endTime": "19.772s",
+              "word": "own",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "19.772s",
+              "endTime": "20.522s",
+              "word": "professional",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "20.522s",
+              "endTime": "21.032s",
+              "word": "soccer",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "21.032s",
+              "endTime": "21.379s",
+              "word": "league",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "21.379s",
+              "endTime": "21.494s",
+              "word": "and",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "21.494s",
+              "endTime": "21.704s",
+              "word": "its",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "21.704s",
+              "endTime": "21.968s",
+              "word": "own",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "21.968s",
+              "endTime": "22.747s",
+              "word": "dietary",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "22.747s",
+              "endTime": "24.239s",
+              "word": "idiosyncrasies,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "24.239s",
+              "endTime": "24.384s",
+              "word": "but",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "24.384s",
+              "endTime": "24.569s",
+              "word": "it\u2019s",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "24.569s",
+              "endTime": "24.862s",
+              "word": "still",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "24.862s",
+              "endTime": "25.177s",
+              "word": "part",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "25.177s",
+              "endTime": "25.298s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "25.298s",
+              "endTime": "25.388s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "25.388s",
+              "endTime": "26.456s",
+              "word": "UK,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "26.456s",
+              "endTime": "26.645s",
+              "word": "which",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "26.645s",
+              "endTime": "27.073s",
+              "word": "also",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "27.073s",
+              "endTime": "27.573s",
+              "word": "includes",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "27.573s",
+              "endTime": "27.710s",
+              "word": "the",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "27.710s",
+              "endTime": "28.303s",
+              "word": "countries",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "28.303s",
+              "endTime": "28.438s",
+              "word": "of",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "28.438s",
+              "endTime": "29.174s",
+              "word": "England,",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "29.174s",
+              "endTime": "29.668s",
+              "word": "Wales",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "29.668s",
+              "endTime": "29.793s",
+              "word": "and",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "29.793s",
+              "endTime": "30.219s",
+              "word": "Northern",
+              "speakerTag": 0
+            },
+            {
+              "startTime": "30.219s",
+              "endTime": "31.691s",
+              "word": "Ireland.",
+              "speakerTag": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

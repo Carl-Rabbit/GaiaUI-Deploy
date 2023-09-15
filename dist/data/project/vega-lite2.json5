@@ -1,0 +1,24 @@
+{
+  projectId: 'vega-lite2',
+  scenes: [
+    {
+      charts: [
+        {source: './vega-lite2.svg'},
+      ],
+      animation: {
+        target: '.vega-lite2',
+        sequence: {
+          sync: [
+            {
+              use: 'circle',
+              target: '#y-label-5',
+              timing: {
+                duration: 2,
+              },
+            },
+          ],
+        },
+      }
+    },
+  ]
+}

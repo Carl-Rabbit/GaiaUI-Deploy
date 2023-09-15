@@ -1,0 +1,153 @@
+{
+  projectId: 'sat-score-example1',
+  scenes: [
+    {
+      charts: [
+        {source: './sat-score.svg'},
+      ],
+      templates: [
+        {
+          templateName: 'my-bar-enter',
+          parameters: [
+            {paramName: 'incomeLabel', paramType: 'string'},
+          ],
+          animation: {
+            target: {
+              transform: {type: 'filter', expr: '@datum.name === "$incomeLabel"'}
+            },
+            sequence: {
+              sync: [
+                {
+                  use: 'Show-path',
+                  target: '.annotation.circle',
+                  settings: {displayTime: 2},
+                },
+                {
+                  use: 'Grow',
+                  target: '.mark.bar',
+                  settings: {
+                    direction: 'left',
+                  },
+                  timing: {start: 1}
+                },
+                {
+                  use: 'Float',
+                  target: '.mark.label',
+                  settings: {
+                    distance: 10,
+                  },
+                  timing: {start: 2},
+                }
+              ]
+            }
+          }
+        },
+        {
+          templateName: 'reference-annotation-enter',
+          animation: {
+            sequence: {
+              sync: [
+                {
+                  use: 'Fade-in',
+                  target: '.annotation-0.line',
+                },
+                {
+                  use: 'Float',
+                  target: '.annotation-0.label',
+                  settings: {
+                    distance: 10,
+                  },
+                  timing: {start: 1},
+                }
+              ]
+            }
+          }
+        }
+      ],
+      animation: {
+        target: '.sat-score',
+    "sequence": {
+    "sync": [
+        {
+            "use": "Axes float in",
+            "timing": {
+                "start": 0,
+                "duration": 2.91,
+                "offset": 0
+            },
+            "target": "#sat-score-main-title, #sat-score-sub-title, #sat-score-y-label-0, #sat-score-y-label-1, #sat-score-y-label-2, #sat-score-y-label-3, #sat-score-y-label-4, #sat-score-y-tick-line-0, #sat-score-y-tick-line-1, #sat-score-y-tick-line-2, #sat-score-y-tick-line-3, #sat-score-x-domain, #sat-score-x-label-0, #sat-score-x-label-1, #sat-score-x-label-2, #sat-score-x-label-3, #sat-score-x-label-4, #sat-score-x-label-5, #sat-score-x-label-6",
+            "ani_type": "Enter",
+            "settings": {}
+        },
+        {
+            "use": "Show-path",
+            "timing": {
+                "start": 6.605,
+                "duration": 2.04,
+                "offset": 0
+            },
+            "target": "#sat-score-annotation-1",
+            "ani_type": "Emphasis",
+            "settings": {}
+        },
+        {
+            "use": "Bar-grow",
+            "timing": {
+                "start": 8.647,
+                "duration": 1.88,
+                "offset": 0
+            },
+            "target": "#sat-score-bar-0, #sat-score-bar-label-0",
+            "ani_type": "Enter",
+            "settings": {}
+        },
+        {
+            "use": "Fade-in",
+            "timing": {
+                "start": 10.585,
+                "duration": 2.23,
+                "offset": 0
+            },
+            "target": "#sat-score-anno-0-line, #sat-score-anno-0-label",
+            "ani_type": "Enter",
+            "settings": {}
+        },
+        {
+            "use": "Bar-grow",
+            "timing": {
+                "start": 12.818,
+                "duration": 5.46,
+                "offset": 0
+            },
+            "target": "#sat-score-bar-1, #sat-score-bar-2, #sat-score-bar-3, #sat-score-bar-4, #sat-score-bar-5, #sat-score-bar-6, #sat-score-bar-label-6",
+            "ani_type": "Enter",
+            "settings": {}
+        },
+        {
+            "use": "Show-path",
+            "timing": {
+                "start": 20.841,
+                "duration": 2.4,
+                "offset": 0
+            },
+            "target": "#sat-score-annotation-2",
+            "ani_type": "Emphasis",
+            "settings": {}
+        },
+        {
+            "use": "Highlight",
+            "timing": {
+                "start": 18.275,
+                "duration": 8.31,
+                "offset": 0
+            },
+            "target": "#sat-score-bar-6",
+            "ani_type": "Emphasis",
+            "settings": {}
+        }
+    ]
+}
+      }
+    }
+  ]
+}

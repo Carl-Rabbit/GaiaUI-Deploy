@@ -1,0 +1,10 @@
+{
+  charts: [
+    {source: './transportation-mode.svg'},
+  ],
+  animation: {
+    sequence: {
+      sync: []
+    }
+  }
+}
