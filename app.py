@@ -12,6 +12,10 @@ def index():
 def send_data(path):
     return send_file(os.path.join('./dist/data', path))
 
+@app.route('/Gaia_video.mp4')
+def send_video():
+    return send_file('./dist/Gaia_video.mp4')
+
 if __name__ == '__main__':
     print('server start')
     app.run(host='0.0.0.0', debug=False)

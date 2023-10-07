@@ -80,26 +80,16 @@
         sync: [
           {
             ref: 'Cut',
-            target: [
-              { filter: '.XAxis' },
-              { filterExpr: "@data.xVal == '$category'" }
-            ],
-            duration: 0.6,
+            target: '.XAxis[xVal="$category"]',
           },
           {
             ref: 'Wipe',
-            target: [
-              { filter: '.Bar' },
-              { filterExpr: "@data.xVal == '$category'" },
-            ],
+            target: '.Bar[xVal="$category"]',
             from: 'left',
           },
           {
             ref: 'Cut',
-            target: [
-              { filter: '.BarLabel' },
-              { filterExpr: "@data.xVal == '$category'" }
-            ],
+            target: '.BarLabel[xVal="$category"]',
             offset: 1,
           },
         ]

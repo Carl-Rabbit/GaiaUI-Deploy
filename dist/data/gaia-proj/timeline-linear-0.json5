@@ -1,0 +1,152 @@
+{
+  projectId: 'timeline-linear-0',
+  chart: './timeline-linear.svg',
+  audio: './empty.txt',
+  binder: {
+    from: "svg",
+    to: "gaia.timeline.LinearTimeline",
+    rules: [
+      {
+        from: '.connector',
+        to: '.Connector',
+      },
+      {
+        from: '.unit-background',
+        to: '.UnitBackground',
+        dataList: [
+          { index: 0 },
+          { index: 1 },
+          { index: 2 },
+          { index: 3 }
+        ]
+      },
+      {
+        from: '.unit-index',
+        to: '.Unit .Index',
+        dataList: [
+          { index: 0 },
+          { index: 1 },
+          { index: 2 },
+          { index: 3 }
+        ]
+      },
+      {
+        from: '.unit-title',
+        to: '.Unit .Title',
+        dataList: [
+          { index: 0 },
+          { index: 1 },
+          { index: 2 },
+          { index: 3 }
+        ]
+      },
+      {
+        from: '.unit-description',
+        to: '.Unit .Description',
+        dataList: [
+          { index: 0 },
+          { index: 1 },
+          { index: 2 },
+          { index: 3 }
+        ]
+      },
+      {
+        from: '.unit-icon',
+        to: '.Unit .Symbol',
+        dataList: [
+          { index: 0 },
+          { index: 1 },
+          { index: 2 },
+          { index: 3 }
+        ]
+      }
+    ]
+  },
+  animation: {
+    main: {
+      sync: [
+        {
+          ref: 'PathDraw',
+          target: '.Connector',
+          ease: 'linear',
+          duration: 2,
+        },
+        {
+          target: '.Unit',
+          groupBy: '@data.index',
+          foreach: {
+            ref: 'LinearTimelineUnitEnter',
+          },
+          stagger: 0.5,
+        }
+      ],
+    },
+  },
+  templates: [
+    {
+      name: "LinearTimelineUnitEnter",
+      params: {
+        backgroundAnimation: {
+          type: 'aniUnit',
+          value: {
+            ref: 'Fade',
+          }
+        },
+        indexAnimation: {
+          type: 'aniUnit',
+          value: {
+            ref: 'ZoomIn',
+          }
+        },
+        titleAnimation: {
+          type: 'aniUnit',
+          value: {
+            ref: 'Type',
+            effect: 'show'
+          }
+        },
+        descriptionAnimation: {
+          type: 'aniUnit',
+          value: {
+            ref: 'CutIn',
+            from: 'left',
+          }
+        },
+        symbolAnimation: {
+          type: 'aniUnit',
+          value: {
+            ref: 'ZoomIn',
+          }
+        },
+      },
+      main: {
+        concat: [
+          {
+            target: '.UnitBackground',
+            child: '$backgroundAnimation',
+          },
+          {
+            sync: [
+              {
+                target: '.Unit.Index',
+                child: '$indexAnimation',
+              },
+              {
+                target: '.Unit.Title',
+                child: '$titleAnimation',
+              },
+              {
+                target: '.Unit.Description',
+                child: '$descriptionAnimation',
+              },
+              {
+                target: '.Unit.Symbol',
+                child: '$symbolAnimation',
+              }
+            ]
+          },
+        ]
+      }
+    }
+  ]
+}
